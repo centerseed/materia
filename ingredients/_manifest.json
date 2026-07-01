@@ -1,0 +1,86 @@
+{
+  "note": "原鑑 Materia 原材料爬取清單。sources 只列缺的來源（現有 ingredients/ 已爬過的不重爬）。search_terms 供 academic/youtube 搜尋用。",
+  "generated": "2026-07-02",
+  "ingredients": [
+    {
+      "id": "ovoderm",
+      "name_zh": "蛋殼膜（彈性蛋白）",
+      "search_terms": "eggshell membrane OVODERM elastin skin collagen clinical trial",
+      "pdfs": ["drive_pdfs/Ovoderm西班牙專利蛋殼膜(美容)_高劑量彈性蛋白_人體實驗_蘋果肌拉提_保濕緊緻除皺.pdf"],
+      "sources": ["supplier", "academic", "youtube"]
+    },
+    {
+      "id": "cultavit",
+      "name_zh": "蕎麥天然B群",
+      "search_terms": "buckwheat sprout natural B vitamins Cultavit bioavailability food-based B complex",
+      "pdfs": ["drive_pdfs/13-美隆_Cultavit 蕎麥B群_天然高吸收率_無化學臭味_無酵母普林痛風風險_241014.pdf"],
+      "sources": ["supplier", "academic", "youtube"]
+    },
+    {
+      "id": "cuberup",
+      "name_zh": "專利黃瓜萃取",
+      "search_terms": "cucumber extract CuberUp Euromed joint health Q-actin osteoarthritis clinical",
+      "pdfs": ["drive_pdfs/Euromed® CuberUp®-20250708.pdf"],
+      "sources": ["supplier", "academic", "youtube"]
+    },
+    {
+      "id": "fibryxa",
+      "name_zh": "異麥芽糖糊精（膳食纖維）",
+      "search_terms": "isomaltodextrin IMD dietary fiber postprandial glucose triglyceride Fibryxa",
+      "pdfs": ["drive_pdfs/Fibryxa-原廠研究 簡報 (L).pdf"],
+      "sources": ["supplier", "academic", "youtube"]
+    },
+    {
+      "id": "liposomax-vitc",
+      "name_zh": "微脂體維生素C",
+      "search_terms": "liposomal vitamin C bioavailability absorption ascorbic acid clinical",
+      "pdfs": ["drive_pdfs/LIPOSOMAX 微脂體維生素c.pdf"],
+      "sources": ["supplier", "academic", "youtube"]
+    },
+    {
+      "id": "nippi-collagen",
+      "name_zh": "日本NIPPI膠原蛋白",
+      "search_terms": "collagen peptide fish scale skin collagen NIPPI skin elasticity joint RCT",
+      "pdfs": ["drive_pdfs/NIPPI膠原蛋白介紹-1130705.pdf", "drive_pdfs/水解魚鱗+魚皮膠原蛋白(日本.NIPPI) DM (規格通用) 20250702(2).pdf"],
+      "sources": ["supplier", "academic", "youtube"]
+    },
+    {
+      "id": "thymoquin",
+      "name_zh": "黑種草籽油",
+      "search_terms": "Nigella sativa black seed oil thymoquinone ThymoQuin metabolic allergy weight blood pressure",
+      "pdfs": ["drive_pdfs/Thymoquin以色列專利黑種草籽油_三高_過敏_具人體實驗_減肥功效專利_250321.pdf"],
+      "sources": ["supplier", "academic", "youtube"]
+    },
+    {
+      "id": "vivomega",
+      "name_zh": "VivoMega魚油",
+      "search_terms": "omega-3 fish oil EPA DHA triglyceride VivoMega concentrate cardiovascular",
+      "pdfs": ["drive_pdfs/VivoMega魚油 - 無放射性物質汙染之聲明.pdf"],
+      "sources": ["supplier", "academic", "youtube"]
+    },
+    {
+      "id": "floraglo",
+      "name_zh": "葉黃素",
+      "search_terms": "lutein FloraGLO macular pigment",
+      "pdfs": ["drive_pdfs/全齡葉黃素 陳俊榮教授演講摘要 (校)創百.pdf"],
+      "sources": ["supplier"],
+      "skip_reason": "research(21)+youtube(7) 已存在於 ingredients/floraglo，只補原廠 PDF"
+    },
+    {
+      "id": "spms",
+      "name_zh": "SPM 促消炎介質",
+      "search_terms": "specialized pro-resolving mediators SPM resolvin inflammation resolution",
+      "pdfs": ["drive_pdfs/專門促消炎介質SPM.pdf", "drive_pdfs/Presentation Slides_1 Per Page.pdf"],
+      "sources": ["supplier", "youtube"],
+      "skip_reason": "research(7) 已存在於 ingredients/spms，補 PDF+YouTube"
+    },
+    {
+      "id": "pureway-c",
+      "name_zh": "緩釋維生素C（PureWay-C）",
+      "search_terms": "PureWay-C vitamin C absorption bioavailability",
+      "pdfs": ["drive_pdfs/03-美隆 - PUREWAY C 複方維生素C (24小時緩釋_具人體實驗數據_天然維生素C).pdf"],
+      "sources": ["supplier"],
+      "skip_reason": "research(6)+youtube(7)+supplier(3) 已存在於 ingredients/pureway-c，只補原廠 PDF 至 materia"
+    }
+  ]
+}

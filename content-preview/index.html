@@ -71,10 +71,10 @@
 <div class="wrap"><article id="article" class="article"><div class="back" onclick="showHome()">← 回文章列表</div><div class="md" id="md"></div></article></div>
 
 <script>
-const EMOJI={'關節保養':'🦵','心血管保養':'❤️','腦力記憶':'🧠','骨骼膠原':'🦴','代謝保養':'⚖️','免疫保養':'🛡️','護眼保養':'👁️','兒童護眼':'👓','成長專注':'📚','兒童免疫':'🧒','兒童腸胃':'🌱','維生素C／營養素比較':'🍊','魚油比較':'🐟','葉黃素比較':'🌼','膠原比較':'✨','B群比較':'⚡'};
+const EMOJI={'關節保養':'🦵','心血管保養':'❤️','腦力記憶':'🧠','骨骼膠原':'🦴','代謝保養':'⚖️','免疫保養':'🛡️','護眼保養':'👁️','兒童護眼':'👓','成長專注':'📚','兒童免疫':'🧒','兒童腸胃':'🌱','維生素C／營養素比較':'🍊','魚油比較':'🐟','葉黃素比較':'🌼','膠原比較':'✨','B群比較':'⚡','Omega-3攝取':'🐟','黑種草籽油':'🌿','蛋殼膜':'🥚','SPM促消炎介質':'🕊️','專利黃瓜萃取':'🥒','異麥芽糖糊精':'🌾','3C護眼抗疲勞':'💻','美容保養':'💧','孕期營養':'🤰'};
 let INDEX=[], filter='全部';
-const FILTERS=['全部','中老年','兒童','比較文'];
-function match(a){ if(filter==='全部')return true; if(filter==='比較文')return a.type==='原材料比較文'; return a.audience===filter; }
+const FILTERS=['全部','中老年','兒童','女性','孕產','上班族','原料科普','比較文'];
+function match(a){ if(filter==='全部')return true; if(filter==='比較文')return a.type==='原材料比較文'; if(filter==='原料科普')return a.type==='原料科普'; return a.audience===filter; }
 function renderFilters(){
   const el=document.getElementById('filters'); el.innerHTML='';
   FILTERS.forEach(f=>{const b=document.createElement('button');b.className='fb'+(f===filter?' on':'');b.textContent=f;b.onclick=()=>{filter=f;renderFilters();renderCards();};el.appendChild(b);});

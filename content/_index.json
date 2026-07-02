@@ -99,6 +99,87 @@
   "excerpt": "功課寫到一半就分心、聯絡簿抄一半忘記抄什麼、上課常常放空——很多家長都遇過這種「明明很聰明，就是坐不住」的階段。除了作息與習慣，孩子每天吃進"
  },
  {
+  "slug": "article_women-beauty",
+  "file": "content/article_women-beauty.md",
+  "type": "衛教主題文",
+  "audience": "女性",
+  "topic": "美容保養",
+  "title": "由內而外的美容保養：膠原蛋白 × 維生素C 怎麼搭",
+  "excerpt": "保養品一罐接一罐擦，臉頰卻還是覺得摸起來鬆鬆的、素顏時皮膚容易乾到緊繃——很多女生都有這種「外面顧了，裡面沒跟上」的無力感。其實美容保養不是"
+ },
+ {
+  "slug": "article_prenatal-nutrition",
+  "file": "content/article_prenatal-nutrition.md",
+  "type": "衛教主題文",
+  "audience": "孕產",
+  "topic": "孕期營養",
+  "title": "孕期營養重點：葉酸、DHA 該怎麼補、吸收要注意什麼",
+  "excerpt": "產檢時醫師交代要補葉酸、要吃 DHA，回家一查發現保健品架上光是葉酸就有「天然」「合成」「甲基化」好幾種說法，魚油也分三酸甘油酯、乙酯、藻油"
+ },
+ {
+  "slug": "article_office-eye-fatigue",
+  "file": "content/article_office-eye-fatigue.md",
+  "type": "衛教主題文",
+  "audience": "上班族",
+  "topic": "3C護眼抗疲勞",
+  "title": "整天盯螢幕好累？上班族的護眼與抗疲勞日常",
+  "excerpt": "早上開電腦、開會看簡報、午休滑手機、下班還要盯螢幕追劇——一整天下來，眼睛乾澀痠脹、肩頸僵硬、到下午還會不自覺恍神、思緒變得不太集中。這不是"
+ },
+ {
+  "slug": "article_omega3-intake-gap",
+  "file": "content/article_omega3-intake-gap.md",
+  "type": "衛教主題文",
+  "audience": "全齡",
+  "topic": "Omega-3攝取",
+  "title": "現代人 Omega-3 普遍不足？從飲食攝取到吸收率的真相",
+  "excerpt": "「深海魚很營養，我知道」——但你上一次吃鮭魚、鯖魚或秋刀魚是什麼時候？外食族三餐多半是雞腿飯、便利商店三明治，深海魚出現的頻率其實很低。就算"
+ },
+ {
+  "slug": "article_what-is-cuberup",
+  "file": "content/article_what-is-cuberup.md",
+  "type": "原料科普",
+  "audience": "全齡",
+  "topic": "專利黃瓜萃取",
+  "title": "專利黃瓜萃取（CuberUp®）是什麼？關節與運動保養新選擇",
+  "excerpt": "走樓梯膝蓋卡卡、假日運動完隔天特別痠、年紀增長後總覺得活動力大不如前——這些困擾，近年在保健品成分表上多了一個新面孔：CuberUp® 黃瓜"
+ },
+ {
+  "slug": "article_what-is-fibryxa",
+  "file": "content/article_what-is-fibryxa.md",
+  "type": "原料科普",
+  "audience": "全齡",
+  "topic": "異麥芽糖糊精",
+  "title": "異麥芽糖糊精是什麼？認識這種水溶性膳食纖維",
+  "excerpt": "白飯吃完沒多久又覺得餓、正餐吃得不少但排便還是卡卡的、健檢報告上的三酸甘油脂總是壓在高標邊緣——這些看似不相關的小狀況，很多都跟一件事有關："
+ },
+ {
+  "slug": "article_what-is-ovoderm",
+  "file": "content/article_what-is-ovoderm.md",
+  "type": "原料科普",
+  "audience": "全齡",
+  "topic": "蛋殼膜",
+  "title": "蛋殼膜是什麼？關節與美容的新興原料一次看懂",
+  "excerpt": "上下樓梯膝蓋偶爾卡卡、鏡子裡的肌膚彈性感覺一年不如一年，你可能也在保健食品架上翻過各種「膠原蛋白」，卻發現大多來自魚或豬牛——如果剛好對海鮮"
+ },
+ {
+  "slug": "article_what-is-spm",
+  "file": "content/article_what-is-spm.md",
+  "type": "原料科普",
+  "audience": "全齡",
+  "topic": "SPM促消炎介質",
+  "title": "SPM 是什麼？認識發炎「消退」的新觀念",
+  "excerpt": "運動完隔天肌肉痠痛遲遲退不了、換季時關節卡卡好幾天才緩解、健檢報告上發炎指數偏高卻說不出原因——這些狀況,其實都跟身體「讓不舒服自然落幕」的"
+ },
+ {
+  "slug": "article_what-is-thymoquin",
+  "file": "content/article_what-is-thymoquin.md",
+  "type": "原料科普",
+  "audience": "全齡",
+  "topic": "黑種草籽油",
+  "title": "黑種草籽油是什麼？功效、吃法、注意一次看懂",
+  "excerpt": "血壓紅字剛好卡在邊緣、換季一到鼻子就開始不舒服、想維持體重卻總覺得力不從心——這幾年常被拿出來討論的「黑種草油」，據說同時跟這幾件事有關。但"
+ },
+ {
   "slug": "article_compare-bcomplex",
   "file": "content/article_compare-bcomplex.md",
   "type": "原材料比較文",

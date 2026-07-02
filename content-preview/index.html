@@ -42,7 +42,9 @@
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;}
   .card{cursor:pointer;background:#FCFAF3;border:1px solid #E7E1D2;border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;}
   .card:hover{transform:translateY(-3px);border-color:#234139;}
-  .card .thumb{aspect-ratio:16/8;background:linear-gradient(135deg,#e7ddc9,#d8cbb0);display:flex;align-items:center;justify-content:center;font-size:34px;}
+  .card .thumb{position:relative;aspect-ratio:16/8;background:linear-gradient(135deg,#e7ddc9,#d8cbb0);display:flex;align-items:center;justify-content:center;font-size:34px;overflow:hidden;}
+  .card .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+  .arthero{width:100%;border-radius:14px;margin:10px 0 6px;display:block;}
   .card .body{padding:16px 18px;}
   .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:9px;}
   .chip{font-size:11px;font-weight:600;color:#8a6d3b;background:#F0E7D6;border-radius:6px;padding:3px 9px;}
@@ -115,7 +117,7 @@ function renderCats(){
   });
 }
 function card(a){
-  return `<div class="card" onclick="openA('${a.slug}')"><div class="thumb">${EMOJI[a.topic]||'📄'}</div>
+  return `<div class="card" onclick="openA('${a.slug}')"><div class="thumb"><span>${EMOJI[a.topic]||'📄'}</span><img src="img/${a.slug}.png" alt="" loading="lazy" onerror="this.remove()"></div>
     <div class="body"><div class="chips"><span class="chip type">${a.type.replace('主題文','').replace('原材料','')}</span><span class="chip">${a.audience}</span><span class="chip">${a.topic}</span></div>
     <h3>${a.title}</h3><p class="ex">${a.excerpt}…</p></div></div>`;
 }
@@ -152,7 +154,7 @@ async function openA(slug){ go({view:'article',articleSlug:slug}); }
 async function renderArticle(slug){
   const a=INDEX.find(x=>x.slug===slug); if(!a)return;
   const app=document.getElementById('app');
-  app.innerHTML=`<div class="crumb"><a onclick="go({view:'home'})">首頁</a> / <a onclick="go({view:'cat',cat:'${catOf(a)}'})">${catName(catOf(a))}</a> / ${a.topic}</div><div class="wrap" style="padding:0;"><div class="md" id="md">載入中…</div></div>`;
+  app.innerHTML=`<div class="crumb"><a onclick="go({view:'home'})">首頁</a> / <a onclick="go({view:'cat',cat:'${catOf(a)}'})">${catName(catOf(a))}</a> / ${a.topic}</div><div class="wrap" style="padding:0;"><img class="arthero" src="/content-preview/img/${slug}.png" alt="" onerror="this.remove()"><div class="md" id="md">載入中…</div></div>`;
   const txt=await fetch('/'+a.file).then(r=>r.text());
   let body=txt; if(txt.startsWith('---')){body=txt.slice(txt.indexOf('\n---',3)+4).replace(/^\s*/,'');}
   const rel=INDEX.filter(x=>catOf(x)===catOf(a)&&x.slug!==slug).slice(0,3);

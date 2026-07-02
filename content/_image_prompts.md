@@ -32,7 +32,7 @@ Style & scene:
 - `article_elder-joint-care` ✅已生：木質 45° — cucumber, collagen powder spoon, eggs and capsules.
 - `article_sports-recovery`：飲品玻璃杯 — a fresh green recovery smoothie in a tall glass with a banana and a few walnuts on a bright counter.
 - `article_what-is-cuberup`：深色精緻 — freshly sliced cucumber and a few amber capsules, close-up on dark slate with a single dramatic light beam.
-- `article_what-is-ovoderm`：明亮白底 — one cracked egg revealing its thin inner membrane, clean bright white seamless background, minimal.
+- `article_what-is-ovoderm`：溫暖情境 — a few clean empty eggshell halves showing the delicate translucent inner membrane, beside a small dish of amber capsules and a soft folded linen cloth on light wood, gentle natural light (premium wellness feel, not a raw broken egg).
 
 ## 心血管代謝
 - `article_elder-heart-care`：料理成品 — a beautifully plated grilled salmon with whole grains and steamed greens, cozy home meal, side view.

@@ -99,6 +99,15 @@
   "excerpt": "功課寫到一半就分心、聯絡簿抄一半忘記抄什麼、上課常常放空——很多家長都遇過這種「明明很聰明，就是坐不住」的階段。除了作息與習慣，孩子每天吃進"
  },
  {
+  "slug": "article_menopause-care",
+  "file": "content/article_menopause-care.md",
+  "type": "衛教主題文",
+  "audience": "女性",
+  "topic": "更年期保養",
+  "title": "更年期的日常保養：膠原、Omega-3 與營養支持",
+  "excerpt": "最近是不是常覺得皮膚變得比較乾、彈性不如從前，晚上翻來覆去睡不安穩，白天又特別容易累、心情也跟著上上下下？這些變化很多輕熟齡、更年期階段的女"
+ },
+ {
   "slug": "article_women-beauty",
   "file": "content/article_women-beauty.md",
   "type": "衛教主題文",
@@ -117,6 +126,24 @@
   "excerpt": "產檢時醫師交代要補葉酸、要吃 DHA，回家一查發現保健品架上光是葉酸就有「天然」「合成」「甲基化」好幾種說法，魚油也分三酸甘油酯、乙酯、藻油"
  },
  {
+  "slug": "article_men-vitality",
+  "file": "content/article_men-vitality.md",
+  "type": "衛教主題文",
+  "audience": "男性",
+  "topic": "男性保養",
+  "title": "中年男性的精力與代謝保養：從飲食到營養補給",
+  "excerpt": "明明沒熬夜，白天卻整天提不起勁；以前應酬喝到半夜隔天照樣上班，現在喝兩杯隔天就沒精神；褲頭也悄悄從合身變成得吸一口氣才扣得上——這些變化，很"
+ },
+ {
+  "slug": "article_sports-recovery",
+  "file": "content/article_sports-recovery.md",
+  "type": "衛教主題文",
+  "audience": "運動族",
+  "topic": "運動保養",
+  "title": "運動族的關節、肌肉與恢復營養這樣補",
+  "excerpt": "重訓隔天下樓梯腿軟、跑完長距離膝蓋悶悶的、高強度訓練後肌肉痠痛好幾天才退——這些都是規律運動的人常遇到的狀況。訓練會讓身體變強，但過程中肌肉"
+ },
+ {
   "slug": "article_office-eye-fatigue",
   "file": "content/article_office-eye-fatigue.md",
   "type": "衛教主題文",
@@ -126,6 +153,15 @@
   "excerpt": "早上開電腦、開會看簡報、午休滑手機、下班還要盯螢幕追劇——一整天下來，眼睛乾澀痠脹、肩頸僵硬、到下午還會不自覺恍神、思緒變得不太集中。這不是"
  },
  {
+  "slug": "article_allergy-respiratory",
+  "file": "content/article_allergy-respiratory.md",
+  "type": "衛教主題文",
+  "audience": "全齡",
+  "topic": "呼吸道保養",
+  "title": "換季呼吸道不適？黑種草籽油與 Omega-3 的日常保養",
+  "excerpt": "早晚溫差一拉大、空氣品質一變差，鼻子就先知道——鼻塞、打噴嚏、喉嚨癢，一家老小輪流中鏢。這種換季呼吸道不適，很多人第一反應是「先撐著」，其實"
+ },
+ {
   "slug": "article_omega3-intake-gap",
   "file": "content/article_omega3-intake-gap.md",
   "type": "衛教主題文",
@@ -133,6 +169,33 @@
   "topic": "Omega-3攝取",
   "title": "現代人 Omega-3 普遍不足？從飲食攝取到吸收率的真相",
   "excerpt": "「深海魚很營養，我知道」——但你上一次吃鮭魚、鯖魚或秋刀魚是什麼時候？外食族三餐多半是雞腿飯、便利商店三明治，深海魚出現的頻率其實很低。就算"
+ },
+ {
+  "slug": "article_sleep-relax",
+  "file": "content/article_sleep-relax.md",
+  "type": "衛教主題文",
+  "audience": "全齡",
+  "topic": "睡眠舒壓",
+  "title": "壓力大、睡不好？B 群與日常放鬆保養",
+  "excerpt": "白天被工作、家庭、報告追著跑，晚上躺上床腦子卻停不下來，翻來覆去看著天花板，隔天頂著沒睡飽的狀態繼續硬撐——這是很多現代人的日常寫照。睡不好"
+ },
+ {
+  "slug": "article_what-is-bcomplex",
+  "file": "content/article_what-is-bcomplex.md",
+  "type": "原料科普",
+  "audience": "全齡",
+  "topic": "維生素B群",
+  "title": "維生素 B 群是什麼？8 種 B 群各自的功能一次看懂",
+  "excerpt": "「多補充 B 群」幾乎是外食族、上班族、運動愛好者都聽過的建議，但很少人說得清楚：B 群到底是「一種」營養素，還是好幾種？為什麼保健品都做成"
+ },
+ {
+  "slug": "article_what-is-collagen",
+  "file": "content/article_what-is-collagen.md",
+  "type": "原料科普",
+  "audience": "全齡",
+  "topic": "膠原蛋白",
+  "title": "膠原蛋白是什麼？功效、吸收、怎麼補一次看懂",
+  "excerpt": "洗臉時捏一下臉頰，回彈速度好像沒有以前快；蹲下綁鞋帶,膝蓋偶爾會卡一下——這些變化,很多人第一個聯想到的都是「膠原蛋白流失了」。但膠原蛋白到"
  },
  {
   "slug": "article_what-is-cuberup",
@@ -151,6 +214,24 @@
   "topic": "異麥芽糖糊精",
   "title": "異麥芽糖糊精是什麼？認識這種水溶性膳食纖維",
   "excerpt": "白飯吃完沒多久又覺得餓、正餐吃得不少但排便還是卡卡的、健檢報告上的三酸甘油脂總是壓在高標邊緣——這些看似不相關的小狀況，很多都跟一件事有關："
+ },
+ {
+  "slug": "article_what-is-fishoil",
+  "file": "content/article_what-is-fishoil.md",
+  "type": "原料科普",
+  "audience": "全齡",
+  "topic": "魚油",
+  "title": "魚油是什麼？EPA、DHA、Omega-3 一次搞懂",
+  "excerpt": "保健品架上「魚油」兩個字幾乎人人都認得，但一翻到成分標示，EPA、DHA、Omega-3、TG、rTG 這些英文縮寫馬上讓人眼花——到底哪個"
+ },
+ {
+  "slug": "article_what-is-lutein",
+  "file": "content/article_what-is-lutein.md",
+  "type": "原料科普",
+  "audience": "全齡",
+  "topic": "葉黃素",
+  "title": "葉黃素是什麼？功效、怎麼吃、怎麼選一次看懂",
+  "excerpt": "滑手機滑到眼睛乾澀痠脹、盯電腦一整天回家覺得眼皮特別重，或是看著家裡長輩年紀漸長，開始擔心他們用眼的日常保養——這些情境，讓「葉黃素」幾乎成"
  },
  {
   "slug": "article_what-is-ovoderm",
@@ -178,6 +259,15 @@
   "topic": "黑種草籽油",
   "title": "黑種草籽油是什麼？功效、吃法、注意一次看懂",
   "excerpt": "血壓紅字剛好卡在邊緣、換季一到鼻子就開始不舒服、想維持體重卻總覺得力不從心——這幾年常被拿出來討論的「黑種草油」，據說同時跟這幾件事有關。但"
+ },
+ {
+  "slug": "article_what-is-vitc",
+  "file": "content/article_what-is-vitc.md",
+  "type": "原料科普",
+  "audience": "全齡",
+  "topic": "維生素C",
+  "title": "維生素C 是什麼？功效、怎麼吃、注意一次看懂",
+  "excerpt": "感冒快來、皮膚沒光澤、傷口好得比較慢——很多人第一個念頭都是「要不要補點維生素C」。但維生素C到底是什麼、身體怎麼用它、為什麼三餐吃得正常還"
  },
  {
   "slug": "article_compare-bcomplex",

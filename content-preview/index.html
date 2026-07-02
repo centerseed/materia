@@ -117,7 +117,7 @@ function renderCats(){
   });
 }
 function card(a){
-  return `<div class="card" onclick="openA('${a.slug}')"><div class="thumb"><span>${EMOJI[a.topic]||'📄'}</span><img src="img/${a.slug}.png" alt="" loading="lazy" onerror="this.remove()"></div>
+  return `<div class="card" onclick="openA('${a.slug}')"><div class="thumb"><span>${EMOJI[a.topic]||'📄'}</span><img src="/content-preview/img/${a.slug}.png" alt="" loading="lazy" onerror="this.remove()"></div>
     <div class="body"><div class="chips"><span class="chip type">${a.type.replace('主題文','').replace('原材料','')}</span><span class="chip">${a.audience}</span><span class="chip">${a.topic}</span></div>
     <h3>${a.title}</h3><p class="ex">${a.excerpt}…</p></div></div>`;
 }

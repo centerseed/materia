@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>蛋殼膜劑量反應：膝關節炎疼痛、肌力與睡眠品質 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag rct">隨機對照試驗 · RCT（劑量反應設計）</span>
+      <span class="hdr-tag q1">Nutrients (MDPI) · Q1</span>
+      <span class="hdr-tag coi">COI 已確認（廠商資助）</span>
+    </div>
+    <h1>蛋殼膜劑量反應試驗：膝關節炎疼痛、肌力與睡眠品質的改善</h1>
+    <p class="subtitle">Randomised Clinical Trial to Analyse the Efficacy of Eggshell Membrane to Improve Joint Functionality in Knee Osteoarthritis</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Cánovas F, Abellán-Ruíz MS, García-Muñoz AM, et al.</div>
+      <div class="meta-item"><strong>期刊</strong>Nutrients</div>
+      <div class="meta-item"><strong>年份</strong>2022 · 14(11):2340</div>
+      <div class="meta-item"><strong>PMID</strong>35684140</div>
+      <div class="meta-item"><strong>DOI</strong>10.3390/nu14112340</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">Nutrients（MDPI），Scimago Q1，IF≈5.0，營養學主流期刊</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">隨機、雙盲、安慰劑對照、三臂劑量反應設計（N=75 完成）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★★</span></div>
+          <div class="cred-sub">PMC 開放全文，含完整表格數字、CONSORT 流程</div>
+        </div>
+        <div class="cred-card" style="background:var(--red-light); border-color:#f5c0c0">
+          <div class="cred-label" style="color:var(--red)">利益衝突</div>
+          <div class="cred-val" style="color:var(--red)">❌ 已確認</div>
+          <div class="cred-sub">Torolis Explotaciones S.L.（蛋殼膜製造商）贊助</div>
+        </div>
+      </div>
+      <div class="coi-alert"><strong>COI 聲明：</strong>研究由 Torolis Explotaciones S.L.（西班牙蛋殼膜原料製造商）贊助。惟論文明確聲明「贊助商未參與研究設計、資料蒐集分析、論文撰寫或發表決策」（"The funders had no role in the design of the study..."），作者群全數為西班牙 Universidad Católica San Antonio de Murcia（UCAM）學術機構人員，非廠商員工，COI 風險程度低於 rsc_01（作者直接受雇於廠商）。</div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">綜合評估：本研究是目前蛋殼膜關節健康證據中設計最完整的劑量反應（dose-response）RCT，首度同時測量疼痛、WOMAC 功能、等速/等長肌力與睡眠品質四大面向，且明確呈現 300mg 與 500mg 兩種劑量的差異化效果，具高度應用參考價值。發表於 Q1 營養學期刊 Nutrients，資訊揭露完整，是本次整理中證據等級最高的關節健康 RCT，可作為劑量建議（300mg vs 500mg）的主要依據。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">骨關節炎在已開發國家的盛行率隨人口老化持續攀升，40 歲以上族群症狀性膝關節炎盛行率可達 10-15%，是慢性疼痛與活動功能受限的主要成因之一。長期使用 NSAIDs 的心血管與腸胃道副作用風險，促使臨床與消費者持續尋求更安全的替代營養介入。本研究團隊指出，先前的蛋殼膜臨床試驗（如 rsc_01 Ruff 2009）雖顯示正面結果，但多僅使用單一劑量、且未同時評估肌肉力量與睡眠品質等與關節炎生活品質密切相關的次要面向；本研究因此設計為「首個同時採用兩個量化變項（膝關節活動度與肌力）搭配質性生活品質量表」的蛋殼膜劑量反應試驗，填補既有文獻僅依賴單一自評疼痛量表的侷限。</p>
+      <p style="margin-bottom:20px">研究對象為年輕至中年成人（平均年齡 38.4±13.5 歲）而非典型高齡膝關節炎族群，此設計選擇值得注意：作者可能鎖定運動相關或早發性關節不適族群，而非典型退化性關節炎老年病患，這使得本研究結果的外推性（generalizability）需審慎看待，尤其對於高齡、重度骨關節炎患者的療效仍需進一步驗證。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">量表與測量工具說明</p>
+      <div class="mech-detail">
+        <h4>VAS（視覺類比量表）與 WOMAC 指數</h4>
+        <p>疼痛以 0-10 分視覺類比量表（VAS）逐週追蹤；功能性障礙以 WOMAC 指數（Western Ontario and McMaster Universities Osteoarthritis Index）量化，涵蓋疼痛、僵硬、身體功能三面向，總分越低代表功能越佳，是骨科臨床試驗的標準工具，也是與 rsc_01 可直接比較的共同量尺。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>等速（Isokinetic）與等長（Isometric）肌力測試</h4>
+        <p>本研究另以等速肌力測試儀（60°/s）測量峰值力矩（Peak Torque, PT）、最大反覆總作功（TWMR）與總作功（TW），並以等長測試（90°/s）測量峰值力矩與最大平均峰值力矩（MAPT），是評估膝關節周邊肌肉功能（尤其股四頭肌）的客觀生物力學指標，較主觀疼痛量表更難受安慰劑效應影響，為本研究相對突出之設計亮點。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>PSQI 匹茲堡睡眠品質指數</h4>
+        <p>慢性關節疼痛常伴隨睡眠障礙，PSQI（Pittsburgh Sleep Quality Index）為國際通用的睡眠品質自評量表，本研究將其納入次要終點，反映關節保健成分對生活品質整體面向的潛在助益。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>隨機、雙盲、安慰劑對照、三臂平行設計（CONSORT 準則）</td></tr>
+          <tr><td>受試者</td><td>80 人隨機分配，75 人完成試驗（36 男、39 女，平均年齡 38.4±13.5 歲）</td></tr>
+          <tr><td>介入方式</td><td>低劑量組 300mg／日（n=24）、高劑量組 500mg／日（n=25），素食膠囊，蛋殼膜品牌 ESM®</td></tr>
+          <tr><td>對照組</td><td>麥芽糊精安慰劑膠囊（n=26）</td></tr>
+          <tr><td>追蹤時間</td><td>8 週，逐週記錄疼痛 VAS</td></tr>
+          <tr><td>主要終點</td><td>膝關節疼痛（VAS）；次要終點：WOMAC 功能指數、等速/等長肌力（峰值力矩、總作功）、PSQI 睡眠品質</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">蛋殼膜（ESM®, 300mg 或 500mg/day 口服）
+├─ 層次一 — 分子層次（原料組成）
+│   ├─ 蛋白質 &gt;90%，含膠原蛋白 I/V/X 型（&lt;13%）、彈性蛋白（&lt;4-5%）
+│   ├─ 醣胺聚醣：硫酸軟骨素（&lt;2%）、皮膚素/角質素硫酸（&lt;1%）
+│   ├─ 己醣胺（葡萄糖胺，&lt;2%）、玻尿酸（&lt;2%）
+│   └─ 微量生長因子：IGF-1、TGF-β、降鈣素（calcitonin）、黃體素
+│       （progesterone）— 供應商列出但本篇未逐一驗證其個別作用
+├─ 層次二 — 劑量依賴性關節/肌肉層次（8 週內漸進）
+│   ├─ 高劑量組（500mg）疼痛下降幅度（Δ-3.52）明顯大於
+│   │   低劑量組（Δ-2.42）與安慰劑組（Δ-1.27），呈現明確
+│   │   劑量-反應關係，支持「並非安慰劑效應主導」的推論
+│   └─ 高劑量組等速/等長肌力（峰值力矩、總作功）均顯著
+│       提升，安慰劑組肌力反而輕微下降，顯示效果並非
+│       僅止於主觀疼痛感受，亦反映在客觀生物力學指標
+└─ 層次三 — 生活品質層次（8 週後）
+    └─ 高劑量組睡眠品質（PSQI）改善幅度最大（Δ-1.60，
+        P&lt;0.01），可能與疼痛/僵硬減少後夜間翻身/靜臥
+        舒適度提升有關，屬次級效應而非直接機轉</pre>
+      <div class="mech-detail">
+        <h4>劑量-反應關係的機制意義</h4>
+        <p>本研究最重要的機制學貢獻是證實蛋殼膜對關節症狀的改善呈現「劑量依賴性」：500mg 組在疼痛、肌力、睡眠品質上的改善幅度均系統性優於 300mg 組，且 300mg 組又優於安慰劑組，此漸進式效果梯度在營養補充劑研究中相對少見，增加了「非安慰劑效應」的可信度，但同時也提示若業主產品配方劑量低於 300mg，療效可能無法達到本研究觀察的幅度。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>肌力改善的可能機轉</h4>
+        <p>論文推論肌力提升可能源於疼痛減少後受試者更願意用力（自主抑制降低），而非蛋殼膜直接作用於肌肉組織；此外，蛋殼膜提供的膠原蛋白與生長因子理論上可能支持肌腱／韌帶等結締組織的機械強度，但本研究未直接測量肌肉或肌腱組織學變化，此部分機轉仍屬推論。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">主要終點：疼痛視覺類比量表（VAS，0-10 分，N=75，8 週）</p>
+      <table>
+        <thead><tr><th>組別</th><th>基線</th><th>第 8 週</th><th>變化 Δ</th><th>組內 P 值</th></tr></thead>
+        <tbody>
+          <tr><td>安慰劑（n=26）</td><td>4.90±1.48</td><td>3.64±1.40</td><td>−1.27</td><td>0.001</td></tr>
+          <tr><td>低劑量 300mg（n=24）</td><td>4.67±1.37</td><td>2.25±1.66</td><td>−2.42</td><td>&lt;0.001</td></tr>
+          <tr><td>高劑量 500mg（n=25）</td><td>5.42±1.48</td><td>1.90±1.78</td><td><strong>−3.52</strong></td><td>&lt;0.001</td></tr>
+        </tbody>
+        <p class="table-note">高劑量組相較安慰劑組達統計顯著差異；所有組別均顯示組內顯著下降，惟高劑量組降幅最大。</p>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">次要終點：WOMAC 功能指數</p>
+      <table>
+        <thead><tr><th>組別</th><th>基線</th><th>第 8 週</th><th>變化 Δ</th><th>組內顯著性</th></tr></thead>
+        <tbody>
+          <tr><td>安慰劑</td><td>25.96±13.42</td><td>20.32±13.17</td><td>−5.64</td><td>** (P&lt;0.01)</td></tr>
+          <tr><td>低劑量 300mg</td><td>26.29±15.81</td><td>16.04±12.28</td><td>−10.25</td><td>*** (P&lt;0.001)</td></tr>
+          <tr><td>高劑量 500mg</td><td>24.80±10.92</td><td>14.52±10.20</td><td>−10.28</td><td>*** (P&lt;0.001)</td></tr>
+        </tbody>
+        <p class="table-note">⚠️ 組間整體差異 P=0.183，未達統計顯著，雖治療組降幅明顯大於安慰劑組，但統計上無法排除機會因素，行銷時不可宣稱「功能顯著優於安慰劑」。</p>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">次要終點：等速肌力測試（60°/s）</p>
+      <table>
+        <thead><tr><th>指標</th><th>安慰劑</th><th>低劑量</th><th>高劑量</th><th>組間 P 值</th></tr></thead>
+        <tbody>
+          <tr><td>峰值力矩 PT（N·m）</td><td>−1.48（不顯著）</td><td>+0.83（不顯著）</td><td><strong>+7.2</strong>（P&lt;0.001）</td><td>0.048</td></tr>
+          <tr><td>最大反覆總作功 TWMR（N·m）</td><td>+0.06</td><td>+1.62</td><td><strong>+10.04</strong>（P&lt;0.001）</td><td>0.016</td></tr>
+          <tr><td>總作功 TW（N·m）</td><td>−3.21</td><td>+13.23</td><td><strong>+47.42</strong>（P&lt;0.001）</td><td>0.017</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">次要終點：等長肌力測試（90°/s）與睡眠品質（PSQI）</p>
+      <table>
+        <thead><tr><th>指標</th><th>安慰劑</th><th>低劑量</th><th>高劑量</th><th>組間 P 值</th></tr></thead>
+        <tbody>
+          <tr><td>等長峰值力矩 PT</td><td>−0.41（不顯著）</td><td>+20.36（P&lt;0.01）</td><td><strong>+25.18</strong>（P&lt;0.001）</td><td>0.018</td></tr>
+          <tr><td>等長最大平均峰值力矩 MAPT</td><td>+1.01（不顯著）</td><td>+16.29（不顯著）</td><td><strong>+20.76</strong>（P&lt;0.001）</td><td>0.016</td></tr>
+          <tr><td>PSQI 睡眠品質變化</td><td>−0.50</td><td>−0.46</td><td><strong>−1.60</strong>（P&lt;0.01）</td><td>0.301（不顯著）</td></tr>
+        </tbody>
+        <p class="table-note">⚠️ 睡眠品質組間整體比較未達顯著（P=0.301），僅高劑量組組內改善達顯著，解讀需保守。</p>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">安全性與依從性</p>
+      <p style="font-size:13.5px">「受試者未回報任何與所服用產品相關的不良事件」（No adverse events related to the consumption of the product）；依從性以問診與膠囊計數評估，全程維持良好治療遵從度。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>研究對象年齡偏年輕</strong>：平均年齡 38.4 歲，非典型退化性膝關節炎的老年族群，結果對高齡、重度骨關節炎患者的外推性有限。</span></li>
+        <li><div class="limit-num">2</div><span><strong>WOMAC 功能與睡眠品質組間比較未達顯著</strong>：僅疼痛 VAS 與肌力指標達組間統計顯著，功能指數與睡眠品質雖組內顯著但組間比較未顯著，不可誇大宣稱。</span></li>
+        <li><div class="limit-num">3</div><span><strong>樣本量中等</strong>：三組合計 75 人完成，每組僅 24-26 人，次要終點的統計檢定力可能不足。</span></li>
+        <li><div class="limit-num">4</div><span><strong>廠商資助</strong>：雖聲明贊助商未介入研究設計與分析，仍屬產業資助研究，需與獨立學術研究交叉驗證。</span></li>
+        <li><div class="limit-num">5</div><span><strong>試驗期僅 8 週</strong>：無法評估長期使用的持續效果或安全性。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Ruff 2009, Clinical Rheumatology — NEM® 500mg 多中心 RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>支持</strong>：兩篇研究劑量相同（500mg），結論方向一致（疼痛顯著改善），構成跨品牌（ESM® vs NEM®）、跨廠商資助的獨立驗證，增加蛋殼膜對關節疼痛效果的整體可信度。惟本研究對象較年輕（38.4歲 vs rsc_01 未明確平均年齡但為典型 OA 族群），且本研究額外提供肌力與睡眠品質數據，補足了 rsc_01 僅有 WOMAC 自評量表的侷限。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（Kiers 2021, Journal of Medicinal Food — Eggbrane® 300mg RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>部分支持</strong>：本研究 300mg 低劑量組疼痛 VAS 顯著改善（Δ-2.42, P&lt;0.001），與 rsc_03 使用相同劑量（300mg）但發現「一般疼痛量表 NRS-P 無顯著差異、僅功能導向 KOOS 量表顯著」的結果不完全一致。差異可能源於量表選擇（VAS vs NRS-P vs KOOS）、受試者年齡分布（本研究較年輕）或蛋殼膜製程差異（ESM® vs Eggbrane®）。</p>
+          <p class="caveat">⚠️ 300mg 劑量在不同量表下呈現不一致結果，提示劑量-效果關係可能因測量工具而異，業主宣稱 300mg 劑量效果時應具體標明測量工具與研究來源。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">COI 累積效應與證據體系定位</div>
+        <div class="cross-ref-body">
+          <p>本研究、rsc_01、rsc_03 三篇關節健康 RCT 分別由 Torolis／ESM Technologies／DEPP BV 三家不同廠商資助，本研究是三者中揭露最完整、聲明贊助商未介入分析過程者，且發表於 Q1 期刊，證據等級在三篇中相對最高，可作為業主劑量建議（300mg 起效，500mg 效果更顯著）的主要參考依據。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>「每日補充 500mg 蛋殼膜連續 8 週，人體試驗顯示膝關節疼痛感受顯著下降（VAS 分數降低 3.52 分，安慰劑組僅降 1.27 分，P&lt;0.001），並伴隨等速與等長肌力顯著提升」（Cánovas et al., Nutrients, 2022；N=75）。</li>
+          <li>「300mg 劑量同樣顯示疼痛與肌力改善效果，惟改善幅度低於 500mg」，可用於支持產品劑量分級設計（如基礎版 300mg／加強版 500mg）。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>「改善關節功能」與「改善睡眠品質」不建議單獨作為主打訴求，因組間整體比較均未達統計顯著（WOMAC P=0.183，PSQI P=0.301），僅可述及「組內趨勢性改善」。</li>
+          <li>本研究對象平均年齡僅 38 歲，若產品目標族群為高齡退化性關節炎患者，應註明研究族群差異，避免過度外推。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可宣稱「治癒骨關節炎」或「逆轉關節退化」，本研究未測量任何結構性/影像學終點，且保健食品不得宣稱醫療效能（台灣衛福部相關規範）。</li>
+          <li>不可將肌力提升機轉直接宣稱為「增肌」效果，本研究對象為關節疼痛患者，肌力提升更可能反映疼痛減少後的自主用力改善，而非肌肉生長機轉。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為強聲稱引用：</p>
+      <div class="quote-block">
+        「一項隨機雙盲安慰劑對照劑量反應試驗顯示，每日補充 500mg 蛋殼膜連續 8 週，疼痛視覺類比量表下降 3.52 分（安慰劑組僅降 1.27 分），且等速肌力總作功提升 47.42 N·m（安慰劑組反降 3.21 N·m，P&lt;0.001）」（Cánovas et al., Nutrients, 2022；N=75；資助方：Torolis Explotaciones S.L.，惟聲明未介入研究設計與分析）。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Ruff et al., Clinical Rheumatology, 2009（rsc_01）</td><td>不同品牌（NEM®）同劑量（500mg）之獨立驗證，支持疼痛/僵硬改善的跨品牌一致性</td></tr>
+          <tr><td>Kiers et al., Journal of Medicinal Food, 2021（rsc_03）</td><td>提供 300mg 劑量在更大樣本（150人）下的功能導向量表數據，作為劑量選擇的交叉參考</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

@@ -1,0 +1,403 @@
+來源 PDF：drive_pdfs/專門促消炎介質SPM.pdf
+出品商：捷康生技 Nutrarex Biotech（產品品牌：LIPINOVA® — Specialized Pro-Resolving Lipid Mediators）
+共 42 頁
+
+--- 第 1 頁 ---
+[圖片：第1頁，封面。Nutrarex Biotech 捷康生技 logo。產品名：LIPINOVA™ SPECIALIZED PRO-RESOLVING LIPID MEDIATORS。標題：西班牙專利消退素 SPM LIPINOVA。副標：台灣高端保健品/飲品 客製化代工。英文標語：Premium Ingredients with Science are in Our DNA。背景圖為綠葉露珠。]
+
+--- 第 2 頁 ---
+標題：解碼 Omega-3 調節免疫反應的秘密
+Omega-3 (EPA/DHA) 消炎止痛、調節免疫系統的能力
+人體的必需脂肪酸 Omega-3 (EPA/DHA) 對免疫系統有許多益處，主要透過調節發炎反應和影響免疫細胞功能來實現。它們可以增強免疫力、降低慢性發炎，並可能對自體免疫疾病有所幫助。
+然而真正發揮消炎止痛作用的是什麼呢？
+"Omega 3 的最終形態 --- SPM"
+[圖片：第2頁，插畫：科學家手拿試管標示 14-HDHA、17-HDHA、18-HEPE，旁邊有 DHA、3 OMEGA、EPA 球體圖示]
+頁尾：僅供內部教育訓練使用
+
+--- 第 3 頁 ---
+標題：S.P.M. 研究的權威 ---- Prof. Charles Nicholas Serhan
+炎症消退曾被認為是由趨化因子介導的被動事件，但現在已認識到它是一個主動過程，其中超過28個特異的促消退介質（SPM）超家族成員發揮著關鍵且必要的作用。
+Charles Serhan 博士，國際公認的SPM專家，現任布萊根婦女醫院實驗治療和再灌注傷害中心主任，以及哈佛醫學院麻醉學教授。
+- 主任兼首席研究員及 NIH 計畫主任/PI。
+- 哈佛醫學院麻醉、圍手術期和疼痛醫學（生物化學和分子藥理學）西蒙蓋爾曼教授
+- 哈佛大學牙醫學院口腔醫學、感染和免疫學教授。
+- Research.com 評為 2023 年和 2024 年美國免疫學領袖！
+- 2022 年免疫學和藥理學與毒理學領域的高被引研究員
+- 發表了多篇高被引論文，這些論文在 Web of Science 按領域和年份的引用率排名前 1%
+- 2000年開始一門深入的鑽研 SPM
+[圖片：第3頁，Charles Serhan 博士照片，以及 research.com Immunology Leader 2023/2024、Highly Cited Researcher 2022 (Clarivate) 徽章]
+
+--- 第 4 頁 ---
+標題：新的脂質衍生化學介質超家族 S.P.M. (Specialized Pro-Resolving Mediators)
+2000年，哈佛醫學院麻醉學（生物化學和分子藥理學）教授 Prof. Charles Nicholas Serhan 公開發表，脂質衍生化學介質超家族專門的促消退介質（SPM）：
+[圖片：第4頁，流程圖 SPECIALIZED PRO-RESOLVING LIPID MEDIATORS (SPM)：AA → Lipoxins；EPA → E-series Resolvins；DHA → D-series Resolvins、(Neuro)Protectins、Maresins]
+- SPM 是由多元不飽和脂肪酸(PUFA)經脂氧酶、環氧酶和細胞色素 P450 單氧酶作用而形成的訊號分子。
+- 臨床研究表明 SPM 參與協調炎症的消退。主要成員包括消退素和保護素。
+出處：Recchiuti, A & Serhan, C. N., 2012, Frontiers in Immunology, 3, 298.
+
+--- 第 5 頁 ---
+標題：專門促消退介質 (SPM) 的由來
+Omega-3 EPA/DHA 經由環氧化酵素、脂氧化酶等產生 SPM 族群
+[圖片：第5頁，代謝途徑圖：EPA (Eicosapentaenoic Acid) 與 DHA (Docosahexaenoic Acid) 經 COX-2/aspirin 或 cytochrome P450、15-lipoxygenase (type1)、12-lipoxygenase 生成 18-HpEPE、17-HpDHA、14-HpDHA → PD1、10,17-DHDHA 中間產物 → Hydroxylated metabolites of EPA/DHA/DPA：18-HEPE、17-HDHA、14-HDHA → 經 5-lipoxygenase、15-lipoxygenase 生成 SPMs (Resolvins/Protectins/Maresins) - metabolites of PRMs：RvE1、RvE2、RvE3、RvD1、RvD2、RvD3、Rvd4、RvD5、RvD6、MaR1]
+右側文字流程：
+EPA/DHA → (COX/LOX，細胞膜/內皮細胞) → EPA-OH、DHA-OH → (5、15 LOX，細胞內) → EPA-(OH)2、DHA-(OH)2 → (5、15 LOX) → EPA-(OH)3 = RvEs、DHA-(OH)3 = RvDs、MaR
+出處：Duvall, M.G., & Levy, B.D., 2016, Eur J Pharmacol. 785, 144-155. / Calder, P. C., 2020, Biochimie.178, 105-123.
+
+--- 第 6 頁 ---
+標題：SPM 族群的作用取決於受體
+- SPMs 的作用標的細胞取決於不同細胞獨特的受體庫。
+- 不同Resolvin亞型也可能有共同的標靶細胞，但對同一細胞的作用機制有明顯差異。
+- 不同細胞受不同 SPM 的引導作用。
+- Ex：巨噬細胞：RvD1、2，RvE1；B 細胞：RvD1，T 細胞：RvD1、RvE1。
+[圖片：第6頁，複雜示意圖，顯示 RvE1、RvD1、RvD2、17R-RvD1、RvTs 等 SPM 對非免疫類細胞（癌細胞）、內皮細胞、巨噬細胞、免疫相關細胞（NK cell、B cell、T cell）、星狀細胞、中性粒細胞 的作用標靶及分子（NF-κB/AP-1、COMP、MCP-1、Phos-PI3K、N-cadherin、Nrf2、Pkm2、ZEB1、mTOR、ENaC、Na+-K+ ATPase、Occludin、pp2A、pp65、pro-IL-1β、NLRP3、IRF4、AMPK、HO-1、CD11b、CD68、CD18、AKT、GSK-3β、ERK1/2、ALX4/FPR2、TNF、miR-146b、miR-219a-1-3p、miR-21、miR-155、CD24、CD62L、NETs、IgE、CCR-5、miR-30e-5p 等）]
+出處：Liu, C., Fan, D., et al., Int J Mol Sci. 2022, 23, 23, 14883.
+
+--- 第 7 頁 ---
+標題：專門促消退介質 (SPM) 不容易穩定存在
+- SPM 是一種促消散脂質介質，具有強效抗發炎作用。然而，由於其多元不飽和結構，它們作為藥物原型對氧不穩定。
+- 研究顯示，在5.2小時候RvE3會降解將近 50%。
+- SPM 促進急性發炎的消退，但其分子骨架中的化學不穩定性阻礙了其全方位的治療應用。因為SPM 在體內代謝迅速。這是所有SPM的特徵。
+- SPM在發揮抗發炎作用後不久，就會透過酵素降解而失去活性。
+[圖片：第7頁，SPM 分子結構圖，標示 cis/trans (inactive) 異構化、S/R activity 差異，說明「SPM 極易被降解」與「SPM 具有高度活性」]
+出處：Arai, S., Fujiwara, K., et al., J Org Chem. 2022, 87, 15, 10501-10508. / Byrne, L., Guiry, P. J. Molecules. 2024, 29, 10, 2233.
+
+--- 第 8 頁 ---
+標題：打造巔峰 --- Solutex 與哈佛醫學院合作
+"新型脂質分子研究與保健食品結合"
+哈佛醫學院 Charles Serhan 教授與 Solutex 執行長 Fernando Moreno 攜手合作，並擔任科學研究顧問
+"實現脂質應用再進化，原生態 SPM"
+Solutex 成功萃取出魚油SPM，成功生產出天然原生態 SPM。與哈佛醫學院 Serhan 教授合作，將SPM成功獻給為發炎消退機制努力的大眾。
+[圖片：第8頁，合作活動現場合照，Solutex 與 Fundación Ramón Areces 講座「Nuevas terapias para el tratamiento de la inflamación」]
+出處：LinkedIn 貼文 solutex_spms-inflammation research-harvardmedical-activity-7300482438596587520-2BeK/
+
+--- 第 9 頁 ---
+標題：天然原生態 LIPINOVA® SPMs
+獨特、專利保護的成分，天然原生穩定態"專門的促消退介質" SPM
+✓ 原生穩定型態 SPM：以天然萃取方式收集魚油中的穩定型態SPM。SPM：18-HEPE、17-HDHA 和 14-HDHA
+✓ 臨床驗證：經臨床研究證實 Lipinova 可增加體內 SPM
+✓ 非免疫抑制：非藥物阻斷式抑制免疫反應，以不損害體內防禦的情況下解決發炎症狀
+✓ 來源：天然野生小型魚種，透過獨家專利萃取製程收集，將萃取和淨化技術應用於魚油的獨特組合
+> 安定高吸收 rTG魚油包覆，品質安定吸收效率高
+> 非轉基因和無麩質
+> 高安全性 具FDA GRAS安全認可
+> 保質期：24 個月
+[圖片：第9頁，分子球狀結構插圖，及安全認證圖示列（安全鎖、顯微鏡、人形、勾選、農作物、藥丸、水滴）]
+
+--- 第 10 頁 ---
+標題：抗炎新素材—跨時代的有效成分 "專門促消退介質" S.P.M.
+主要機制：調節發炎相關的免疫因子
+- 減少破骨細胞生成
+- 降低嗜中性白血球活性及浸潤
+- 降低血小板凝集
+- 減少樹突細胞移動
+- 減少介白素IL-2生成
+- 激發內源性消炎程序
+[圖片：第10頁，示意圖顯示 SPM 對巨噬細胞（磷酸化增加，增加吞噬活性）、單核球細胞（磷酸化增加活性）、血小板（凝集下降）、樹突細胞（遷移減少、IL-2產量減少）、破骨細胞（生長下降、分化減少）、多型核白血球嗜中性球（鈣離子移動及轉錄因子活性下降、浸潤下降）、全血細胞（多型核白血球及單核球中L-選擇素減少、CD18下降）的「非炎性活化」作用]
+出處：FREDMAN, G., and SERHAN, C. N., 2011, Biochem. J., 437, 185-197.
+
+--- 第 11 頁 ---
+標題：LIPINOVA® SPMs (穩定且多樣性)
+Lipinova 天然原生態 SPM：重要的內源性 EPA 和 DHA 衍生的活性成分
+- 更穩定的 SPM型態：相較於單一RvE、RvD型態，相對更穩定的單羥基型(OH) SPM，且更能演化多重RvE、RvD型態
+- 18-HEPE 可衍生: RvE1、2、3
+- 17-HDHA可衍生: PD1、RvD1~6
+- 14-HDHA可衍生: MaR1
+"穩定且多樣性型態的 SPMs"
+[圖片：第11頁，代謝流程圖：EPA → 18-HpEPE → 18-HEPE → (5-lipoxygenase) → RvE1, RvE2 → (15-lipoxygenase) → RvE3（E-series SPM）；DHA → 17-HpDHA → 10,17-DHDHA、PD1、17-HDHA → RvD1、RvD2、RvD3、RvD4、RvD5、RvD6（D-series SPM）；DHA → 14-HpDHA → 14-HDHA → MaR1（Maresins）]
+
+--- 第 12 頁 ---
+標題：炎症消退進程 ---- SPM 扮演的角色
+[圖片：第12頁，時間軸圖：發炎程度 vs 時間。初期為「嗜中性球浸潤」（紅色曲線，受傷後促炎介質白三烯B4(LTB4)、前列腺素E2(PGE2)增加），隨後「巨噬細胞募集」（綠色曲線，促消退脂質介質SPM：消退素、巨噬素、保護素、脂氧素等增加），最終「終止發炎，恢復體內平衡」]
+- 損傷後的最初幾個小時內，促炎介質（如白三烯B4 (LTB4)，其作為中性粒細胞 (PMN) 的趨化因子）以及增加血管通透性的因子（如前列腺素E2 (PGE2)）的產生增加。
+- 隨後，這些發炎介質將被專門的促消退脂質介質 (SPM) 取代，從而終止發炎過程並恢復組織穩態
+- 體內 SPM 幫助調節免疫細胞動作，促進發炎行為的緩解，最終停止發炎並加速細胞修復。
+
+--- 第 13 頁 ---
+標題：解決根源的消炎機制 — S.P.M.
+■ 藥物消炎方式：機制：抑制發炎因子，進而抑制後續的發炎反應。長期作用：中斷緩解過程形成慢性發炎，後續可能導致細胞病變以及炎症惡化
+■ S.P.M. 消炎方式：機制：啟動免疫細胞調節，協助炎症緩解期順利消退。長期作用：炎症反應緩解，受傷（削）部位得到癒合，炎症不會延續發展成慢性發炎，達到體內平衡。
+[圖片：第13頁，兩張對比曲線圖：上圖「藥物消炎方式」發炎活性 vs 時間，顯示藥物介入後緩解期(Pro-Resolution Phase)被中斷，導致慢性炎症；下圖「S.P.M. 消炎方式」顯示緩解期順利完成，達到體內平衡並炎症消退]
+
+--- 第 14 頁 ---
+標題：S.P.M. — 消炎機制
+炎症起始，產生促發炎脂質介質，白血球在發生部位聚集與活化，促炎細胞因子釋放。促炎脂質介質轉換，SPM大量生物合成，巨噬細胞去除凋亡的中性粒細胞，炎症消退。
+[圖片：第14頁，血管內流程示意圖：發炎起始 → 白血球募集與活化（單核球、多形性白血球/中性粒）→ 促發炎細胞因子釋放 → 促發炎脂質介質轉換 → 多形性白血球凋亡 → 巨噬細胞胞飲作用（清除細菌與病毒） → SPM生物合成 → M2巨噬細胞極化與胞飲作用，重建免疫系統平衡 → 炎症消退]
+出處：Zhao, H. K., Wu, L., et al., 2021, Signal Transduction and Targeted Therapy, 6, 263.
+
+--- 第 15 頁 ---
+標題：SPM作用—雙重抗炎
+[圖片：第15頁，微血管圖示：Dual Acting Mediators（Lipoxins、Resolvins、Protectins）對 PMN 與 Monocyte 的雙向作用：降低 PMN infiltration（降低中性粒浸潤）、提高 Monocyte recruitment（增加單核球募集）→ PMN apoptosis → Macrophage uptake of apoptotic PMN（增加巨噬細胞吞噬凋亡的中性粒）→ Exit via lymphatics（透過淋巴系統排出）。LXA4 reverses the anti-apoptotic action of pro-inflammatory serum amyloid A (SAA)]
+降低：1. 中性粒細胞從血管中滲入 2. 引發中性粒細胞凋亡
+提高：1. 增加單核球募集 2. 刺激巨噬細胞吞噬凋亡的中性粒細胞 3. 促進淋巴管清除吞噬細胞。
+結論：↓ PMN Influx and functions，↑ Phagocyte removal → Active Resolution and Anti-Microbial Clearance
+出處：Serhan, C. N., Chiang, N. & Van Dyke, T. E., Nat Rev Immunol., 8(5), 349-361.
+
+--- 第 16 頁 ---
+標題：（無標題文字，示意圖頁）發炎進程中免疫細胞的參與及作用
+[圖片：第16頁，Initiation phase（啟始期）與 Resolution phase（修復期）對照流程圖：嗜中性白血球、單核白血球 (Mediators of immune response initiation, e.g., prostaglandins) → Activity in initiation phase：Neutrophils and monocytes enter the affected tissue, secreting more mediators of immune response initiation → 組織受損、免疫反應啟動、嗜中性白血球與單核血球聚集患處 → SPMs increase, activating the resolution phase → SPMs slow/halt future entry of neutrophils and monocytes to the affected site → SPMs increase the activity of a special type of pro-resolving macrophages that clear cellular debris → Mediators of immune response resolution (e.g., SPMs) → Activity in resolution phase：Dead or dying cells and cellular debris are removed from the area by resolving macrophages → 組織重組、免疫系統恢復平衡]
+
+--- 第 17 頁 ---
+標題：發炎 Inflammation
+急性 Acute：快速、短暫，時間：分鐘、天。人體防禦的警報器，排除並清除有害物侵入，促進傷口癒合及復原。症狀：紅腫、感染、消退、慢性發炎。
+慢性 Chronic：緩慢、長期，時間：週、月、年。不變的生活飲食習慣，免疫細胞持續增殖，促炎因子的持續產出。風險：中樞神經系統、心血管、整體代謝、癌症。
+[圖片：第17頁，急慢性發炎對比插畫（士兵抵禦細菌病毒 vs 天秤失衡風險圖示：心肺、心血管、代謝症候群人形圖）]
+
+--- 第 18 頁 ---
+標題：（無主標，示意圖頁）急性發炎轉變慢性發炎併發的慢性疾病
+六大類：創傷修復（傷口復原、細菌感染）、心血管代謝疾病（血管病變、糖尿病）、認知功能（中度認知衰退、憂鬱症）、呼吸系統（氣喘、過敏）、關節部位（關節炎、痛風）、激烈運動（肌肉撕裂、痠痛）
+[圖片：第18頁，人形圖，六個紅色圓形圖示連接對應器官/部位]
+
+--- 第 19 頁 ---
+標題：急性發炎與慢性發炎…
+圖1-5 慢性發炎相關的發炎因素與癌症（表格）：
+| 發炎因素 | 慢性發炎 | 發生的癌症 |
+| 石綿 | 慢性支氣管炎 | 肺癌 |
+| 幽門螺旋桿菌 | 胃炎 | 胃癌 |
+| 肝炎病毒 | 慢性肝炎 | 肝癌 |
+| 膽汁 | 膽管炎 | 膽管癌 |
+| 細菌、膽結石 | 慢性膽囊炎 | 膽囊癌 |
+| 胃液 | 逆流性食道炎 | 食道癌 |
+| 紫外線 | 皮膚炎 | 惡性黑色素瘤 |
+| 齒周菌 | 牙齦炎 | 口腔癌、舌癌 |
+| 人類乳突病毒 | 慢性子宮頸炎 | 子宮頸癌 |
+註：因為細菌、病毒、刺激、異物等因素造成慢性發炎，並發展成癌症的例子。*改編自 Coussen, Werb 2002的表格
+
+圖1-3 急性發炎與慢性發炎的差異（表格）：
+| 項目 | 急性發炎 | 慢性發炎 |
+| 發生時間 | 立即有感；數日（依症狀可能至數週） | 不知不覺間累積傷害；數週至數年 |
+| 原因 | 侵入體內的病原體及有害物質 | 體內殘留的病原菌及有害物質；免疫機制攻擊自體正常細胞和組織（自體免疫疾病）；原因物質（如AGE）逐漸在體內蓄積 |
+| 徵狀 | 發紅、高熱、腫脹、疼痛（*不過，像肺部這樣沒有感覺神經的話就不會感到疼痛。） | 疲勞、口內疼痛、胸痛、腹痛、發燒、起疹子、關節痛等等 |
+| 結束狀態 | 停止發炎；因為某些原因，病原菌及有害物質殘留在體內（→轉變為慢性發炎） | 伴隨著長期的發炎狀態，細胞組織、基因會受損，發展成癌症等疾病 |
+| 疾病例 | 罹患感冒以及流感時的喉嚨疼痛、割傷、扭傷、甲滿炎、急性支氣管炎、急性闌尾炎、新型冠狀病毒等急性肺炎之類 | 類風濕性關節炎、心臟疾病、糖尿病、癌症、牙周病、過敏、哮喘、花粉症、阿茲海默症等 |
+
+--- 第 20 頁 ---
+標題：對抗發炎—維持免疫系統的平衡
+免疫過度容易引發急性發炎反應，嚴重將導致個體死亡。保持平衡才是健康。
+免疫低下：免疫力不足。無法清除外來病原，反覆性感染傳染性疾病（流感、病毒）。無法清除異常細胞，容易發生異變癌化。
+免疫過度：急性發炎反應：過敏、氣喘、異位性皮膚炎、類風濕關節炎。持續性發炎：慢性發炎：肥胖、代謝疾病、中風、腫瘤、癌症、老化。
+[圖片：第20頁，天秤插圖：免疫低下（藍色人形） vs 免疫過度（紅色人形），上方標示 SARS、COVID-19 圖示]
+
+--- 第 21 頁 ---
+標題：不一樣的抗發炎—SPM多重機制。非阻斷式消炎止痛
+增加：抗發炎細胞因子、氧化還原因子、巨噬細胞吞噬作用、白血球凋亡、保護血腦屏障
+降低：促發炎細胞因子、NF-κB活性、白血球浸潤、累積、星行膠質細胞活化、神經元凋亡
+[圖片：第21頁，流程圖：18-H(p)EPE、17-H(p)DHA (經 5-LOX) → Resolvin E series (RvE1, RvE2)、Resolvin D series (RvD1, RvD2)、Maresins (MaR1)、Enzymatic epoxidation/hydrolysis → Protectins (PD1/NPD1) → Receptors：ChemR23/BLT1、GPR32/FPR2、GPR18、GPR37 → Effector cells：Neutrophil、Monocyte、Macrophage、Microglial、Endotheal cell、T cell → Effects：↑anti-inflammatory cytokines、↑Nrf2 HO-1 GSH production、↑macrophage phagocytosis、↑M1 transfer to M2、↑apoptosis of leukocyte、↑protect blood brain barrier；↓pro-inflammatory cytokines、↓NF-κB activation、↓leukocyte infiltration/accumulation、↓astrocyte activation、↓neurons apoptosis]
+出處：Miao, Z., Schultzberg, M., et al., 2021, NARRATIVEREVIEW, 40, 5, 2974-2987.
+
+--- 第 22 頁 --- 【原廠臨床/臨床研究】
+標題：SPM 調整免疫細胞 促進免疫細胞轉型
+受試者：20名(10名健康者、10名周邊動脈疾病者)。
+方法劑量：每5天一次循環補充SPM，下一循環增量補充，循環三次。劑量為 1.5 g、3.0 g 和 6.0 g。
+- 循環白血球和單核細胞衍生的巨噬細胞中誘導較少發炎和更有利於消退的表型。
+- 延緩動脈粥狀硬化的進展並防止其發展為易損斑塊類型。
+- 顯著重塑下游脂質介質途徑。
+[圖片：第22頁，實驗流程設計時間軸：Day1-5(15mL daily)→Day6-14(30mL daily,washout)→Day15-19(30mL daily)→Day20-28(washout)→Day29-33(60mL daily)，V1~V6血液採樣點；右側圖示：調整免疫細胞型態轉變（Inflammation → Resolution），M1→M2 Increased M2:M1 Macrophage Gene Expression，Increased Monocyte and PMN Phagocytosis，Decreased Monocyte Cell-Surface Receptors (CD18, CD163, CD54, CCR2, CD36)]
+出處：Schaller, M. S., Chen, M., et. al., 2020, J Am Heart Assoc, 9, 15, e016113.
+
+--- 第 23 頁 --- 【原廠臨床/臨床研究】
+標題：好吸收 — Lipinova 可增加體內的 SPM
+受試者：23位受試者平均年齡56歲，B.M.I.值為33.1。
+方法劑量：每天補充Lipinova(SPM) 2g，持續28~30天。
+- 補充Lipinova可以增加體內不同的SPM族群。
+- 其中Resolvin E1 和 maresin 1 濃度分別增加了 3.5 倍和 4.7 倍
+[圖片：第23頁，六個Pre/Post盒鬚圖：A) Resolvin E1 (P=0.0025, BH-adjust=0.0084)；B) 11-HEPE (P=0.002, BH-adjust=0.007)；C) 15S-HEPE (P=0.003, BH-adjust=0.01)；D) 5-HEPE (P=0.0007, BH-adjust=0.004)；E) MaR1-n3-DPA (P=0.02, BH-adjust=0.074)；F) 7-HDHA (P=0.005, BH-adjust=0.013)]
+出處：Al-Shaer, A.E., Regan, J., et. al., 2022, J Nutr, 152, 7, 1783-1791.
+
+--- 第 24 頁 --- 【原廠臨床研究文獻】
+標題：S.P.M. 關節炎疼痛指數降 45%
+受試者：51名確診骨關節炎18~67歲西班牙成人。
+方法劑量：隨機、雙盲、安慰劑研究，前6週每日早晚各兩粒500mg SPM（安慰劑組為橄欖油），後6週早晚各一粒。持續時間為12週，12週後結束治療，再經12週做最後回訪。結合疼痛強度、精神層面及生活品質綜合評量。
+◆ 連續補充 SPM 8週可顯著改善骨關節疼痛。
+◆ 持續服用 SPM 可以減輕 OA 患者的疼痛，同時改善他們的生活品質。
+◆ 這些結果也支持 SPM 補充劑的安全性。
+[圖片：第24頁，數字「45%↓」標示；模特兒膝蓋照片；VAS疼痛指數折線圖（Placebo vs SPMs, Week 0,4,8,12,24，第8、12週有顯著差異*）；實驗流程時間軸：Day-7 Eligibility → Day0 Visit → Week4/8/12 Visit → 12-week-follow-up → End of study]
+出處：Möller, I., Rodas, D., 2023, J Transl Med, 21:423 https://clinicaltrials.gov/ct2/show/study/NCT05633849
+
+--- 第 25 頁 --- 【原廠臨床研究文獻】
+標題：解決疼痛、提升生活品質、改善情緒
+受試者：44名≥中度疼痛強度至少3個月的美國成年人。
+方法劑量：口服Lipinova 250mg每日兩次、一次三顆，結合疼痛強度、精神層面及生活品質綜合評量。
+口服補充標準化為17-HDHA和18-HEPE的分餾海洋脂質濃度可以改善慢性疼痛成人的生活質量，降低疼痛強度和乾擾，並在4週內改善情緒。
+◆ 4週內改善慢性疼痛成人的生活質量，降低疼痛強度和干擾，並改善情緒。
+◆ 4周改善慢性疼痛成人的健康相關生活質量和炎症的影響
+[圖片：第25頁，兩組長條圖：疼痛強度（疼痛強度、治療效果差、疼痛持續、綜合比較、目前狀態，Baseline/2Weeks/4Weeks，Dose-/Dose+ 對照）；生活品質（疲勞、睡眠障礙、社交活動、生活品質改善）]
+出處：Callan, N., Hanes, D., & Bradley, R., 2020, J Transl Med, 18, 401.
+
+--- 第 26 頁 --- 【研究文獻】
+標題：S.P.M. 解除關節的發炎狀態
+SPM 作用於關節炎關節的幾種典型細胞因子，並通過特定促消退受體的參與，產生特定的抗炎和促消炎生物作用
+發炎的關節—免疫細胞的反應：
+✓ 病理性關節，由於成纖維細胞增殖和免疫細胞浸潤以及軟骨侵蝕而形成血管翳。許多血源性免疫細胞（例如巨噬細胞、T細胞）存在於血管翳中，而粒細胞（其中大部分是中性粒細胞）過濾到關節內空間。
+✓ SPM (RvD3)消除免疫細胞的浸潤，恢復關節滑膜的正常狀態
+[圖片：第26頁，組織切片顯微照片（x10, x40放大）：Arthritis+Veh（免疫細胞浸潤關節滑膜嚴重） vs Arthritis+RvD3（SPM減緩免疫細胞浸潤關節滑膜）對比]
+出處：Perretti, M., Norling, L. V., 2017, Molecular Aspects of Medicine, 58, 5764. / Arnardottir, H. H., Dalli, 2016, J Immunol, 197, 6, 2362-2368.
+
+--- 第 27 頁 --- 【研究文獻】
+標題：退化性關節炎—減緩症狀、減輕疼痛
+SPM可減輕肥胖引起的退化性關節炎發展。主要病理生理機制是永久性炎症，導致軟骨損失、骨贅形成和滑膜炎，從而導致退化性關節炎的發展。
+- SPM可減少促炎因子的產生
+- SPM可調節巨噬細胞的活化減緩發炎進程
+- SPM可維持滑膜細胞的正常程度，減緩過度細胞增厚導致組織損傷
+[圖片：第27頁，左圖 Synovium F4/80+CD11b+cells (%) 長條圖：Sham組（+Veh vs +RvD1）vs OA,DMM組（+Veh vs +RvD1），RvD1顯著降低巨噬細胞比例；右圖 Fold change 長條圖（IFNγ/LPS vs +RVD1）：IL1β、CXCL10、TNF、IL6、CCR7 顯著下降(*)，CD86無顯著差異(NS)]
+說明：SPM可調節滑膜中巨噬細胞的數量，調整因發炎而產生的巨噬細胞活性；SPM (Resolvin D1) 可改善滑膜炎症，20 ng/µl (20 ppm) RvD1 關節內注射治療可以減少促發炎因子
+出處：Sun, A. R., Wu, X. X., 2019, Scientific Reports, 9, 1, 426.
+
+--- 第 28 頁 --- 【研究文獻】
+標題：降低纖維化危機—SPM抑制減緩腎臟纖維化
+急性和慢性發炎皆可能引發組織的纖維化。SPM (RvE1)可以：
+◆ 降低組織纖維化程度
+◆ 抑制纖維化因子的基因表現
+SPM 顯著降低纖維化程度：每日4ng/g (0.004 ppm)體重 RvE1腹腔注射
+[圖片：第28頁，長條圖(G)(H)：%α-SMA area、%Collagen IV area 在 d2UUO、d4UUO、d6UUO 及對應 Rev（RvE1治療）組別中皆顯著下降(***)；長條圖(I)(J)(K)(L)：Collagen IV/GAPDH mRNA、α-SMA/GAPDH mRNA、Collagen I/GAPDH mRNA、Fibronectin/GAPDH mRNA 在 Sham、UUO+vehicle、UUO+RvE1 組別比較，RvE1組顯著降低(***)]
+出處：Qu, X., Zhang, X. m., 2012, J Pathol, 228, 4, 506-19.
+
+--- 第 29 頁 --- 【研究文獻】
+標題：保肝又護肝—減緩肝臟纖維化程度
+減少肝臟中炎症細胞浸潤，明顯改善肝小葉的結構
+> 降低受肝纖維化各項因子：LN (層粘連蛋白)、HA (透明質酸)、PC-III (III型原膠原)、IV-C (IV型膠原蛋白)的含量。
+> SPM (RvE1)可調節細胞因子減少肝臟內的炎症反應
+> 每日餵食100 ng RvE1可顯著降低肝纖維化的血清指標（LN、HA、PC-III和IV-C）的濃度
+表格 Table II：Concentrations of LN, HA, PC-III and IV-C in serum samples from RvE1-treated and untreated mice (n=10 per group).
+| Group | LN (ng/ml) | HA (ng/ml) | PC-III (ng/ml) | IV-C (ng/ml) |
+| Control | 10434.6±67.3 | 34.5±6.3 | 59.2±11.7 | 72.2±17.2 |
+| Model | 10741.5±124.2a | 65.8±15.7a | 134.4±31.4a | 139.2±35.2a |
+| RvE1 | 10554.8±149.8a,b | 44.4±8.6a,b | 76.7±18.2a,b | 88.2±15.8a,b |
+| F-value | 18.01 | 20.41 | 34.05 | 19.75 |
+| P-value | 0.00 | 0.00 | 0.00 | 0.00 |
+[圖片：第29頁，肝臟組織病理切片：A控制組（正常肝小葉結構）、B實驗組（模型組，明顯纖維化、炎症細胞浸潤圈記）、C RvE1組（結構較接近正常，纖維化減輕）]
+出處：QIU, W. H., GUO, K. W., 2014, EXPERIMENTAL AND THERAPEUTIC MEDICINE, 7, 1481-1485.
+
+--- 第 30 頁 --- 【研究文獻】
+標題：調節炎症消退、減少神經疼痛、幫助組織再生
+- RvD1、MaR1可阻止多型性白血球(PMN)浸潤並刺激巨噬細胞(MΦ)吞噬作用促進對凋亡細胞的吞噬以及增加胞飲作用，消除炎症。其中MaR1更為顯著
+- MaR1抑制DRG神經元中的TRPV1電流並減輕炎症性疼痛
+- RvE1、MaR1可刺激組織再生，且MaR1呈現劑量效應
+[圖片：第30頁，四張圖：A) Tissue Regeneration Index vs Days post surgery（控制組、RvE1 100nM、MaR1 100nM比較，*/**/***顯著）；B) 同前但MaR1 1nM/10nM/100nM劑量效應；C) 胞飲作用顯著增加長條圖（MaR1、RvD1、LTB4濃度1nM比較，MaR1效果最強##/**）；D) MaR1促進巨噬細胞的吞噬作用曲線圖，MaR1 vs 12E-Isomer II vs 7S-Isomer I，MaR1效果最佳]
+出處：Serhan, C. N., Dalli, J., 2012, FASEB J, 26, 4, 1755-1765.
+
+--- 第 31 頁 --- 【研究文獻】
+標題：SPM有效抑制流感病毒
+✓ 預防重於治療，但是治療才是存活的關鍵
+SPM抑制流感病毒複製、抑制病毒含量以及提高存活率
+嚴重流感的治療關鍵是針對病毒生命週期和極端肺部炎症進行藥理標靶。
+目前的抗流感病毒藥物只有在感染後早期給藥才有效果。
+✓ 感染後 48 小時，以PD1結合流感藥物，可完全免於流感死亡。
+[圖片：第31頁，四張數據圖：病毒mRNA/病毒量抑制長條圖（NP/18S AU、Virus titers FFU/g tissue：Vehicle vs PD1，**顯著下降）；感染複數高低病毒蛋白表現及病毒量長條圖（H5N1 M/GAPDH AU、FFU/mL，veh/PD1 於MOI 0.02/0.2比較，**顯著）；被感染後SPM(PD1=1µg/µl)結合藥物使用可提高的存活率折線圖（Peramivir+PD1、Peramivir、PD1、Vehicle，PR8 virus 500 TCID50）；SPM(PD1)提高被感染的存活率折線圖（PD1 vs Vehicle，2009 H1N1 virus 1000 TCID50，PD1組存活率100%）]
+出處：Morita, M., Kuba, K., 2013, Cell, 153, 1, 112-125.
+
+--- 第 32 頁 --- 【研究文獻】
+標題：提高疫苗效力—加強中和效價，增加抵抗力
+SPM (17-HDHA)
+- 可增強針對流感病毒的抗體免疫反應
+- 增強疫苗接種的抗體中和效價
+- 可提高感染之後的存活率
+[圖片：第32頁，三張圖：A) 17-HDHA增加特異性抗體的產生（OVA-IgM折線圖，Vehicle vs 17-HDHA，週0-12，*顯著）；B) OVA-IgG折線圖相似趨勢；疫苗接種14天候抗體中和效價仍有44%長條圖（Mock 0/9、Vehicle 0/9、17-HDHA 4/9）；提高存活率折線圖（Mock、Vehicle、17-HDHA，Day 0-14，17-HDHA顯著提高存活率*/**，腹腔注射1µg 17-HDHA）]
+出處：Ramon, S., Baker, S. F., et. al., 2014, J Immunol, 193, 6031-6040.
+
+--- 第 33 頁 --- 【原廠臨床/動物研究】
+標題：SPM 加速傷口癒合 (2型糖尿病創口—外用敷料)
+實驗動物：8週齡2型糖尿病(db/db)小鼠。
+方法劑量：每5天一次循環補充SPM，下一循環增量補充，循環三次。劑量為1.5g、3.0g和6.0g。
+- LIPINOVA® 在真皮成纖維細胞、內皮細胞和巨噬細胞中驗證了補充劑的吸收。"外用可吸收"
+- LIPINOVA® 透過減少傷口部位的免疫發炎反應以及誘導受傷糖尿病小鼠的血管生成和M1/M2極化來促進癒合過程的。
+- LIPINOVA® 治療可加速角質形成細胞和纖維母細胞的體外遷移，加速傷口癒合。
+- LIPINOVA® 具有促消退特性，可作為治療糖尿病潰瘍的治療劑。
+[圖片：第33頁，四張圖：C) 角質細胞 Keratinocytes Wound closure(%) vs Time(h)折線圖（Ctrl vs LIPINOVA 250nM，****顯著）；D) 纖維母細胞 Fibroblasts 折線圖（Ctrl vs LIPINOVA 50µM，****顯著）；傷口癒合速度折線圖（Ctrl vs LIPINOVA，Days 0-15，****顯著，LIPINOVA組更快癒合）；右側傷口照片對照（3d/9d/15d，Ctrl vs LIPINOVA®，LIPINOVA組癒合明顯較快）]
+出處：Ontoria-Oviedo, I., Amaro-Prellezo, E., et. al., 2022, Int J Mol Sci, 23, 17, 9918.
+
+--- 第 34 頁 --- 【研究文獻】
+標題：SPM 控制急性和慢性搔癢問題
+搔癢（搔癢症）是一種獨特的感覺，它在激活初級感覺神經元中的搔癢感受器後引發抓癢反應。
+初級感覺：神經元是傷害感受器的一個子集。
+急性搔癢通常定義為組織胺依賴性搔癢（由組織胺和化合物引起）和非組織胺依賴性搔癢（由氯奎寧引起）
+TRPV1 和 TRPA1 也被搔癢感受器表達，並在調節組織胺依賴性搔癢和組織胺非依賴性搔癢中發揮不同的作用（原文重複兩次）
+抓癢引起的皮膚損傷可能會加劇搔癢。慢性搔癢涉及皮膚損傷和皮膚炎。
+SPM 可以透過減少皮膚發炎來緩解搔癢
+[圖片：第34頁，傷害感受器神經元示意圖：週邊軸突終點（皮膚、肌肉、關節和腸道，傳遞疼痛/搔癢訊號）、週邊軸突（背節神經與三叉神經，傳導疼痛/搔癢訊號）、傷害感受器細胞體（背根神經節和三叉神經節，表達疼痛/搔癢基因訊息）、中央軸突終點（脊髓和三叉神經核背角，疼痛/搔癢神經傳導物質），標示TRPA1、TRPV1受體位置]
+出處：Ji, R. R., Annu Rev Pharmacol Toxicol. 2023, 63, 273-293.
+
+--- 第 35 頁 --- 【研究文獻】
+標題：SPM小鼠和人類 TRPV1陽性神經元以及乾癬的臨床
+SPM 抑制小鼠和人類 DRG 神經元中的 TRPV1 訊號傳導，來緩解急性搔癢，緩解紅斑形成以及銀屑產生
+透過抑制皮膚樹突狀細胞和γδT細胞的遷移來減輕小鼠乾癬性皮膚炎。全身性 SPM 治療可防止牛皮癬樣搔癢和皮膚發炎的發展。
+- 每天對小鼠進行RvD3系統給藥（2.8 mg/kg，腹腔注射，每天注射1或2次）後，小鼠沒有出現乾癬病變，且紅斑和鱗屑的發生率呈劑量依賴性減少。
+- 表皮增厚和免疫細胞浸潤也是乾癬樣發炎的徵兆。組織學檢查顯示，RvD3治療顯著減弱了角質層厚度的增加，以及免疫細胞的皮膚浸潤。
+- RvD3給藥顯著降低了皮膚中促發炎細胞因子。
+- RvD3給藥（每天2次注射）在很大程度上阻止了自發性搔癢和異常搔癢的發展。
+[圖片：第35頁，SPM 抑制 TRPV1訊號機制示意圖（皮膚→SPM作用於ALX/FPR2或GPR32受體，抑制TRPV1/CGRP發炎路徑，減輕搔癢傳導至脊髓）；小鼠乾癬模型皮膚病變照片（Vehicle、RvD3 1inj.、RvD3 2inj.，Day1/4/7）；紅斑數值(Erythema)與銀屑數值(Scaliness)折線圖（Vehicle vs RvD3 1inj vs RvD3 2inj，Day BL~7d，*顯著）]
+出處：Lee, S. H., Tonello, R., et. al., Theranostics, 2020, 10, 26, 12111-12126.
+
+--- 第 36 頁 ---
+標題：消炎修復組織的突破與創新
+最佳配方比例提供最優化的消炎方程式
+補充SPMs幫助您改善：
+✔ 年紀老化
+✔ 消化道問題
+✔ 運動量過度
+✔ 自體免疫，如:類風濕性關節炎、僵直性脊椎炎、乾燥症、紅斑性狼瘡…等
+✔ 過多的環境干擾物質
+✔ 其他生理壓力如: 術後、扭傷、過重…等
+[圖片：第36頁，流程圖：LIPONOVA® S.P.M.s → 消除發炎反應：17-HDHA、18-HEPE、14-HDHA → Resolvins、Protectin、Maresins → 自我防禦（減少微生物、病毒入侵）↑、疼痛↓、癒合能力↑、組織再生↑、T細胞/B細胞適應性免疫]
+
+--- 第 37 頁 ---
+標題：國際文獻刊登發表 Lipinova 研究
+[圖片：第37頁，10篇國際期刊論文截圖拼貼，編號1-10：
+1. Circulation Research - "Enriched Marine Oil Supplements Increase Peripheral Blood Specialized Pro-Resolving Mediators Concentrations and Reprogram Host Immune Responses"
+2. Journal of the American Heart Association - "Treatment With a Marine Oil Supplement Alters Lipid Mediators and Leukocyte Phenotype in Healthy Patients and Those With Peripheral Artery Disease"
+3. Journal of Translational Medicine - "Early evidence for efficacy for orally administered SPM-enriched marine lipid fraction on quality of life and pain in a sample of adults with chronic pain"
+4. Journal of Translational Medicine - "Randomized, double-blind, placebo-controlled study to evaluate the effect of treatment with an SPMs-enriched oil on chronic pain and inflammation, functionality, and quality of life in patients with symptomatic knee osteoarthritis (GAUDI study)"
+5. Molecular Sciences - "Pharmacokinetics and Changes in Lipid Mediator Profiling after Consumption of Specialized Lipid-Mediator-Enriched Marine Oil in Healthy Subjects"
+6. J Nutr - "Enriched Marine Oil Supplement Increases Specific Plasma Specialized Pro-Resolving Mediators in Adults with Obesity"（Clinical Trial, doi: 10.1093/jn/nxab075）
+7. Biomedicines/pharmaceutics - "Fish Oil Containing Specialized Pro-Resolving Mediators Enhances the Antioxidant System and Ameliorates LPS-Induced Inflammation in Human Bronchial Epithelial Cells"
+8. International Journal of Molecular Sciences - "Topical Administration of a Marine Oil Rich Lipid Mediators Accelerates Wound Healing in Pro-Resolving Diabetic db/db Mice through Macrophage and Fibroblast Polarization"
+9. Biomedicines - "Pro-Resolving Inflammatory Effects of a Marine Oil Enriched in Specialized Pro-Resolving Mediators (SPMs) Supplement and Its Implication in Patients with Post-COVID Syndrome (PCS)"
+10. Antioxidants - "An SPM-Enriched Marine Oil Supplement Shifted Microglia toward M2, Ameliorating Retinal Degeneration in rd10 Mice"]
+
+--- 第 38 頁 ---
+標題：Lipinova® 的活性成分
+LIPONOVA® 的安全性和有效性在多項已發表的研究中得到證實。補充 LPINOVA 後的結果：
+- 血液中 SPM 濃度增加
+- 免疫系統對消除炎症的調節
+- 疼痛等結果的改善
+- 無副作用
+SPM：調節自然免疫反應，幫助炎症消退
+SPM可調節發炎反應相關的免疫細胞：切入關鍵途徑、催化SPMs生化合成途徑、重建SPMs消耗程度、重新啟動消炎程序
+[圖片：第38頁，代謝與細胞作用示意圖：魚油Fish Oil → EPA/DHA Storage Pool → Enzymes → Di-OH SPMs (Cell Signaling 雙羥基SPMs細胞訊號) ⇄ Mono-OH SPMs (Catalyser 單羥基SPMs催化物) → LIPINOVA品牌標誌；細胞類型作用對象：內皮細胞、巨噬細胞/單核球/中性粒(Macrophages/Monocytes/Neutrophils)、T細胞、小膠質細胞(Microglial Cells)、上皮細胞黏膜(Epithelial Cell Mucosa)]
+
+--- 第 39 頁 ---
+標題：結合製造、淨化專利—Solutex® Lipinova®
+FLUTEX（Sustainable Operations） + CLEANTEX（Deodorization Innovation） ⇒ Lipinova® SPM
+Lipinova 天然原生態 SPM
+□ 天然原生態魚油中萃取收集，非人工酵素轉化，生物活性更好。
+□ 主成分為 18-HEPE、17-HDHA、14-HDHA。
+□ SPM定性、定量，專利保護且具獨特生物活性配方
+□ 保健食品市場上最有效的SPM配方
+□ 最自然解決炎症困擾的方法
+□ 建議劑量：500 mg~2g/天
+[圖片：第39頁，多張專利文件截圖：US Patent Application Publication US 2020/0261031 A1；PCT國際申請公開 WO 2017/041094 A1；西班牙專利申請 ES 2 395 320 A1（NUEVO METODO DE ELABORACION DE MEDIADORES...）等]
+
+--- 第 40 頁 ---（此頁在提取批次中未單獨出現對應圖片，內容可能與第39頁專利頁或第41頁產品頁相接，供 Image Extractor 進一步核對原始 PDF 頁碼）
+[圖片：第40頁，內容待 Image Extractor 依實際 PDF 頁碼核對（可能為專利頁延伸或過場頁）]
+
+--- 第 41 頁 ---
+標題：消除炎症無負擔—新世代抗發炎利器SPM
+七項市售 SPM 相關競品比較（品牌+含量標示）：
+1. MYOXSCIENCE Omega-3 ResolV：總Omega-3脂肪酸 240 mg SPM
+2. Metagenics OptiResol：EPA 100mg、DHA 162.5mg，17-HDHA 120µg、18-HEPE 112.5µg、14-HDHA 55µg
+3. LIFE EXTENSION Pro-Resolving Mediators：EPA+DHA 500mg，17-HDHA、18-HEPE、14-HDHA 300µg
+4. Metagenics SPM Active™：LIPINOVA 498mg，Equivalent EPA 50mg，Equivalent DHA 100mg
+5. Metagenics SPM Active（第二款包裝）：總Omega-3脂肪酸 500mg SPM (18-HEPE、17-HDHA)
+6. NutriDyn PRM Resolve：總Omega-3脂肪酸 600mg，總SPMs (18-HEPE,17-HDHA,14-HDHA) 200µg
+7. SPORTS PRO RESOLVE：總Omega-3脂肪酸 500mg，LIPINOVA-SPM 含18-HEPE、17-HDHA（Tiki Barber代言，NUTRA INGREDIENTS AWARDS 2021 決賽入圍）
+[圖片：第41頁，七款競品瓶身照片與含量標示排列]
+
+--- 第 42 頁 ---
+[圖片：第42頁，封底頁。捷康生技 NUTRAREX BIOTECH logo。地址：台中市市政北七路186號19樓之G，19F-G, No.186, Shizheng N. 7th Rd., Taichung City 407612, Taiwan。TEL: +886 4 2255 8080　FAX: +886 4 2255 8870。產品實物照片：錠劑、膠囊、軟膠囊(魚油色)、液體瓶裝、黑色錠劑，搭配薄荷葉與研缽裝飾。]
+
+=== 附加說明（第39-40頁補充，名人推薦頁重複出現於第39頁末段） ===
+第39頁末段另含名人使用推薦段落（與第39頁圖片重疊排列於原簡報，內容同）：
+標題：名人使用推薦 — 美式足球美國紐約巨人隊超級跑衛推薦
+天然消炎成分 Lipinova® SPMs 以最大限度地發揮消除炎症的作用，重點是"發炎和運動相關傷害"。這可以降低副作用的風險，並為尋求突破極限和解決表現障礙的運動員提供更安全、更有效的解決方案。
+Tiki Barber（Giants #21 & 10 Year NFL Running Back）代言 SPORTS PRO RESOLVE 產品，Supplement Facts：Serving Size Two Softgels, Servings Per Container 60, Calories 10, Total Fat 1g, Cholesterol <5mg, Fractionated Lipid Concentrate 1g (from Sardine and Anchovy Oil) standardized to Lipinova SPM 含 18-hydroxy-eicosapentaenoic acid (18-HEPE), 17-hydroxy-docosahexaenoic acid (17-HDHA), 14-hydroxy-docosahexaenoic acid (14-HDHA)。其他成分：gelatin, glycerine, water, silica, mixed tocopherols (antioxidant)。CONTAINS FISH (ANCHOVY, SARDINE) AND SOY.
+
+共 42 頁，發現圖表/圖片標記約 41 個（幾乎每頁皆含圖），發現表格 3 個（第19頁兩表、第29頁一表）。

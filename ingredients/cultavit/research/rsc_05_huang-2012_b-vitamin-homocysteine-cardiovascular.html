@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B群維生素補充對血漿同半胱胺酸與心血管死亡率之meta分析 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre-wrap; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">Meta-analysis · 系統性文獻回顧</span>
+      <span class="hdr-tag q1">Q1（Nutrition & Dietetics）· IF 6.4</span>
+    </div>
+    <h1>B群維生素補充可有效降低同半胱胺酸並降低中風風險，但對整體心血管死亡率無顯著影響：誠實呈現「有效與無效並存」的重要證據</h1>
+    <p class="subtitle">Meta-analysis of B Vitamin Supplementation on Plasma Homocysteine, Cardiovascular and All-cause Mortality</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Tao Huang, Ying Chen, Bin Yang, Jing Yang, Mark L. Wahlqvist, Duo Li</div>
+      <div class="meta-item"><strong>期刊</strong>Clinical Nutrition</div>
+      <div class="meta-item"><strong>年份</strong>2012 · 31(4):448-454</div>
+      <div class="meta-item"><strong>PMID</strong>22652362</div>
+      <div class="meta-item"><strong>DOI</strong>10.1016/j.clnu.2011.01.003</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★★</span></div>
+          <div class="cred-sub">Clinical Nutrition（ESPEN官方期刊），Q1，IF≈6.4</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★★</span></div>
+          <div class="cred-sub">Meta-analysis，19篇RCT，總樣本數N=47,921，證據等級最高</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★★</span></div>
+          <div class="cred-sub">所有終點皆附相對風險（RR）與95%信賴區間，數字完整透明</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val" style="color:var(--green)">✅ 無</div>
+          <div class="cred-sub">浙江大學食品科學與營養系獨立學術研究，無廠商資助聲明</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本篇為頂尖臨床營養學期刊（Clinical Nutrition，ESPEN官方刊物）之大型meta-analysis，彙整19篇RCT、近5萬名受試者，證據等級在B群維生素心血管領域屬於最高層級之一。此篇文獻的獨特價值在於「誠實呈現分歧結果」——B群補充對降低同半胱胺酸與中風風險有明確統計顯著效果，但對整體心血管疾病、冠心病、心肌梗塞、心血管死亡與全因死亡率則「無顯著效果」，是本專案彙整證據時務必完整呈現、不可選擇性引用的關鍵文獻，直接體現「保健食品證據應誠實分層呈現」之原則。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">血漿同半胱胺酸（homocysteine, Hcy）濃度升高（高同半胱胺酸血症）長期被觀察性流行病學研究認為是冠心病、心血管事件的獨立風險因子，而葉酸、維生素B6、維生素B12是同半胱胺酸代謝路徑（甲硫胺酸循環與轉硫化路徑）中的關鍵輔酶／輔因子，補充這三種B群維生素已被充分證實可有效降低血中同半胱胺酸濃度。基於此機制關聯，學界曾高度期待「B群補充降Hcy」能進一步轉化為「B群補充降低心血管疾病風險」的臨床效益，因而催生了多項大型RCT進行驗證。</p>
+      <p style="margin-bottom:20px">然而，此前個別RCT的結果並不一致（inconclusive），部分試驗顯示心血管保護效果，部分則未達顯著差異，導致「B群補充是否真能透過降Hcy機制轉化為心血管臨床效益」這一問題在學界存在爭議。本研究團隊因此系統性彙整PubMed與Web of Science資料庫中所有相關RCT，以固定效應模型（fixed-effects model）合併分析，目的是釐清B群補充對血漿Hcy、心血管疾病（CVD）、冠心病（CHD）、心肌梗塞（MI）、中風（stroke）、心血管死亡與全因死亡率等多項終點的整體效果，為「B群補充=心血管保護」此一常見保健食品行銷論述提供更嚴謹的實證檢驗。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">研究設計背景</p>
+      <div class="mech-detail">
+        <h4>「降低Hcy的生物標記效果」與「降低心血管疾病終點的臨床效果」之區分</h4>
+        <p>本研究刻意分開報告「Hcy這項生物標記指標」與「CVD/CHD/MI/中風/死亡率等硬終點（hard endpoints）」兩類結果，這正是保健食品證據評估中「生物標記改善」與「疾病終點改善」的經典區分案例——前者（Hcy降低）在所有納入RCT中一致顯著，後者則呈現分歧結果，兩者不應混為一談。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>Meta-analysis，固定效應模型（fixed-effects model），使用Stata軟體分析</td></tr>
+          <tr><td>納入研究</td><td>19篇RCT，資料庫來源：PubMed、Web of Science</td></tr>
+          <tr><td>總樣本數</td><td>47,921名受試者</td></tr>
+          <tr><td>介入方式</td><td>B群維生素補充（葉酸、B6、B12為主，各研究劑量組合略有不同）</td></tr>
+          <tr><td>對照組</td><td>安慰劑</td></tr>
+          <tr><td>主要終點</td><td>血漿同半胱胺酸濃度；心血管疾病（CVD）、冠心病（CHD）、心肌梗塞（MI）、中風（stroke）發生率；心血管死亡率；全因死亡率</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">B群維生素（葉酸、B6、B12）與同半胱胺酸代謝
+├─ 層次一 — 分子輔酶層次（補充後數週內顯現）
+│   ├─ 葉酸（5-methyl-THF）：作為甲基供體，經甲硫胺酸合成酶
+│   │   （methionine synthase，需B12作為輔因子）將同半胱胺酸
+│   │   再甲基化為甲硫胺酸
+│   ├─ 維生素B12：甲硫胺酸合成酶之必需輔因子，缺乏時上述再甲基化
+│   │   反應受阻，同半胱胺酸易堆積
+│   └─ 維生素B6（PLP）：轉硫化路徑（transsulfuration pathway）中
+│       胱硫醚β合成酶（CBS）之輔酶，將同半胱胺酸代謝為半胱胺酸並
+│       進一步排出
+├─ 層次二 — 血管內皮細胞層次（機制假說，非直接臨床證據）
+│   ├─ 高同半胱胺酸血症被認為可能透過氧化壓力、內皮功能失調等機制
+│   │   促進動脈粥狀硬化，此為觀察性研究提出之假說路徑
+│   └─ 理論上降低Hcy應可減緩此路徑之血管損傷進程
+└─ 層次三 — 臨床終點層次（本研究之核心發現：機制假說未完全轉化為
+    臨床效益）
+    └─ 儘管B群補充穩定降低Hcy（層次一），但對CVD、CHD、MI、心血管
+        死亡、全因死亡率等硬終點並無顯著保護效果，僅中風風險顯著
+        降低，顯示「降Hcy生物標記」與「降低心血管疾病臨床終點」之間
+        存在機制假說未能完全驗證的落差</pre>
+      <div class="mech-detail">
+        <h4>關鍵發現：生物標記改善（降Hcy）未完全轉化為疾病終點效益，是保健食品證據解讀的典型案例</h4>
+        <p>此為藥物／保健品研究中常見的「替代終點（surrogate endpoint）與臨床硬終點（hard endpoint）不一致」現象：B群補充對Hcy此一生物標記的效果非常穩定一致（19篇RCT均顯示Hcy下降），但這項生物標記改善並未完全轉譯為冠心病、心肌梗塞、整體心血管死亡率的下降，僅中風風險有統計顯著降低。此結果不代表「B群補充無效」，而是說明「B群對Hcy的調節效果」與「B群對整體心血管疾病終點的預防效果」須分開評估與陳述，這正是保健食品證據不應與藥物療效標準混為一談，但也不應誇大的關鍵平衡點。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">B群維生素補充 vs 安慰劑之相對風險（RR，19篇RCT合併分析，N=47,921）</p>
+      <table>
+        <thead><tr><th>終點指標</th><th>相對風險 RR</th><th>95% 信賴區間</th><th>統計顯著性</th></tr></thead>
+        <tbody>
+          <tr><td>心血管疾病（CVD）</td><td>0.98</td><td>0.94–1.03</td><td>未達顯著（CI跨過1）</td></tr>
+          <tr><td>冠心病（CHD）</td><td>0.98</td><td>0.92–1.05</td><td>未達顯著</td></tr>
+          <tr><td>心肌梗塞（MI）</td><td>0.97</td><td>0.90–1.05</td><td>未達顯著</td></tr>
+          <tr><td>中風（Stroke）</td><td><strong>0.88</strong></td><td><strong>0.82–0.95</strong></td><td><strong>顯著降低</strong></td></tr>
+          <tr><td>心血管死亡</td><td>0.97</td><td>0.91–1.02</td><td>未達顯著</td></tr>
+          <tr><td>全因死亡率</td><td>0.99</td><td>0.95–1.04</td><td>未達顯著</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 除中風外，其餘所有心血管相關硬終點（CVD、CHD、MI、心血管死亡、全因死亡率）之95%信賴區間均跨過1.0，未達統計顯著差異，必須如實標示，不可僅摘取「中風風險降低12%」而略去其餘無效終點。</p>
+      <p style="margin-top:12px"><strong>血漿同半胱胺酸濃度</strong>：所有納入RCT均顯示B群補充組血漿Hcy濃度顯著降低（Blood Hcy levels were decreased in all included RCTs），此為本研究中效果最一致的發現。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>合成B群，非天然來源</strong>：納入之19篇RCT介入產品皆為合成型B群補充劑，非天然食物或發芽穀物來源之B群，數字不可直接類推至Cultavit®天然來源產品。</span></li>
+        <li><div class="limit-num">2</div><span><strong>多數心血管硬終點未達顯著</strong>：僅中風風險顯著降低，CVD、CHD、MI、心血管死亡、全因死亡率均未達統計顯著，不應誇大為「B群可全面預防心血管疾病」。</span></li>
+        <li><div class="limit-num">3</div><span><strong>納入研究之受試族群異質</strong>：19篇RCT之受試者可能包含一般健康人與已有心血管疾病史之高風險族群，異質性可能影響整體效果量之解讀，本研究未詳述異質性I²值於摘要層級。</span></li>
+        <li><div class="limit-num">4</div><span><strong>發表時間較早（2012年）</strong>：此後可能有更新之meta-analysis（如2025年之相關研究）納入更多近期試驗，建議業主同時查證最新文獻以確認結論是否有更新。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（食物型葉酸生物利用率為合成葉酸之80%）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>互補、劑量換算提醒</strong>：本篇之心血管保護效果證據建立在合成B群補充基礎上；若Cultavit®欲以天然發芽蕎麥來源B群主張具備相似的同半胱胺酸調節效果，需考量rsc_02所示天然來源葉酸生物利用率僅約合成型態之80%，理論上可能需要較高攝取量才能達到本篇研究相當之Hcy降低效果，此為劑量換算時應注意的交叉限制。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（葉酸補充預防神經管缺陷復發）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>互補，證據型別對照</strong>：rsc_03之葉酸對NTD復發預防效果證據強度極高（69-87%風險降低），本篇之葉酸/B群對心血管疾病終點證據則相對保守（多數終點未顯著，僅中風顯著）。兩篇合看可作為向業主說明「同一成分（葉酸）在不同適應症/終點上，證據強度可能差異極大」的教育案例，避免將B群「泛用於所有健康聲稱」而模糊各項證據強弱的差異。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（B群補充改善運動疲勞表現RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>支持、互補</strong>：兩篇皆支持「B群維生素對人體具備明確、可測量之生理功能」——rsc_04聚焦能量代謝/運動表現的正向人體證據，本篇聚焦心血管系統中「部分有效（Hcy、中風）、部分無效（CVD、CHD、MI、死亡率）」的誠實分層證據。兩篇合看强化了B群維生素證據應「按終點分別陳述」而非「一概而論宣稱全面保護心血管」的核心原則。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（蕎麥發芽對生物分子與抗氧化特徵之影響）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>無直接關聯</strong>：rsc_01為發芽蕎麥之體外生化機制研究，本篇為合成B群之人體心血管臨床meta-analysis，證據層次與研究對象皆不同，不可互相引用支持對方結論。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>「葉酸、維生素B6、B12有助於維持胺基酸正常代謝，並有助於維持能量正常代謝」——沿用台灣衛福部核准之現行B群功能宣稱，不涉及心血管疾病預防之強效聲稱。</li>
+          <li>「大型meta-analysis（19篇RCT，N近5萬人）顯示，B群維生素補充可有效降低血漿同半胱胺酸濃度並降低中風風險」——可作為「生物標記與部分疾病終點」有明確人體證據支持的謹慎陳述，需同時附注其他心血管終點未顯著之限制。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>若欲提及「降低同半胱胺酸」，建議同時說明此為「生物標記改善」而非直接等同於「預防心臟病」，因本研究顯示對CHD、MI、心血管死亡率並無統計顯著效果。</li>
+          <li>「中風風險降低12%（RR 0.88）」之數字僅適用於合成B群之大型meta-analysis情境，Cultavit®天然來源產品若欲引用，需清楚標示為「B群維生素之一般性科學文獻佐證」，非Cultavit®專屬人體試驗結果。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可宣稱「B群維生素可預防心臟病」或「降低心血管疾病風險」，本研究明確顯示CVD、CHD、MI、心血管死亡率之相對風險信賴區間均跨過1.0，未達統計顯著，此類聲稱將與本篇高品質meta-analysis直接矛盾，且可能違反台灣食品不得宣稱療效之相關法規。</li>
+          <li>不可將「中風風險降低」之數字無限上綱為「全面心血管保護」，兩者證據強度差異巨大，必須分開陳述。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為B群維生素同半胱胺酸調節功效之謹慎、分層陳述引用：</p>
+      <div class="quote-block">
+        大型meta-analysis彙整19篇隨機對照試驗（N=47,921）顯示，B群維生素補充可穩定降低血漿同半胱胺酸濃度，並使中風相對風險顯著降低12%（RR 0.88，95% CI: 0.82–0.95）；惟對心血管疾病、冠心病、心肌梗塞、心血管死亡與全因死亡率等其他終點則未觀察到統計顯著效果（Huang et al., Clinical Nutrition, 2012）。
+        <span class="warn-note">⚠️ 注意：不可簡化摘取「降低中風風險」而略去其餘終點無效之完整結果，對外文案須完整呈現此分層結果。</span>
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Combined B-vitamin supplementation on homocysteine and vascular outcomes in coronary heart disease: a meta-analysis, 2025（13篇研究，N=14,539）</td><td>較新的冠心病族群B群meta-analysis，可作為近期證據更新對照，結論同樣顯示對心血管事件與死亡率影響尚無定論</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

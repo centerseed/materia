@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>專利黃瓜萃取 CuberUp® — 供應商資料</title>
+<style>
+  :root {
+    --teal-deep: #0a5c60; --teal-mid: #0d8a90; --teal-light: #e5f5f6;
+    --amber: #a05c00; --amber-light: #fff6e0;
+    --red: #8b2020; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #d4dfe0; --text: #1a2a2b; --max-w: 960px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.7; font-size: 15px; }
+
+  .page-header { background: linear-gradient(135deg, var(--teal-deep) 0%, var(--teal-mid) 100%); color: #fff; padding: 36px 24px 28px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag { display: inline-block; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3); border-radius: 4px; padding: 2px 10px; font-size: 12px; margin-bottom: 12px; }
+  .page-header h1 { font-size: 24px; font-weight: 700; margin-bottom: 14px; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.7; font-weight: 500; margin-right: 4px; }
+
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 15px; font-weight: 700; color: var(--teal-deep); }
+  .section-body { padding: 20px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 12px; }
+  th { background: var(--teal-deep); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+
+  .pill { display: inline-block; border-radius: 4px; padding: 2px 8px; font-size: 12px; font-weight: 600; }
+  .pill-ok { background: var(--green-light); color: var(--green); }
+  .pill-warn { background: var(--amber-light); color: var(--amber); }
+  .pill-no { background: var(--red-light); color: var(--red); }
+
+  .notice-box { background: var(--amber-light); border-left: 4px solid var(--amber); border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13.5px; margin-top: 12px; }
+  .info-box { background: var(--teal-light); border-left: 4px solid var(--teal-mid); border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13.5px; margin-top: 12px; }
+
+  .study-block { border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+  .study-block:last-child { margin-bottom: 0; }
+  .study-title { font-weight: 700; font-size: 14px; color: var(--teal-deep); margin-bottom: 8px; }
+  .study-meta { font-size: 12.5px; color: var(--gray-3); margin-bottom: 10px; }
+  .result-badge { display: inline-block; background: var(--teal-light); color: var(--teal-deep); border-radius: 6px; padding: 4px 10px; font-weight: 700; font-size: 13px; margin: 2px 6px 2px 0; }
+
+  .img-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 14px; }
+  .img-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .img-card img { width: 100%; display: block; aspect-ratio: 4/3; object-fit: contain; background: var(--gray-2); cursor: zoom-in; padding: 6px; }
+  .img-card-meta { padding: 8px 12px 4px; display: flex; align-items: center; gap: 8px; }
+  .img-card-num { background: var(--teal-deep); color: #fff; border-radius: 4px; padding: 1px 7px; font-size: 11px; font-weight: 700; }
+  .img-card-title { font-size: 13px; font-weight: 600; color: var(--teal-deep); }
+  .img-card-body { padding: 4px 12px 12px; font-size: 12.5px; color: var(--gray-3); }
+
+  ul { padding-left: 20px; margin-bottom: 10px; }
+  li { margin-bottom: 4px; }
+
+  #lightbox { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
+  #lightbox.open { display: flex; }
+  #lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; }
+  #lightbox-caption { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.85); font-size: 13px; background: rgba(0,0,0,0.5); padding: 6px 14px; border-radius: 20px; pointer-events: none; }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag">供應商資料 · Supplier</div>
+    <h1>專利黃瓜萃取 CuberUp®（歐洲黃瓜萃取物・2500 倍濃縮）</h1>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>台灣代理商</strong>創百生技（Chambio）</div>
+      <div class="meta-item"><strong>原廠</strong>Euromed®（西班牙 / Dermapharm Group）</div>
+      <div class="meta-item"><strong>原料分類</strong>關節保健</div>
+      <div class="meta-item"><strong>來源文件</strong>Euromed® CuberUp®-20250708.pdf</div>
+      <div class="meta-item"><strong>整理日期</strong>2026-07-02</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🌿</span><h2>原料概覽</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>商品名 / 品牌</td><td>CuberUp®（Euromed® 品牌原料）</td></tr>
+          <tr><td>中文俗名</td><td>歐洲黃瓜萃取物 / 專利黃瓜萃取</td></tr>
+          <tr><td>原料來源</td><td>歐洲黃瓜（cucumber），Euromed® 自有嚴選種植園全程栽種、追溯</td></tr>
+          <tr><td>萃取技術</td><td>Pure-Hydro® 專利水萃技術（切向流過濾，超純水通過半透膜萃取活性成分），2500 倍濃縮，無化學／有機溶劑殘留</td></tr>
+          <tr><td>主要活性成分</td><td>胺基酸衍生物（含 L-瓜胺酸 L-citrulline、L-精胺酸 L-arginine 等）；具抗發炎、清除自由基、緩解疼痛作用的植化成分</td></tr>
+          <tr><td>標準化指標</td><td>—（文件未列出具體標準化百分比指標，僅標示 2500 倍濃縮）</td></tr>
+          <tr><td>建議每日用量</td><td>20 mg／日（每粒膠囊含 10 mg CuberUp®，每日 2 粒）</td></tr>
+          <tr><td>臨床實證劑量</td><td>每日兩粒膠囊（每粒 10 mg CuberUp®，合計 20 mg/日），連續 60 天</td></tr>
+          <tr><td>適用劑型</td><td>膠囊（文件示範劑型），理論上可製成粉劑等其他複方劑型</td></tr>
+          <tr><td>專利</td><td>EP1967079B1、DE602008003140D1、ES2341428T3（Pure-Hydro® 萃取製程專利）</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:14px; margin-top:4px">CuberUp® 為 Euromed® 開發之專利黃瓜萃取物，訴求以 2500 倍濃縮的水萃技術取得黃瓜中具抗發炎、抗氧化、促進膠原蛋白合成等活性的成分，應用於退化性關節炎（骨關節炎）之關節保健市場。原廠以「與阿司匹林、布洛芬相似的緩解疼痛和抗發炎作用」作為核心賣點論述（此為供應商行銷用語，非藥品等同宣稱，詳見下方「法規聲稱摘要」與「備註」）。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>市場背景（供應商引用之公開統計）</h2></div>
+    <div class="section-body">
+      <ul>
+        <li>台灣膝關節退化盛行率約 15%，超過 350 萬人受影響（資料來源：udn 新聞報導，引用衛福部統計，非原始統計文獻）</li>
+        <li>70 歲以上年長者退化性關節炎盛行率高達 70%</li>
+        <li>退化性關節炎有年輕化趨勢，高風險族群包括：經常行走、負重工作者、肥胖者、運動員、年長者、停經後婦女（公眾文獻：<em>Women's Health</em>, 2010, 6.4: 601-615）</li>
+      </ul>
+      <div class="notice-box">⚠️ 「台灣膝關節退化盛行率約 15%、超過 350 萬人」引用來源為新聞媒體報導（udn.com），非衛福部原始統計文獻，對外引用時建議追溯至衛福部原始數據源以確保正確性。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">供應商簡報說明退化性關節炎（骨關節炎）之發炎機轉，並提出 CuberUp® 可能介入的兩條路徑：(1) 抑制促發炎細胞激素／基質金屬蛋白酶路徑；(2) 透過瓜胺酸-精胺酸-一氧化氮路徑輔助關節修復與肌肉表現。</p>
+      <table>
+        <thead><tr><th>機制</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><strong>骨關節炎發炎循環（背景機轉，非 CuberUp® 專屬）</strong></td><td>關節受傷 → 軟骨細胞/纖維母細胞釋放警示蛋白 → 免疫細胞（巨噬細胞）收到警訊 → 轉為破壞型細胞（蝕骨細胞）→ 釋放促發炎因子 IL-1β、MMP-3 → 引發關節發炎、軟骨降解、骨重塑，形成惡性循環（公眾文獻：<em>Dentistry Journal</em>, 2024, 12.11: 357）</td></tr>
+          <tr><td><strong>抗發炎 / 抗氧化 / 軟骨滋養</strong></td><td>黃瓜萃取物之胺基酸衍生物具協助抗炎、滋養軟骨作用；其他成分具清除自由基、緩解疼痛作用。原廠論述其與阿司匹林、布洛芬（NSAID 類藥物）具「相似的緩解疼痛和抗發炎作用」（原廠文獻：<em>Applied Sciences</em>, 2022, 13.1: 485；公眾文獻：<em>Saudi Journal of Biological Sciences</em>, 2021, 28.8: 4334-4341；<em>Journal of Young Pharmacists</em>, 2010, 2.4: 365-368；<em>Biochemical and Biophysical Research Communications</em>, 2014, 454.1: 53-57）</td></tr>
+          <tr><td><strong>瓜胺酸的三維護航（Nitric Oxide 路徑）</strong></td><td>L-瓜胺酸（L-citrulline）→ 轉化為 L-精胺酸（L-arginine）→ 生成一氧化氮（Nitric Oxide）：舒張血管、運送營養物質，幫助關節修復；促進膠原蛋白合成、維護關節完整性與強度（修復）；提升蛋白質合成效率、提升肌肉運動表現（強化 / 續航）（公眾文獻：<em>Nutrients</em>, 2023, 15.3: 660；<em>Nutrients</em>, 2021, 13.8: 2498；<em>Journal of Cachexia, Sarcopenia and Muscle</em>, 2019, 10.4: 919-928）</td></tr>
+        </tbody>
+      </table>
+      <div class="info-box">📌 上述機轉多引用「公眾文獻」佐證黃瓜萃取物成分（胺基酸衍生物、瓜胺酸/精胺酸路徑）之一般生理作用，並非全部直接針對 CuberUp® 這個特定萃取物做的機轉研究；CuberUp® 專屬人體臨床數據見下方「臨床研究」。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🧪</span><h2>臨床研究</h2></div>
+    <div class="section-body">
+      <div class="notice-box" style="margin-bottom:16px">⚠️ 以下所有臨床結果數字均來自同一項人體臨床研究（原廠文獻：<em>Applied Sciences</em>, 2022, 13.1: 485），各投影片分別呈現不同指標。數據來源為供應商簡報引用之原廠文獻，建議尋找獨立同儕審查全文交叉驗證研究設計細節（如是否雙盲、隨機分組方式、統計檢定方法等，簡報未完整揭露）。</div>
+
+      <div class="study-block">
+        <div class="study-title">研究設計（唯一人體臨床試驗，供應商簡報中反覆引用）</div>
+        <div class="study-meta">研究類型：人體臨床試驗　｜　受試者：55 位 40 歲以上患有骨關節炎的受試者　｜　介入：每日食用兩粒 CuberUp® 膠囊（每粒含 10 mg CuberUp®，合計 20 mg/日）　｜　療程：連續 60 天　｜　對照：安慰劑組　｜　出處：原廠文獻 <em>Applied Sciences</em>, 2022, 13.1: 485</div>
+        <p>簡報摘要五大結果面向：1. 減少發炎；2. 穩定關節；3. 減少疼痛；4. 提升肌力；5. 改善行動力。以下依指標分述各項具體數字：</p>
+      </div>
+
+      <div class="study-block">
+        <div class="study-title">1. 發炎因子 IL-1β</div>
+        <div class="study-meta">測量方式：血漿 IL-1β 濃度</div>
+        <p><span class="result-badge">降低 28%</span> 促發炎因子 IL-1β 濃度。IL-1β 為強效促發炎細胞激素，會加劇關節發炎、增加疼痛感（公眾文獻：<em>Brain Research Reviews</em>, 2009, 60.1: 57-64）。</p>
+        <p style="margin-top:8px">圖表：<code>cuberup_p14.jpg</code> — 柱狀圖呈現食用 CuberUp® 前後血漿 IL-1β 濃度變化，降幅標示 28%。</p>
+      </div>
+
+      <div class="study-block">
+        <div class="study-title">2. 軟骨破壞酵素 MMP-3</div>
+        <div class="study-meta">測量方式：血漿 MMP-3 濃度</div>
+        <p><span class="result-badge">降低 13%</span> 血漿 MMP-3 濃度。MMP-3 會分解軟骨中的結構成分，破壞關節穩定性，進而引發退化與疼痛（公眾文獻：<em>Frontiers in Physiology</em>, 2021, 12: 663978）。</p>
+        <p style="margin-top:8px">圖表：<code>cuberup_p15.jpg</code> — 柱狀圖呈現食用前後 MMP-3 濃度變化，降幅標示 13%。</p>
+      </div>
+
+      <div class="study-block">
+        <div class="study-title">3. 膝蓋疼痛強度</div>
+        <div class="study-meta">測量方式：受試者膝蓋疼痛強度量表</div>
+        <p><span class="result-badge">降低 46%</span> 膝蓋疼痛強度；<span class="result-badge">比安慰劑組再降低 21%</span>。</p>
+        <p style="margin-top:8px">圖表：<code>cuberup_p16.jpg</code> — 呈現 CuberUp® 組與安慰劑組食用前後疼痛強度對比，CuberUp® 組降幅顯著大於安慰劑組。</p>
+      </div>
+
+      <div class="study-block">
+        <div class="study-title">4. 肌力表現指標（測力計）</div>
+        <div class="study-meta">測量方式：測力機（dynamometer）觀察受試者運動狀況，CuberUp® 組 vs 安慰劑組，食用前後對比</div>
+        <ul>
+          <li><strong>Average Peak Torque（Nm，平均峰值扭矩）</strong>：<span class="result-badge">提升 14%</span>（CuberUp® 組相較安慰劑組，標示統計顯著 *）</li>
+          <li><strong>Total Work（J，總作功量）</strong>：<span class="result-badge">提升 15%</span>（標示統計顯著 *）</li>
+          <li><strong>Average Power（W，平均功率）</strong>：<span class="result-badge">提升 18%</span>（標示統計顯著 *）</li>
+        </ul>
+        <p>簡報訴求：「動作更有力（肌力 up）」「不卡不中斷（穩定輸出）」「動久不喊累（肌耐力 up）」。</p>
+        <p style="margin-top:8px">圖表：<code>cuberup_p17.jpg</code> — 三張折線圖分別呈現 Average Peak Torque（130-170 Nm 區間）、Total Work（270-345 J 區間）、Average Power（30-50 W 區間），CuberUp® 組 vs 安慰劑組食用前後對比，標示統計顯著性 *。</p>
+      </div>
+
+      <div class="study-block">
+        <div class="study-title">5. 關節僵硬與活動困難程度</div>
+        <div class="study-meta">測量方式：受試者關節僵硬和活動困難程度量表，CuberUp® 組 vs 安慰劑組</div>
+        <p><span class="result-badge">降低 45%</span> 關節僵硬活動困難程度；<span class="result-badge">比安慰劑組再降低 17%</span>。（註：第 22 頁總結頁另標示「降低 45%、39%」，兩個數字並列但簡報未清楚說明 39% 對應之子指標，可能為僵硬度與活動困難度分別的數字，原始 PDF 未進一步拆解，建議查證原廠文獻全文確認。）</p>
+        <p style="margin-top:8px">圖表：<code>cuberup_p18.jpg</code> — 呈現關節僵硬活動困難程度食用前後對比。</p>
+      </div>
+
+      <div class="study-block">
+        <div class="study-title">6. 動作遲緩（Timed Up and Go 測試）</div>
+        <div class="study-meta">測量方式：Timed Up and Go（TUG）試驗——記錄受試者從坐在椅子上起身、來回走完 3 公尺並繞過椅子一圈再坐回原位所需的時間</div>
+        <p><span class="result-badge">降低 8.5%</span> 動作卡頓（完成 TUG 測試所需時間減少 8.5%）。</p>
+        <p style="margin-top:8px">圖表：<code>cuberup_p19.jpg</code> — 呈現 TUG 測試時間食用前後對比。</p>
+      </div>
+
+      <div class="notice-box">📌 保健食品證據評估提醒：本研究為人體臨床試驗（非僅細胞或動物實驗），且有明確受試者人數（N=55）、療程（60 天）與安慰劑對照組，數字包含生物標記（IL-1β、MMP-3）、主觀症狀量表（疼痛、僵硬）及客觀功能性測試（測力計、TUG）多重面向，屬於「有研究佐證」等級證據。惟因僅來自單一原廠委託研究、且簡報未揭露完整統計方法（如 p 值僅以 * 號標示、未列出精確數值），對外文案應標註「原廠臨床研究」，避免使用「臨床證實可治療骨關節炎」等藥品等級用語。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>原廠背景 / 品質保證</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>集團沿革</td><td>1919 年 Madaus 博士三兄弟創立製藥集團，專注醫藥產品；1971 年於西班牙成立 Euromed®，專注植物提取物；2019 年被德國知名製藥公司 Dermapharm Group 收購</td></tr>
+          <tr><td>資歷</td><td>50 年植物藥理專家資歷，歐洲植萃領導大廠</td></tr>
+          <tr><td>認證</td><td>具 GMP 認證的植物活性藥物成分（API）製造商</td></tr>
+          <tr><td>垂直整合管理</td><td>種子 → 栽種 → 運送 → 最終萃取物，全程管控（嚴選種植園）</td></tr>
+          <tr><td>萃取製程</td><td>Pure-Hydro® 專利水萃技術：切向流過濾，原料經半透膜使用超純水過濾活性成分，2500 倍濃縮；無化學、有機溶劑殘留，防止植化素氧化，提高活性成分萃取率</td></tr>
+          <tr><td>品質信賴認證（4 大保證）</td><td>(1) 身分驗證：從生長收穫植物開始確保完整性、生物活性與可追溯性；(2) 純度確認：控制過程與大量安全測試確認成分純淨、不含有害污染物；(3) 效力測試：嚴格按美國、歐洲藥典專著進行實驗室測試確保組成及功效性；(4) 每個生產批次均經過 20 項實驗室測試</td></tr>
+          <tr><td>五大特色（供應商總結）</td><td>①歐洲植萃大廠，50 年資歷、製藥等級、全程可溯源、垂直化整合管理　②專利水萃技術 Pure-Hydro®　③品質信賴認證、完整檢驗測試　④臨床實證：有效改善關節問題（詳臨床研究）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💊</span><h2>建議劑量與應用</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>內容</th></tr></thead>
+        <tbody>
+          <tr><td>建議每日攝取量</td><td>20 mg／日（供應商訴求「改善關節，不需高劑量，20 mg 輕鬆搞定」）</td></tr>
+          <tr><td>臨床驗證劑型與劑量</td><td>每粒膠囊含 10 mg CuberUp®，每日 2 粒（共 20 mg），連續 60 天觀察到上述臨床效果</td></tr>
+        </tbody>
+      </table>
+      <p style="margin-top:8px; font-weight:600">複方搭配建議（供應商簡報「加乘行動力，關節照護更全面」）：</p>
+      <ul>
+        <li>口服 3D 玻尿酸</li>
+        <li>非變性二型膠原蛋白（UC-II）</li>
+        <li>微活化薑黃素</li>
+        <li>早摘型橄欖果萃取物</li>
+        <li>山竹果萃取物</li>
+        <li>灌鈣胜肽酪蛋白磷酸肽（CPP）</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🖼️</span><h2>簡報圖片資產（點擊放大，共 23 張）</h2></div>
+    <div class="section-body">
+      <div class="img-gallery">
+        <div class="img-card"><img src="images/cuberup/cuberup_p01.jpg" alt="封面：歐洲黃瓜萃取物 2500倍濃縮 專利" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P1</span><span class="img-card-title">封面</span></div><div class="img-card-body">歐洲黃瓜萃取物、2500 倍濃縮、專利，品牌視覺封面</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p02.jpg" alt="關節退化盛行率統計" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P2</span><span class="img-card-title">市場背景：關節退化盛行率</span></div><div class="img-card-body">台灣膝關節退化盛行率約 15%、超過 350 萬人、70 歲以上盛行率 70%（引用 udn 新聞報導衛福部統計）</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p03.jpg" alt="退化性關節炎年輕化與高風險族群" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P3</span><span class="img-card-title">高風險族群</span></div><div class="img-card-body">退化性關節炎年輕化，高風險族群：經常行走負重工作者、肥胖者、運動員、年長者、停經後婦女</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p04.jpg" alt="骨關節炎發炎機轉示意圖" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P4</span><span class="img-card-title">骨關節炎發炎機轉</span></div><div class="img-card-body">關節受傷→警示蛋白釋放→免疫細胞（巨噬細胞）→蝕骨細胞→促發炎因子 IL-1β/MMP-3→軟骨降解、骨重塑惡性循環示意圖</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p05.jpg" alt="黃瓜萃取物與NSAID類似作用論述" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P5</span><span class="img-card-title">機轉論述：抗炎/止痛</span></div><div class="img-card-body">黃瓜萃取物具與阿司匹林、布洛芬相似之緩解疼痛和抗發炎作用論述；胺基酸衍生物協助抗炎滋養軟骨</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p06.jpg" alt="瓜胺酸三維護航機轉圖" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P6</span><span class="img-card-title">瓜胺酸機轉：修復/強化/續航</span></div><div class="img-card-body">L-citrulline→L-arginine→一氧化氮路徑機轉圖，涵蓋修復（膠原蛋白合成）、強化（蛋白質合成）、續航（血管舒張運送營養）三面向</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p07.jpg" alt="五大特色總覽" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P7</span><span class="img-card-title">五大特色總覽</span></div><div class="img-card-body">歐洲植萃大廠、專利水萃技術 Pure-Hydro®、品質信賴認證、臨床實證五大特色圖示</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p08.jpg" alt="Euromed集團沿革時間軸" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P8</span><span class="img-card-title">特色1：集團沿革</span></div><div class="img-card-body">1919 Madaus三兄弟創立製藥集團→1971 Euromed成立於西班牙→2019 Dermapharm Group收購，時間軸圖</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p09.jpg" alt="垂直整合管理流程圖" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P9</span><span class="img-card-title">特色2：垂直化整合管理</span></div><div class="img-card-body">種子→栽種→運送→最終萃取物，全程管控流程圖，嚴選種植園</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p10.jpg" alt="Pure-Hydro專利水萃技術示意圖" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P10</span><span class="img-card-title">特色3：專利水萃技術</span></div><div class="img-card-body">切向流過濾示意圖，原料經半透膜、超純水過濾，2500倍濃縮，專利號 EP1967079B1 等三項專利標示</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p11.jpg" alt="品質信賴認證四項保證" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P11</span><span class="img-card-title">特色4：品質信賴認證</span></div><div class="img-card-body">身分驗證、純度確認、效力測試、每批20項實驗室測試，100%品質信賴認證圖示</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p12.jpg" alt="西班牙功能營養研究權威" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P12</span><span class="img-card-title">特色5：研究權威地位</span></div><div class="img-card-body">歐洲製藥級植萃大廠、西班牙功能營養研究權威定位圖</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p13.jpg" alt="人體臨床研究設計總覽" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P13</span><span class="img-card-title">臨床研究設計總覽</span></div><div class="img-card-body">55位40歲以上骨關節炎受試者，每日2粒（10mg/粒）CuberUp®，連續60天；量測退化性膝關節炎量表、血漿IL-1β/MMP-3、測力機。五項結果：減少發炎、穩定關節、減少疼痛、提升肌力、改善行動力</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p14.jpg" alt="IL-1β降低28%柱狀圖" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P14</span><span class="img-card-title">臨床結果：IL-1β 降低28%</span></div><div class="img-card-body">柱狀圖呈現食用前後血漿IL-1β濃度變化，降幅28%，說明IL-1β加劇關節發炎與疼痛感之機轉</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p15.jpg" alt="MMP-3降低13%柱狀圖" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P15</span><span class="img-card-title">臨床結果：MMP-3 降低13%</span></div><div class="img-card-body">柱狀圖呈現食用前後MMP-3濃度變化，降幅13%，說明MMP-3分解軟骨結構成分之機轉</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p16.jpg" alt="膝蓋疼痛降低46%對比圖" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P16</span><span class="img-card-title">臨床結果：疼痛降低46%</span></div><div class="img-card-body">CuberUp®組 vs 安慰劑組疼痛強度食用前後對比，CuberUp®組降低46%，比安慰劑組再多降低21%</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p17.jpg" alt="肌力三指標折線圖" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P17</span><span class="img-card-title">臨床結果：肌力表現三指標</span></div><div class="img-card-body">三張折線圖：Average Peak Torque提升14%、Total Work提升15%、Average Power提升18%，CuberUp®組 vs 安慰劑組，標示統計顯著*</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p18.jpg" alt="關節僵硬活動困難降低45%" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P18</span><span class="img-card-title">臨床結果：僵硬/活動困難降低45%</span></div><div class="img-card-body">關節僵硬和活動困難程度食用前後對比，降低45%，比安慰劑組再降低17%</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p19.jpg" alt="TUG測試降低8.5%" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P19</span><span class="img-card-title">臨床結果：動作遲緩降低8.5%</span></div><div class="img-card-body">Timed Up and Go試驗時間食用前後對比，降低8.5%動作卡頓</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p20.jpg" alt="建議劑量20mg示意圖" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P20</span><span class="img-card-title">建議劑量</span></div><div class="img-card-body">每日攝取20mg，「改善關節，不需高劑量」訴求圖</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p21.jpg" alt="複方搭配原料清單" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P21</span><span class="img-card-title">複方搭配建議</span></div><div class="img-card-body">口服3D玻尿酸、非變性二型膠原蛋白、微活化薑黃素、早摘型橄欖果萃取物、山竹果萃取物、灌鈣胜肽酪蛋白磷酸肽，關節照護全面加乘</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p22.jpg" alt="總結頁：所有臨床數字彙整" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P22</span><span class="img-card-title">總結頁：全部數字彙整</span></div><div class="img-card-body">彙整所有訴求：兩個月有效減少疼痛降低46%、每日20mg、垂直整合管理、Pure-Hydro®專利水萃2500倍濃縮、瓜胺酸穩定關節、肌力指標增加14%/15%/18%、關節僵硬活動困難降低45%、39%、MMP-3降低13%、IL-1β降低28%、動作遲緩降低8.5%、歐洲製藥級植萃大廠</div></div>
+        <div class="img-card"><img src="images/cuberup/cuberup_p23.jpg" alt="結尾聯絡資訊" onclick="openLightbox(this)"><div class="img-card-meta"><span class="img-card-num">P23</span><span class="img-card-title">結尾／聯絡資訊</span></div><div class="img-card-body">創百生技聯絡資訊：service@chambio.com、04-2296-0965，「臻於完美/止於至善」品牌標語</div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚖️</span><h2>法規聲稱摘要 / 對外措辭建議</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>面向</th><th>可對外陳述</th><th>不可對外陳述（禁止用語）</th></tr></thead>
+        <tbody>
+          <tr><td>臨床實證</td><td><span class="pill pill-ok">可講</span> 「原廠人體臨床研究顯示，CuberUp® 補充 60 天後，血漿 IL-1β、MMP-3 濃度及主觀疼痛量表分數皆有下降，測力計肌力指標與 Timed Up and Go 表現亦有改善」</td><td><span class="pill pill-no">不可講</span> 「CuberUp® 可治療骨關節炎」「可取代消炎止痛藥」「與阿司匹林/布洛芬藥效相同」等暗示等同藥品療效之用語</td></tr>
+          <tr><td>機轉／成分</td><td><span class="pill pill-ok">可講</span> 「含瓜胺酸、精胺酸等胺基酸衍生物，為一氧化氮生成路徑之前驅物質，有助於維持關節與肌肉正常生理機能」</td><td><span class="pill pill-no">不可講</span> 「能降低發炎指標數值」「改善病症」等醫療化字眼（依 CLAUDE.md 全案禁止規則：不得暗示保健品能治療、改善病症、降低數值）</td></tr>
+          <tr><td>製程／來源</td><td><span class="pill pill-ok">可講</span> 「Euromed® 專利 Pure-Hydro® 水萃技術，2500 倍濃縮，GMP 認證植物活性藥物成分製造商」</td><td>—</td></tr>
+        </tbody>
+      </table>
+      <div class="notice-box">⚠️ 本文件所有「證據 vs 對外措辭」判斷僅供內部原料評估參考，實際對外文案仍須交由法規／法務審核，並依台灣衛福部保健食品廣告相關規範最終把關。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>備註</h2></div>
+    <div class="section-body">
+      <ul>
+        <li>本 PDF 為供應商（創百生技代理 Euromed® CuberUp®）之行銷簡報，非原廠完整技術資料手冊（technical data sheet），因此缺少：詳細規格檢驗數據表、穩定性數據、精確標準化百分比指標、完整統計方法（p 值僅以 * 星號標示、未列精確數值）。</li>
+        <li>簡報中所有人體臨床數字均出自同一篇原廠文獻 <em>Applied Sciences</em>, 2022, 13.1: 485，建議取得該篇全文以核實統計方法、隨機分組方式、是否雙盲等細節。</li>
+        <li>第 22 頁總結頁出現「降低45%、39%」兩個數字並列於「改善關節僵硬活動困難」項目，但簡報內文（第 18 頁）僅明確說明 45%（及對安慰劑組再降 17%），39% 之對應子指標未在簡報中清楚拆解說明，需查證原文獻確認。</li>
+        <li>文件末頁聲明：本文件內容未經衛福部或 FDA 證實，不得作為功效宣稱、診斷、治療或預防疾病用途，僅供內部研究評估，不得做商業用途。整理本 HTML 時已遵循此限制，僅作內部原料知識庫用途。</li>
+        <li>台灣代理商聯絡方式：service@chambio.com／04-2296-0965（創百生技）。</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

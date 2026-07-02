@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PureWay-C 維生素C-脂質代謝物之人體吸收與CRP/氧化LDL 影響 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .section-body p { margin-bottom: 10px; }
+  .section-body ul, .section-body ol { margin: 6px 0 12px 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  .img-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .img-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fff; }
+  .img-card img { width: 100%; display: block; aspect-ratio: 4/3; object-fit: contain; background: var(--gray-2); cursor: zoom-in; padding: 8px; }
+  .img-card-meta { padding: 8px 12px 4px; display: flex; align-items: center; gap: 8px; }
+  .img-card-num { background: var(--indigo); color: #fff; border-radius: 4px; padding: 1px 7px; font-size: 11px; font-weight: 700; }
+  .img-card-title { font-size: 13px; font-weight: 600; color: var(--indigo); }
+  .img-card-body { padding: 4px 12px 12px; font-size: 12.5px; color: var(--gray-3); }
+  #lightbox { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
+  #lightbox.open { display: flex; }
+  #lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; }
+  #lightbox-caption { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.85); font-size: 13px; background: rgba(0,0,0,0.5); padding: 6px 14px; border-radius: 20px; pointer-events: none; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row"><span class="hdr-tag rct">隨機對照試驗 · RCT</span><span class="hdr-tag q1">Q3 · IF 1.9</span><span class="hdr-tag coi">COI 待留意</span></div>
+    <h1>PureWay-C 維生素C-脂質代謝物之人體吸收與CRP/氧化LDL 影響</h1>
+    <p class="subtitle">Vitamin C-lipid metabolites: uptake and retention and effect on plasma C-reactive protein and oxidized LDL levels in healthy volunteers</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Dario Pancorbo, Carlos Vazquez, Mary Ann Fletcher</div>
+      <div class="meta-item"><strong>期刊</strong>Medical Science Monitor</div>
+      <div class="meta-item"><strong>年份</strong>2008 · 14(11):CR547-551</div>
+      <div class="meta-item"><strong>PMID</strong>18971870</div>
+      <div class="meta-item"><strong>DOI</strong>—（Med Sci Monit 未提供 DOI 索引）</div>
+      <div class="meta-item"><strong>PMC</strong>—</div>
+    </div>
+  </div>
+</header>
+<div class="layout">
+
+  <!-- 可信度評估 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★</span><span class="star-empty">☆☆☆</span></div>
+          <div class="cred-sub">Medical Science Monitor · Q3 · IF≈1.9</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">隨機雙盲人體試驗（四臂平行/交叉）（N=40（4組各N=10））</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">摘要/全文可取得程度</div>
+        </div>
+        <div class="cred-card" style="background: var(--amber-light);">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val">⚠️ 高度疑慮</div>
+          <div class="cred-sub">供應商PDF直接引用本研究作為「OxLDL下降8.4%」數字來源，本研究測試的即是原廠 PureWay-C 原料，雖無法直接確認資助聲明，但研究設計高度聚焦於單一商業配方，應視為原廠導向研究</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7"><strong>綜合評估：</strong>本研究屬cardiovascular / inflammation領域證據，隨機雙盲人體試驗（四臂平行/交叉）（N=40（4組各N=10）），發表於Medical Science Monitor（Q3）。於本原料 liposomax-vitc 之整體證據體系中，為支持性佐證之一，須與其COI背景及研究局限一併解讀，不宜單獨作為最高強度聲稱之唯一依據。</p>
+    </div>
+  </div>
+
+  <!-- 研究背景與目的 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:14px">氧化型低密度脂蛋白（oxidized LDL，OxLDL）與 C 反應蛋白（CRP）是心血管疾病風險評估中常用的生物標記，分別反映脂蛋白氧化程度與全身性發炎狀態，兩者長期偏高與動脈粥狀硬化風險上升相關。維生素C 作為抗氧化劑，理論上可能透過降低氧化壓力間接影響這兩項標記，但傳統維生素C 因吸收率限制，臨床觀察到的效果並不一致。</p><p style="margin-bottom:14px">本研究測試的 PureWay-C（維生素C-脂質代謝物複合物）技術，是供應商 liposomax-vitc 原廠 One Innovation Labs 的核心技術品牌，其原理是將抗壞血酸與三酸甘油脂的脂質代謝物及柑橘生物類黃酮結合（並非傳統磷脂雙層微脂體包覆），主張此複合形式可提升細胞吸收與抗氧化效益。</p><p style="margin-bottom:14px">本研究是供應商 liposomax-vitc PDF 中「原廠4項研究結論」裡「OxLDL下降8.4%」這項數字的直接出處，也是評估此項供應商行銷主張是否有獨立文獻佐證的關鍵一環。</p>
+    </div>
+  </div>
+
+  <!-- 研究設計 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table><thead><tr><th>項目</th><th>說明</th></tr></thead><tbody><tr><td>試驗類型</td><td>隨機雙盲試驗，40名受試者分為4組（各N=10）</td></tr><tr><td>受試者</td><td>健康志願者，實驗前維持低維生素C 飲食14天，隔夜禁食</td></tr><tr><td>介入方式</td><td>單次口服1000mg：(1) 抗壞血酸(AA) (2) 鈣抗壞血酸(CaA) (3) PureWay-C維生素C-脂質代謝物 (4) Ester-C（鈣抗壞血酸-鈣蘇糖酸-脫氫抗壞血酸複合物）</td></tr><tr><td>對照組</td><td>以AA、CaA、Ester-C 三種常見維生素C 形式作為PureWay-C 的活性對照組（無安慰劑組）</td></tr><tr><td>追蹤時間</td><td>給藥後多時間點（1、2、4、6小時）測血清維生素C；另測血漿CRP、OxLDL濃度；24小時尿液測草酸鹽與尿酸</td></tr><tr><td>主要終點</td><td>血清維生素C 濃度曲線；血漿CRP、OxLDL 濃度變化</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <!-- 作用機制 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">PureWay-C（維生素C-脂質代謝物）→ 吸收與抗氧化/抗發炎路徑
+├─ 層次一 — 腸道吸收層次（給藥後0-1小時）
+│   ├─ 脂質代謝物（三酸甘油脂衍生物）作為抗壞血酸的「載體」，
+│   │   理論上增加腸道細胞膜親和性，加速穿膜吸收
+│   └─ 柑橘生物類黃酮：具協同抗氧化作用，可能延緩維生素C 在體內的氧化降解
+├─ 層次二 — 血清濃度層次（1-6小時）
+│   ├─ PureWay-C 組：血清維生素C 濃度顯著高於AA、CaA、Ester-C 組
+│   └─ 於1、2、4、6小時各時間點皆顯著高於CaA組（多時間點皆達顯著）
+└─ 層次三 — 全身性氧化壓力/發炎標記層次（下游效應）
+    ├─ 血漿OxLDL：PureWay-C 組下降8.4%（相較服用前基線）
+    └─ 血漿CRP：PureWay-C 組降幅大於其他三種維生素C 形式</pre>
+      <div class="mech-detail"><h4>脂質代謝物複合技術 vs 傳統磷脂微脂體包覆的差異</h4><p>需特別注意，PureWay-C 的技術原理是「抗壞血酸+脂質代謝物+生物類黃酮」的複合配方，與供應商 PDF 中反覆強調的「磷脂雙層微脂體包覆」（如TEM驗證的球狀微脂體結構）在化學組成上並不完全相同——後者是本 PDF 主要論述的技術（LiposoMax／Liposomal PureWay-C），前者（本研究測試對象）是較早期的PureWay-C原始配方。供應商後續產品「LiposoMax Liposomal PureWay-C」結合了兩種技術路徑，但本研究本身測試的是2008年的原始PureWay-C配方，對外引用時應註明技術世代差異，避免混淆。</p></div><div class="mech-detail"><h4>OxLDL/CRP改善屬合理的生物標記證據，非疾病終點證據</h4><p>OxLDL 與 CRP 皆為生物標記（biomarker），依保健食品證據評估原則，此類數據是合理的保健食品證據型別，可用以說明「有研究佐證」，但不可過度延伸為「降低心血管疾病風險」或「治療」相關病症，兩者是不同層級的聲稱。</p></div>
+    </div>
+  </div>
+
+  <!-- 核心數據 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">PureWay-C 與其他維生素C 形式之吸收與生物標記比較（N=40，4組各N=10）</p><table><thead><tr><th>指標</th><th>PureWay-C組</th><th>比較組</th><th>結果方向</th></tr></thead><tbody><tr><td>血清維生素C（1-6小時各時間點）</td><td>顯著較高</td><td>CaA組</td><td>PureWay-C 顯著優於CaA（多時間點）</td></tr><tr><td>血清維生素C 絕對峰值</td><td>四組中最高</td><td>AA、CaA、Ester-C</td><td>PureWay-C 組整體最高</td></tr><tr><td>血漿OxLDL</td><td>下降8.4%（相較服用前）</td><td>服用前基線</td><td>組內前後比較，非對照組間比較</td></tr><tr><td>血漿CRP</td><td>降幅優於其他組</td><td>AA、CaA、Ester-C</td><td>PureWay-C 組降幅較大</td></tr></tbody></table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px; margin-bottom:14px">⚠️ 「OxLDL下降8.4%」為PureWay-C組服用前後的組內比較（before-after），並非與安慰劑或其他維生素C 形式的組間統計顯著性比較；供應商PDF行銷素材將其呈現為「原廠研究結論」時，若未註明這是組內前後變化而非嚴謹的組間對照結果，措辭上應更保守。</p>
+    </div>
+  </div>
+
+  <!-- 研究局限 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list"><li><div class="limit-num">1</div><span><strong>無安慰劑對照組</strong>：本研究以四種不同維生素C 形式互相比較，缺乏安慰劑（未補充維生素C）對照組，故「OxLDL下降8.4%」無法排除單純禁食/生活型態/時間效應的干擾</span></li><li><div class="limit-num">2</div><span><strong>樣本數小且每組僅10人</strong>：N=40 但分四組，每組僅10人，統計檢定力有限，尤其對OxLDL、CRP這類變異度較大的發炎標記而言，小樣本結果的穩定性需謹慎看待</span></li><li><div class="limit-num">3</div><span><strong>單次劑量急性研究，非長期補充試驗</strong>：僅測單次1000mg劑量後的急性反應，OxLDL/CRP 的改善是否能在長期每日補充後持續或加強，本研究未能回答</span></li><li><div class="limit-num">4</div><span><strong>期刊等級較低、原廠關聯度高</strong>：Medical Science Monitor 為Q3等級期刊，且測試對象為單一商業配方（PureWay-C），研究設計高度聚焦於單一原廠產品，需視為導向性較強的研究</span></li></ul>
+    </div>
+  </div>
+
+  <!-- 與其他論文的交叉評述 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Carr 2025 獨立範疇性回顧）的關係</div>
+        <div class="cross-ref-body"><p>本研究未被 Carr 2025 納入（Carr 回顧僅納入2016-2024年研究，本研究為2008年較早期文獻，且測試技術為PureWay-C複合物而非嚴格定義的磷脂微脂體），顯示本研究與近年主流微脂體維生素C 研究體系存在技術定義上的世代差異，供應商PDF引用時應留意此點。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Purpura 2024 血漿/白血球RCT）的關係</div>
+        <div class="cross-ref-body"><p>兩篇皆顯示脂質相關遞送技術可提升血清/血漿維生素C 濃度，方向一致；但技術原理不同（PureWay-C為脂質代謝物複合物，Purpura測的是真正磷脂微脂體），且本研究額外測了CRP/OxLDL等心血管相關生物標記，是本清單中唯一涵蓋心血管發炎標記的人體研究。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（Gopi 2021 交叉RCT）的關係</div>
+        <div class="cross-ref-body"><p>兩篇皆為維生素C 相關遞送技術的人體研究，但配方、劑型、量測終點皆不同，無法直接比較數字。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（Żmuda 2024 粉劑交叉RCT）的關係</div>
+        <div class="cross-ref-body"><p>技術路徑不同，無直接數據關聯。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_05（Davis 2016 缺血再灌流保護試驗）的關係</div>
+        <div class="cross-ref-body"><p>兩篇皆測了維生素C 相關技術對抗氧化/發炎相關生物標記的影響，方向皆支持保護效果；但Davis 2016使用嚴謹的安慰劑對照與功能誘發模型（缺血再灌流），本研究缺乏安慰劑對照，證據嚴謹度較低，建議優先引用Davis 2016作為抗氧化功能佐證。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_07（Weeks 2007 細胞吸收/抗氧化研究）的關係</div>
+        <div class="cross-ref-body"><p>本研究與 rsc_07（Weeks 2007 絕對吸收/DPPH研究）為同一原廠技術（PureWay-C）在不同層次（人體 vs 體外細胞）的證據，兩篇合併可建構「體外機轉→人體吸收→人體生物標記改善」的證據鏈，是供應商PDF「233%細胞吸收提升」與「OxLDL下降8.4%」兩項核心數字的原始文獻基礎。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_08（Weeks 2007 神經突生成/傷口癒合）的關係</div>
+        <div class="cross-ref-body"><p>同為PureWay-C原廠技術之體外機轉研究，是供應商PDF「8倍神經突生長」「3倍黏附效果」數字的原始文獻基礎，與本研究共同構成PureWay-C技術體系的證據來源，惟本研究是四項原廠結論中唯一有人體數據支持者，其餘三項（233%、8倍、3倍）皆為體外細胞實驗數據。</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 對產品開發的啟示 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok"><h4>✅ 可積極聲稱（有明確研究支持，惟措辭須符合證據型別）</h4><ul><li>可引用「一項納入40名健康受試者的研究顯示，PureWay-C 維生素C-脂質代謝物於服用後血清維生素C 濃度顯著高於鈣抗壞血酸等傳統形式（多時間點比較）」作為吸收率佐證</li><li>可用於說明「PureWay-C 相關人體研究測量了血漿CRP、氧化LDL等心血管相關生物標記」，作為機轉層次的合理保健食品證據，惟措辭限定在「觀察到生物標記變化」而非「臨床心血管保護」</li></ul></div>
+      <div class="impl-section impl-warn"><h4>⚠️ 需謹慎的聲稱（需附加條件或搭配獨立文獻）</h4><ul><li>「OxLDL下降8.4%」為服用前後組內比較，非與安慰劑或其他組的統計顯著性比較，對外引用時應加註「服用前後觀察值變化，非安慰劑對照結果」，不可暗示為嚴謹的組間對照驗證效果</li><li>本研究測試對象為PureWay-C 早期複合配方，與供應商目前主推的LiposoMax微脂體磷脂包覆技術在化學組成上略有差異，跨技術世代引用時應加註說明</li></ul></div>
+      <div class="impl-section impl-no"><h4>❌ 不建議的聲稱（法規禁止／證據不足／層級混淆）</h4><ul><li>不可宣稱「臨床證實降低心血管疾病風險」或「改善動脈硬化」——OxLDL/CRP 為生物標記而非疾病終點，且本研究缺乏安慰劑對照，不足以支持疾病風險層級的聲稱</li><li>不可省略「無安慰劑組」「單次劑量」「樣本數小（每組N=10）」等限制條件而逕自引用為決定性證據</li></ul></div>
+    </div>
+  </div>
+
+  <!-- 建議引用格式 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">強聲稱（完整數字＋研究限制註記）：</p>
+      <div class="quote-block">一項納入40名健康受試者（分4組，各N=10）的隨機雙盲研究顯示，PureWay-C 維生素C-脂質代謝物於口服後血清維生素C 濃度顯著高於鈣抗壞血酸等傳統形式（多個時間點比較），且服用後血漿氧化型LDL較服用前下降8.4%（Pancorbo et al., Med Sci Monit, 2008；N=40；本研究無安慰劑對照組，OxLDL 數字為組內前後比較）。</div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">弱聲稱（謹慎措辭）：</p>
+      <div class="quote-block">早期人體研究顯示PureWay-C 維生素C-脂質代謝物可能較傳統維生素C 形式吸收更佳，並觀察到氧化型LDL的組內下降趨勢，惟研究缺乏安慰劑對照、樣本數小，且測試配方為較早期技術世代，解讀需謹慎（Pancorbo et al., 2008）。</div>
+    </div>
+  </div>
+
+  <!-- 文件版本紀錄 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table><thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead><tbody>
+        <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+
+</div>
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

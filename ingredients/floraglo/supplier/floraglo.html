@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>葉黃素（FloraGLO）— 供應商資料</title>
+<style>
+  :root {
+    --teal-deep: #0a5c60; --teal-mid: #0d8a90; --teal-light: #e5f5f6;
+    --amber: #a05c00; --amber-light: #fff6e0;
+    --red: #8b2020; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #d4dfe0; --text: #1a2a2b; --max-w: 900px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.7; font-size: 15px; }
+
+  .page-header { background: linear-gradient(135deg, var(--teal-deep) 0%, var(--teal-mid) 100%); color: #fff; padding: 36px 24px 28px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag { display: inline-block; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3); border-radius: 4px; padding: 2px 10px; font-size: 12px; margin-bottom: 12px; }
+  .page-header h1 { font-size: 24px; font-weight: 700; margin-bottom: 14px; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.7; font-weight: 500; margin-right: 4px; }
+
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 15px; font-weight: 700; color: var(--teal-deep); }
+  .section-body { padding: 20px; }
+  .section-body h3 { font-size: 14px; color: var(--teal-deep); margin: 16px 0 8px; }
+  .section-body h3:first-child { margin-top: 0; }
+  .section-body ul { margin: 4px 0 4px 20px; }
+  .section-body li { margin-bottom: 4px; font-size: 14px; }
+  .section-body p { font-size: 14px; margin-bottom: 8px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 12px; }
+  th { background: var(--teal-deep); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+
+  .pill { display: inline-block; border-radius: 4px; padding: 2px 8px; font-size: 12px; font-weight: 600; }
+  .pill-ok { background: var(--green-light); color: var(--green); }
+  .pill-warn { background: var(--amber-light); color: var(--amber); }
+  .pill-no { background: var(--red-light); color: var(--red); }
+
+  .notice-box { background: var(--amber-light); border-left: 4px solid var(--amber); border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13.5px; margin-top: 12px; }
+
+  .study-card { border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; margin-bottom: 14px; }
+  .study-card:last-child { margin-bottom: 0; }
+  .study-card h4 { font-size: 13.5px; color: var(--teal-deep); margin-bottom: 6px; }
+  .study-card .meta { font-size: 12.5px; color: var(--gray-3); margin-bottom: 8px; }
+
+  .img-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .img-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .img-card img { width: 100%; display: block; aspect-ratio: 4/3; object-fit: contain; background: var(--gray-2); cursor: zoom-in; padding: 6px; }
+  .img-card-meta { padding: 8px 12px 4px; display: flex; align-items: center; gap: 8px; }
+  .img-card-num { background: var(--teal-deep); color: #fff; border-radius: 4px; padding: 1px 7px; font-size: 11px; font-weight: 700; }
+  .img-card-title { font-size: 13px; font-weight: 600; color: var(--teal-deep); }
+  .img-card-body { padding: 4px 12px 12px; font-size: 12.5px; color: var(--gray-3); }
+
+  #lightbox { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
+  #lightbox.open { display: flex; }
+  #lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; }
+  #lightbox-caption { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.85); font-size: 13px; background: rgba(0,0,0,0.5); padding: 6px 14px; border-radius: 20px; pointer-events: none; }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag">供應商資料 · Supplier</div>
+    <h1>葉黃素（FloraGLO Lutein）— 陳俊榮教授演講摘要</h1>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>供應商</strong>創百（台灣代理商，文件校對標示）</div>
+      <div class="meta-item"><strong>原廠</strong>—</div>
+      <div class="meta-item"><strong>原料分類</strong>眼睛健康／認知功能／抗氧化</div>
+      <div class="meta-item"><strong>來源文件</strong>全齡葉黃素 陳俊榮教授演講摘要 (校)創百.pdf</div>
+      <div class="meta-item"><strong>整理日期</strong>2026-07-02</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🌿</span><h2>原料概覽</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>INCI / 化學名</td><td>葉黃素（Lutein）／ 玉米黃質（Zeaxanthin），類胡蘿蔔素系列</td></tr>
+          <tr><td>原料來源</td><td>—（本文件為學術演講摘要，未指明特定原料品牌來源；文件標題含「FloraGLO」對應之葉黃素原料類別）</td></tr>
+          <tr><td>主要活性成分</td><td>葉黃素、玉米黃質；食物中兩者大約呈 5:1 比例</td></tr>
+          <tr><td>標準化指標</td><td>—</td></tr>
+          <tr><td>建議用量</td><td>推薦每日攝取量約 10 毫克（一般建議值，非特定品牌劑量）</td></tr>
+          <tr><td>劑型</td><td>—</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:14px; margin-top:4px">本文件為陳俊榮教授之「全齡葉黃素」演講摘要，內容涵蓋葉黃素在懷孕期、嬰幼兒、兒童、青少年到成人與老年各生命階段的營養角色。葉黃素必須從食物中獲取，人體無法自行合成，在母體、胎兒、嬰幼兒及成人的眼睛、大腦、皮膚等組織中具有顯著累積現象。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+
+      <h3>眼睛健康與視覺保護</h3>
+      <ul>
+        <li>葉黃素與玉米黃質主要集中在視網膜、黃斑部及水晶體</li>
+        <li>能吸收藍光，減少藍光引起的高能量傷害</li>
+        <li>提高對比敏感度、減少炫光現象、改善視覺反應時間與視覺記憶力</li>
+        <li>對幼兒與學齡期兒童而言，葉黃素在感光細胞及視網膜外重層的發展上扮演關鍵角色</li>
+      </ul>
+
+      <h3>大腦功能與認知效益</h3>
+      <ul>
+        <li>葉黃素存在於神經細胞膜中，可防止多元不飽和脂肪酸的氧化，穩定細胞膜，促進神經訊息傳遞</li>
+        <li>補充葉黃素與玉米黃質與改善認知彈性、注意力、記憶力、推理能力及工作記憶有正相關</li>
+      </ul>
+
+      <h3>皮膚保護與抗氧化作用</h3>
+      <ul>
+        <li>葉黃素可降低紫外線（UVR）引起的氧化壓力，減緩皮膚光老化</li>
+        <li>抗氧化功能有助於減少自由基造成的組織傷害與膠原蛋白流失</li>
+        <li>與植物自身的抗氧化系統相似，人體藉由攝取葉黃素增強局部防護機制</li>
+      </ul>
+
+      <table>
+        <thead><tr><th>機制</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><strong>藍光過濾</strong></td><td>葉黃素／玉米黃質沉積於視網膜黃斑部及水晶體，吸收藍光，減少高能量光線造成的氧化傷害</td></tr>
+          <tr><td><strong>細胞膜抗氧化</strong></td><td>存在於神經細胞膜中，防止多元不飽和脂肪酸氧化，穩定細胞膜結構，促進神經訊息傳遞</td></tr>
+          <tr><td><strong>皮膚光老化防護</strong></td><td>降低 UVR 引起的氧化壓力，減少自由基造成的組織傷害與膠原蛋白流失</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🧪</span><h2>臨床研究</h2></div>
+    <div class="section-body">
+
+      <div class="study-card">
+        <h4>實驗 1：葉黃素攝取量與黃斑部病變風險（劑量反應研究）</h4>
+        <div class="meta">研究類型：人體實驗（觀察性／文獻回顧）｜受試者：一般族群（人數未提供）</div>
+        <p><strong>實驗設計</strong>：比較不同每日葉黃素攝取量與黃斑部病變（含血管新生型 AMD）風險之關聯</p>
+        <p><strong>主要結果</strong>：研究顯示較高的葉黃素攝取能降低黃斑部病變（包括血管新生型 AMD）的風險；部分研究指出，從每日 1 毫克提升至 6 毫克可能降低 50% 以上的風險</p>
+        <p><strong>圖表</strong>：無獨立圖表，數據呈現於投影片文字條列中（見圖片資產 P1）</p>
+        <p><strong>出處</strong>：—（演講摘要未附完整期刊引用資訊）</p>
+      </div>
+
+      <div class="study-card">
+        <h4>實驗 2：成人補充劑（葉黃素+玉米黃質 或 葉黃素+DHA）對視覺與神經認知功能的影響</h4>
+        <div class="meta">研究類型：人體臨床試驗｜受試者：成人（人數未提供）</div>
+        <p><strong>實驗設計</strong>：補充劑組合為「L 加 Z（葉黃素+玉米黃質）」或「葉黃素+DHA」，觀察視覺、語言流暢性及神經執行功能表現</p>
+        <p><strong>主要結果</strong>：補充劑組在視覺、語言流暢性及神經執行功能上均顯示改善效應</p>
+        <p><strong>圖表</strong>：無獨立圖表（見圖片資產 P1）</p>
+        <p><strong>出處</strong>：—</p>
+      </div>
+
+      <div class="study-card">
+        <h4>實驗 3：孕期補充葉黃素／玉米黃質與幼兒視力發展（母子配對研究）</h4>
+        <div class="meta">研究類型：人體臨床試驗｜受試者：471 對母子配對</div>
+        <p><strong>實驗設計</strong>：追蹤孕期補充葉黃素與玉米黃質之母親，與其幼兒視力發展的關聯</p>
+        <p><strong>主要結果</strong>：471 對母子配對研究發現，孕期補充葉黃素與玉米黃質能改善幼兒視力發展；母乳中高濃度葉黃素與膽鹼呈正相關，與嬰幼兒認知及活動能力密切相關</p>
+        <p><strong>圖表</strong>：無獨立圖表（見圖片資產 P2）</p>
+        <p><strong>出處</strong>：—</p>
+      </div>
+
+      <div class="study-card">
+        <h4>實驗 4：長期追蹤研究（五年、十年期）與黃斑病變風險</h4>
+        <div class="meta">研究類型：人體長期追蹤研究｜受試者：—</div>
+        <p><strong>實驗設計</strong>：五年、十年期長期追蹤葉黃素攝取量與黃斑病變發生率之關聯</p>
+        <p><strong>主要結果</strong>：長期追蹤研究均顯示葉黃素攝取與降低黃斑病變風險呈負相關</p>
+        <p><strong>圖表</strong>：無獨立圖表（見圖片資產 P2）</p>
+        <p><strong>出處</strong>：—</p>
+      </div>
+
+      <div class="study-card">
+        <h4>實驗 5：隨機雙盲對照試驗（兒童、青少年、成人視覺與認知功能）</h4>
+        <div class="meta">研究類型：人體隨機雙盲對照試驗｜受試者：兒童、青少年、成人（人數未提供）</div>
+        <p><strong>實驗設計</strong>：多項隨機雙盲及對照試驗，比較補充組與對照組在記憶、注意力、反應時間等指標的差異</p>
+        <p><strong>主要結果</strong>：葉黃素補充能有效提高血清中其濃度及視網膜黃斑色素密度；攝取葉黃素與玉米黃質對兒童、青少年及成人的視覺及認知功能均具正面效應；對照組與補充組間在記憶、注意力、反應時間等指標上有顯著差異</p>
+        <p><strong>圖表</strong>：無獨立圖表（見圖片資產 P2）</p>
+        <p><strong>出處</strong>：—</p>
+      </div>
+
+      <div class="notice-box">⚠️ 供應商 / 演講摘要提供的臨床數據需注意：本文件為演講摘要，未附完整期刊出處（作者、卷期、頁碼），建議尋找獨立同儕審查文獻交叉驗證後再行對外引用。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>營養缺口與攝取現狀</h2></div>
+    <div class="section-body">
+      <p>推薦每日攝取量約 10 毫克，但各地區實際攝取量調查數據顯示普遍不足：</p>
+      <table>
+        <thead><tr><th>地區／族群</th><th>實際攝取量</th><th>備註</th></tr></thead>
+        <tbody>
+          <tr><td>美國（一般族群）</td><td>約 0.8～1.1 毫克 / 日</td><td>—</td></tr>
+          <tr><td>美國（孕婦）</td><td>約 2.48 毫克 / 日</td><td>青少年及孕婦攝取量與一般族群略有不同</td></tr>
+          <tr><td>歐洲、南美與亞洲（中國、日本等）</td><td>普遍偏低</td><td>即使植物性食品攝取量較高，仍難達到建議標準（10 毫克）</td></tr>
+        </tbody>
+      </table>
+      <p>所謂「nutritional gap（營養缺口）」：消費者普遍誤認自身攝取量足夠，實則遠低於建議標準。</p>
+
+      <h3>食物中葉黃素來源與比例</h3>
+      <table>
+        <thead><tr><th>食物來源</th><th>葉黃素含量（每 100 公克）</th></tr></thead>
+        <tbody>
+          <tr><td>菠菜</td><td>約 12.6 毫克（最佳來源）</td></tr>
+          <tr><td>羽衣甘藍</td><td>約 8.9 毫克</td></tr>
+          <tr><td>花椰菜、雞蛋、玉米等</td><td>含量相對較低（未提供具體數值）</td></tr>
+        </tbody>
+      </table>
+      <p>葉黃素與玉米黃質在食物中大約呈 5:1 的比例，兩者皆屬於類胡蘿蔔素系列。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🤰</span><h2>母體與嬰幼兒健康發展</h2></div>
+    <div class="section-body">
+      <ul>
+        <li>母體攝取充足葉黃素對胎兒視覺與腦部發育具有正面影響</li>
+        <li>葉黃素可透過血漿、胎盤、母乳傳遞給胎兒與嬰幼兒</li>
+        <li>471 對母子配對研究發現，孕期補充葉黃素與玉米黃質能改善幼兒視力發展</li>
+        <li>母乳中高濃度葉黃素與膽鹼呈正相關，與嬰幼兒認知及活動能力密切相關</li>
+        <li>建議孕婦在補充劑中增加葉黃素成分，因市售補充劑普遍缺乏此成分</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">👤</span><h2>健康成人及老年人效益</h2></div>
+    <div class="section-body">
+      <h3>成人</h3>
+      <ul>
+        <li>促進眼睛健康，減少 UV 與藍光傷害</li>
+        <li>增加腦部認知功能，改善工作記憶、反應速度及語言流暢性</li>
+      </ul>
+      <h3>老年人</h3>
+      <ul>
+        <li>提高黃斑部色素密度，降低白內障與黃斑部病變風險</li>
+        <li>改善認知及執行功能，降低失智症發展的可能性</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>產品規格</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>規格項目</th><th>數值</th><th>測試方法</th></tr></thead>
+        <tbody>
+          <tr><td>—</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--gray-3)">本文件為學術演講摘要，未提供原料規格、純度、外觀、保存期限等產品規格資料。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🏆</span><h2>認證與安全性</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>認證</th><th>機構</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>—</td><td>—</td><td>—</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--gray-3)">本文件未提供認證資訊。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🖼️</span><h2>簡報圖片資產（點擊放大）</h2></div>
+    <div class="section-body">
+      <div class="img-gallery">
+        <div class="img-card">
+          <img src="images/floraglo/floraglo_p01.jpg" alt="第1頁：全齡葉黃素演講摘要 - 生命週期重要性、眼睛健康、大腦功能、皮膚保護、營養缺口起始" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P1</span><span class="img-card-title">全齡葉黃素 陳俊榮教授演講摘要（上半部）</span></div>
+          <div class="img-card-body">純文字條列投影片。涵蓋：葉黃素在全生命週期中的重要性、眼睛健康與視覺保護（含 1mg→6mg 降低 50% 風險數據）、大腦功能與認知效益、皮膚保護與抗氧化作用、營養缺口與攝取現狀起始段（美國攝取量 0.8-1.1mg，孕婦 2.48mg）。無座標軸圖表。</div>
+        </div>
+        <div class="img-card">
+          <img src="images/floraglo/floraglo_p02.jpg" alt="第2頁：全齡葉黃素演講摘要 - 營養缺口續、食物來源、母嬰健康、成人老年效益、臨床試驗支持" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P2</span><span class="img-card-title">全齡葉黃素 陳俊榮教授演講摘要（下半部）</span></div>
+          <div class="img-card-body">純文字條列投影片。涵蓋：營養缺口續段（歐洲/南美/亞洲攝取偏低）、食物中葉黃素來源與比例（菠菜 12.6mg/100g、羽衣甘藍 8.9mg/100g、5:1 比例）、母體與嬰幼兒健康發展（471對母子配對研究）、健康成人及老年人效益、臨床試驗與研究支持（長期追蹤 5-10 年研究）。無座標軸圖表。</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚖️</span><h2>法規聲稱摘要</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>市場</th><th>允許聲稱</th><th>限制說明</th></tr></thead>
+        <tbody>
+          <tr><td>台灣（TFDA）</td><td><span class="pill pill-warn">未提供</span></td><td>本文件未涉及台灣法規允許聲稱範圍，需另行查證衛福部核准之保健功效字句</td></tr>
+          <tr><td>美國（FDA）</td><td><span class="pill pill-warn">未提供</span></td><td>—</td></tr>
+          <tr><td>歐盟（EFSA）</td><td><span class="pill pill-warn">未提供</span></td><td>—</td></tr>
+        </tbody>
+      </table>
+      <div class="notice-box">⚠️ 本文件為學術演講摘要性質，內容聚焦於葉黃素的生理機制與臨床研究證據回顧，不涉及特定品牌產品的法規聲稱。所有「治療」「改善病症」「降低風險」等敘述均為原始文獻／演講內容的證據描述，對外行銷時不得直接引用為醫療功效聲稱，須依台灣衛福部核准之保健功效字句轉譯。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>備註</h2></div>
+    <div class="section-body">
+      <p>本文件僅 2 頁，內容為陳俊榮教授「全齡葉黃素」演講之重點摘要投影片，性質偏向學術科普整理而非供應商規格文件。文件未提供：原廠、產地國、INCI 標準化指標、劑型、產品規格、認證資訊、完整臨床研究出處（作者/期刊/卷期頁碼）。所引用之研究數據（如 1mg→6mg 降低 50% 風險、471 對母子配對研究）均未附上可追溯的期刊引用，建議後續搜尋學術文獻（PubMed / Google Scholar）交叉驗證與補齊出處。</p>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

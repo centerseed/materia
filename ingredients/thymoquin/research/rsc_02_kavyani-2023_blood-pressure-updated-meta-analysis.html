@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑種草籽對血壓影響之更新版系統性回顧與統合分析 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  ul.plain { padding-left: 20px; margin-bottom: 10px; }
+  ul.plain li { margin-bottom: 4px; font-size: 13.5px; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">系統性回顧與統合分析 · Meta-analysis（更新版）</span>
+      <span class="hdr-tag q1">Q1 · IF 5.5（Phytotherapy Research，植物藥理學領域指標期刊）</span>
+      
+    </div>
+    <h1>黑種草籽對血壓影響之更新版系統性回顧與統合分析</h1>
+    <p class="subtitle">Antihypertensive effects of Nigella sativa supplementation: An updated systematic review and meta-analysis of randomized controlled trials</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Zeynab Kavyani, Vali Musazadeh, Ehsan Safaei, Mina Mohammadi Asmaroud, Fatemeh Khashakichafi, Sana Sedgh Ahrabi, Parvin Dehghan</div>
+      <div class="meta-item"><strong>期刊</strong>Phytotherapy Research</div>
+      <div class="meta-item"><strong>年份</strong>2023 · 37(8):3224-3238</div>
+      <div class="meta-item"><strong>PMID</strong>37341696</div>
+      <div class="meta-item"><strong>DOI</strong>10.1002/ptr.7891</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★★</span><span class="star-empty"></span></div>
+          <div class="cred-sub">Phytotherapy Research · Q1</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★★</span><span class="star-empty"></span></div>
+          <div class="cred-sub">系統性回顧與統合分析 · Meta-analysis（更新版）（N=納入截至2022年8月之RCT（總樣本數詳見全文，摘要未列總人數））</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">摘要提供完整統計數字（WMD、95% CI、p值）；COI聲明未於摘要呈現</div>
+        </div>
+        <div class="cred-card" style="">
+          <div class="cred-label" style="">利益衝突</div>
+          <div class="cred-val" style="">✅ 已聲明無COI</div>
+          <div class="cred-sub">由Tabriz醫科大學學生研究委員會資助（Grant #71664），非廠商資助</div>
+        </div>
+      </div>
+      
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本篇為rsc_01（Sahebkar 2016）之更新版統合分析，同樣發表於Q1植物藥理學期刊《Phytotherapy Research》，由伊朗Tabriz醫科大學團隊完成並附有明確之學校研究經費來源（非廠商資助），可信度高。其結果（SBP -3.06mmHg、DBP -2.69mmHg，p<0.001）與2016年版本高度一致，形成跨7年時間之證據穩定性驗證，是目前血壓聲稱中證據等級最高、最新的統合分析來源。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">自2016年Sahebkar等人首次發表黑種草籽血壓統合分析後，2016至2022年間陸續有多篇新的RCT發表，樣本族群涵蓋健康人、輕度高血壓及第二型糖尿病合併高血壓患者，劑型與劑量也更多樣化（膠囊、油劑、粉末），有必要以更新版統合分析重新評估證據強度是否隨新試驗增加而改變或減弱。</p><p style="margin-bottom:12px">本研究以隨機效應模型（random-effects model）重新彙整截至2022年8月為止之所有相關RCT，並延續前版方法學設計，比較黑種草籽介入組與對照組（安慰劑或標準治療）之收縮壓與舒張壓變化，目的在確認證據是否隨著樣本累積而趨於穩定或出現方向性改變。</p>
+      
+      
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+        <tr><td>試驗類型</td><td>更新版系統性回顧與統合分析（Meta-analysis of RCTs）</td></tr>
+<tr><td>搜尋資料庫</td><td>多資料庫檢索至2022年8月</td></tr>
+<tr><td>介入方式</td><td>黑種草籽補充（劑型與劑量依各原始試驗而異，涵蓋粉末、油劑、膠囊）</td></tr>
+<tr><td>對照組</td><td>安慰劑或標準治療</td></tr>
+<tr><td>統計方法</td><td>隨機效應模型；計算加權平均差異（WMD）與95% CI</td></tr>
+<tr><td>主要終點</td><td>收縮壓（SBP）與舒張壓（DBP）變化</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">黑種草籽（Nigella sativa）補充（更新版證據）
+├─ 層次一 — 分子層次
+│   ├─ 抗氧化：百里醌清除自由基，降低氧化壓力
+│   └─ 抗發炎：降低促發炎因子表現，間接影響血管張力調控
+├─ 層次二 — 血管功能層次
+│   └─ 內皮功能改善：促進一氧化氮生成路徑，改善血管舒張反應
+└─ 層次三 — 臨床血壓（統計顯著，p<0.001）
+    ├─ SBP：WMD -3.06 mmHg（95% CI -3.89 to -2.22）
+    └─ DBP：WMD -2.69 mmHg（統計顯著）</pre>
+      <div class="mech-detail"><h4>與2016年版本的一致性</h4><p>更新版效果量（SBP -3.06 vs 前版-3.26；DBP -2.69 vs 前版-2.80）與前版高度接近，顯示隨著新試驗樣本累積，效果量並未大幅衰減或反轉，機轉解釋（抗氧化、抗發炎、內皮功能改善）與前版一致，增加證據穩定性。</p></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">主要終點：更新版統合分析結果</p>
+      <table>
+        <thead><tr><th>終點指標</th><th>加權平均差異（WMD）</th><th>95% CI</th><th>P 值</th></tr></thead>
+        <tbody>
+        <tr><td>收縮壓（SBP）</td><td>-3.06 mmHg</td><td>-3.89 to -2.22</td><td><0.001</td></tr>
+<tr><td>舒張壓（DBP）</td><td>-2.69 mmHg</td><td>（摘要未完整列出，方向與SBP一致）</td><td>統計顯著</td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">資料檢索至2022年8月，隨機效應模型。</p>
+      
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+      <li><div class="limit-num">1</div><span><strong>總樣本數未於摘要明確列出</strong>：摘要僅提供WMD及CI，未列出納入試驗總樣本數，需查證全文以評估統計檢定力是否充足。</span></li>
+<li><div class="limit-num">2</div><span><strong>劑型與劑量異質性依然存在</strong>：與rsc_01相同問題：更新版納入試驗仍涵蓋粉末、油劑、膠囊等不同劑型，效果量之劑型別差異需查證全文亞組分析。</span></li>
+<li><div class="limit-num">3</div><span><strong>效果量臨床意義有限</strong>：3 mmHg等級之降幅遠低於藥物治療幅度，僅適合作為健康維持之輔助角色，不可取代降血壓藥物。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（2016年血壓統合分析（本篇之前版））的關係</div>
+        <div class="cross-ref-body">
+          <p>本篇為rsc_01的更新版，兩篇效果量高度一致（SBP -3.06 vs -3.26 mmHg；DBP -2.69 vs -2.80 mmHg），構成跨時間點的證據穩定性驗證，顯著提升血壓聲稱的可信度。</p>
+          
+        </div>
+      </div>
+<div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（血脂統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p>與血壓效果同屬心血管代謝風險因子改善之機轉範疇，兩者共同支持黑種草籽於「三高」整體代謝調節之角色。</p>
+          
+        </div>
+      </div>
+<div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（糖尿病/心代謝統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p>血壓改善為心代謝指標之一環，與rsc_04之血糖/血脂改善共同構成代謝症候群多指標調節的證據體系。</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+        <li>可引用「2023年更新版統合分析顯示，黑種草籽補充可降低收縮壓3.06mmHg（95% CI -3.89至-2.22, p<0.001）」作為機制性/實證性說明，措辭應維持「有助於維持」而非「治療」</li>
+<li>可與rsc_01共同引用，強調證據跨時間點的一致性與穩定性（2016年與2023年兩篇獨立統合分析結果相近）</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+        <li>效果量仍屬小幅（3mmHg等級），對外宣稱時應避免暗示可取代藥物或大幅改善血壓數值</li>
+<li>未查證原文前，不應引用「總樣本數」等本摘要未提供之數字，避免資訊誤植</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+        <li>不得宣稱「治療高血壓」或使用「降血壓」等醫療化直接療效詞彙，違反台灣食品法規之療效聲稱限制</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">強聲稱：</p>
+      <div class="quote-block">
+        更新版統合分析（檢索至2022年8月）顯示，黑種草籽補充可顯著降低收縮壓3.06 mmHg（95% CI -3.89至-2.22, p<0.001），效果與2016年版統合分析高度一致（Kavyani et al., Phytotherapy Research 2023;37(8):3224-3238）。
+        
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; margin-top:14px; color:var(--indigo)">弱聲稱：</p>
+      <div class="quote-block">
+        兩篇獨立時間點（2016、2023）的統合分析均顯示黑種草籽對血壓有小幅但統計顯著的正向影響，惟效果量遠低於藥物治療幅度，僅供作為健康維持之參考（Kavyani et al., 2023；Sahebkar et al., 2016）。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; margin-top:14px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+        <tr><td>rsc_01（Sahebkar et al., J Hypertens 2016）</td><td>前版統合分析，效果量相近，可共同引用強化證據穩定性</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>魚膠原蛋白胜肽經抑制MAPK訊號路徑保護胸腺上皮細胞抵抗順鉑誘導之細胞毒性與氧化損傷 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">體外細胞實驗 · In Vitro Mechanistic Study</span>
+      <span class="hdr-tag q1">Q1 · IF 5.93（2024）</span>
+    </div>
+    <h1>魚膠原蛋白胜肽經抑制MAPK訊號路徑保護小鼠胸腺上皮細胞抵抗順鉑誘導之細胞毒性與氧化損傷</h1>
+    <p class="subtitle">Fish Collagen Peptides Protect against Cisplatin-Induced Cytotoxicity and Oxidative Injury by Inhibiting MAPK Signaling Pathways in Mouse Thymic Epithelial Cells</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Song WH, Kim HY, Lim YS, Hwang SY, Lee C, Lee DY, Moon Y, Song YJ, Yoon S</div>
+      <div class="meta-item"><strong>期刊</strong>Marine Drugs（MDPI）</div>
+      <div class="meta-item"><strong>年份</strong>2022 · Vol.20, Issue 4, Article 232</div>
+      <div class="meta-item"><strong>PMID</strong>35447905</div>
+      <div class="meta-item"><strong>DOI</strong>10.3390/md20040232</div>
+      <div class="meta-item"><strong>PMC</strong>PMC9032569</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">Marine Drugs（MDPI）· Q1 · IF 5.93（2024）· 海洋天然物領域專科期刊，SCIE收錄，同儕審查制度成熟</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★</span><span class="star-empty">☆☆☆</span></div>
+          <div class="cred-sub">體外細胞實驗（小鼠胸腺上皮細胞株），無動物體內或人體驗證，證據等級屬機轉研究層次</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★★</span></div>
+          <div class="cred-sub">PMC開放全文，10張圖表，數據完整含精確百分比、P值與多重訊號路徑指標</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val">✅</div>
+          <div class="cred-sub">資助方為韓國國家研究基金會（NRF, MEST），作者聲明無利益衝突，與NIPPI或其他膠原蛋白廠商無關聯</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本篇是本原料資料夾中免疫領域最具機轉深度之獨立學術研究，直接針對「胸腺上皮細胞」（T細胞成熟與分化的關鍵微環境細胞）之保護機轉進行分子層次驗證，可與rsc_02（NIPPI原廠T細胞人體RCT，僅現象觀察無機轉細節）形成互補證據鏈——本篇補足「為什麼」魚膠原蛋白胜肽可能影響T細胞相關免疫指標的分子機轉基礎。惟須注意本研究使用之「魚膠原蛋白胜肽（FCP）」並非NIPPI特定品牌原料，且順鉑（cisplatin）誘導模型模擬的是化療藥物毒性情境，與一般健康人群之免疫保養情境有本質差異。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">胸腺（thymus）是T淋巴細胞成熟、分化與陰性/陽性篩選的核心免疫器官，胸腺上皮細胞（thymic epithelial cells, TECs）則構成胸腺微環境，對T細胞的正常發育至關重要。然而，胸腺具有隨年齡增長自然萎縮（thymic involution）的生理特性，此外，化療藥物（如順鉑cisplatin）、氧化壓力與慢性發炎等因素也會加速胸腺上皮細胞損傷與凋亡，導致胸腺功能衰退、T細胞新生能力下降，這與高齡族群及癌症化療患者常見的免疫功能低下密切相關。既有研究雖已知魚膠原蛋白胜肽（fish collagen peptides, FCP）具有多種生物活性（如促進傷口癒合、抗氧化），但關於FCP是否能保護胸腺上皮細胞抵抗化療藥物誘導之氧化損傷，在本研究發表前尚缺乏直接證據。</p>
+      <p style="margin-bottom:20px">本研究團隊（韓國釜山大學醫學院Immune Reconstitution Research Center）因此設計了一系列體外實驗，以順鉑作為誘導胸腺上皮細胞毒性與氧化損傷的標準化學模型（順鉑為臨床常用化療藥物，其副作用之一即為顯著抑制免疫功能與加速胸腺萎縮），觀察魚膠原蛋白胜肽（FCP）預處理是否能減緩順鉑誘導之細胞凋亡與氧化壓力，並進一步追蹤MAPK訊號路徑（p38、JNK、ERK）的活化程度，試圖建立「FCP可能有助於免疫重建（immune reconstitution）」這一假說的分子機轉基礎，此研究方向與該中心命名「Immune Reconstitution Research Center」（免疫重建研究中心）之整體研究主軸一致，屬於針對化療後免疫功能低下族群的潛在應用探索。</p>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">實驗模型設計背景</p>
+      <div class="mech-detail">
+        <h4>順鉑誘導模型 — 連結化療相關免疫抑制情境</h4>
+        <p>順鉑是廣泛使用的鉑類化療藥物，其已知副作用包含骨髓抑制與胸腺萎縮加速，導致患者免疫重建延遲。以順鉑誘導胸腺上皮細胞損傷模型，可作為評估潛在「免疫保護」或「免疫重建輔助」介入措施的標準化細胞層次篩選工具，惟此模型本質上模擬的是「疾病治療副作用」情境，與一般健康人群日常免疫保養情境有本質差異。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>體外細胞實驗</td></tr>
+          <tr><td>細胞模型</td><td>小鼠胸腺皮質上皮細胞株（1308.1, mouse thymic cortical epithelial reticular cells）</td></tr>
+          <tr><td>損傷誘導劑</td><td>順鉑（Cisplatin）5-20 μM</td></tr>
+          <tr><td>介入方式</td><td>魚膠原蛋白胜肽（FCP）0.01-0.2%</td></tr>
+          <tr><td>對照組</td><td>未處理對照組；MAPK抑制劑（SB203580、SP600125、U0126，分別對應p38/JNK/ERK路徑）作路徑驗證對照；NAC（N-乙醯半胱胺酸5mM）作抗氧化陽性對照</td></tr>
+          <tr><td>追蹤時間</td><td>24小時與48小時</td></tr>
+          <tr><td>主要終點</td><td>細胞增殖率、細胞存活率、ROS生成量、細胞凋亡相關蛋白（Bax、Bad、Bcl-2、Bcl-xL、cytochrome c）、MAPK磷酸化程度（p-p38、p-JNK、p-ERK）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">魚膠原蛋白胜肽（FCP）於小鼠胸腺上皮細胞（TEC）
+├─ 層次一 — 分子層次（處理後24-48小時）
+│   ├─ 促進細胞增殖：0.08% FCP使增殖率提升27.1%（24h）、56%（48h），P<0.001
+│   └─ 抑制ROS生成：順鉑誘導ROS升高34.4%，FCP預處理降低72.1%（P<0.01）
+├─ 層次二 — 訊號傳遞層次（處理後24-48小時）
+│   ├─ 抑制MAPK磷酸化：順鉑誘導p-p38↑57.9%、p-JNK↑16.8%、p-ERK↑21.8%；FCP分別抑制37.3%、15.3%、58.5%
+│   └─ 調控凋亡蛋白平衡：順鉑使Bcl-2↓24.4%、Bcl-xL↓21.2%、Bax↑40.1%、Bad↑20.8%、cytochrome c↑40.5%；FCP逆轉此趨勢（Bcl-2+26%、Bax-58%）
+└─ 層次三 — 細胞存活層次（處理24-48小時後）
+    ├─ 對抗順鉑細胞毒性：順鉑（20μM）使存活率降低57.9%（24h）、100%（48h）；FCP預處理恢復41.1%（5μM順鉑劑量下）
+    └─ MAPK抑制劑驗證：SB203580、SP600125、U0126（分別抑制p38/JNK/ERK）之保護效果模式與FCP相似，佐證FCP保護作用確實透過MAPK路徑介導</pre>
+
+      <div class="mech-detail">
+        <h4>MAPK抑制劑交叉驗證——確立因果機轉而非僅相關性</h4>
+        <p>本研究設計的一大優勢在於同時使用三種特異性MAPK路徑抑制劑（SB203580抑制p38、SP600125抑制JNK、U0126抑制ERK）作為機轉驗證對照組，發現這些藥理抑制劑對順鉑誘導細胞毒性的保護效果模式與FCP相似，此設計方法學上有力地支持「FCP保護胸腺上皮細胞的機轉確實透過抑制MAPK路徑實現」這一因果推論，而非僅僅是統計相關性的觀察。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>與rsc_04表皮細胞機轉的路徑一致性——ROS-MAPK軸的跨組織普遍性</h4>
+        <p>本篇（胸腺上皮細胞）與rsc_04（表皮角質細胞）雖研究對象組織完全不同，但均發現魚膠原蛋白胜肽透過「抑制ROS生成→抑制MAPK磷酸化→減少細胞凋亡」的相似訊號路徑軸線發揮細胞保護作用，顯示膠原蛋白胜肽對抗氧化壓力誘導細胞損傷的機轉可能具有跨組織的普遍性，而非侷限單一器官的特異性效果。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">細胞增殖與存活率</p>
+      <table>
+        <thead><tr><th>指標</th><th>條件</th><th>結果</th><th>P 值</th></tr></thead>
+        <tbody>
+          <tr><td>細胞增殖率提升</td><td>0.08% FCP，24小時</td><td><strong>+27.1%</strong></td><td>&lt;0.001</td></tr>
+          <tr><td>細胞增殖率提升</td><td>0.08% FCP，48小時</td><td><strong>+56%</strong></td><td>&lt;0.001</td></tr>
+          <tr><td>順鉑誘導細胞毒性</td><td>20 μM，24小時</td><td>存活率降低57.9%</td><td>&lt;0.001</td></tr>
+          <tr><td>順鉑誘導細胞毒性</td><td>20 μM，48小時</td><td>存活率降低100%（完全喪失）</td><td>&lt;0.001</td></tr>
+          <tr><td>FCP預處理修復效果</td><td>順鉑5 μM劑量下</td><td><strong>恢復41.1%</strong></td><td>&lt;0.001</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">凋亡相關蛋白表現變化</p>
+      <table>
+        <thead><tr><th>蛋白</th><th>順鉑誘導變化</th><th>FCP逆轉幅度</th><th>P 值</th></tr></thead>
+        <tbody>
+          <tr><td>Bcl-2（抗凋亡）</td><td>降低24.4%</td><td>提升26%</td><td>&lt;0.001</td></tr>
+          <tr><td>Bcl-xL（抗凋亡）</td><td>降低21.2%</td><td>—（原文未列精確恢復數字）</td><td>&lt;0.001</td></tr>
+          <tr><td>Bax（促凋亡）</td><td>增加40.1%</td><td>降低58%</td><td>&lt;0.001</td></tr>
+          <tr><td>Bad（促凋亡）</td><td>增加20.8%</td><td>—（原文未列精確恢復數字）</td><td>&lt;0.001</td></tr>
+          <tr><td>Cytochrome c</td><td>增加40.5%</td><td>—（原文未列精確恢復數字）</td><td>&lt;0.01</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">MAPK訊號路徑磷酸化</p>
+      <table>
+        <thead><tr><th>路徑</th><th>順鉑誘導升高幅度</th><th>FCP抑制幅度</th><th>P 值</th></tr></thead>
+        <tbody>
+          <tr><td>p-p38 MAPK</td><td>+57.9%</td><td><strong>-37.3%</strong></td><td>&lt;0.001 / &lt;0.01</td></tr>
+          <tr><td>p-JNK</td><td>+16.8%</td><td><strong>-15.3%</strong></td><td>&lt;0.001</td></tr>
+          <tr><td>p-ERK</td><td>+21.8%</td><td><strong>-58.5%</strong></td><td>&lt;0.001</td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">ROS生成方面：順鉑誘導ROS增加34.4%（P&lt;0.05），FCP預處理降低72.1%（P&lt;0.01）；NAC陽性對照降低69.2%（P&lt;0.001），FCP效果與已知抗氧化劑NAC相當。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>純體外細胞實驗，無動物或人體驗證</strong>：所有數據皆來自單層細胞培養模型，胸腺上皮細胞保護效果無法直接外推至完整胸腺組織功能或人體T細胞新生能力，須降級為「機轉／實驗室測定」等級措辭。</span></li>
+        <li><div class="limit-num">2</div><span><strong>順鉑誘導模型為化療副作用情境，非一般保健情境</strong>：本研究模擬的是化療藥物毒性導致的胸腺損傷，與健康人群日常免疫保養的生理情境有本質差異，證據不能直接外推至「日常提升免疫力」的一般保健訴求。</span></li>
+        <li><div class="limit-num">3</div><span><strong>FCP非NIPPI特定品牌原料</strong>：本研究使用之魚膠原蛋白胜肽（FCP）來源與規格未特別標明為NIPPI產品，僅可作為「魚膠原蛋白胜肽」原料類別之機轉參考，不可視為NIPPI產品的直接驗證。</span></li>
+        <li><div class="limit-num">4</div><span><strong>部分數據呈現不完整</strong>：Bcl-xL、Bad、cytochrome c等指標僅提供誘導組變化幅度，未列出FCP處理組之精確恢復百分比，數據完整度略有欠缺。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Koyama 2016 NIPPI綜述，T細胞人體RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接</strong>：rsc_02摘述之NIPPI內部人體RCT顯示50位受試者攝取魚鱗膠原蛋白胜肽8週後，T細胞、CD8+T細胞相關指標較安慰劑組分別改善9.5倍、1.7倍，但該研究未提供任何分子機轉解釋；本篇（rsc_05）則從「胸腺上皮細胞」——T細胞成熟的關鍵微環境——角度提供了魚膠原蛋白胜肽保護該細胞抵抗氧化與凋亡損傷的具體分子機轉（ROS-MAPK-凋亡蛋白軸）。兩篇合併，形成「人體現象觀察（rsc_02，有COI）＋獨立細胞機轉驗證（rsc_05，無COI）」的證據鏈，可提升「魚膠原蛋白胜肽可能透過保護胸腺上皮細胞、進而支持T細胞正常發育」此一假說的可信度，但仍需注意兩篇並非同一原料的直接連續驗證研究。</p>
+          <p class="caveat">⚠️ 須注意：rsc_05所用之順鉑誘導模型是化療副作用情境，而rsc_02之人體RCT受試者為一般健康疲勞成人，兩者情境不完全對應，機轉橋接屬合理推論而非直接證實的因果鏈。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（Subhan et al. 2017，表皮角質細胞機轉）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機轉路徑一致性</strong>：本篇與rsc_04雖研究組織不同（胸腺上皮細胞 vs 表皮角質細胞），但兩篇均獨立發現魚膠原蛋白胜肽透過相似的「抑制ROS生成→抑制MAPK磷酸化路徑→減少細胞凋亡」機轉軸線發揮細胞保護作用，且兩篇研究團隊（皆來自韓國釜山大學醫學院解剖學系）方法學一致，此跨組織機轉重現性強化了「膠原蛋白胜肽具廣譜細胞氧化壓力保護能力」此一結論的穩健性。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Chai et al. 2010，皮膚人體試驗）、rsc_03（Lin et al. 2023，膝關節炎Meta分析）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>跨領域一致性主題</strong>：rsc_01（皮膚）、rsc_03（關節）與本篇（免疫）分屬三個不同健康領域，但共同支持「膠原蛋白胜肽對多種人體組織細胞具有促進增生、保護或功能改善之生物活性」的跨領域一致主題，可作為NIPPI膠原蛋白多元生理功能論述的組合證據基礎，惟三篇研究之受試分子規格、來源、投遞途徑各有差異，不應混為單一原料的重複驗證。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱（作為機轉背景，須標明為體外實驗）</h4>
+        <ul>
+          <li>「體外細胞實驗顯示，魚膠原蛋白胜肽可保護胸腺上皮細胞抵抗氧化壓力誘導之損傷，機轉涉及MAPK訊號路徑之調控」——可作為免疫調節機轉背景說明使用，須標明為實驗室細胞層次測定</li>
+          <li>可搭配rsc_02之人體T細胞RCT，共同構成「人體現象觀察＋細胞機轉支持」的免疫領域論述組合</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>本研究之順鉑誘導模型為化療副作用情境，若用於一般健康人群「日常提升免疫力」之行銷訴求，須避免暗示與化療輔助或疾病治療相關的聯想，僅可作為機轉普遍性佐證使用</li>
+          <li>本研究使用之魚膠原蛋白胜肽非NIPPI特定品牌，引用時應註明為「同類原料之機轉研究」而非NIPPI產品專屬驗證</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可宣稱「可輔助化療」「保護化療患者免疫功能」等醫療用途聲稱，此類聲稱屬於藥品或醫療器材等級，保健食品不得涉及疾病治療或輔助治療用語</li>
+          <li>不可將體外MAPK抑制百分比（如58.5%）直接轉換為人體免疫力提升百分比對外宣傳</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">弱聲稱（機轉說明，須標明體外實驗性質與模型情境）：</p>
+      <div class="quote-block">
+        體外細胞實驗顯示，魚膠原蛋白胜肽可透過抑制活性氧物種（ROS）生成與MAPK訊號路徑（p38、JNK、ERK）活化，保護小鼠胸腺上皮細胞抵抗順鉑誘導之細胞毒性與凋亡（Song et al., Marine Drugs, 2022；PMID 35447905；無利益衝突聲明）；惟此為體外細胞實驗於化療藥物毒性模型下之結果，不能直接等同人體免疫功能提升之保證，且測試原料非NIPPI特定品牌，解讀與引用需謹慎。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>rsc_02（Koyama, 2016，含T細胞人體RCT摘述）</td><td>提供人體現象層次之免疫指標改善觀察，惟需標明COI與期刊品質限制</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>低劑量蛋殼膜（Eggbrane®）對膝關節炎自覺疼痛與日常功能的影響 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag rct">隨機對照試驗 · RCT</span>
+      <span class="hdr-tag q2">Journal of Medicinal Food · Q2</span>
+      <span class="hdr-tag coi">COI 已確認（廠商資助）</span>
+    </div>
+    <h1>低劑量蛋殼膜（Eggbrane®，300mg）對膝關節炎自覺疼痛與日常功能的影響</h1>
+    <p class="subtitle">Mildly Processed Natural Eggshell Membrane Alleviates Joint Pain Associated with Osteoarthritis of the Knee: A Randomized Double-Blind Placebo-Controlled Study</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Jeroen Lucas Kiers, Johannes Hendrikus Franciscus Bult</div>
+      <div class="meta-item"><strong>期刊</strong>Journal of Medicinal Food</div>
+      <div class="meta-item"><strong>年份</strong>2021 · 24(3):292-298</div>
+      <div class="meta-item"><strong>PMID</strong>32633648</div>
+      <div class="meta-item"><strong>DOI</strong>10.1089/jmf.2020.0034</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★☆</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">Journal of Medicinal Food，Scimago Q2，食品/機能性營養專科期刊</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★★</span></div>
+          <div class="cred-sub">隨機、雙盲、安慰劑對照，樣本量大（N=150，本次整理中最大樣本）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">PMC 開放全文，統計方法（重複測量 ANOVA）透明，如實呈現陰性結果</div>
+        </div>
+        <div class="cred-card" style="background:var(--red-light); border-color:#f5c0c0">
+          <div class="cred-label" style="color:var(--red)">利益衝突</div>
+          <div class="cred-val" style="color:var(--red)">❌ 已確認</div>
+          <div class="cred-sub">DEPP BV（Eggbrane® 製造商）資助</div>
+        </div>
+      </div>
+      <div class="coi-alert"><strong>COI 聲明：</strong>研究由 DEPP B.V.（荷蘭 Eggbrane® 蛋殼膜產品製造商）資助，論文明確致謝「DEPP B.V. 贊助本研究並提供 Eggbrane® 產品」，同時說明「外部顧問（Erasmus MC 大學）提供獨立專業意見」。作者聲明「無競爭性財務利益」，惟仍屬產業資助研究。本研究的特別之處在於<strong>如實呈現主要量表（NRS-P）的陰性結果</strong>，未因贊助方壓力而選擇性報告正面結果，此透明度提升了論文本身的可信度。</div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">綜合評估：本研究是本次整理中樣本量最大（150 人）的蛋殼膜關節健康 RCT，設計嚴謹且統計方法透明，最大特色是誠實揭露「一般性疼痛量表未顯示差異，僅功能導向量表顯示差異」的複雜結果，而非選擇性呈現對產品有利的數字，這種透明度在廠商資助研究中相對少見，值得肯定。惟其結果模式（NRS-P 陰性、KOOS 陽性）與 rsc_01、rsc_02 的疼痛量表結果不完全一致，交叉比較時需注意量表差異。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">膝關節骨性關節炎的疼痛評估工具多樣，從簡單的數字疼痛量表（NRS-P, Numerical Rating Scale for Pain）到功能導向的複合式問卷（如 KOOS, Knee injury and Osteoarthritis Outcome Score）不一而足，不同工具對「疼痛」的操作型定義存在差異：NRS-P 詢問的是「當下／一般性」疼痛感受，而 KOOS 則細分為疼痛（9 題）、症狀（7 題，含僵硬/腫脹/摩擦感/卡住感）、日常生活功能（17 題）、運動休閒（5 題）、生活品質（4 題）五大子量表，更能捕捉「特定活動情境下」的疼痛與功能表現。本研究團隊指出：先前多數蛋殼膜關節健康研究僅使用單一量表，若該量表對蛋殼膜的效果不夠敏感，可能導致偽陰性結論；因此本研究同時採用 NRS-P 與 KOOS 兩種工具，希望釐清蛋殼膜效果在不同疼痛評估情境下的表現差異，並以此推論蛋殼膜的作用機轉更偏向「功能性疼痛緩解」而非「一般性疼痛閾值改變」。</p>
+      <p style="margin-bottom:20px">研究使用的蛋殼膜產品 Eggbrane® 以「溫和水基製程、不經熱處理」萃取，供應商主張此製程較傳統水解製程更能保留蛋殼膜天然結構完整性（此主張與供應商簡報中 OVODERM® 強調的「專利水分離技術」邏輯相似，但為不同品牌、不同萃取商），此為蛋殼膜產業中一個常見的製程差異化訴求，本研究間接為此類「溫和萃取」製程提供了人體試驗層級的療效驗證。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">量表設計背景</p>
+      <div class="mech-detail">
+        <h4>KOOS（Knee injury and Osteoarthritis Outcome Score）</h4>
+        <p>KOOS 是骨科與復健醫學領域評估膝關節功能的國際標準化量表，五大子量表分別以 0-100 分計分（100 分代表無症狀），較單一疼痛數字量表更能反映「日常生活中因關節不適受到的具體限制」，例如上下樓梯、蹲下、久站等情境式功能，此工具設計理念與 WOMAC（rsc_01、rsc_02 使用）部分重疊但題項更細緻。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>隨機、雙盲、安慰劑對照營養介入試驗</td></tr>
+          <tr><td>受試者</td><td>150 人（40-75 歲，確診膝關節炎，基線疼痛 NRS-P ≥3 且 &lt;9）；EM 組 75 人（男 40 位 63.8±12.7 歲、女 35 位 62.6±8.0 歲）；安慰劑組 75 人（男 30 位 61.6±8.0 歲、女 45 位 64.8±10.2 歲）</td></tr>
+          <tr><td>介入方式</td><td>Eggbrane® 蛋殼膜粉末 300mg／日膠囊（溫和水基製程，不經熱處理）</td></tr>
+          <tr><td>對照組</td><td>麥芽糊精 300mg 安慰劑膠囊（外觀相同）</td></tr>
+          <tr><td>追蹤時間</td><td>12 週；主要終點測量第 0、1-6 週（逐週 NRS-P）與第 0、10、21 天（KOOS）；次要終點延伸至第 42、84 天</td></tr>
+          <tr><td>主要終點</td><td>NRS-P 疼痛評分（第 0-6 週）、KOOS 複合分數（第 0、10、21 天）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">蛋殼膜（Eggbrane®, 300mg/day 口服，溫和水基製程）
+├─ 層次一 — 分子層次
+│   ├─ 第一型膠原蛋白：高濃度存在，理論支持軟骨基質合成
+│   └─ 醣胺聚醣：皮膚素硫酸、硫酸軟骨素、玻尿酸等，西方
+│       典型飲食中「較為缺乏」的營養素（作者原文用語）
+├─ 層次二 — 免疫調節層次（機轉假說，本篇未直接測量）
+│   └─ 口服耐受（oral tolerance）：作者引用臨床前研究，
+│       推論口服蛋殼膜可能透過腸道免疫系統調節針對關節
+│       組織的發炎反應，降低關節局部發炎程度
+└─ 層次三 — 功能性疼痛層次（1-3 週起效，持續至 12 週）
+    ├─ KOOS「疼痛」子量表：第 10-21 天開始顯著分歧，
+    │   3 週左右效果達到高峰並持續至第 12 週
+    ├─ KOOS「日常生活」子量表：同步顯著改善，顯示效果
+    │   反映在具體活動功能而非抽象疼痛感受
+    └─ NRS-P 一般疼痛量表：未見組間差異，兩組同步下降
+        （安慰劑效應主導），顯示效果侷限於特定活動情境
+        下的疼痛，而非全面性疼痛閾值改變</pre>
+      <div class="mech-detail">
+        <h4>為何 NRS-P 陰性但 KOOS 陽性？</h4>
+        <p>作者於 Discussion 提出解釋：「需要釐清疼痛是在何種情境下被感知的」（questions need to address the conditions under which pain may have been perceived）。NRS-P 詢問的是籠統的「目前疼痛程度」，容易受當下情緒、天氣、活動量等干擾因素影響而波動；KOOS 則針對特定活動情境（如上下樓梯）提問，較能捕捉蛋殼膜對「活動誘發疼痛」的特異性效果。此機制解釋具參考價值，但因兩量表非同時測量同一底層構念，此推論仍屬事後（post-hoc）解讀，非事前假設驗證。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">主要終點一：NRS-P 一般疼痛量表（N=150，第 0-12 週）</p>
+      <table>
+        <thead><tr><th>比較</th><th>統計量</th><th>P 值</th><th>結論</th></tr></thead>
+        <tbody>
+          <tr><td>第 0-6 週，時間×治療交互作用</td><td>F(6,840)=0.60</td><td>0.73</td><td>❌ 未達顯著</td></tr>
+          <tr><td>第 0-12 週，時間×治療交互作用</td><td>F(12,1680)=0.48</td><td>0.92</td><td>❌ 未達顯著</td></tr>
+        </tbody>
+        <p class="table-note">⚠️ 兩組疼痛分數皆隨時間下降，速率相近，NRS-P 未能偵測到蛋殼膜特異性效果（安慰劑效應可能主導此量表的下降趨勢）。</p>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">主要終點二：KOOS「疼痛」子量表（0-100 分，分數越高越好）</p>
+      <table>
+        <thead><tr><th>比較</th><th>統計量</th><th>P 值</th><th>結論</th></tr></thead>
+        <tbody>
+          <tr><td>主要終點（第 0/10/21 天）</td><td>F(2,264)=7.13</td><td>&lt;0.001</td><td>✅ 顯著</td></tr>
+          <tr><td>主要+次要合併（第 0-84 天）</td><td>F(4,472)=3.19</td><td>&lt;0.05</td><td>✅ 顯著</td></tr>
+        </tbody>
+        <p class="table-note">EM 組在 0-100 分量尺上較安慰劑組多改善約 5-8 分，效果於第 3 週達最大值並持續至第 12 週。</p>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">主要終點二（續）：KOOS「日常生活」子量表</p>
+      <table>
+        <thead><tr><th>比較</th><th>統計量</th><th>P 值</th><th>結論</th></tr></thead>
+        <tbody>
+          <tr><td>主要終點</td><td>F(2,264)=9.39</td><td>&lt;0.001</td><td>✅ 顯著</td></tr>
+          <tr><td>主要+次要合併</td><td>F(4,472)=3.66</td><td>&lt;0.01</td><td>✅ 顯著</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">KOOS「症狀」「運動休閒」「生活品質」子量表（如實呈現陰性/邊緣結果）</p>
+      <table>
+        <thead><tr><th>子量表</th><th>統計量</th><th>P 值</th><th>結論</th></tr></thead>
+        <tbody>
+          <tr><td>症狀（Symptoms）</td><td>F(2,264)=20.9（僅時間效應）</td><td>&lt;0.001（時間）；治療效應不顯著</td><td>兩組同步改善，無組間差異</td></tr>
+          <tr><td>運動休閒（Sport/Recreation）</td><td>F(2,264)=2.83</td><td>0.060</td><td>邊緣未顯著</td></tr>
+          <tr><td>生活品質（Quality of Life）</td><td>—</td><td>未達顯著</td><td>❌ 未顯著</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">樣本流失與安全性</p>
+      <p style="font-size:13.5px">最終完整主要終點樣本 142 人（EM 組 67 人、安慰劑組 75 人）；完整次要終點樣本 142 人（EM 69 人、安慰劑 73 人）。試驗期間噁心通報一度增加（2018 年 12 月，12 件），與同期呼吸道融合病毒/流感 A 型疫情重疊，兩組分佈相當，排除產品特異性因果關係。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>主要疼痛量表（NRS-P）未達顯著</strong>：本研究的「主要終點」之一為陰性結果，僅次要細分量表（KOOS 疼痛/日常生活）顯著，若對外宣稱需明確區分「一般疼痛」與「特定活動疼痛」兩種不同構念，不可籠統宣稱「顯著改善疼痛」。</span></li>
+        <li><div class="limit-num">2</div><span><strong>效果幅度中等</strong>：KOOS 疼痛子量表改善約 5-8 分（滿分 100），屬中等幅度的臨床意義改善，非戲劇性效果。</span></li>
+        <li><div class="limit-num">3</div><span><strong>症狀、運動休閒、生活品質子量表未顯著</strong>：僅疼痛與日常生活兩項子量表顯著，五大子量表中三項未達顯著，需完整呈現。</span></li>
+        <li><div class="limit-num">4</div><span><strong>廠商資助</strong>：DEPP B.V. 為 Eggbrane® 製造商，雖聲明無競爭性利益，仍屬產業資助研究。</span></li>
+        <li><div class="limit-num">5</div><span><strong>試驗期間疫情干擾</strong>：噁心通報增加與呼吸道疫情重疊，雖排除產品因果性，但顯示外部健康事件可能影響部分自評數據的穩定性。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Ruff 2009 — NEM® 500mg WOMAC）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>部分矛盾／量表差異</strong>：rsc_01 使用 WOMAC 疼痛子量表顯示顯著改善（P=0.038），本研究使用 NRS-P 一般疼痛量表則未顯示差異（P=0.73-0.92），但本研究另一量表 KOOS 疼痛子量表卻顯著（P&lt;0.001）。三篇論文合計呈現「WOMAC 顯著、NRS-P 不顯著、KOOS 顯著」的複雜圖像，提示蛋殼膜對「結構化、活動情境式」疼痛量表（WOMAC、KOOS）的敏感度可能高於「籠統式」疼痛量表（NRS-P），此為交叉比對後浮現的重要模式，業主行銷時應避免籠統宣稱「改善疼痛」，宜具體標明測量情境。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Cánovas 2022 — ESM® 300/500mg VAS/WOMAC）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>部分矛盾</strong>：rsc_02 的 300mg 劑量組在 VAS 疼痛量表上顯著優於安慰劑（P&lt;0.001），與本研究 300mg 劑量在 NRS-P（性質類似 VAS 的一般疼痛量表）上未顯著的結果相反。可能原因包括：(1) 蛋殼膜製程不同（ESM® vs Eggbrane®，溫和水基 vs 未知製程）(2) 受試者年齡差異（本研究 61-65歲 vs rsc_02 平均 38歲）(3) 統計方法差異（重複測量 ANOVA vs 組間 t 檢定）。此矛盾提示不同蛋殼膜品牌/製程之間的效果可能無法直接互相引用佐證，業主應避免將不同品牌研究混用作為單一品牌的證據。</p>
+          <p class="caveat">⚠️ 此為本次整理中最值得注意的文獻衝突：同樣 300mg 劑量、同樣一般性疼痛量表構念，兩篇獨立研究得出相反結論，凸顯蛋殼膜證據體系仍有不確定性，對外行銷應保守處理「300mg 即可顯著緩解一般疼痛」的說法。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">COI 累積效應</div>
+        <div class="cross-ref-body">
+          <p>本研究由 DEPP B.V. 資助，與 rsc_01（ESM Technologies）、rsc_02（Torolis）分屬三個不同廠商，構成蛋殼膜關節健康證據體系中「多廠商各自資助獨立研究」的格局，一定程度降低單一廠商操控全部證據的疑慮，但也解釋了為何不同品牌/劑量的研究結果會出現前述矛盾（各品牌製程與原料標準化程度可能不同）。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>「每日補充 300mg 蛋殼膜，人體試驗顯示有助於改善與特定日常活動相關的膝關節不適感（KOOS 日常生活子量表顯著改善，P&lt;0.001）」（Kiers et al., Journal of Medicinal Food, 2021；N=150，本次整理樣本量最大之關節健康 RCT）。</li>
+          <li>可作為「300mg 為蛋殼膜關節保健的合理最低有效劑量」之佐證之一，惟需與 rsc_02、rsc_01 合併引用以提升說服力。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>不可籠統宣稱「顯著緩解關節疼痛」，因主要一般疼痛量表（NRS-P）未達顯著，僅特定活動情境量表（KOOS）顯著，措辭應具體化為「有助於維持日常活動時的關節舒適度」。</li>
+          <li>與 rsc_02 在 300mg 劑量上的矛盾結果，若同時引用兩篇研究，應誠實說明測量工具與族群差異，不可選擇性引用對己有利的部分。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可宣稱「改善運動表現」或「提升生活品質」，本研究運動休閒與生活品質子量表均未達統計顯著。</li>
+          <li>不可宣稱「免疫調節治療關節炎」，口服耐受機轉為作者引用之理論假說，本篇未直接測量免疫指標。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為弱聲稱（謹慎措辭）引用：</p>
+      <div class="quote-block">
+        「一項納入 150 位膝關節炎患者的隨機雙盲安慰劑對照試驗顯示，每日 300mg 蛋殼膜有助於改善日常活動情境下的關節疼痛與功能表現（KOOS 疼痛與日常生活子量表顯著改善，P&lt;0.001），惟一般性疼痛量表（NRS-P）未顯示組間差異，效果可能侷限於特定活動情境」（Kiers et al., Journal of Medicinal Food, 2021；N=150；資助方：DEPP B.V.）。
+        <span class="warn-note">⚠️ 注意：本研究於 300mg 劑量下的結果與 rsc_02（Cánovas 2022）部分矛盾，對外引用時應完整呈現此複雜性，不可僅摘取正面結果。</span>
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Ruff et al., Clinical Rheumatology, 2009（rsc_01）</td><td>WOMAC 量表下的疼痛/僵硬顯著結果，補充活動情境式量表的一致性證據</td></tr>
+          <tr><td>Cánovas et al., Nutrients, 2022（rsc_02）</td><td>300mg 劑量在 VAS 量表下的相反結果，交叉引用時應說明量表差異</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑種草籽補充對前期糖尿病與第二型糖尿病族群心代謝指標之系統性回顧與統合分析 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  ul.plain { padding-left: 20px; margin-bottom: 10px; }
+  ul.plain li { margin-bottom: 4px; font-size: 13.5px; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">系統性回顧與統合分析 · Meta-analysis</span>
+      <span class="hdr-tag q1">Q1 · IF 5.0（Frontiers in Nutrition）</span>
+      
+    </div>
+    <h1>黑種草籽補充對前期糖尿病與第二型糖尿病族群心代謝指標之系統性回顧與統合分析</h1>
+    <p class="subtitle">Nigella sativa supplementation improves cardiometabolic indicators in population with prediabetes and type 2 diabetes mellitus: A systematic review and meta-analysis of randomized controlled trials</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Saeede Saadati, Kaveh Naseri, Omid Asbaghi, Khadijeh Abhari, Pangzhen Zhang, Hua-Bin Li, Ren-You Gan</div>
+      <div class="meta-item"><strong>期刊</strong>Frontiers in Nutrition</div>
+      <div class="meta-item"><strong>年份</strong>2022 · 9:977756</div>
+      <div class="meta-item"><strong>PMID</strong>36034891</div>
+      <div class="meta-item"><strong>DOI</strong>10.3389/fnut.2022.977756</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">Frontiers in Nutrition · Q1</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">系統性回顧與統合分析 · Meta-analysis（N=11篇RCT（前期糖尿病/第二型糖尿病族群，總樣本數未於摘要列出））</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">摘要提供多項終點方向性結果與亞組調節因子（療程、劑量）</div>
+        </div>
+        <div class="cred-card" style="">
+          <div class="cred-label" style="">利益衝突</div>
+          <div class="cred-val" style="">✅ 已聲明無COI</div>
+          <div class="cred-sub">作者聲明「研究於無任何可能構成利益衝突之商業或財務關係下進行」</div>
+        </div>
+      </div>
+      
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本篇聚焦於前期糖尿病與第二型糖尿病族群（相對特定的高風險族群），發表於Q1營養期刊並聲明無利益衝突，研究團隊橫跨澳洲（Monash、Melbourne大學）、伊朗、中國多所機構，具國際多中心特性。其發現空腹血糖、糖化血色素、血脂、發炎指標均有顯著改善，且指出療程>8週、劑量>1g/天時對HOMA-IR及BMI效果更明顯，提供了劑量-時間反應的重要線索，可作為產品劑量設計參考。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">第二型糖尿病及其前期階段（前期糖尿病，pre-diabetes）在全球呈快速上升趨勢，國際糖尿病聯盟（IDF）估計全球逾5.4億成人罹患糖尿病，且合併心血管疾病風險顯著升高，故針對此高風險族群探討輔助性血糖與心代謝指標管理策略具有實務意義。</p><p style="margin-bottom:12px">黑種草籽於動物實驗中已被證實具有降血糖作用，機轉包括改善胰島素敏感性、保護胰島β細胞及抗氧化效果，惟人體臨床證據此前散見於個別小型RCT，缺乏系統性彙整且未特別針對「前期糖尿病+第二型糖尿病」此一高風險族群進行次族群分析。本研究即針對此缺口，系統性彙整11篇相關RCT，並探討劑量與療程長短對效果的調節作用。</p>
+      
+      
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+        <tr><td>試驗類型</td><td>系統性回顧與統合分析（Meta-analysis of RCTs）</td></tr>
+<tr><td>納入試驗</td><td>11篇隨機對照試驗</td></tr>
+<tr><td>受試者族群</td><td>前期糖尿病與第二型糖尿病患者</td></tr>
+<tr><td>主要終點</td><td>空腹血糖（FPG）、糖化血色素（HbA1c）、總膽固醇（TC）、LDL-C、CRP、丙二醛（MDA）</td></tr>
+<tr><td>次要/探索性終點</td><td>HOMA-IR、BMI（於療程>8週且劑量>1g/天亞組顯著改善）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">黑種草籽（Nigella sativa）補充（前期糖尿病/第二型糖尿病族群）
+├─ 層次一 — 胰臟/胰島素訊號層次
+│   ├─ 保護胰島β細胞：降低氧化壓力對胰島細胞的損傷（動物實驗證據）
+│   └─ 改善胰島素受體敏感性：降低胰島素阻抗（HOMA-IR）
+├─ 層次二 — 代謝/發炎層次
+│   ├─ 降低促發炎因子（CRP）：減少全身性低度發炎對代謝的負面影響
+│   └─ 抗氧化：降低丙二醛（MDA，氧化壓力指標）
+└─ 層次三 — 臨床心代謝指標（劑量與時間依賴）
+    ├─ 空腹血糖（FPG）↓、糖化血色素（HbA1c）↓
+    ├─ 總膽固醇（TC）↓、LDL-C ↓
+    └─ HOMA-IR、BMI：需療程>8週且劑量>1g/天方顯著改善</pre>
+      <div class="mech-detail"><h4>劑量-時間依賴效應</h4><p>本研究明確指出HOMA-IR與BMI的顯著改善僅出現於「療程超過8週且劑量超過1g/天」之亞組，顯示黑種草籽之代謝效益具有劑量閾值與最短療程要求，此點對產品劑量設計（如ThymoQuin建議每日500mg）具有重要參考價值——若欲宣稱胰島素阻抗或體重相關效果，日劑量可能需達1g以上。</p></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">主要終點：心代謝指標變化（11篇RCT，前期糖尿病/第二型糖尿病族群）</p>
+      <table>
+        <thead><tr><th>終點指標</th><th>效果方向</th><th>統計顯著性</th></tr></thead>
+        <tbody>
+        <tr><td>空腹血糖（FPG）</td><td>顯著降低</td><td>顯著</td></tr>
+<tr><td>糖化血色素（HbA1c）</td><td>顯著降低</td><td>顯著</td></tr>
+<tr><td>總膽固醇（TC）</td><td>顯著降低</td><td>顯著</td></tr>
+<tr><td>LDL-C</td><td>顯著降低</td><td>顯著</td></tr>
+<tr><td>C-反應蛋白（CRP）</td><td>顯著降低</td><td>顯著</td></tr>
+<tr><td>丙二醛（MDA）</td><td>顯著降低</td><td>顯著</td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">摘要未列精確WMD數字，僅呈現方向性結論；HDL-C僅於「基線值較低」亞組顯著改善，非全體樣本一致顯著。</p>
+      
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">亞組分析：療程與劑量對HOMA-IR、BMI的調節作用</p>
+      <table>
+        <thead><tr><th>亞組條件</th><th>HOMA-IR/BMI效果</th></tr></thead>
+        <tbody>
+        <tr><td>療程>8週 且 劑量>1g/天</td><td>顯著改善</td></tr>
+<tr><td>療程≤8週 或 劑量≤1g/天</td><td>效果不明顯或未達顯著</td></tr>
+        </tbody>
+      </table>
+      
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ HOMA-IR、BMI之改善並非全體樣本一致顯著，僅特定劑量-時間亞組達統計顯著，對外引用時應標明此為亞組結果。</p>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+      <li><div class="limit-num">1</div><span><strong>受試族群特定於糖尿病/前期糖尿病</strong>：本篇結論僅適用於前期糖尿病或第二型糖尿病患者族群，不可直接外推至一般健康人群的血糖效果宣稱。</span></li>
+<li><div class="limit-num">2</div><span><strong>HDL-C效果僅限亞組</strong>：HDL-C升高效果僅出現於基線值較低之亞組，非全體樣本一致顯著，對外引用時需明確標示此為亞組結果。</span></li>
+<li><div class="limit-num">3</div><span><strong>摘要未提供精確效果量</strong>：WebFetch取得資訊主要為方向性結論，缺乏WMD、95% CI等精確數字，需查證PMC全文（PMC9403837）取得完整統計數據。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（血壓統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p>rsc_01/rsc_02針對一般族群之血壓效果，本篇則針對糖尿病/前期糖尿病族群之心代謝指標，兩者共同構成黑種草籽於代謝症候群不同面向（血壓 vs 血糖血脂）的證據體系，惟受試族群不同，不可直接合併解讀。</p>
+          
+        </div>
+      </div>
+<div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（血脂統合分析（一般成人））的關係</div>
+        <div class="cross-ref-body">
+          <p>本篇（糖尿病族群）與rsc_03（一般成人）均顯示TC、LDL-C顯著降低，方向一致，形成跨族群的交叉驗證，增加血脂聲稱的證據穩定性。</p>
+          
+        </div>
+      </div>
+<div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_05（體重/肥胖指標統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p>本篇之BMI改善需劑量>1g/天且療程>8週方顯著，與rsc_05（一般成人體重統合分析，WMD -1.76kg）在劑量與族群設定上有差異，交叉引用時應留意族群與劑量條件不同。</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+        <li>可引用「針對前期糖尿病及第二型糖尿病患者之統合分析（11篇RCT）顯示，黑種草籽補充可顯著改善空腹血糖、糖化血色素、血脂及發炎指標（Saadati et al., Frontiers in Nutrition 2022;9:977756）」，惟須註明受試族群為糖尿病/前期糖尿病患者，非一般健康人群</li>
+<li>可作為劑量設計參考：若欲宣稱胰島素阻抗或體重相關效果，日劑量宜達1g以上、療程宜達8週以上（此為亞組分析結果，非全體樣本結論）</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+        <li>HOMA-IR、BMI改善僅於特定劑量-時間亞組顯著，一般性「改善胰島素阻抗」宣稱應附加「需達一定劑量與療程」之但書</li>
+<li>糖尿病患者為特殊健康族群，涉及血糖調節之保健食品宣稱在台灣受《健康食品管理法》及相關規範較嚴格審查，不宜以一般保健食品身分直接宣稱血糖調節功效</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+        <li>不得宣稱「治療糖尿病」「降血糖藥」等醫療化用語，糖尿病為需醫療處置之慢性疾病，保健食品不得取代藥物治療</li>
+<li>不得將糖尿病族群之特定亞組效果（如BMI改善）直接外推為一般健康人群的體重管理宣稱，族群條件不同</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">強聲稱：</p>
+      <div class="quote-block">
+        針對前期糖尿病及第二型糖尿病患者之統合分析（11篇RCT）顯示，黑種草籽補充可顯著改善空腹血糖、糖化血色素、總膽固醇、LDL-C及發炎指標CRP，且當療程超過8週、劑量超過1g/天時，胰島素阻抗（HOMA-IR）及BMI亦顯著改善（Saadati et al., Frontiers in Nutrition 2022;9:977756）。
+        
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; margin-top:14px; color:var(--indigo)">弱聲稱：</p>
+      <div class="quote-block">
+        初步證據顯示黑種草籽可能有助於糖尿病/前期糖尿病患者的代謝指標健康維持，惟此結論限於特定患者族群及較高劑量、較長療程之條件，不適用於一般健康族群之直接推論，亦不可取代糖尿病之醫療處置（Saadati et al., 2022）。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; margin-top:14px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+        <tr><td>rsc_03（Rounagh et al., 2024）</td><td>一般成人血脂統合分析，可與本篇糖尿病族群結果交叉引用，惟需分別標示受試族群</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

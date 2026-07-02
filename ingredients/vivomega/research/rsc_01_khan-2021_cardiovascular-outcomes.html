@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omega-3（EPA/DHA）與心血管結局：38 項 RCT 系統性回顧與統合分析 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; } .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); } .impl-warn h4 { color: var(--amber); } .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; } .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">系統性回顧 · Meta-analysis</span>
+      <span class="hdr-tag q1">Q1 · IF 15.1</span>
+      <span class="hdr-tag coi">COI 已確認（部分作者）</span>
+    </div>
+    <h1>Omega-3 脂肪酸（EPA/DHA）與心血管結局：38 項 RCT、14.9 萬人統合分析</h1>
+    <p class="subtitle">Effect of omega-3 fatty acids on cardiovascular outcomes: A systematic review and meta-analysis</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Khan SU, Lone AN, Khan MS, Virani SS, Blumenthal RS, Nasir K, Miller M, Michos ED, Ballantyne CM, Boden WE, Bhatt DL</div>
+      <div class="meta-item"><strong>期刊</strong>eClinicalMedicine（The Lancet Discovery Science）</div>
+      <div class="meta-item"><strong>年份</strong>2021 · 38:100997</div>
+      <div class="meta-item"><strong>PMID</strong>34505026</div>
+      <div class="meta-item"><strong>DOI</strong>10.1016/j.eclinm.2021.100997</div>
+      <div class="meta-item"><strong>PMC</strong>PMC8413259</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★★</span><span class="star-empty"></span></div>
+          <div class="cred-sub">eClinicalMedicine（Lancet 集團）· Q1 · IF 15.1</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★★</span><span class="star-empty"></span></div>
+          <div class="cred-sub">38 項 RCT 之統合分析（N=149,051）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★★</span><span class="star-empty"></span></div>
+          <div class="cred-sub">開放全文（PMC），含亞組、劑量反應、GRADE 分級</div>
+        </div>
+        <div class="cred-card" style="background: var(--red-light); border-color:#f5c0c0">
+          <div class="cred-label" style="color:var(--red)">利益衝突</div>
+          <div class="cred-val" style="color:var(--red)">⚠️ 部分確認</div>
+          <div class="cred-sub">通訊作者 Bhatt 及共同作者 Ballantyne、Miller 與 Amarin（EPA 藥廠）有財務往來</div>
+        </div>
+      </div>
+      <div class="coi-alert"><strong>COI 聲明：</strong>Deepak L. Bhatt 揭露與多家藥廠（含 Amarin，EPA 乙酯藥品 Vascepa 製造商）之顧問費／研究補助關係；Christie M. Ballantyne 與 Michael Miller 亦揭露 Amarin 個人顧問費。惟本篇為 38 項獨立 RCT 之彙總分析，非單一廠商資助之原始試驗，且統計方法（PRISMA、隨機效應模型、GRADE 分級）由學術團隊獨立執行，COI 主要影響「詮釋語氣」而非「原始數據真實性」。</div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本篇是目前針對 Omega-3 EPA/DHA 心血管結局最大規模、最新（2021）的統合分析之一，涵蓋 REDUCE-IT、STRENGTH、VITAL、ASCEND、JELIS 等指標性大型試驗，發表於 Lancet 集團旗下 eClinicalMedicine（IF 15.1，Q1），方法學嚴謹（PROSPERO 註冊、GRADE 證據分級）。COI 存在但不影響其作為「傘狀證據」的地位，仍是本知識庫中證據等級最高的一篇，可作為心血管相關聲稱的主要依據，惟措辭需區分 EPA 單方與 EPA+DHA 複方的效果差異（見下方核心數據）。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">心血管疾病（CVD）長期是全球第一大死因，據 WHO 估計每年造成約 1,790 萬人死亡，佔全球總死亡人數近 32%。血脂異常（尤其是高三酸甘油酯血症）是動脈粥狀硬化性心血管疾病（ASCVD）的重要可調控風險因子之一；即使在 statin 類藥物已將 LDL-C 控制達標的族群，仍存在「殘餘心血管風險」（residual cardiovascular risk），三酸甘油酯與發炎路徑被認為是殘餘風險的核心機轉。</p>
+      <p style="margin-bottom:20px">Omega-3 多元不飽和脂肪酸（EPA、DHA）自 1970 年代格陵蘭因紐特人流行病學觀察（Bang & Dyerberg 研究：高魚油攝取族群心血管疾病發生率顯著偏低）以來，一直被視為心血管保護因子候選物質。然而過去 20 年間，多項大型 RCT 結果矛盾：ASCEND（2018）、VITAL（2019）等以「低劑量 EPA+DHA 複方魚油（約 1 g/day）」介入的試驗，均未能顯示對主要心血管事件的顯著保護效果；相對地，REDUCE-IT（2019）以「高劑量 EPA 單方（icosapent ethyl，4 g/day）」介入，卻顯示心血管事件相對風險降低 25%，兩者結果的巨大落差引發學界對「EPA 單方 vs EPA+DHA 複方」「劑量閾值」「劑型（乙酯 vs 三酸甘油酯）」是否為療效差異關鍵因子的廣泛討論。同期發表的 STRENGTH 試驗（高劑量 EPA+DHA 複方，omega-3 carboxylic acid 4 g/day）則呈陰性結果，進一步加深爭議。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">本研究的定位與填補的知識缺口</p>
+      <div class="mech-detail">
+        <h4>為何需要本篇統合分析</h4>
+        <p>過去的 Meta-analysis（如 Aung 2018 的 Cochrane 分析）多在 REDUCE-IT、STRENGTH 等關鍵試驗發表「前」完成，未能納入最新、最大型的試驗數據；且既有分析多未系統性地依「EPA 單方 vs EPA+DHA 複方」分層比較，導致「omega-3 是否有效」的結論在臨床指引間反覆搖擺（部分指引因 STRENGTH 陰性結果下修建議等級）。本研究納入截至 2021 年 6 月的全部合格 RCT（38 項，N=149,051，為當時同類分析中樣本量最大者之一），並以事先設定的亞組分析明確區分 EPA 單方與 EPA+DHA 複方效果，試圖釐清「劑型／組成」是否為療效差異的關鍵變項，同時以 GRADE 系統評估證據確定性等級，供臨床指引制定參考。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>系統性回顧與統合分析（隨機效應模型），PRISMA 規範，PROSPERO 前瞻性註冊</td></tr>
+          <tr><td>資料庫檢索</td><td>EMBASE、PubMed/MEDLINE、Cochrane Library、ClinicalTrials.gov，檢索截至 2021 年 6 月 7 日</td></tr>
+          <tr><td>納入研究</td><td>38 項隨機對照試驗（含 REDUCE-IT、STRENGTH、VITAL、ASCEND、JELIS、GISSI-Prevenzione 等）</td></tr>
+          <tr><td>受試者</td><td>共 149,051 名成人（一級與二級心血管疾病預防族群皆含）</td></tr>
+          <tr><td>介入方式</td><td>Omega-3 脂肪酸補充，劑量範圍 0.4–5.5 g/day；依組成分為 EPA 單方組與 EPA+DHA 複方組</td></tr>
+          <tr><td>對照組</td><td>安慰劑（多為礦物油或玉米油）或一般照護</td></tr>
+          <tr><td>追蹤時間</td><td>各納入試驗追蹤期間 1–7.4 年不等</td></tr>
+          <tr><td>主要終點</td><td>心血管死亡、非致命性心肌梗塞、冠心病事件、主要不良心血管事件（MACE）、血管重建術、非致命性中風</td></tr>
+          <tr><td>次要／安全性終點</td><td>全因死亡、心房顫動（AF）、出血事件</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">Omega-3 脂肪酸（EPA / DHA）
+├─ 層次一 — 分子層次（數小時～數天內起效）
+│   ├─ 三酸甘油酯代謝：抑制肝臟 DGAT 酶活性，降低 VLDL 組裝與分泌，
+│   │   同時促進脂蛋白脂酶（LPL）活性，加速 TG 清除
+│   └─ 細胞膜磷脂置換：EPA/DHA 併入細胞膜磷脂雙層，取代花生四烯酸（AA），
+│       改變膜流動性與離子通道功能（與抗心律不整效果相關）
+├─ 層次二 — 細胞／訊息傳導層次（數天～數週）
+│   ├─ 類花生酸路徑競爭：EPA 與 AA 競爭 COX / LOX 酶，減少促發炎之
+│   │   Series 2 前列腺素與 Series 4 白三烯生成，增加抗發炎之
+│   │   Series 3 前列腺素、Resolvin E 系列
+│   └─ 抗血小板／抗血栓：降低血小板凝集反應性，抑制 TXA2 生成
+│       （與觀察到的「出血風險上升」安全訊號機轉相同）
+└─ 層次三 — 系統／血管層次（數週～數月，長期使用方顯著）
+    ├─ 內皮功能改善：提升一氧化氮（NO）生物利用度，改善血管舒張反應
+    ├─ 抗心律不整：穩定心肌細胞膜電位，降低心室顫動閾值敏感性
+    │   （但同時與 AF 風險上升的機轉相關，屬雙面效應）
+    └─ 斑塊穩定：動物與影像學研究顯示可能減少斑塊脂質核心、
+        增加纖維帽厚度，惟人體 ASCVD 事件層級證據仍以 EPA 單方為主</pre>
+      <div class="mech-detail">
+        <h4>EPA 單方 vs EPA+DHA 複方：機轉分歧點</h4>
+        <p>本篇作者特別強調，EPA 與 DHA 雖同屬 n-3 PUFA，但在膜結構效應、發炎路徑調控、脂質氧化及內皮功能上的效果「明顯不同」。EPA 可在不顯著升高 LDL-C 的前提下降低三酸甘油酯；DHA 則在高三酸甘油酯族群中可能輕度升高 LDL-C。這是解釋「EPA 單方組療效優於 EPA+DHA 複方組」的候選機轉之一，惟確切分子機制（如高劑量 EPA 特有的膜穩定作用、抗氧化能力）仍待進一步基礎研究釐清。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>劑量與時間動態</h4>
+        <p>納入試驗劑量介於 0.4–5.5 g/day，僅 11% 研究使用 ≥4 g/day 高劑量。REDUCE-IT 中「治療中 EPA 血中濃度」與主要及次要終點呈強相關，顯示血中濃度（而非僅口服劑量）可能才是決定臨床效益的關鍵中介變項，也間接提示「吸收率／生體可用率」（與魚油劑型如三酸甘油酯形式相關）在達到有效血中濃度上扮演重要角色。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">整體效果（38 RCT，N=149,051，隨機效應模型）</p>
+      <table>
+        <thead><tr><th>終點指標</th><th>RR（95% CI）</th><th>P 值</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>心血管死亡</td><td><strong>0.93（0.88–0.98）</strong></td><td>0.01</td><td>顯著</td></tr>
+          <tr><td>非致命性心肌梗塞</td><td><strong>0.87（0.81–0.93）</strong></td><td>0.0001</td><td>顯著</td></tr>
+          <tr><td>冠心病事件</td><td><strong>0.91（0.87–0.96）</strong></td><td>0.0002</td><td>顯著</td></tr>
+          <tr><td>主要不良心血管事件（MACE）</td><td><strong>0.95（0.92–0.98）</strong></td><td>0.002</td><td>顯著</td></tr>
+          <tr><td>血管重建術</td><td><strong>0.91（0.87–0.95）</strong></td><td>0.0001</td><td>顯著</td></tr>
+          <tr><td>非致命性中風</td><td>1.04（0.91–1.18）</td><td>0.55</td><td>⚠️ 未達統計顯著</td></tr>
+          <tr><td>全因死亡</td><td>0.97（0.93–1.02）</td><td>0.27</td><td>⚠️ 未達統計顯著</td></tr>
+        </tbody>
+      </table>
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">亞組分析：EPA 單方 vs EPA+DHA 複方</p>
+      <table>
+        <thead><tr><th>終點</th><th>EPA 單方 RR（95% CI）</th><th>EPA+DHA 複方 RR（95% CI）</th></tr></thead>
+        <tbody>
+          <tr><td>心血管死亡</td><td><strong>0.82（0.68–0.99）</strong></td><td>0.94（0.89–0.99）</td></tr>
+          <tr><td>非致命性 MI</td><td><strong>0.72（0.62–0.84）</strong>，P=0.00002</td><td>0.92（0.85–1.00），P=0.05</td></tr>
+          <tr><td>冠心病事件</td><td><strong>0.73（0.62–0.85）</strong>，P=0.00004</td><td>0.94（0.89–0.99），P=0.01</td></tr>
+          <tr><td>MACE</td><td><strong>0.78（0.71–0.85）</strong>，P≈0.00000001</td><td>0.99（0.95–1.02），P=0.48（未顯著）</td></tr>
+          <tr><td>非致命性中風</td><td><strong>0.71（0.54–0.94）</strong>，P=0.01</td><td>整體未顯著</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:13px; color:var(--gray-3); margin-bottom:10px">亞組間交互作用檢定（interaction term）達統計顯著，顯示 EPA 單方組在多項終點的相對風險降幅顯著大於 EPA+DHA 複方組。</p>
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">安全性訊號</p>
+      <table>
+        <thead><tr><th>終點</th><th>RR（95% CI）</th><th>P 值</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>心房顫動（AF）</td><td>1.26（1.08–1.48）</td><td>0.004</td><td>⚠️ 風險上升；EPA 單方組尤高：1.35（1.10–1.66）</td></tr>
+          <tr><td>總出血事件（EPA 單方組）</td><td>1.49（1.20–1.84）</td><td>0.006</td><td>⚠️ 風險上升，多為輕微出血（瘀斑、鼻出血）</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 非致命性中風與全因死亡兩項終點未達統計顯著，對外聲稱時不可宣稱 omega-3「降低中風風險」或「降低死亡率」的整體結論，僅 EPA 單方亞組於中風終點達顯著。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>試驗間異質性</strong>：納入試驗的劑量（0.4–5.5 g/day）、劑型（乙酯 vs 三酸甘油酯 vs 羧酸型）、族群（一級 vs 二級預防）差異大，可能影響效果量估計的一致性。</span></li>
+        <li><div class="limit-num">2</div><span><strong>對照組選擇爭議</strong>：REDUCE-IT 使用礦物油作為安慰劑，事後有學者質疑礦物油本身可能升高對照組 LDL-C／CRP，人為放大介入組的相對效益，此為文獻界持續爭論的方法學議題。</span></li>
+        <li><div class="limit-num">3</div><span><strong>高劑量研究比例低</strong>：僅 11% 納入試驗使用 ≥4 g/day，限制對「劑量反應關係」的精確估計。</span></li>
+        <li><div class="limit-num">4</div><span><strong>COI 影響詮釋語氣</strong>：部分作者與 Amarin（EPA 藥廠）有財務關係，雖不影響原始 38 篇試驗數據本身，但在「EPA 優於 EPA+DHA」的敘事強度上需保守看待。</span></li>
+        <li><div class="limit-num">5</div><span><strong>非本研究直接測試單一品牌／劑型</strong>：本篇為跨試驗彙總分析，並未針對特定商品化魚油濃縮物（如 VivoMega）進行直接測試，聲稱時不可直接連結至特定商品的療效保證。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Minton et al. 2023，rTG 生體可用率 RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接</strong>：本篇提出「治療中 EPA 血中濃度」與心血管結局強相關，暗示達到足夠血中濃度是療效前提；rsc_02 直接證實高比例再酯化三酸甘油酯（rTG）形式較低比例 rTG 能更有效提升紅血球膜 EPA/DHA 併入率，兩篇合併可支持「VivoMega 之三酸甘油酯濃縮製程有助於提升生體可用率，進而更快達到具心血管保護意義之血中濃度」的邏輯鏈，但此為跨研究推論，非同一試驗直接證實。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（Lee et al. 2012，類風濕性關節炎統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制共通</strong>：兩篇皆指向 EPA/DHA 之抗發炎路徑（類花生酸競爭抑制），本篇聚焦心血管系統之發炎介導性斑塊穩定，rsc_03 聚焦關節滑膜發炎，屬同一分子機制在不同器官系統的臨床表現，可互相佐證「抗發炎」為 omega-3 的核心共通機轉，惟臨床終點證據強度不同（本篇心血管 RR 達顯著，rsc_03 關節症狀多數未達顯著僅 NSAID 用量減少達顯著）。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（Mulder et al. 2014，孕期 DHA 補充 RCT）及 rsc_05（Chang et al. 2024，憂鬱/失智統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>時序關聯／不同生命階段</strong>：本篇針對成人（多為中老年）心血管終點，rsc_04 針對胎兒神經發育、rsc_05 針對高齡族群認知/情緒，三篇共同勾勒 omega-3 在生命全期（胎兒期→成年期→高齡期）皆具生理角色的整體圖像，但屬不同終點、不同機轉路徑，不可互相替代作為聲稱依據，各自獨立引用。</p>
+          <p class="caveat">⚠️ 四篇論文中僅本篇（rsc_01）與 rsc_02 涉及成人心血管／血脂終點，是本知識庫中唯一具「臨床心血管事件」層級證據的論文，其餘三篇分屬不同適應症領域，交叉引用時務必標明適應症差異。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>「Omega-3 EPA/DHA 為國際大型統合分析（38 項 RCT，14.9 萬人）證實有助於心血管健康之相關研究對象」——可作為「原料具大量國際文獻佐證」之陳述，不涉及特定商品療效保證。</li>
+          <li>可陳述「EPA 具有助於維持正常三酸甘油酯代謝之研究基礎」，此為機制層級陳述，非疾病治療聲稱。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>不可將本篇「心血管死亡風險降低 7%（RR 0.93）」等統計數字直接套用在單一商品身上，因本研究對象為多種劑型、多種劑量之彙總，非針對 VivoMega 產品本身之臨床試驗。</li>
+          <li>提及「降低風險」字眼時，須明確標示為「文獻研究顯示」而非「本產品可降低」，並避免與疾病治療（如「治療心臟病」「降低心肌梗塞」）之直接因果語氣混淆，以符合台灣 TFDA 保健食品不得宣稱醫療效能之規範。</li>
+          <li>非致命性中風與全因死亡兩項終點未達統計顯著，禁止延伸聲稱「降低中風」或「降低死亡率」。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可聲稱「治療」「預防」心肌梗塞或心血管疾病，此屬醫療效能聲稱，違反台灣《健康食品管理法》及《食品安全衛生管理法》相關規定。</li>
+          <li>不可忽略 AF（心房顫動）與出血風險上升之安全性訊號，行銷素材若引用心血管效益，宜同時保有均衡揭露空間（內部資料庫留存，非強制對外揭露但需誠實掌握）。</li>
+        </ul>
+      </div>
+      <p style="font-size:13px; color:var(--gray-3); margin-top:8px">台灣 TFDA 相關規範：保健食品得依「衛生福利部核准之保健功效」範圍內敘述，魚油類目前於台灣核准之保健功效類別包含「調節血脂」，惟需以個別產品送驗核備字號後方可宣稱，本篇文獻僅可作為研究佐證資料庫，不可取代個別產品之功效字號審核程序。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為機制/研究佐證引用（強聲稱，僅限一般教育性陳述，非產品功效保證）：</p>
+      <div class="quote-block">
+        一項發表於 eClinicalMedicine（The Lancet 集團，IF 15.1）之統合分析，彙整 38 項隨機對照試驗共 149,051 名成人數據，顯示 Omega-3 脂肪酸補充與心血管死亡風險降低 7%（RR 0.93，95% CI 0.88–0.98，P=0.01）、非致命性心肌梗塞風險降低 13%（RR 0.87，95% CI 0.81–0.93，P=0.0001）相關；其中 EPA 單方之效果量顯著優於 EPA+DHA 複方（Khan et al., eClinicalMedicine, 2021；N=149,051）。
+        <span class="warn-note">⚠️ 注意：通訊作者與共同作者部分揭露與 Amarin（EPA 藥廠）之財務關係，且本分析非針對特定商品之臨床試驗，對外使用時應以「研究文獻佐證」而非「本產品實證功效」措辭呈現。</span>
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>rsc_02（Minton et al., PLOS One, 2023）</td><td>提供三酸甘油酯型式（rTG）魚油生體可用率之獨立佐證，補強「劑型影響吸收」之機轉說明</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

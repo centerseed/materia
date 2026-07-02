@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>食物型葉酸生物利用率為合成葉酸之80% — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre-wrap; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag rct">隨機對照試驗 · Controlled Intervention Trial</span>
+      <span class="hdr-tag q1">Q1（Nutrition & Dietetics）· IF 5.2</span>
+    </div>
+    <h1>食物型葉酸的生物利用率為合成葉酸之80%：天然來源生物利用率並非「一律更高」的關鍵反例</h1>
+    <p class="subtitle">Bioavailability of Food Folates Is 80% of That of Folic Acid</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Renate M. Winkels, Ingeborg A. Brouwer, Els Siebelink, Martijn B. Katan, Petra Verhoef</div>
+      <div class="meta-item"><strong>期刊</strong>American Journal of Clinical Nutrition</div>
+      <div class="meta-item"><strong>年份</strong>2007 · 85(2):465-473</div>
+      <div class="meta-item"><strong>PMID</strong>17284745</div>
+      <div class="meta-item"><strong>DOI</strong>10.1093/ajcn/85.2.465</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★★</span></div>
+          <div class="cred-sub">American Journal of Clinical Nutrition，Q1 頂尖臨床營養學期刊，IF≈5.2</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">隨機對照4週飲食介入試驗，N=72健康成人，同位素標記葉酸精確追蹤</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">具體數值、信賴區間齊全</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val" style="color:var(--green)">✅ 無已知</div>
+          <div class="cred-sub">Wageningen大學獨立學術研究，公開摘要未見廠商資助聲明</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本研究由荷蘭 Wageningen 食品科學研究中心執行，設計嚴謹（同位素標記［¹³C₁₁］葉酸精確定量，非僅血中濃度粗估），樣本量對於代謝性介入試驗而言屬合理規模（N=72，4組），為葉酸生物利用率領域的重要基準文獻，常被後續文獻（含 rsc_04 系統性回顧）引用。此篇研究對本專案的特殊價值在於：它提供了一個與 Cultavit® 簡報中「天然葉酸生物利用率高於合成葉酸（AUC 138% vs 100%）」訴求方向相反的獨立證據，是進行「證據誠實分層」時不可忽略的關鍵反例，應在對外文案審查時特別留意。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">葉酸（folate，維生素B9）攝取不足與神經管缺陷、心血管疾病風險上升、貧血等多項健康問題相關，全球多國因此推行葉酸強化食品政策或建議孕齡婦女額外補充合成葉酸（folic acid）。然而，關於「天然食物中的葉酸」與「合成葉酸補充劑」兩者在人體內的生物利用率是否相同，學界長期存在爭議——部分早期研究估計天然食物葉酸的生物利用率僅為合成葉酸的30-50%，但方法學差異（血中濃度法 vs 尿液排出法 vs 同位素標記法）導致不同研究結論分歧極大，缺乏共識（No agreement exists as to the extent of the difference）。</p>
+      <p style="margin-bottom:20px">此外，此前研究多半只比較單一天然食物來源（如菠菜）與合成葉酸，難以得出「天然食物葉酸」的整體代表性數字。本研究團隊因此設計了一項嚴謹的4週隨機對照介入試驗，透過同位素標記技術精確追蹤葉酸的吸收與代謝路徑，同時以「高天然食物葉酸飲食」對比「低葉酸飲食+不同劑量合成葉酸膠囊補充」四組設計，計算天然食物來源葉酸（來自水果、蔬菜、肝臟等綜合飲食）相對於合成葉酸之整體生物利用率百分比，希望為當時各國葉酸營養政策制定提供更可靠的量化基礎。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">研究設計背景</p>
+      <div class="mech-detail">
+        <h4>同位素標記法（[¹³C₁₁]-labeled folate）— 比血中濃度法更精確的追蹤工具</h4>
+        <p>過去許多生物利用率研究僅測量攝取後血中葉酸濃度變化，此方法易受個體代謝速率、既有體內葉酸儲存量等干擾因素影響。本研究採用穩定同位素標記葉酸，可直接追蹤「標記葉酸」在血漿中出現的百分比，是評估生物利用率的金標準方法之一，因此其「78%（95% CI: 48%-108%）」與「85%（52%-118%）」兩組估計值的方法學可信度較高。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>隨機對照飲食介入試驗（4組平行設計）</td></tr>
+          <tr><td>受試者</td><td>72名健康成人，隨機分為4組（每組約18人）</td></tr>
+          <tr><td>介入方式</td><td>第1組：高天然食物葉酸飲食（369 μg/day，來自水果蔬菜肝臟等）；第2-4組：低葉酸飲食（73 μg/day）+ 合成葉酸膠囊補充（分別92、191、289 μg/day），所有組別皆額外攝取同位素標記葉酸供追蹤</td></tr>
+          <tr><td>對照組</td><td>組間交叉對比（高天然食物葉酸組 vs 低天然食物+合成葉酸補充組），以劑量反應關係推算生物利用率</td></tr>
+          <tr><td>追蹤時間</td><td>4週飲食介入</td></tr>
+          <tr><td>主要終點</td><td>血漿中[¹³C₁₁]標記葉酸百分比；血清葉酸濃度變化</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">葉酸攝取後之吸收與代謝路徑
+├─ 層次一 — 腸道分子層次（攝取後數分鐘至數小時）
+│   ├─ 天然食物葉酸多為多麩胺酸型態（polyglutamyl folate），需經腸道
+│   │   γ-麩胺醯水解酶（γ-glutamyl hydrolase）去麩胺酸化為單麩胺酸型態
+│   │   才能被腸道上皮細胞轉運吸收——此步驟為天然葉酸生物利用率通常
+│   │   低於合成葉酸的關鍵機制之一
+│   └─ 合成葉酸（folic acid）本身即為單麩胺酸型態氧化型葉酸，可直接
+│       被腸道葉酸轉運蛋白吸收，且部分未經代謝的合成葉酸可直接進入
+│       血液循環（unmetabolized folic acid, UMFA）
+├─ 層次二 — 食物基質（food matrix）層次
+│   ├─ 天然葉酸不穩定性：部分天然葉酸型態（如5,10-methenyl-THF）在消化
+│   │   過程中易分解流失，降低實際可吸收量
+│   └─ 食物基質中膳食纖維、其他營養素可能干擾或促進葉酸在腸道中的
+│       穩定性與吸收效率，因此不同食物來源（菠菜30% vs 酵母59%，依
+│       其他文獻）的生物利用率差異極大
+└─ 層次三 — 系統層次（攝取後數週至數月）
+    └─ 長期而言，血清與紅血球葉酸濃度的累積速度受上述吸收效率差異
+        影響，是評估葉酸營養狀態的長期指標</pre>
+      <div class="mech-detail">
+        <h4>核心結論：食物來源葉酸生物利用率為合成葉酸之約80%，而非更高</h4>
+        <p>本研究測得的「78%（同位素標記法）」與「85%（血清濃度法）」兩組數字，方向一致地顯示：以水果、蔬菜、肝臟等天然食物來源之綜合葉酸，其生物利用率「低於」而非「高於」合成葉酸。這與部分保健品原料商行銷素材中「天然來源維生素吸收率一定優於合成型態」的一般性論述方向相反，值得在撰寫產品文案時特別留意此類反例的存在。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">食物葉酸相對生物利用率（N=72，健康成人，4週介入）</p>
+      <table>
+        <thead><tr><th>測量方法</th><th>相對生物利用率</th><th>95% 信賴區間</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>同位素標記法（[¹³C₁₁]-labeled folate，血漿百分比）</td><td><strong>78%</strong></td><td>48%–108%</td><td>以合成葉酸生物利用率為100%基準</td></tr>
+          <tr><td>血清葉酸濃度變化法</td><td><strong>85%</strong></td><td>52%–118%</td><td>與同位素法方向一致，互相印證</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:13px; color:var(--gray-3); margin-bottom:12px">結論：綜合水果、蔬菜、肝臟之食物型葉酸整體生物利用率約為合成葉酸的80%（Aggregate bioavailability of folates from fruit, vegetables, and liver is approximately 80% of that of folic acid）。</p>
+      <p style="font-weight:700; color:var(--indigo); margin: 20px 0 10px; font-size:13.5px">相關文獻補充：不同食物來源之葉酸生物利用率差異極大（引自其他獨立對照試驗，非本篇原始數據）</p>
+      <table>
+        <thead><tr><th>食物來源</th><th>相對生物利用率（vs 合成葉酸=100%）</th></tr></thead>
+        <tbody>
+          <tr><td>菠菜</td><td>約30%</td></tr>
+          <tr><td>酵母</td><td>約59%</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:13px; color:var(--gray-3)">此區間數字說明：即使同屬「天然來源」，不同食物基質（food matrix）之葉酸生物利用率仍可有近2倍的差距，凸顯「天然來源」本身不是決定生物利用率的唯一因素，發芽穀物或酵母來源的實際數字需個別測定，不可一概而論。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>信賴區間寬廣</strong>：78%（95% CI: 48%-108%）與85%（52%-118%）的信賴區間範圍皆較寬，反映個體間葉酸代謝差異大，樣本量（N=72分4組）對於精確估計信賴區間而言仍有限。</span></li>
+        <li><div class="limit-num">2</div><span><strong>綜合食物來源，非單一食物</strong>：本研究之「食物葉酸」為水果、蔬菜、肝臟等綜合飲食來源，並非針對「發芽穀物」此一特定類別，不能直接套用於蕎麥或其他發芽穀物的葉酸生物利用率評估。</span></li>
+        <li><div class="limit-num">3</div><span><strong>健康成人族群，非孕婦或特殊族群</strong>：受試者為一般健康成人，葉酸生物利用率在孕婦、老年人或特殊生理狀態下可能有所不同，本研究結果外推至這些族群需謹慎。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（蕎麥發芽對生物分子與抗氧化特徵之影響）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>部分矛盾張力</strong>：rsc_01 支持「發芽可提升穀物營養素生物可利用性」之機制原理，但本篇（rsc_02）顯示一般天然食物葉酸整體生物利用率反而低於合成葉酸。兩篇合看，說明「發芽處理」與「天然來源葉酸生物利用率」之間並非簡單的正相關，Cultavit® 供應商簡報中所引用的「Cultavit®-Folate AUC=138%高於Pure Folate=100%」數據若要站得住腳，需要 Cultavit® 專屬人體 PK 試驗的原始文獻佐證，不能僅以本篇「天然來源」的一般性原理間接推論。</p>
+          <p class="caveat">⚠️ 建議業主向 KeimKraft GmbH 供應商索取其簡報第11頁生物利用率圖表的原始出處文獻（作者、期刊、受試者人數），以獨立核實該項數字的可信度，而非僅依賴簡報圖表本身。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（葉酸補充預防神經管缺陷復發之meta分析）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>互補、時序關聯</strong>：rsc_03 討論的是「合成葉酸」在高劑量（4mg/day）下對神經管缺陷復發的臨床預防效果；本篇（rsc_02）則說明天然食物葉酸生物利用率僅為合成葉酸之80%。兩篇合看意味著：若欲達到 rsc_03 研究中相同的葉酸血中濃度以達預防效果，天然食物來源需要更高的攝取量才能達到相當的效用，這對於「以天然葉酸取代合成葉酸作為孕期神經管缺陷預防手段」的產品定位需特別謹慎評估劑量換算。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（B群補充改善運動疲勞RCT）及 rsc_05（B群補充與心血管同半胱胺酸meta分析）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>無直接關聯</strong>：rsc_04、rsc_05 聚焦於B群補充（不區分來源型態）對疲勞、同半胱胺酸的整體功效，本篇僅針對葉酸單一成分的生物利用率議題，兩者可獨立引用、互不衝突。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>「不同來源之葉酸生物利用率存在差異，天然食物基質對葉酸吸收有重要影響」——可作為原料生物利用率議題的一般性科學背景說明。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>不建議在對外文宣中泛稱「天然來源葉酸吸收一定比合成葉酸好」，本研究提供了明確反例（80%），Cultavit® 若要主張自家產品生物利用率優於合成葉酸，須以其專屬人體 PK 試驗數據為準，並清楚標示與一般食物來源葉酸文獻結論不同的原因（如發芽處理之特殊性）。</li>
+          <li>若要引用 Cultavit® 簡報中「AUC 138%」之數字，建議先向供應商索取該圖表原始出處文獻進行獨立核實，再決定是否對外引用。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可宣稱「天然葉酸生物利用率普遍高於合成葉酸」，此為與本篇高品質對照試驗結論直接矛盾的錯誤陳述。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為葉酸生物利用率背景知識引用（用於審慎評估Cultavit®自身數據，而非直接支持其優越性）：</p>
+      <div class="quote-block">
+        獨立隨機對照試驗顯示，一般天然食物來源（水果、蔬菜、肝臟）之葉酸整體生物利用率約為合成葉酸的78-85%（Winkels et al., American Journal of Clinical Nutrition, 2007；N=72；95% CI: 48-118%），意味著「天然來源」本身並非決定葉酸吸收效率優劣的絕對因素，個別原料之生物利用率仍需獨立實測數據佐證。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Melse-Boonstra et al., "Bioavailability of heptaglutamyl relative to monoglutamyl folic acid", AJCN, 2004（PMID 15447898）</td><td>另一篇同團隊之葉酸生物利用率對照試驗，可交叉驗證方法學一致性</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

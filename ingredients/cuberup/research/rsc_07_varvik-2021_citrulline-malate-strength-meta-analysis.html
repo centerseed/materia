@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>瓜胺酸蘋果酸鹽對阻力訓練反覆次數表現之急性效果：系統性回顧與Meta分析 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; } .star-empty { color: #ccc; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); } .impl-warn h4 { color: var(--amber); } .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">系統性回顧與Meta分析 · Systematic Review &amp; Meta-Analysis</span>
+      <span class="hdr-tag q1">Q1 · IF ≈ 3.5</span>
+    </div>
+    <h1>瓜胺酸蘋果酸鹽（Citrulline Malate）急性補充對阻力訓練反覆次數表現之效果：系統性回顧與Meta分析</h1>
+    <p class="subtitle">Acute Effect of Citrulline Malate on Repetition Performance During Strength Training: A Systematic Review and Meta-Analysis</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Vårvik FT, Bjørnsen T（University of Agder, 挪威）, Gonzalez AM（Hofstra University, 美國）</div>
+      <div class="meta-item"><strong>期刊</strong>International Journal of Sport Nutrition and Exercise Metabolism</div>
+      <div class="meta-item"><strong>年份</strong>2021 · 31(4):350-358</div>
+      <div class="meta-item"><strong>PMID</strong>34010809</div>
+      <div class="meta-item"><strong>DOI</strong>10.1123/ijsnem.2020-0295</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">International Journal of Sport Nutrition and Exercise Metabolism · Scimago Q1（Physical Therapy, Sports），IF約3.5，運動營養學領域權威期刊</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">系統性回顧與Meta分析（8篇研究，137位受試者）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">完整方法學、納入研究清單與效果量統計</div>
+        </div>
+        <div class="cred-card" style="background: var(--green-light); border-color:#b8e0c8">
+          <div class="cred-label" style="color:var(--green)">利益衝突</div>
+          <div class="cred-val" style="color:var(--green)">✅ 無</div>
+          <div class="cred-sub">學術研究團隊（挪威、美國大學），非黃瓜萃取物或瓜胺酸原料商資助之獨立系統性回顧</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本研究是本原料資料夾中證據等級最高的文獻——系統性回顧與Meta分析位於證據金字塔頂端，且發表於運動營養學領域權威期刊（Q1），無商業利益衝突。**須特別注意**：本研究之研究對象是「瓜胺酸蘋果酸鹽（citrulline malate）」，一種常見的運動營養補充品原料，並非黃瓜萃取物或CuberUp®本身，而是CuberUp®機轉論述中所提及之活性成分——瓜胺酸（L-citrulline）——的高劑量純化補充品研究。本文件之角色是為CuberUp®機轉論述中「瓜胺酸-精胺酸-NO路徑有助於肌力表現」此一理論假說，提供**跨成分**的獨立系統性證據支持，而非CuberUp®本身的直接功效證據，這一區分在對外引用時至關重要。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">瓜胺酸蘋果酸鹽（citrulline malate）是運動營養補充品市場中歷史悠久的成分，其作用機制假說源自「L-瓜胺酸 → 經腎臟轉化為L-精胺酸 → 一氧化氮合成酶（NOS）催化生成一氧化氮（NO）→ 血管舒張、改善肌肉血流灌注與營養/氧氣運送」的生理路徑，理論上可延緩運動疲勞、提升反覆訓練次數表現。然而，過去單篇研究結果並不一致：部分研究顯示急性補充citrulline malate可顯著提升阻力訓練反覆次數，部分研究則未觀察到顯著效果，此矛盾結果的根源可能與劑量、補充時機（運動前多久服用）、訓練動作類型（上肢vs下肢、單關節vs多關節）等調節因子有關，亟需系統性彙整以釐清整體證據方向與效果量大小。</p>
+      <p style="margin-bottom:20px">本研究之目的是透過系統性文獻回顧與Meta分析方法，彙整所有符合條件之雙盲安慰劑對照試驗，量化評估citrulline malate急性補充對健康受試者阻力訓練「反覆次數至力竭（repetitions to failure）」表現的整體效果量，並探討上肢/下肢動作類型是否為效果調節因子，為運動營養補充品建議提供實證基礎的系統性回顧層級證據。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>系統性回顧與Meta分析</td></tr>
+          <tr><td>納入研究</td><td>8篇雙盲安慰劑對照試驗</td></tr>
+          <tr><td>受試者</td><td>合計137位健康受試者（101位受過阻力訓練男性、26位女性，另含部分未受訓練男性）</td></tr>
+          <tr><td>介入方式</td><td>急性單次citrulline malate補充（運動前給予，各研究劑量與時機略有差異）</td></tr>
+          <tr><td>比較內容</td><td>上肢與下肢阻力訓練動作，共14個單關節與多關節動作，約51組反覆次數數據</td></tr>
+          <tr><td>主要終點</td><td>阻力訓練反覆次數至力竭（repetitions to failure）之整體效果量</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">L-瓜胺酸（citrulline malate中之活性胺基酸成分）
+├─ 層次一 — 分子層次（攝取後1-2小時內達血中峰值）
+│   └─ L-瓜胺酸 → 腎臟轉化 → L-精胺酸 → NOS催化 → 一氧化氮（NO）
+├─ 層次二 — 血管/循環層次（NO生成後短期內發生）
+│   └─ 血管舒張，增加運動肌肉之血流灌注與氧氣/營養運送
+│       亦有助於加速代謝廢物（如氨）清除
+└─ 層次三 — 運動表現層次（運動過程中逐漸顯現）
+    └─ 延緩肌肉疲勞、降低自覺費力程度（RPE）、
+        小幅提升阻力訓練反覆次數表現（本研究之Meta分析結論）</pre>
+      <div class="mech-detail">
+        <h4>與CuberUp®機轉論述的關聯：瓜胺酸路徑的跨成分佐證</h4>
+        <p>CuberUp®供應商簡報明確提出「瓜胺酸的三維護航」機轉論述，宣稱其所含L-瓜胺酸/L-精胺酸可透過一氧化氮路徑促進關節修復、提升肌肉運動表現，並以此解釋rsc_01人體試驗觀察到之肌力指標提升（Peak Torque +14%、Total Work +15%、Average Power +18%）。本系統性回顧證實「瓜胺酸類成分確實對阻力訓練表現具有小幅但一致的正向效果」，為CuberUp®機轉論述提供了獨立於黃瓜萃取物研究體系之外的成分機制佐證——即便CuberUp®本身未直接測量血中瓜胺酸/NO濃度變化，瓜胺酸此一活性成分本身的運動表現效益已有較高等級證據支持。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>效果量為「小幅」而非「大幅」：合理化CuberUp®低劑量下的效果解讀</h4>
+        <p>本研究結論明確指出citrulline malate對阻力訓練表現之效果量為「小幅」（small ergogenic effect），且運動營養品市場常見的citrulline malate建議劑量通常為6-8克/次，遠高於CuberUp®建議攝取量（20mg/日，其中瓜胺酸僅為萃取物中的部分成分，實際瓜胺酸含量遠低於20mg）。此劑量落差意味著：即便瓜胺酸機制路徑本身有效，CuberUp®中瓜胺酸的實際劑量極可能遠不足以達到本研究所評估之運動表現效果閾值，rsc_01觀察到之肌力提升更可能主要歸因於黃瓜萃取物之抗發炎、關節修復效果減少疼痛干擾所間接促成的功能改善，而非瓜胺酸-NO路徑之直接運動表現增強效果。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">主要終點：阻力訓練反覆次數至力竭之整體效果量（8篇研究，137位受試者，14個訓練動作）</p>
+      <table>
+        <thead><tr><th>終點指標</th><th>效果方向</th><th>效果量</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>反覆次數至力竭（整體）</td><td><strong>小幅但一致的正向效果</strong>（提升）</td><td>Small effect size</td><td>6/8篇研究呈現顯著或方向性改善</td></tr>
+          <tr><td>自覺費力程度（RPE）</td><td>部分研究顯示降低趨勢</td><td>—</td><td>與延緩疲勞機制假說一致</td></tr>
+        </tbody>
+      </table>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">亞組分析：上肢 vs 下肢動作</p>
+      <table>
+        <thead><tr><th>亞組</th><th>效果趨勢</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>上肢阻力訓練動作</td><td>效果較明確</td><td>多篇研究一致顯示反覆次數提升</td></tr>
+          <tr><td>下肢阻力訓練動作</td><td>效果較不一致</td><td>部分研究未見顯著差異</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 本Meta分析納入研究之citrulline malate劑量範圍差異大（多數研究使用6-8克單次劑量），效果量雖達統計意義但幅度small，屬於「有幫助但非戲劇性提升」等級的證據，不應誇大解讀為「顯著提升運動表現」。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>納入研究數量與異質性</strong>：僅8篇研究、137位受試者，且各研究劑量、補充時機、訓練動作差異大，異質性可能影響Meta分析結果的穩健性。</span></li>
+        <li><div class="limit-num">2</div><span><strong>效果量為小幅（small effect size）</strong>：雖方向一致，但效果幅度不大，臨床/實務意義（是否足以轉化為實際訓練量提升）需審慎解讀。</span></li>
+        <li><div class="limit-num">3</div><span><strong>研究對象為高劑量純化citrulline malate，非黃瓜萃取物</strong>：本研究與CuberUp®/黃瓜萃取物研究體系完全獨立，劑量（6-8克/次）遠高於CuberUp®建議攝取量（20mg/日）中理論上所含之瓜胺酸量，不可直接類推效果幅度。</span></li>
+        <li><div class="limit-num">4</div><span><strong>僅評估急性單次補充效果</strong>：本研究聚焦「運動前單次補充」之急性效果，未評估長期每日補充（如CuberUp®之60天療程設計）對肌力表現的慢性適應效果，兩種補充模式之機制與效果可能不同。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Pérez-Piñero et al. 2023, CuberUp® 原廠核心 RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接（跨成分佐證，需謹慎劑量類比）</strong>：本研究為CuberUp®供應商機轉論述中「瓜胺酸-精胺酸-NO路徑提升肌肉表現」提供了獨立於黃瓜萃取物研究體系之外的系統性回顧級證據支持，強化此機制假說之理論合理性。惟本研究使用之citrulline malate劑量（6-8克/次）與CuberUp®（20mg/日，且瓜胺酸僅為其中部分成分）劑量差距達數百倍，rsc_01觀察到之肌力提升更可能主要透過關節疼痛/發炎改善之間接路徑達成，而非直接的瓜胺酸-NO運動表現增強效果，兩篇不可直接類比效果幅度。</p>
+          <p class="caveat">⚠️ 對外引用時務必清楚區分：rsc_01是CuberUp®整體（黃瓜萃取物）之人體臨床數據，本研究是瓜胺酸此一成分（以高劑量純化形式）之獨立系統性回顧，兩者研究對象、劑量、補充模式完全不同，不可混淆呈現為「同一產品的多重證據」。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與其他黃瓜萃取物人體研究（rsc_02、rsc_03、rsc_04）的關係</div>
+        <div class="cross-ref-body">
+          <p>本研究與rsc_02、rsc_03、rsc_04均無直接數據交集（後三者聚焦疼痛/WOMAC等關節症狀終點，未測量肌力或運動表現指標），本研究之角色是為CuberUp®產品全貌論述中「運動表現/肌力」此一獨立於「關節疼痛緩解」之外的次要賣點，提供跨成分之機制理論支持。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可直接引用（有明確系統性回顧支持，僅限於機制/成分層次）</h4>
+        <ul>
+          <li>「瓜胺酸為一氧化氮生成之前驅胺基酸，獨立系統性回顧與Meta分析（8篇RCT，137人）顯示，急性補充瓜胺酸蘋果酸鹽對阻力訓練反覆次數表現具小幅但一致的正向效果，支持瓜胺酸類成分於運動表現領域之機制合理性」（Vårvik et al., IJSNEM, 2021；需標明為瓜胺酸成分之獨立研究，非CuberUp®直接數據）</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>不可將本研究之效果量（8篇RCT小幅效果）與rsc_01之肌力提升數字（14-18%）並列呈現而不說明兩者劑量、成分純度差距達數百倍，避免消費者誤認CuberUp®本身已達到本研究之運動表現增強等級。</li>
+          <li>CuberUp®中瓜胺酸的實際含量未經供應商揭露，若欲援引本研究支持「CuberUp®有助運動表現」，應明確註明「機制理論支持，非CuberUp®本身之直接運動表現測試數據」。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議直接引用</h4>
+        <ul>
+          <li>不可宣稱「CuberUp®所含瓜胺酸經證實可提升運動表現」——本研究測試對象為高劑量純化citrulline malate補充品，非CuberUp®或黃瓜萃取物，劑量差距過大，直接援引構成誤導性宣稱。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為機制理論輔助證據引用（弱聲稱，明確標示為跨成分佐證）：</p>
+      <div class="quote-block">
+        「瓜胺酸作為一氧化氮生成路徑之前驅胺基酸，其急性補充對阻力訓練表現之效果已有系統性回顧與Meta分析佐證（8篇雙盲安慰劑對照試驗，137位受試者），顯示小幅但一致的正向效果（Vårvik, Bjørnsen &amp; Gonzalez, International Journal of Sport Nutrition and Exercise Metabolism, 2021, 31(4):350-358；PMID: 34010809），此為CuberUp®機轉論述中瓜胺酸路徑提供獨立成分層級之理論支持。」
+        <span class="warn-note">⚠️ 注意：本研究測試對象為高劑量純化瓜胺酸蘋果酸鹽（6-8克/次），非CuberUp®或黃瓜萃取物本身，劑量差距達數百倍，不可直接援引為CuberUp®之運動表現功效證據。</span>
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Pérez-Piñero et al., Applied Sciences, 2023（rsc_01）</td><td>CuberUp®本身之肌力表現直接數據，應作為主要聲稱依據，本文僅作機制輔助</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立，資料來源：PubMed摘要頁與期刊官網摘要整理</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

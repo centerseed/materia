@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ThymoQuin® 黑種草籽油 — 供應商資料</title>
+<style>
+  :root {
+    --teal-deep: #0a5c60; --teal-mid: #0d8a90; --teal-light: #e5f5f6;
+    --amber: #a05c00; --amber-light: #fff6e0;
+    --red: #8b2020; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #d4dfe0; --text: #1a2a2b; --max-w: 980px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.7; font-size: 15px; }
+
+  .page-header { background: linear-gradient(135deg, var(--teal-deep) 0%, var(--teal-mid) 100%); color: #fff; padding: 36px 24px 28px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag { display: inline-block; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3); border-radius: 4px; padding: 2px 10px; font-size: 12px; margin-bottom: 12px; }
+  .page-header h1 { font-size: 24px; font-weight: 700; margin-bottom: 14px; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.7; font-weight: 500; margin-right: 4px; }
+
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 15px; font-weight: 700; color: var(--teal-deep); }
+  .section-body { padding: 20px; }
+
+  h3.sub { font-size: 14px; font-weight: 700; color: var(--teal-deep); margin: 18px 0 8px; }
+  h3.sub:first-child { margin-top: 0; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 12px; }
+  th { background: var(--teal-deep); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+
+  .pill { display: inline-block; border-radius: 4px; padding: 2px 8px; font-size: 12px; font-weight: 600; }
+  .pill-ok { background: var(--green-light); color: var(--green); }
+  .pill-warn { background: var(--amber-light); color: var(--amber); }
+  .pill-no { background: var(--red-light); color: var(--red); }
+
+  .notice-box { background: var(--amber-light); border-left: 4px solid var(--amber); border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13.5px; margin-top: 12px; }
+  .evidence-box { background: var(--teal-light); border-left: 4px solid var(--teal-mid); border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13.5px; margin-top: 12px; }
+
+  .study-card { border: 1px solid var(--border); border-radius: 6px; padding: 14px 16px; margin-bottom: 14px; background: var(--gray-1); }
+  .study-card:last-child { margin-bottom: 0; }
+  .study-title { font-weight: 700; font-size: 14px; color: var(--teal-deep); margin-bottom: 6px; }
+  .study-meta { font-size: 12.5px; color: var(--gray-3); margin-bottom: 8px; }
+  .study-result { font-size: 13.5px; margin-bottom: 6px; }
+  .study-source { font-size: 12px; color: var(--gray-3); font-style: italic; }
+
+  ul.plain { padding-left: 20px; margin-bottom: 10px; }
+  ul.plain li { margin-bottom: 4px; font-size: 13.5px; }
+
+  .img-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .img-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .img-card img { width: 100%; display: block; aspect-ratio: 4/3; object-fit: contain; background: var(--gray-2); cursor: zoom-in; padding: 6px; }
+  .img-card-meta { padding: 8px 12px 4px; display: flex; align-items: center; gap: 8px; }
+  .img-card-num { background: var(--teal-deep); color: #fff; border-radius: 4px; padding: 1px 7px; font-size: 11px; font-weight: 700; }
+  .img-card-title { font-size: 13px; font-weight: 600; color: var(--teal-deep); }
+  .img-card-body { padding: 4px 12px 12px; font-size: 12.5px; color: var(--gray-3); }
+
+  #lightbox { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
+  #lightbox.open { display: flex; }
+  #lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; }
+  #lightbox-caption { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.85); font-size: 13px; background: rgba(0,0,0,0.5); padding: 6px 14px; border-radius: 20px; pointer-events: none; }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag">供應商資料 · Supplier</div>
+    <h1>ThymoQuin® 黑種草籽油（冷壓，以色列專利，標準化3%百里醌）</h1>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>供應商（台灣代理）</strong>美隆貿易股份有限公司 Meelung Trading Co., Ltd.</div>
+      <div class="meta-item"><strong>原廠</strong>TriNutra Ltd. ／ 以色列</div>
+      <div class="meta-item"><strong>原料分類</strong>代謝／心血管／免疫調節／抗發炎</div>
+      <div class="meta-item"><strong>來源文件</strong>Thymoquin以色列專利黑種草籽油_三高_過敏_具人體實驗_減肥功效專利_250321.pdf（共98頁，91張簡報圖片）</div>
+      <div class="meta-item"><strong>整理日期</strong>2026-07-02</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🌿</span><h2>原料概覽</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>品名 / 學名</td><td>ThymoQuin® 黑種草籽油（Nigella sativa cold-pressed oil，俗稱黑孜然油／黑種草油）</td></tr>
+          <tr><td>原料來源</td><td>以色列，TriNutra Ltd. 自有黑種草育種計畫種子，冷壓萃取（非超臨界萃取）</td></tr>
+          <tr><td>主要活性成分</td><td>百里醌（Thymoquinone, TQ）&gt;3%；傘花烴（P-cymene）&gt;1%；香芹酚（Carvacrol）&lt;0.1%；游離脂肪酸（FFA）&lt;2%（「黃金比例」）</td></tr>
+          <tr><td>脂肪酸組成</td><td>棕櫚酸（C16:0）11-13%；油酸（C18:1）19-25%；亞油酸（C18:2）53-63%</td></tr>
+          <tr><td>標準化指標</td><td>USP（美國藥典）Black Cumin Seed Oil 標準之建立者（供應商宣稱為全球唯一USP藥典等級黑種草油）</td></tr>
+          <tr><td>建議用量</td><td>單方：每日500mg（含約15mg百里醌）；犬用：體重&lt;20kg每天1粒500mg，&gt;20kg每天2粒</td></tr>
+          <tr><td>劑型</td><td>軟膠囊（單方或與魚油、蝦紅素、維生素D等複方）；亦可局部塗抹（寵物皮膚應用）</td></tr>
+          <tr><td>賦形劑</td><td>向日葵來源油脂（天然抗氧化劑），供應商宣稱可提升生物利用率3-4%</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:14px; margin-top:4px">供應商核心賣點：(1) 種子育種計畫將百里醌含量由約1%提升至3%以上；(2) 冷壓萃取技術避免超臨界萃取常需添加約10%乙醇助劑而破壞不飽和脂肪酸並提高FFA的問題；(3) 全譜油完整保留非百里醌揮發性物質、生育醇（維生素E）、總多酚等成分；(4) 32張全球專利（含8張含百里醌+omega-3組合物之配方專利）；(5) 2022年獲Nutritional Outlook營養權威雜誌「最佳企業獎」；(6) 加拿大衛生部（Health Canada NHP）核准6項功效聲明。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">供應商簡報主張黑種草籽油之生理作用機制主要圍繞「低FFA、高TQ」的黃金比例規格，透過抗發炎、抗氧化、粒線體功能調節與胰島素敏感性提升等多重路徑，改善代謝症候群相關指標。以下機制多數來自原廠動物與細胞實驗（非人體臨床），措辭上應標示為體外／動物層級證據。</p>
+      <table>
+        <thead><tr><th>機制</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><strong>抑制一氧化氮（NO）發炎路徑</strong></td><td>以LPS刺激巨噬細胞模型評估一氧化氮生成抑制率；ThymoQuin（高TQ低FFA）相較他牌黑種草油具備約10倍抗發炎效果；與Omega-3、蝦紅素、維生素D3合併使用可協同抑制發炎因子（NO、TNF-α）（細胞實驗）</td></tr>
+          <tr><td><strong>FFA含量與活性呈反比</strong></td><td>同為3%TQ時，FFA含量越低抗發炎（5倍）及抗菌（3倍，抑制馬拉色菌）活性越高；供應商解釋FFA會破壞其他活性成分並可能對人體產生危害（細胞實驗）</td></tr>
+          <tr><td><strong>脂肪細胞棕色化（UCP-1誘導）</strong></td><td>3T3-L1脂肪細胞及高脂飲食誘發肥胖小鼠模型顯示，ThymoQuin與Omega-3協同上調UCP-1（產熱素）表現，促進白色脂肪轉為米色／棕色脂肪，增加能量代謝效率（動物／細胞實驗；專利US11426365）</td></tr>
+          <tr><td><strong>粒線體功能調節</strong></td><td>增強SIRT1、Mfn2表現（粒線體融合／功能相關蛋白）及血紅素加氧酶HO-1（抗氧化指標）（動物實驗）</td></tr>
+          <tr><td><strong>胰島素訊號路徑增強</strong></td><td>增強AMPK（細胞能量平衡核心，亦為糖尿病藥物Metformin作用標的）活化及胰島素受體敏感性，改善IR tyr972、AKT訊號路徑（動物實驗）</td></tr>
+          <tr><td><strong>缺氧誘導發炎路徑調節</strong></td><td>改善肥胖引起之HIF-1-α（缺氧誘導因子，2019年諾貝爾生醫獎主題相關）過度表現引起的發炎反應（動物實驗）</td></tr>
+        </tbody>
+      </table>
+      <div class="evidence-box">ℹ️ 保健食品證據評估原則：細胞、動物與生物標記層級的機轉證據皆為保健原料的合理證據型別，不因非屬藥品等級人體症狀改善試驗而判定「無效」；惟對外文案應標示證據層級（動物／細胞 vs 人體臨床），避免混淆消費者對療效等級的認知。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🧪</span><h2>臨床研究</h2></div>
+    <div class="section-body">
+
+      <h3 class="sub">A. 血壓（人體臨床）</h3>
+      <div class="study-card">
+        <div class="study-title">實驗1：原廠臨床試驗 — 改善高血壓</div>
+        <div class="study-meta">研究類型：人體臨床；受試者：20位健康成人</div>
+        <div class="study-result">設計：500mg ThymoQuin膠囊，6週補充 → 3週過渡期 → 6週不補充。<br>結果：補充2天即見效，收縮壓降低7%、舒張壓降低9%；6週後收縮壓降低20%、舒張壓降低20%（供應商圖表呈現數字，未提供統計顯著性p值原始數據）。</div>
+        <div class="study-source">出處：供應商原廠簡報（未附具體期刊出處，屬供應商自有臨床資料，建議尋找獨立同儕審查文獻交叉驗證）</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗2：黑種草籽對血壓影響之系統性文獻回顧與統合分析（獨立文獻，非ThymoQuin原廠）</div>
+        <div class="study-meta">研究類型：Meta-analysis；納入11篇隨機對照試驗，共860位高血壓或正常血壓個體</div>
+        <div class="study-result">平均治療時間約8.3週。相較安慰劑與標準療法，口服黑種草籽萃取物降低收縮壓平均-3.26 mmHg、舒張壓平均-2.80 mmHg。</div>
+        <div class="study-source">出處：供應商簡報引用之獨立meta-analysis（原文獻作者/期刊未於簡報中列出，建議另行查證原始出處）</div>
+      </div>
+
+      <h3 class="sub">B. 血脂與血糖（人體臨床／統合分析）</h3>
+      <div class="study-card">
+        <div class="study-title">實驗3：黑種草籽對血脂影響之系統性文獻回顧與統合分析</div>
+        <div class="study-meta">研究類型：Meta-analysis；納入17篇隨機對照試驗，共1185位參與者</div>
+        <div class="study-result">補充黑種草籽油降低血清總膽固醇（WMD -15.65 mg/dL）、LDL-C（WMD -14.10 mg/dL）、三酸甘油酯（WMD -20.64 mg/dL）。</div>
+        <div class="study-source">出處：供應商簡報引用之獨立meta-analysis（原始出處未列出，建議查證）</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗4：黑種草籽油改善血糖（與苦瓜胜肽mcIRBP-19比較）</div>
+        <div class="study-meta">研究類型：Meta-analysis；17篇隨機對照試驗，共1312位參與者</div>
+        <div class="study-result">空腹血糖平均減少9.93 mg/dl；餐後血糖平均減少14.79 mg/dl；糖化血色素（HbA1c）平均減少0.57%。供應商簡報將此與苦瓜胜肽單篇試驗（142人／40人）比較，主張效果更優，惟兩者研究設計（meta-analysis vs 單篇RCT）與族群不同，不宜直接對照解讀效果強弱。</div>
+        <div class="study-source">出處：供應商簡報引用之獨立meta-analysis（原始出處未列出）</div>
+      </div>
+
+      <h3 class="sub">C. 抗發炎與免疫調節（人體臨床）</h3>
+      <div class="study-card">
+        <div class="study-title">實驗5：黑種草籽降低發炎指標CRP</div>
+        <div class="study-meta">研究類型：Meta-analysis；5篇隨機對照試驗，共439名參與者</div>
+        <div class="study-result">隨訪6至12週，每日劑量1至3克，顯著降低血清C-反應蛋白（CRP），平均減少幅度0.55 mg/L。</div>
+        <div class="study-source">出處：供應商簡報引用之獨立meta-analysis（原始出處未列出）</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗6：黑種草籽增強年輕健康受試者整體健康及免疫系統</div>
+        <div class="study-meta">研究類型：人體臨床；受試者：52位健康受試者（平均18-25歲）</div>
+        <div class="study-result">補充0.5g、1.0g、2.0g黑種草籽油，共4週；總淋巴細胞數由1850±0.24增加至2170±0.26，CD3+ T細胞及CD4+輔助型T細胞數量顯著提升。</div>
+        <div class="study-source">出處：供應商簡報引用文獻（原始出處未列出）</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗7：黑種草籽改善哮喘控制與生物標記</div>
+        <div class="study-meta">研究類型：人體臨床；受試者：80位哮喘患者</div>
+        <div class="study-result">500mg黑種草籽油膠囊，每天2顆，共4週；顯著改善哮喘控制測試（ACT）評分，並透過降低血液嗜酸性粒細胞數目改善過度發炎。</div>
+        <div class="study-source">出處：供應商簡報標註 PubMed 收錄之隨機、雙盲、安慰劑對照試驗（原文標題與作者未完整列出）</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗8：黑種草籽改善過敏性疾病患者主觀不適感</div>
+        <div class="study-meta">研究類型：人體臨床（四項研究彙整）；受試者：152名過敏性疾病患者（過敏性鼻炎、支氣管哮喘、特應性濕疹）</div>
+        <div class="study-result">劑量40至80 mg/kg/天，共4週；四項研究中過敏者主觀不適感分數均下降，血漿三酸甘油酯略降、HDL膽固醇略升。</div>
+        <div class="study-source">出處：供應商簡報標註 PubMed 收錄文獻</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗9：黑種草油萃取物改善類風濕性關節炎</div>
+        <div class="study-meta">研究類型：人體臨床（隨機、雙盲、安慰劑對照）；受試者：42名類風濕性關節炎患者</div>
+        <div class="study-result">500mg黑種草籽油膠囊，每天2顆，共8週；顯著提高血清IL-10（抗發炎細胞激素），並降低血清丙二醛（MDA，氧化壓力指標）及一氧化氮（NO）。</div>
+        <div class="study-source">出處：供應商簡報標註 PMC / tandfonline 收錄文獻</div>
+      </div>
+
+      <h3 class="sub">D. 運動員族群：呼吸道、壓力、腸道微生物（原廠贊助人體臨床，含配方組合）</h3>
+      <div class="study-card">
+        <div class="study-title">實驗10：ThymoQuin 單方 — 呼吸道健康、壓力、腸道免疫</div>
+        <div class="study-meta">研究類型：人體臨床，隨機、雙盲、安慰劑對照（RDBPC）；受試者：37位健康跑者（20男17女），馬拉松/半馬拉松訓練中</div>
+        <div class="study-result">每日一次500mg ThymoQuin，為期4週（賽前3週+賽後1週）；上呼吸道感染（URTCs）分數降低62%；唾液皮質醇降低44%；情緒狀態量表（POMS）整體幸福感提升11%；嗜熱鏈球菌（腸道好菌）提高66%；微生物菌相分數提升8%。</div>
+        <div class="study-source">出處：Talbott SM, Talbott JA. Effect of ThymoQuin black cumin seed oil as a natural immune modulator of upper-respiratory tract complaints and psychological mood state. Food Sci Nutr Res 2022;5:1-6.</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗11：ThymoQuin + VivoMega魚油複方 — 呼吸道、壓力、腸道菌、血中Omega-3</div>
+        <div class="study-meta">研究類型：人體臨床，RDBPC；受試者：35位健康跑者（19男16女），馬拉松/半馬拉松訓練中</div>
+        <div class="study-result">每日一次500mg ThymoQuin + 1500mg VivoMega魚油（40% EPA、30% DHA），為期4週；上呼吸道感染降低62%；情緒狀態量表改善15%；唾液皮質醇降低37%；嗜熱鏈球菌提高67%；Omega-3指數提升31%；Omega-6:Omega-3比例降低45%；AA:EPA比例降低161%。</div>
+        <div class="study-source">出處：Talbott SM, Talbott JA. Black Cumin Seed Oil Plus Fish Oil Combination Modulates Gut-Immune-Axis. EC Nutrition 2022;17(7):18-27.</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗12：ThymoQuin + 蝦紅素複方 — 呼吸道、壓力、幸福感、腸道菌</div>
+        <div class="study-meta">研究類型：人體臨床，RDBPC；受試者：32位健康跑者（21男11女），馬拉松/半馬拉松訓練中</div>
+        <div class="study-result">每日一次500mg ThymoQuin + 8mg蝦紅素油，為期4週；上呼吸道感染降低78%；唾液皮質醇減少20%；整體幸福感增加11%；腸道好菌增加63%。</div>
+        <div class="study-source">出處：Talbott SM, Talbott JA. Combination of Black Cumin Seed Oil and Astaxanthin Supports Gut-Immune-Brain-Axis and Improves Mood. Scho J Food & Nutr 2022;4(3). DOI: 10.32474/SJFN.2022.04.000190.</div>
+      </div>
+      <div class="notice-box">⚠️ 上述實驗10-12皆由供應商原廠贊助（Talbott團隊）、受試族群限定為訓練中跑者、樣本數皆為30-40人小型試驗，且均未提供完整p值／統計顯著性資訊。宣稱時建議標示「小型人體試驗初步結果」，避免過度推論至一般族群。</div>
+
+      <h3 class="sub">E. 呼吸道疾病、腎臟病、骨質疏鬆（人體臨床，非ThymoQuin原廠專屬）</h3>
+      <div class="study-card">
+        <div class="study-title">實驗13：黑種草籽油改善化學戰受害者肺損傷</div>
+        <div class="study-meta">研究類型：人體臨床；受試者：40位化學戰爭受害者</div>
+        <div class="study-result">50%黑種草籽萃取液，為期2個月（每月追蹤）；評估咳嗽、呼吸困難、胸悶及肺功能檢查（FVC、FEV1、PEF、MEF75、MMEF、MEF50、MEF25）；8週可改善咳嗽及呼吸困難症狀，並增加肺容積及呼吸流速。</div>
+        <div class="study-source">出處：供應商簡報引用文獻（原始出處未列出）</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗14：黑種草籽油改善慢性阻塞性肺病（COPD）</div>
+        <div class="study-meta">研究類型：人體臨床；受試者：100名輕度至中度COPD患者</div>
+        <div class="study-result">標準治療 vs 標準治療+黑種草籽油，為期3個月；評估抗氧化指標（CAT、GPX、SOD、GSH、維生素C、維生素E）、發炎指標（TBARS、Protein carbonyl、TNF-α、IL-6）及肺功能檢查（FVC、FEV1、PEF、MEF25-75）；黑種草籽油組於抗氧化及發炎指標上均優於標準治療組。</div>
+        <div class="study-source">出處：供應商簡報引用文獻（原始出處未列出）</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗15：黑種草籽油改善慢性腎臟病（第三、四期）</div>
+        <div class="study-meta">研究類型：人體臨床；受試者：150名慢性腎臟病三期和四期患者</div>
+        <div class="study-result">標準藥物 vs 標準藥物+黑種草籽油，為期3個月，追蹤血清肌酸酐及腎絲球過濾率（GFR）；標準藥物組血清肌酸酐降低28.2%、GFR提升67%；黑種草籽油組血清肌酸酐降低37.6%、GFR提升87%，慢性腎衰竭程度由重度降為中度。</div>
+        <div class="study-source">出處：供應商簡報引用文獻（原始出處未列出）</div>
+      </div>
+      <div class="notice-box">⚠️ 簡報第97頁另附一則非正式個案分享（供應商同事母親服用3個月，血清肌酸酐及GFR改善），屬個人軼事證據，不具統計代表性，不得作為功效宣稱依據。</div>
+      <div class="study-card">
+        <div class="study-title">實驗16：黑種草籽油改善原發性骨質疏鬆症</div>
+        <div class="study-meta">研究類型：人體臨床；受試者：120位停經女性，患有原發性骨質疏鬆症</div>
+        <div class="study-result">薑黃組 vs 黑種草籽油組，為期6個月；骨鈣素（OC）降低14%、鹼性磷酸酶（ALP）降低18%（60%停經婦女ALP升高，反映噬骨細胞活性增強）。</div>
+        <div class="study-source">出處：供應商簡報引用文獻（原始出處未列出）</div>
+      </div>
+
+      <h3 class="sub">F. 動物與細胞實驗（原廠專屬機轉研究）</h3>
+      <div class="study-card">
+        <div class="study-title">實驗17：動物實驗 — 改善肥胖及三高</div>
+        <div class="study-meta">研究類型：動物實驗；小鼠模型，G1正常飲食(Lean)、G2高脂飲食(HFD)、G3高脂飲食+3%TQ(ThymoQuin)，每組5隻</div>
+        <div class="study-result">血壓降低20%；空腹血糖降低40%；最大攝氧量提升30%（燃脂效果指標）；LDL/氧化LDL降低40%。</div>
+        <div class="study-source">出處：供應商原廠動物實驗（未附完整期刊出處）</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗18：動物實驗 — 改善脂肪肝</div>
+        <div class="study-meta">研究類型：動物實驗；高脂飲食小鼠模型</div>
+        <div class="study-result">油滴直徑及脂肪組織百分比降低（供應商圖表呈現趨勢，未附精確數值）。</div>
+        <div class="study-source">出處：供應商原廠動物實驗</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗19：協同Omega-3（VivoMega魚油）改善肥胖代謝與抗發炎</div>
+        <div class="study-meta">研究類型：3T3-L1脂肪細胞實驗 + 高脂飲食誘發肥胖小鼠實驗；5組別對照（對照組、HFD組、HFD+TQ組、HFD+ω3組、HFD+TQ+ω3組）</div>
+        <div class="study-result">評估油滴大小、UCP-1（脂肪棕化）、SIRT1/Mfn2（粒線體功能）、HO-1（抗氧化）、IR tyr972/AMPK/AKT（胰島素阻抗）、HIF-1-α/NOV/CCN3/TWIST2（缺氧發炎）等指標；TQ+ω3協同組合顯著減少油滴數量與大小、增加UCP-1表現、改善胰島素訊號路徑。相關成分比例受專利US11426365保護（ThymoQuin:VivoMega摩爾比1:7以上，簡報中另標示配方比例2:1~1:14）。</div>
+        <div class="study-source">出處：Shen HH, Peterson SJ, Bellner L, Choudhary A, Levy L, Gancz L, Sasson A, Trainer J, Rezzani R, Resnick A, Stec DE, Abraham NG. Cold-Pressed Nigella Sativa Oil Standardized to 3% Thymoquinone Potentiates Omega-3 Protection against Obesity-Induced Oxidative Stress, Inflammation, and Markers of Insulin Resistance Accompanied with Conversion of White to Beige Fat in Mice. Antioxidants 2020;9:489.</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗20：ThymoQuin + 維生素D3協同抑制發炎因子TNF-α及脂肪細胞大小</div>
+        <div class="study-meta">研究類型：細胞實驗</div>
+        <div class="study-result">TQ(1μM) + 維生素D3(10nM) 協同抑制TNF-α相對表達；並發現市售黑種草油（8% FFA）對脂肪滴大小數量幾乎無影響，而ThymoQuin（FFA&lt;2%）能顯著減少脂肪滴大小及數量，印證FFA含量對活性至關重要。</div>
+        <div class="study-source">出處：Yuen K, Alex A, Raffaelle M, Shen HH, Ospino J, Bellner L, et al. & Peterson SJ. Beneficial Effect of 3% Thymoquinone on Stem Cell-Mediated Improvement in Immune System and Anti-Inflammatory Function. Journal of Food & Nutritional Sciences 2021;3(3).</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗21：抗病毒活性（H1N1流感病毒）</div>
+        <div class="study-meta">研究類型：細胞實驗；MDCK犬腎細胞 + 甲型流感病毒A(H1N1)</div>
+        <div class="study-result">陽性對照組：克流感（Tamiflu）50 μg/mL；ThymoQuin（3%百里醌）於低/中/高劑量下之抗病毒活性與克流感相近（細胞存活率比較）。</div>
+        <div class="study-source">出處：Lamensdorf I, von Oppen-Bezalel L, Benedict S, Zelkha M, von Oppen-Bezalel L. Evaluation of the Antiviral Activity of Thymoquinone Black Seed Oil Against Influenza A (H1N1) Virus in MDCK Cells In Vitro.</div>
+      </div>
+      <div class="study-card">
+        <div class="study-title">實驗22：抗菌活性（馬拉色菌）</div>
+        <div class="study-meta">研究類型：細胞實驗；糠秕馬拉色菌（皮膚常見微生物，與脂溢性皮炎、毛囊炎、異位性皮膚炎、痤瘡相關）</div>
+        <div class="study-result">特殊比例冷壓黑種草油（3%百里醌+&lt;2%游離脂肪酸）較高FFA黑種草油具備3倍抗菌活性，能有效對抗皮膚微生物過度生長。</div>
+        <div class="study-source">出處：Ogen-Shtern N, Margarita Y, von Oppen-Bezalel L. Antimicrobial activity by a unique composition of cold pressed Nigella sativa seed (black cumin) oil. Food Sci Nutr Res 2021;4(2):1-9.</div>
+      </div>
+
+      <div class="notice-box">⚠️ 供應商提供的臨床與動物數據需注意：多數研究出處僅列部分作者/期刊資訊，未附完整卷期頁碼或p值，且大量為供應商（TriNutra）自有贊助研究。建議於對外使用前，逐篇以PubMed／Google Scholar查證原始文獻之期刊等級、同儕審查狀態及利益衝突聲明，才能對外引用具體數字。meta-analysis類研究（血壓、血脂、血糖、CRP）之原始出處於簡報中未標示，需另行查證確認真實文獻來源。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>產品規格</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>規格項目</th><th>ThymoQuin®（本原料）</th><th>市場常見他牌</th></tr></thead>
+        <tbody>
+          <tr><td>百里醌（Thymoquinone）</td><td>&gt;3%（供應商宣稱業界冷壓油中最高）</td><td>他牌冷壓約1.5%；N牌超臨界萃取約5%（但FFA同時大幅偏高）</td></tr>
+          <tr><td>游離脂肪酸（FFA）</td><td>&lt;2%（部分簡報頁標示&lt;1.25%）</td><td>他牌冷壓約7%；N牌超臨界萃取約50%；大瓶裝傳統壓榨約7%</td></tr>
+          <tr><td>傘花烴（P-cymene）</td><td>&gt;1%</td><td>—</td></tr>
+          <tr><td>香芹酚（Carvacrol）</td><td>&lt;0.1%</td><td>—</td></tr>
+          <tr><td>脂肪酸組成</td><td>棕櫚酸11-13%、油酸19-25%、亞油酸53-63%</td><td>—</td></tr>
+          <tr><td>萃取方式</td><td>冷壓萃取（不需助劑）</td><td>他牌冷壓萃取；N牌超臨界萃取需添加約10%乙醇助劑</td></tr>
+          <tr><td>賦形劑</td><td>向日葵來源油脂（天然抗氧化劑）</td><td>N牌未添加</td></tr>
+          <tr><td>種子來源</td><td>自有育種計畫（TQ含量由約1%提升至3%）</td><td>N牌未提供種子來源資訊</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:13.5px; color:var(--gray-3)">註：以上「市場他牌」比較數字均來自供應商簡報單方陳述，未附第三方檢驗報告，屬供應商行銷素材中的競品比較主張，建議標示資料來源為「供應商提供」，對外引用時應保守處理。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🏆</span><h2>認證與安全性</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>認證／聲明</th><th>核發機構</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>USP藥典等級標準</td><td>美國藥典（USP）</td><td>供應商宣稱ThymoQuin為創立USP「Black Cumin Seed Oil (500mg)」藥典標準之權威原料（全球唯一，需查證USP monograph狀態及是否為「創立者」或「符合標準」之精確措辭差異）</td></tr>
+          <tr><td>加拿大衛生部NHP功效聲明</td><td>Health Canada</td><td>核准6項功效聲明：支持健康肝臟功能、支持心血管健康、支持健康血糖水平、支持壓力緩解、調節一般壓力感受、支持健康腸道微生物群（此為加拿大NHP核准範圍，不代表台灣衛福部核准，不得直接移植至台灣市場宣稱）</td></tr>
+          <tr><td>2022 Nutritional Outlook最佳企業獎</td><td>Nutritional Outlook雜誌</td><td>產業媒體評選獎項，屬商業評選而非科學驗證機構認證</td></tr>
+          <tr><td>ECOCERT COSMOS天然與有機化妝品認證</td><td>ECOCERT</td><td>供應商簡報提及，適用於保養品應用方向</td></tr>
+          <tr><td>全球專利</td><td>各國專利局</td><td>32張全球專利，含8張「含百里醌和omega-3脂肪酸組合物」配方專利（US11426365等）、成分組成專利、微生物治療方法專利等</td></tr>
+        </tbody>
+      </table>
+      <div class="notice-box">⚠️ 安全性注意事項：供應商簡報未提供完整之毒理／安全性數據（如LD50、NOAEL、人體最大耐受劑量）。寵物應用部分明確標示「原廠不建議貓咪食用」。孕婦、哺乳、慢性病（尤其正服用降血糖／降血壓藥物）族群使用前應諮詢醫師，避免與藥物產生加成效果（本原料多項研究顯示血壓、血糖、血脂降低效果，與相關藥物併用有加乘風險）。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🤝</span><h2>複方協同組合</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>搭配原料</th><th>比例</th><th>市售配方案例</th><th>協同效果重點</th></tr></thead>
+        <tbody>
+          <tr><td>VivoMega™ 魚油（EPA/DHA）</td><td>ThymoQuin : VivoMega = 2:1 ~ 1:14（專利US11426365覆蓋範圍）；市售常見1:1.6 ~ 1:3</td><td>VIVOQUIN™（全球直銷大廠熱銷）、OmegaQuin™（Amazon電商熱門，美國專利US11426365）、Bio-Avail OMEGA+（全球創新品牌）</td><td>增強脂肪細胞棕色化及燃脂效果；改善肥胖引起的胰島素阻抗及全身慢性發炎；提升Omega-3指數31%、降低Omega-6:Omega-3比例45%、降低AA:EPA比例161%；改善運動員上呼吸道感染62%、情緒壓力37%、腸道好菌67%</td></tr>
+          <tr><td>蝦紅素（Astaxanthin）</td><td>500mg ThymoQuin + 8mg蝦紅素油</td><td>—</td><td>上呼吸道感染降低78%、皮質醇減少20%、幸福感增加11%、腸道好菌增加63%；細胞實驗顯示協同抑制LPS誘發NO生成</td></tr>
+          <tr><td>維生素D3</td><td>TQ(1μM) + 維生素D3(10nM)（細胞實驗劑量）</td><td>—</td><td>協同抑制發炎因子TNF-α；協同減少脂肪細胞大小（低FFA更顯著）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- 圖片資產 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">🖼️</span><h2>簡報圖片資產（共91張，點擊放大；PDF全文98頁）</h2></div>
+    <div class="section-body">
+      <div class="img-gallery">
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p01.jpg" alt="第1頁：封面：專利冷壓黑種草油" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P1</span><span class="img-card-title">封面：專利冷壓黑種草油</span></div>
+          <div class="img-card-body">TriNutra ThymoQuin 品牌介紹：低游離脂肪酸(FFA)、高百里醌(Thymoquinone)標準化冷壓黑種草油（2-3%規格演進）</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p03.jpg" alt="第3頁：台灣人肥胖三大原因" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P3</span><span class="img-card-title">台灣人肥胖三大原因</span></div>
+          <div class="img-card-body">手搖飲文化(每年約1億杯)、中式高油高鹽高糖飲食、24小時宵夜便利性</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p04.jpg" alt="第4頁：台灣肥胖率統計" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P4</span><span class="img-card-title">台灣肥胖率統計</span></div>
+          <div class="img-card-body">110年國健署最新統計：台灣人肥胖率高達50%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p05.jpg" alt="第5頁：上班族生活型態壓力" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P5</span><span class="img-card-title">上班族生活型態壓力</span></div>
+          <div class="img-card-body">台灣上班族時間分配圖；現代上班族煩惱：工作時間增加、壓力增加、運動時間減少、睡眠時間減少</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p06.jpg" alt="第6頁：疾病成因示意圖" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P6</span><span class="img-card-title">疾病成因示意圖</span></div>
+          <div class="img-card-body">飲食失衡+不運動+壓力大 → 肥胖+肌肉減少 → 發炎+氧化壓力 → 糖尿病、心血管疾病、憂鬱症、粒線體失能、免疫下降、癌症</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p07.jpg" alt="第7頁：ThymoQuin 9大功效與獨特優勢總覽" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P7</span><span class="img-card-title">ThymoQuin 9大功效與獨特優勢總覽</span></div>
+          <div class="img-card-body">降三高、降脂肪肝/減重代謝、緩解壓力、呼吸道健康、提升免疫力、平衡腸道菌相、抗病毒、抗菌；USP美國藥典等級（全球唯一）；黃金比例規格；10倍抗發炎效果；複方生物利用率3-4倍；32張全球專利、8張配方專利；加拿大FDA 6項功效聲明；2022 Nutritional Outlook最佳企業獎</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p08.jpg" alt="第8頁：冷壓黑種草油規格表" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P8</span><span class="img-card-title">冷壓黑種草油規格表</span></div>
+          <div class="img-card-body">USP批准規格：百里醌&gt;3%（業界冷壓油最高）、游離脂肪酸&lt;2%、傘花烴&gt;1%、香芹酚&lt;0.1%，完整脂肪酸譜</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p09.jpg" alt="第9頁：全譜油優勢說明" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P9</span><span class="img-card-title">全譜油優勢說明</span></div>
+          <div class="img-card-body">低溫冷壓技術完整保留活性成分；FFA越低效果越好；主要植化成分：百里醌、傘花烴、香芹酚；多數市售黑種草油非全譜油且FFA偏高</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p10.jpg" alt="第10頁：獨特成分組成表" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P10</span><span class="img-card-title">獨特成分組成表</span></div>
+          <div class="img-card-body">脂肪酸組成：C16:0棕櫚酸11-13%、C18:1油酸19-25%、C18:2亞油酸53-63%；活性成分：百里醌&gt;3%、傘花烴&gt;1%、香芹酚&lt;0.1%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p11.jpg" alt="第11頁：種子育種計畫+冷壓萃取技術流程" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P11</span><span class="img-card-title">種子育種計畫+冷壓萃取技術流程</span></div>
+          <div class="img-card-body">品種選育、農場歷史、種植方式、收成條件、種子儲存 → 冷壓萃取加工，不破壞不飽和脂肪酸、不產生過多FFA</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p12.jpg" alt="第12頁：與市場常見黑種草籽油比較表" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P12</span><span class="img-card-title">與市場常見黑種草籽油比較表</span></div>
+          <div class="img-card-body">ThymoQuin冷壓油 vs 他牌冷壓油 vs N牌超臨界萃取油 vs 大瓶裝黑種草籽油：TQ含量(≧3% vs 1.5% vs ≧5% vs 5%)、FFA含量(&lt;2% vs 7% vs &gt;50% vs 7%)、原廠實驗8篇 vs 1篇 vs 無 vs 無、專利32張 vs 無 vs 2張製程專利 vs 無</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p13.jpg" alt="第13頁：與市售15家競爭者成分比較" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P13</span><span class="img-card-title">與市售15家競爭者成分比較</span></div>
+          <div class="img-card-body">市場15款黑種草油之TQ標示宣稱/實測含量/FFA比較；產品1-14多為市場他牌冷壓油TQ&lt;3%、FFA平均7.4%；產品15傳統萃取TQ 18.4%、FFA 7.3%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p14.jpg" alt="第14頁：生物利用率提升3-4倍" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P14</span><span class="img-card-title">生物利用率提升3-4倍</span></div>
+          <div class="img-card-body">百里醌血中濃度曲線：ThymoQuin 3%+0.8%植物油 vs ThymoQuin 3% vs 普通黑種草油，複方組合提升生物利用率3-4倍</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p15.jpg" alt="第15頁：與市場不同比例黑種草油抗發炎效果比較" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P15</span><span class="img-card-title">與市場不同比例黑種草油抗發炎效果比較</span></div>
+          <div class="img-card-body">以一氧化氮生成抑制率評估抗發炎效果，ThymoQuin具備比其他品牌10倍之抗發炎效果</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p16.jpg" alt="第16頁：相同TQ不同FFA含量之抗發炎/抗菌效果" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P16</span><span class="img-card-title">相同TQ不同FFA含量之抗發炎/抗菌效果</span></div>
+          <div class="img-card-body">TQ相同時FFA含量與抗發炎效果呈反比；ThymoQuin(高TQ低FFA)具備5倍抗發炎效果及3倍抗菌活性（對抗馬拉色菌）</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p17.jpg" alt="第17頁：與其他原料之協同效果總覽" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P17</span><span class="img-card-title">與其他原料之協同效果總覽</span></div>
+          <div class="img-card-body">搭配蝦紅素：上呼吸道感染↓78%、皮質醇↓20%、幸福感↑11%、腸道好菌↑63%；搭配維生素D：協同抑制TNF-α、減少脂肪細胞大小；搭配Omega-3：減少油滴大小、增強燃脂、改善胰島素阻抗、Omega-3指數↑31%、上呼吸道感染↓62%、皮質醇↓37%、幸福感↑15%、好菌↑67%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p18.jpg" alt="第18頁：5項獨家專利／32張全球專利清單" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P18</span><span class="img-card-title">5項獨家專利／32張全球專利清單</span></div>
+          <div class="img-card-body">含百里醌+omega-3組合物配方專利(8張)、黑種草油成分組成專利(8張)、含百里醌及其他生物活性化合物組合物(6張)、黑種草油+表面活性劑成分(6張)、治療微生物過度生長/失衡/感染方法(4張)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p19.jpg" alt="第19頁：加拿大衛生部核准6大功效聲明" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P19</span><span class="img-card-title">加拿大衛生部核准6大功效聲明</span></div>
+          <div class="img-card-body">支持健康肝臟功能、支持心血管健康、支持健康血糖水平、支持壓力緩解、調節一般壓力感受、支持健康腸道微生物群</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p20.jpg" alt="第20頁：2022 Nutritional Outlook最佳企業獎" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P20</span><span class="img-card-title">2022 Nutritional Outlook最佳企業獎</span></div>
+          <div class="img-card-body">營養權威雜誌頒發之企業獎項</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p21.jpg" alt="第21頁：9大功效總表" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P21</span><span class="img-card-title">9大功效總表</span></div>
+          <div class="img-card-body">改善三高(動物/臨床)、降脂肪肝(動物)、減重代謝(動物)、抗發炎(動物)、紓解壓力(臨床)、呼吸道健康(臨床)、提升免疫力(臨床)、抗病毒(細胞，效果近克流感)、抗菌(細胞，抑制馬拉色菌)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p22.jpg" alt="第22頁：代謝症候群示意圖" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P22</span><span class="img-card-title">代謝症候群示意圖</span></div>
+          <div class="img-card-body">21世紀最可怕潛在疾病．代謝症候群概念圖</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p23.jpg" alt="第23頁：原廠動物實驗：改善肥胖及三高" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P23</span><span class="img-card-title">原廠動物實驗：改善肥胖及三高</span></div>
+          <div class="img-card-body">小鼠模型 G1正常飲食/G2高脂飲食/G3高脂+3%TQ，每組5隻；血壓↓20%、空腹血糖↓40%、最大攝氧量↑30%、LDL/氧化LDL↓40%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p24.jpg" alt="第24頁：原廠動物實驗：改善脂肪肝" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P24</span><span class="img-card-title">原廠動物實驗：改善脂肪肝</span></div>
+          <div class="img-card-body">高脂飲食小鼠模型；油滴直徑及脂肪組織百分比改善數據</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p25.jpg" alt="第25頁：原廠臨床：改善高血壓" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P25</span><span class="img-card-title">原廠臨床：改善高血壓</span></div>
+          <div class="img-card-body">20位健康成人，500mg ThymoQuin膠囊，6週補充→3週過渡→6週停用；2天：收縮壓↓7%、舒張壓↓9%；6週：收縮壓↓20%、舒張壓↓20%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p27.jpg" alt="第27頁：原廠文獻：協同Omega-3改善肥胖代謝實驗設計" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P27</span><span class="img-card-title">原廠文獻：協同Omega-3改善肥胖代謝實驗設計</span></div>
+          <div class="img-card-body">3T3-L1細胞實驗+高脂飲食誘發肥胖小鼠；5組別對照；評估油滴大小、UCP-1、SIRT1/Mfn2、HO-1、胰島素阻抗指標、缺氧發炎指標；專利US11426365，ThymoQuin:VivoMega=2:1~1:14</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p28.jpg" alt="第28頁：協同組合改善脂肪組織代謝機制圖" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P28</span><span class="img-card-title">協同組合改善脂肪組織代謝機制圖</span></div>
+          <div class="img-card-body">UCP1(產熱素)機制說明：增加脂肪細胞棕化促進燃脂、降低胰島素抗性和發炎、減少油滴數量與大小</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p29.jpg" alt="第29頁：Omega-3與ThymoQuin對脂肪油滴大小之作用" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P29</span><span class="img-card-title">Omega-3與ThymoQuin對脂肪油滴大小之作用</span></div>
+          <div class="img-card-body">劑量反應圖：各自作用 vs 協同組合對平均脂肪油滴大小(Pixel²)之影響，協同組合顯著減少油滴數量與大小</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p30.jpg" alt="第30頁：協同組合增加脂肪細胞棕色化" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P30</span><span class="img-card-title">協同組合增加脂肪細胞棕色化</span></div>
+          <div class="img-card-body">UCP1/β-actin表現量圖：高脂飲食小鼠肝臟UCP1顯著上調(TQ+ω3組)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p31.jpg" alt="第31頁：增強胰島素訊號路徑及受體敏感性" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P31</span><span class="img-card-title">增強胰島素訊號路徑及受體敏感性</span></div>
+          <div class="img-card-body">AMPK為細胞能量平衡關鍵核心（同Metformin作用標的）；協同組合增強胰島素訊號路徑及受體敏感性</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p32.jpg" alt="第32頁：改善脂肪細胞缺氧發炎反應" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P32</span><span class="img-card-title">改善脂肪細胞缺氧發炎反應</span></div>
+          <div class="img-card-body">HIF-1-α缺氧誘導因子相關發炎機制；協同組合改善肥胖引起之缺氧誘導及發炎反應</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p33.jpg" alt="第33頁：皮質醇(壓力荷爾蒙)介紹" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P33</span><span class="img-card-title">皮質醇(壓力荷爾蒙)介紹</span></div>
+          <div class="img-card-body">皮質醇分泌機制與健康危害：體重增加、高血壓、糖尿病等；皮質醇升高原因：壓力、腦垂體異常、腎上腺腫瘤、藥物副作用</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p34.jpg" alt="第34頁：皮質醇解決方案" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P34</span><span class="img-card-title">皮質醇解決方案</span></div>
+          <div class="img-card-body">皮質醇過高症狀：體重增加、痘痘、皮膚變薄、疲勞、易怒、高血壓、頭痛等；生活型態管理(飲食/運動/睡眠/正念)+補充品(ThymoQuin+Omega-3)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p35.jpg" alt="第35頁：臨床試驗設計：呼吸道健康/減壓/腸道免疫" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P35</span><span class="img-card-title">臨床試驗設計：呼吸道健康/減壓/腸道免疫</span></div>
+          <div class="img-card-body">隨機雙盲安慰劑對照(RDBPC)，37位健康跑者(20男17女)，馬拉松/半馬拉松訓練中，每日500mg ThymoQuin，4週；文獻：Talbott SM, Talbott JA. Food Sci Nutr Res 2022;5:1-6</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p36.jpg" alt="第36頁：上呼吸道感染分數改善" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P36</span><span class="img-card-title">上呼吸道感染分數改善</span></div>
+          <div class="img-card-body">URTCs(咳嗽、喉嚨痛、流鼻水、鼻塞等症狀)分數：補充組較安慰劑組降低62%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p37.jpg" alt="第37頁：唾液皮質醇與情緒狀態改善" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P37</span><span class="img-card-title">唾液皮質醇與情緒狀態改善</span></div>
+          <div class="img-card-body">唾液皮質醇降低44%；情緒狀態量表(POMS)整體幸福感提升11%（數字越低幸福感越高）</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p38.jpg" alt="第38頁：腸道菌相與好菌改善" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P38</span><span class="img-card-title">腸道菌相與好菌改善</span></div>
+          <div class="img-card-body">微生物菌相分數提升8%；嗜熱鏈球菌(腸道好菌)提高66%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p39.jpg" alt="第39頁：抗病毒效果(細胞實驗)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P39</span><span class="img-card-title">抗病毒效果(細胞實驗)</span></div>
+          <div class="img-card-body">MDCK犬腎細胞+H1N1病毒模型；ThymoQuin(3%百里醌)抗病毒活性與克流感(Tamiflu)相近；文獻：Lamensdorf et al.</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p40.jpg" alt="第40頁：抗菌效果(細胞實驗)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P40</span><span class="img-card-title">抗菌效果(細胞實驗)</span></div>
+          <div class="img-card-body">馬拉色菌(皮膚常見微生物，與脂溢性皮炎/毛囊炎/異位性皮膚炎/痤瘡相關)抑制實驗；3倍抗菌活性；文獻：Ogen-Shtern et al. Food Sci Nutr Res 2021;4(2):1-9</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p41.jpg" alt="第41頁：寵物保健應用(狗)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P41</span><span class="img-card-title">寵物保健應用(狗)</span></div>
+          <div class="img-card-body">犬用建議劑量：&lt;20kg每天1粒500mg軟膠囊、&gt;20kg每天2粒；局部塗抹每天1-3湯匙；原廠不建議貓咪食用</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p42.jpg" alt="第42頁：與N牌黑種草籽油比較(製程與規格)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P42</span><span class="img-card-title">與N牌黑種草籽油比較(製程與規格)</span></div>
+          <div class="img-card-body">原料來源(以色列 vs 印度)；製程(冷壓萃取 vs 超臨界萃取+10%乙醇助劑)；定量規格：TQ&gt;3%/FFA&lt;1.25% vs TQ&gt;5%/FFA約50%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p43.jpg" alt="第43頁：與N牌黑種草籽油比較(專利與文獻)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P43</span><span class="img-card-title">與N牌黑種草籽油比較(專利與文獻)</span></div>
+          <div class="img-card-body">賦形劑(向日葵油天然抗氧化劑 vs 未添加)；32張專利 vs 無；8篇原廠文獻 vs 1篇細胞實驗；行銷賣點：USP等級、Nutritional Outlook獎、ECOCERT COSMOS認證</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p44.jpg" alt="第44頁：市售產品應用案例(一)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P44</span><span class="img-card-title">市售產品應用案例(一)</span></div>
+          <div class="img-card-body">VIVOMEGA+ThymoQuin複方膠囊（美國直銷大廠）；黑種草油+松樹皮萃取物複方（Pycnogenol 25mg）；黑種草油單方膠囊（澳洲品牌）</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p45.jpg" alt="第45頁：市售產品應用案例(二)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P45</span><span class="img-card-title">市售產品應用案例(二)</span></div>
+          <div class="img-card-body">美國暢銷醫生Dr. Murray指定使用（iHerb首席科學顧問）；美國運動保健/更年期/抗老品牌採用；產品連結含doctormurray.com、morphus、juvenon、sportsresearch</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p46.jpg" alt="第46頁：公司聯絡資訊" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P46</span><span class="img-card-title">公司聯絡資訊</span></div>
+          <div class="img-card-body">美隆貿易股份有限公司 Meelung Trading Co., Ltd.；官網www.meelung.com.tw；台南市南區中華西路一段450號</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p47.jpg" alt="第47頁：協同效果總覽(重複頁17)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P47</span><span class="img-card-title">協同效果總覽(重複頁17)</span></div>
+          <div class="img-card-body">搭配蝦紅素/維生素D/Omega-3之協同效果數據總表</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p48.jpg" alt="第48頁：市場最強聯手組合：OmegaQuin優勢" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P48</span><span class="img-card-title">市場最強聯手組合：OmegaQuin優勢</span></div>
+          <div class="img-card-body">ThymoQuin(最新鮮黑種草油/USP等級/極低FFA/市場唯一2篇文獻+1項配方專利) + VivoMega(最新鮮魚油/市場最大rTG魚油生產商/極低TOTOX氧化指數)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p49.jpg" alt="第49頁：OmegaQuin配方詳細說明" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P49</span><span class="img-card-title">OmegaQuin配方詳細說明</span></div>
+          <div class="img-card-body">TriNutra協同配方，美國專利US11426365；建議用法每日1-2次每次2顆隨餐服用；動物研究證實增強燃脂效果、改善胰島素阻抗及慢性發炎；臨床研究證實改善運動員上呼吸道疾病、情緒壓力、腸道好菌、免疫力</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p51.jpg" alt="第51頁：協同組合改善脂肪組織代謝機制(重複頁28)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P51</span><span class="img-card-title">協同組合改善脂肪組織代謝機制(重複頁28)</span></div>
+          <div class="img-card-body">UCP1機制圖：增加脂肪細胞棕化促進燃脂、降低胰島素抗性和發炎</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p52.jpg" alt="第52頁：Omega-3與TQ油滴大小劑量反應圖(重複頁29)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P52</span><span class="img-card-title">Omega-3與TQ油滴大小劑量反應圖(重複頁29)</span></div>
+          <div class="img-card-body">協同組合顯著減少脂肪油滴數量與大小</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p53.jpg" alt="第53頁：協同組合脂肪細胞棕色化(重複頁30)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P53</span><span class="img-card-title">協同組合脂肪細胞棕色化(重複頁30)</span></div>
+          <div class="img-card-body">UCP1/β-actin表現量顯著上調</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p54.jpg" alt="第54頁：增強胰島素訊號路徑(重複頁31)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P54</span><span class="img-card-title">增強胰島素訊號路徑(重複頁31)</span></div>
+          <div class="img-card-body">AMPK機制說明</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p55.jpg" alt="第55頁：改善缺氧發炎反應(重複頁32)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P55</span><span class="img-card-title">改善缺氧發炎反應(重複頁32)</span></div>
+          <div class="img-card-body">HIF-1-α機制說明</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p56.jpg" alt="第56頁：臨床試驗設計：ThymoQuin+VivoMega魚油" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P56</span><span class="img-card-title">臨床試驗設計：ThymoQuin+VivoMega魚油</span></div>
+          <div class="img-card-body">隨機雙盲安慰劑對照(RDBPC)，35位健康跑者(19男16女)，每日500mg ThymoQuin+1500mg VivoMega魚油(40%EPA/30%DHA)，4週；文獻：Talbott &amp; Talbott. EC Nutrition 2022;17(7):18-27</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p57.jpg" alt="第57頁：血液Omega-3指標改善" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P57</span><span class="img-card-title">血液Omega-3指標改善</span></div>
+          <div class="img-card-body">Omega-3指數提升31%；Omega-6:Omega-3比例降低45%；AA:EPA比例降低161%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p58.jpg" alt="第58頁：協同組合提升呼吸道健康" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P58</span><span class="img-card-title">協同組合提升呼吸道健康</span></div>
+          <div class="img-card-body">上呼吸道感染(URTCs)評估分數降低62%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p59.jpg" alt="第59頁：減少情緒壓力、增加幸福感" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P59</span><span class="img-card-title">減少情緒壓力、增加幸福感</span></div>
+          <div class="img-card-body">情緒狀態量表(POMS)改善15%；唾液皮質醇降低37%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p60.jpg" alt="第60頁：增加腸道好菌、提升免疫力" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P60</span><span class="img-card-title">增加腸道好菌、提升免疫力</span></div>
+          <div class="img-card-body">嗜熱鏈球菌(腸道好菌)提高67%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p61.jpg" alt="第61頁：強化抗發炎效果(細胞實驗)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P61</span><span class="img-card-title">強化抗發炎效果(細胞實驗)</span></div>
+          <div class="img-card-body">ThymoQuin+Omega-3(EPA46%/DHA38%)協同抑制LPS刺激巨噬細胞產生一氧化氮(發炎因子)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p62.jpg" alt="第62頁：抗發炎配方專利" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P62</span><span class="img-card-title">抗發炎配方專利</span></div>
+          <div class="img-card-body">百里醌與Omega-3脂肪酸協同組合物專利，摩爾比至少1:7，用於治療/預防發炎；全球8張專利；ThymoQuin:VivoMega=2:1~1:14</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p63.jpg" alt="第63頁：配方產品案例" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P63</span><span class="img-card-title">配方產品案例</span></div>
+          <div class="img-card-body">VIVOQUIN(全球直銷大廠熱銷)、OmegaQuin(Amazon電商熱門)、Bio-Avail OMEGA+(全球創新品牌)三種市售複方配方劑量比例</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p64.jpg" alt="第64頁：配方結論" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P64</span><span class="img-card-title">配方結論</span></div>
+          <div class="img-card-body">黑種草籽油9大功效+魚油7大功效總結；全球直銷大廠熱銷配方比例1:3；8張配方專利</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p65.jpg" alt="第65頁：臨床試驗設計：ThymoQuin+蝦紅素" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P65</span><span class="img-card-title">臨床試驗設計：ThymoQuin+蝦紅素</span></div>
+          <div class="img-card-body">隨機雙盲安慰劑對照(RDBPC)，32位健康跑者(21男11女)，每日500mg ThymoQuin+8mg蝦紅素油，4週；文獻：Talbott &amp; Talbott. Scho J Food &amp; Nutr 2022;4(3)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p66.jpg" alt="第66頁：與蝦紅素協同作用數據" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P66</span><span class="img-card-title">與蝦紅素協同作用數據</span></div>
+          <div class="img-card-body">上呼吸道感染降低78%；唾液皮質醇減少20%；整體幸福感增加11%；腸道好菌增加63%</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p67.jpg" alt="第67頁：TQ+蝦紅素抑制LPS誘發發炎(細胞實驗)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P67</span><span class="img-card-title">TQ+蝦紅素抑制LPS誘發發炎(細胞實驗)</span></div>
+          <div class="img-card-body">協同抑制LPS誘發巨噬細胞產生一氧化氮(NO)發炎因子；文獻DOI: 10.32474/SJFN.2022.04.000190</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p68.jpg" alt="第68頁：TQ+維生素D3協同抑制TNF-α(細胞實驗)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P68</span><span class="img-card-title">TQ+維生素D3協同抑制TNF-α(細胞實驗)</span></div>
+          <div class="img-card-body">文獻：Yuen et al. Journal of Food &amp; Nutritional Sciences 2021;3(3)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p69.jpg" alt="第69頁：TQ+維生素D協同減少脂肪細胞大小" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P69</span><span class="img-card-title">TQ+維生素D協同減少脂肪細胞大小</span></div>
+          <div class="img-card-body">與對照組相比，市售黑種草油(8% FFA)對脂肪大小數量幾乎無影響；ThymoQuin(FFA&lt;2%)顯著減少脂肪滴大小和數量，游離脂肪酸含量至關重要</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p70.jpg" alt="第70頁：補充資料分隔頁" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P70</span><span class="img-card-title">補充資料分隔頁</span></div>
+          <div class="img-card-body">Additional Information 章節開始</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p71.jpg" alt="第71頁：補充資料分類導覽" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P71</span><span class="img-card-title">補充資料分類導覽</span></div>
+          <div class="img-card-body">改善三高(血糖/血脂/血壓)、抗發炎、免疫調節三大類別導覽</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p73.jpg" alt="第73頁：原廠臨床：改善高血壓(重複頁25)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P73</span><span class="img-card-title">原廠臨床：改善高血壓(重複頁25)</span></div>
+          <div class="img-card-body">20位健康成人，500mg ThymoQuin，2天及6週血壓改善數據</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p74.jpg" alt="第74頁：系統性文獻回顧：黑種草籽對血壓之影響" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P74</span><span class="img-card-title">系統性文獻回顧：黑種草籽對血壓之影響</span></div>
+          <div class="img-card-body">Meta-analysis，11篇隨機對照試驗，共860位高血壓/正常血壓個體，平均治療約8.3週；相較安慰劑/標準療法，收縮壓平均降幅-3.26mmHg，舒張壓-2.80mmHg</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p75.jpg" alt="第75頁：原廠臨床：改善肥胖及三高(重複頁23)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P75</span><span class="img-card-title">原廠臨床：改善肥胖及三高(重複頁23)</span></div>
+          <div class="img-card-body">動物實驗小鼠模型血壓/血糖/攝氧量/LDL氧化LDL改善數據</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p76.jpg" alt="第76頁：原廠文獻：增強Omega-3改善代謝及抗發炎(重複頁27)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P76</span><span class="img-card-title">原廠文獻：增強Omega-3改善代謝及抗發炎(重複頁27)</span></div>
+          <div class="img-card-body">3T3-L1細胞+HFD小鼠實驗；專利US11426365；減少油滴大小、促使棕化燃脂、改善胰島素阻抗及慢性發炎</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p77.jpg" alt="第77頁：減少油滴大小及增強粒線體代謝機制" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P77</span><span class="img-card-title">減少油滴大小及增強粒線體代謝機制</span></div>
+          <div class="img-card-body">增強UCP-1棕色化指標、SIRT1/Mfn2粒線體功能指標、HO-1抗氧化抗發炎指標</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p78.jpg" alt="第78頁：增強胰島素訊號路徑機制(重複頁31)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P78</span><span class="img-card-title">增強胰島素訊號路徑機制(重複頁31)</span></div>
+          <div class="img-card-body">AMPK為糖尿病藥物Metformin作用標的，近年發現具延壽效果</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p79.jpg" alt="第79頁：改善缺氧發炎反應機制(重複頁32)" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P79</span><span class="img-card-title">改善缺氧發炎反應機制(重複頁32)</span></div>
+          <div class="img-card-body">HIF-1-α缺氧誘導因子，2019年諾貝爾生醫獎相關主題</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p80.jpg" alt="第80頁：系統性文獻回顧：黑種草籽對血脂之影響" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P80</span><span class="img-card-title">系統性文獻回顧：黑種草籽對血脂之影響</span></div>
+          <div class="img-card-body">Meta-analysis，17篇隨機對照試驗，共1185位參與者；降低總膽固醇(WMD -15.65mg/dL)、LDL-C(WMD -14.10mg/dL)、三酸甘油酯(WMD -20.64mg/dL)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p81.jpg" alt="第81頁：改善血糖：黑種草籽油 vs 苦瓜胜肽比較表" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P81</span><span class="img-card-title">改善血糖：黑種草籽油 vs 苦瓜胜肽比較表</span></div>
+          <div class="img-card-body">黑種草籽油Meta-analysis(17篇RCT，共1312位參與者)：空腹血糖平均減少9.93mg/dl、餐後血糖減少14.79mg/dl、糖化血色素減少0.57%；效果優於苦瓜胜肽(mcIRBP-19)單篇試驗數據</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p82.jpg" alt="第82頁：系統性文獻回顧：黑種草籽對CRP發炎指標之影響" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P82</span><span class="img-card-title">系統性文獻回顧：黑種草籽對CRP發炎指標之影響</span></div>
+          <div class="img-card-body">Meta-analysis，5篇隨機對照試驗，共439名參與者，隨訪6-12週，每日劑量1-3克；顯著降低CRP，平均減幅0.55mg/L</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p83.jpg" alt="第83頁：臨床：增強年輕健康受試者免疫系統" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P83</span><span class="img-card-title">臨床：增強年輕健康受試者免疫系統</span></div>
+          <div class="img-card-body">52位18-25歲健康受試者，補充0.5g/1.0g/2.0g黑種草籽油，4週；總淋巴細胞數由1850±0.24增加至2170±0.26，CD3+T細胞及CD4+輔助型T細胞增加</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p84.jpg" alt="第84頁：臨床：改善哮喘症狀及過度發炎" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P84</span><span class="img-card-title">臨床：改善哮喘症狀及過度發炎</span></div>
+          <div class="img-card-body">80位哮喘患者，500mg膠囊每日2顆，4週；顯著改善哮喘控制測試評分，降低血液嗜酸性粒細胞數目</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p85.jpg" alt="第85頁：臨床：改善過敏者主觀不適感" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P85</span><span class="img-card-title">臨床：改善過敏者主觀不適感</span></div>
+          <div class="img-card-body">152名過敏性疾病患者(過敏性鼻炎/支氣管哮喘/特應性濕疹)，劑量40-80mg/kg/天，4週(四項研究彙整)；主觀不適感分數下降，三酸甘油酯略降、HDL略升</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p86.jpg" alt="第86頁：臨床：改善類風濕性關節炎" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P86</span><span class="img-card-title">臨床：改善類風濕性關節炎</span></div>
+          <div class="img-card-body">42名類風濕性關節炎患者，500mg膠囊每日2顆，8週；顯著提高血清IL-10，降低血清丙二醛MDA及一氧化氮NO</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p89.jpg" alt="第89頁：其他適應症分類導覽" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P89</span><span class="img-card-title">其他適應症分類導覽</span></div>
+          <div class="img-card-body">改善呼吸道(化學戰肺損傷、COPD)、預防慢性腎臟病(糖尿病腎病變)、預防骨質疏鬆症(原發性骨質疏鬆)導覽頁</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p90.jpg" alt="第90頁：黑種草籽油改善化學戰受害者肺損傷" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P90</span><span class="img-card-title">黑種草籽油改善化學戰受害者肺損傷</span></div>
+          <div class="img-card-body">40位化學戰爭受害者，50%黑種草籽萃取液，2個月；評估咳嗽/呼吸困難/胸悶及肺功能檢查(FVC/FEV1/PEF/MEF)；8週改善咳嗽及呼吸困難，增加肺容積及呼吸流速</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p91.jpg" alt="第91頁：黑種草籽油改善COPD：實驗設計" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P91</span><span class="img-card-title">黑種草籽油改善COPD：實驗設計</span></div>
+          <div class="img-card-body">100名輕度至中度COPD患者，標準治療 vs 標準治療+黑種草籽油，3個月；評估抗氧化指標、發炎指標、肺功能檢查(PFT)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p92.jpg" alt="第92頁：COPD發炎指標改善" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P92</span><span class="img-card-title">COPD發炎指標改善</span></div>
+          <div class="img-card-body">TBARS、Protein carbonyl、TNF-α、IL-6等發炎指標，黑種草籽油組較標準治療組改善，減少肺部發炎</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p93.jpg" alt="第93頁：COPD抗氧化指標改善" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P93</span><span class="img-card-title">COPD抗氧化指標改善</span></div>
+          <div class="img-card-body">CAT、GPX、SOD、GSH、維生素C、維生素E等抗氧化指標，黑種草籽油組增加肺部抗氧化能力</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p94.jpg" alt="第94頁：慢性腎臟病背景說明" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P94</span><span class="img-card-title">慢性腎臟病背景說明</span></div>
+          <div class="img-card-body">台灣「洗腎王國」現況：每10位民眾約1人為腎臟病患者，洗腎患者中40-50%由糖尿病所致</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p96.jpg" alt="第96頁：黑種草籽油改善慢性腎臟病：臨床數據" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P96</span><span class="img-card-title">黑種草籽油改善慢性腎臟病：臨床數據</span></div>
+          <div class="img-card-body">150名慢性腎臟病三期及四期患者，標準藥物 vs 標準藥物+黑種草籽油，3個月；血清肌酸酐降低28.2%(標準藥物組)/37.6%(黑種草油組)；腎絲球過濾率提升67%/87%，慢性腎衰竭程度由重度降為中度</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p97.jpg" alt="第97頁：個案分享：慢性腎臟病改善" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P97</span><span class="img-card-title">個案分享：慢性腎臟病改善</span></div>
+          <div class="img-card-body">非正式個案：同事母親服用ThymoQuin 3個月，血清肌酸酐由0.76降至0.52(-29%)，腎絲球過濾率由82.23升至126.99(+54%)</div>
+        </div>
+        <div class="img-card">
+          <img src="images/thymoquin/thymoquin_p98.jpg" alt="第98頁：黑種草籽油改善原發性骨質疏鬆症" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P98</span><span class="img-card-title">黑種草籽油改善原發性骨質疏鬆症</span></div>
+          <div class="img-card-body">120位停經女性原發性骨質疏鬆症患者，薑黃組 vs 黑種草籽油組，6個月；骨鈣素(OC)降14%、鹼性磷酸酶(ALP)降18%（60%停經婦女ALP升高，反映噬骨細胞活性增強）</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚖️</span><h2>法規聲稱摘要</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>市場</th><th>允許聲稱狀態</th><th>限制說明</th></tr></thead>
+        <tbody>
+          <tr><td>台灣（TFDA／衛福部）</td><td><span class="pill pill-warn">需個案審查</span></td><td>台灣未見黑種草籽油之衛福部核准保健功效字號。對外文案不得使用「降三高」「治療哮喘」「治療類風濕性關節炎」「改善腎臟病」「治療骨質疏鬆」等疾病治療或改善病症用語；可於審慎查證後使用「有助於維持/支持」等結構功能導向措辭，並註明實證等級（動物／細胞／小型人體試驗）。血壓、血脂、血糖、CRP相關數字宣稱屬「降低數值」用語，依台灣法規原則上不得對外宣稱，僅可作為內部研發參考。</td></tr>
+          <tr><td>加拿大（Health Canada NHP）</td><td><span class="pill pill-ok">已核准6項功效聲明</span></td><td>核准聲明限於「支持」用語（如支持健康肝臟功能、支持心血管健康），非治療性宣稱；此核准僅適用加拿大NHP體系，不可直接援引作為台灣或其他市場的合法依據</td></tr>
+          <tr><td>美國（FDA）</td><td><span class="pill pill-warn">結構功能聲明需自行合規</span></td><td>美國市售產品多以「Structure/Function Claim」形式行銷（如免疫、呼吸道健康、抗氧化），需自行完成FDA通知程序並附加「本聲明未經FDA評估，本產品不用於診斷、治療、治癒或預防任何疾病」免責聲明；簡報中臨床降血壓、降血糖、改善哮喘/類風濕性關節炎等用語在美國亦屬敏感疾病關聯宣稱，需謹慎使用</td></tr>
+          <tr><td>歐盟（EFSA）</td><td><span class="pill pill-no">未見核准健康聲稱</span></td><td>黑種草籽油／百里醌未列入歐盟核准健康聲稱清單（EU Register of nutrition and health claims），不得於歐盟市場使用功效性宣稱</td></tr>
+        </tbody>
+      </table>
+      <div class="evidence-box">ℹ️ 「能不能對外這樣講」（合規）與「有沒有研究佐證」（證據）為兩件事：本原料在三高、抗發炎、免疫調節、呼吸道、腎臟保健、骨質疏鬆等多個面向皆有動物、細胞及人體臨床證據支持，證據本身充分；惟對外文案措辭仍須遵守台灣及各市場法規，避免使用「治療」「改善病症」「降低數值」等醫療化用語，並視情況揭露研究出處完整性與供應商贊助關係。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>備註</h2></div>
+    <div class="section-body">
+      <ul class="plain">
+        <li>供應商簡報結構分為三大部分：Part1-2（P3-P46，品牌與9大功效總覽）、Part3（P47-P69，複方協同組合OmegaQuin/蝦紅素/維生素D）、Part4（P70-P98，補充資料：三高/抗發炎/免疫、呼吸道/腎臟病/骨質疏鬆文獻統整）。部分頁面內容重複出現於不同章節（如P17與P47、P23與P75等），已於圖片資產表格中標註「重複頁」。</li>
+          <li>簡報中「與N牌黑種草籽油比較」（P42-43）之競品規格數字（TQ&gt;5%、FFA約50%）為供應商單方陳述，未附第三方檢驗報告，使用前建議查證。</li>
+        <li>市售產品應用案例（P44-45）列出多個國際品牌（Blackmores、Isotonix、doctormurray.com、Morphus、Juvenon、Sports Research）採用ThymoQuin®原料，可作為市場接受度參考，惟不代表該等品牌背書本文件之功效主張。</li>
+        <li>本文件之研究彙整基於供應商PDF簡報所呈現之文字與圖表描述，多數獨立meta-analysis及PubMed文獻僅標示部分作者/期刊資訊，正式引用前應以PubMed／Google Scholar／PMC查證完整出處（期刊全名、卷期頁碼、DOI）及原文結果數字是否與簡報一致。</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

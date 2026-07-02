@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PureWay-C 維生素C-脂質代謝物之人類淋巴母細胞吸收率與自由基清除能力 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .section-body p { margin-bottom: 10px; }
+  .section-body ul, .section-body ol { margin: 6px 0 12px 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  .img-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .img-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fff; }
+  .img-card img { width: 100%; display: block; aspect-ratio: 4/3; object-fit: contain; background: var(--gray-2); cursor: zoom-in; padding: 8px; }
+  .img-card-meta { padding: 8px 12px 4px; display: flex; align-items: center; gap: 8px; }
+  .img-card-num { background: var(--indigo); color: #fff; border-radius: 4px; padding: 1px 7px; font-size: 11px; font-weight: 700; }
+  .img-card-title { font-size: 13px; font-weight: 600; color: var(--indigo); }
+  .img-card-body { padding: 4px 12px 12px; font-size: 12.5px; color: var(--gray-3); }
+  #lightbox { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
+  #lightbox.open { display: flex; }
+  #lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; }
+  #lightbox-caption { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.85); font-size: 13px; background: rgba(0,0,0,0.5); padding: 6px 14px; border-radius: 20px; pointer-events: none; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row"><span class="hdr-tag type">體外細胞實驗 · In Vitro</span><span class="hdr-tag q1">Q3 · IF 1.9</span><span class="hdr-tag coi">COI 已確認</span></div>
+    <h1>PureWay-C 維生素C-脂質代謝物之人類淋巴母細胞吸收率與自由基清除能力</h1>
+    <p class="subtitle">Absorption rates and free radical scavenging values of vitamin C-lipid metabolites in human lymphoblastic cells</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Benjamin S. Weeks, Pedro P. Perez</div>
+      <div class="meta-item"><strong>期刊</strong>Medical Science Monitor</div>
+      <div class="meta-item"><strong>年份</strong>2007 · 13(10):BR205-210</div>
+      <div class="meta-item"><strong>PMID</strong>17901843</div>
+      <div class="meta-item"><strong>DOI</strong>—（Med Sci Monit 未提供 DOI 索引）</div>
+      <div class="meta-item"><strong>PMC</strong>—</div>
+    </div>
+  </div>
+</header>
+<div class="layout">
+
+  <!-- 可信度評估 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★</span><span class="star-empty">☆☆☆</span></div>
+          <div class="cred-sub">Medical Science Monitor · Q3 · IF≈1.9</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★</span><span class="star-empty">☆☆☆</span></div>
+          <div class="cred-sub">體外細胞實驗（人類H9 T淋巴細胞株）（體外細胞模型（人類H9 T淋巴母細胞株），非人體受試者）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">摘要/全文可取得程度</div>
+        </div>
+        <div class="cred-card" style="background: var(--red-light);">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val">❌ 已確認</div>
+          <div class="cred-sub">共同作者 Pedro P. Perez 為 PureWay-C 技術發明人／One Innovation Labs 化學工程師主管（見供應商PDF第29頁），屬原料發明者直接參與研究</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7"><strong>綜合評估：</strong>本研究屬antioxidant / cellular uptake領域證據，體外細胞實驗（人類H9 T淋巴細胞株）（體外細胞模型（人類H9 T淋巴母細胞株），非人體受試者），發表於Medical Science Monitor（Q3）。於本原料 liposomax-vitc 之整體證據體系中，為支持性佐證之一，須與其COI背景及研究局限一併解讀，不宜單獨作為最高強度聲稱之唯一依據。</p>
+    </div>
+  </div>
+
+  <!-- 研究背景與目的 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:14px">維生素C 的細胞內吸收速率是評估不同維生素C 形式「生物利用度」的重要體外指標——即使血漿濃度提升，若維生素C 無法有效進入細胞內發揮抗氧化作用，其生理意義將大打折扣。人類淋巴母細胞（lymphoblastic cell）因具有典型的維生素C 主動運輸系統（SVCT），常被用作評估細胞層次吸收動力學的模型。</p><p style="margin-bottom:14px">本研究比較四種常見維生素C 形式——抗壞血酸(AA)、鈣抗壞血酸(CaA)、PureWay-C（維生素C-脂質代謝物）、Ester-C（鈣抗壞血酸-鈣蘇糖酸-脫氫抗壞血酸複合物）——在人類H9 T淋巴母細胞株中的吸收速率，並同時以DPPH與ORAC兩種標準體外自由基清除試驗評估PureWay-C 本身的抗氧化能力。</p><p style="margin-bottom:14px">本研究是供應商 liposomax-vitc PDF 中「原廠4項研究結論」裡「細胞吸收率提升233%（相較於抗壞血酸）」這項核心數字的直接出處，也是評估PureWay-C 技術「是否真的能提升細胞吸收」最基礎的體外機轉證據。</p>
+    </div>
+  </div>
+
+  <!-- 研究設計 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table><thead><tr><th>項目</th><th>說明</th></tr></thead><tbody><tr><td>試驗類型</td><td>體外細胞實驗，比較四種維生素C 形式的細胞吸收動力學</td></tr><tr><td>受試者/模型</td><td>人類H9 T淋巴母細胞株（非人體受試者，體外細胞模型）</td></tr><tr><td>介入方式</td><td>細胞分別暴露於AA、CaA、PureWay-C、Ester-C，測定細胞內維生素C 濃度隨時間變化</td></tr><tr><td>測量方法</td><td>細胞內維生素C：2,4-dinitrophenylhydrazine 比色光譜法；DPPH自由基清除：1,1-diphenyl-2-picryl hydrazyl 還原法；ORAC：氧自由基吸收能力螢光光譜法</td></tr><tr><td>功能終點</td><td>PureWay-C 對殺蟲劑（bifenthrin）誘導之T淋巴細胞聚集的保護效果</td></tr><tr><td>主要終點</td><td>細胞內維生素C 吸收速率（相較AA的百分比提升）；DPPH清除率；ORAC值（μmol Trolox當量/g）</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <!-- 作用機制 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">PureWay-C（維生素C-脂質代謝物）→ 細胞吸收與抗氧化機轉
+├─ 層次一 — 細胞膜穿透層次（分子層次，暴露後數分鐘內）
+│   ├─ 脂質代謝物（三酸甘油脂衍生物）增加抗壞血酸的脂溶性，
+│   │   理論上可部分經被動擴散穿越細胞膜，不完全依賴主動運輸系統(SVCT)
+│   └─ 相較之下，AA、CaA 高度依賴飽和型SVCT主動運輸，吸收速率較慢
+├─ 層次二 — 細胞內累積層次（暴露後數十分鐘）
+│   ├─ PureWay-C 較AA更快被H9 T淋巴細胞吸收（相對吸收速率提升233%）
+│   └─ 較CaA、Ester-C 亦顯示更快的吸收速率
+└─ 層次三 — 功能性保護層次（細胞層次，24小時觀察）
+    ├─ 殺蟲劑誘導T淋巴細胞聚集：PureWay-C 組減少84%，Ester-C 組僅減少34%
+    └─ 抗氧化能力：DPPH於20μg/mL幾乎達100%清除率；ORAC＞1200 μmol Trolox當量/g</pre>
+      <div class="mech-detail"><h4>被動擴散途徑是關鍵的機轉假說</h4><p>本研究提出的核心機轉假說是：脂質代謝物修飾使抗壞血酸獲得部分脂溶性，因此可能繞過傳統SVCT主動運輸系統的飽和限制，透過被動擴散或膜融合方式進入細胞。這與供應商PDF反覆強調的「微脂體磷脂雙層包覆」機轉原理相通（皆是利用脂質特性協助穿膜），但本研究的PureWay-C配方本身並非嚴格定義的磷脂雙層微脂體（無TEM證實球狀微脂體結構），是「脂質修飾」而非「微脂體包覆」的不同技術路徑，供應商PDF將兩者integrated 進同一技術敘事時，應注意區分。</p></div><div class="mech-detail"><h4>233%數字為體外細胞相對吸收速率，非人體百分比效益</h4><p>「233%細胞吸收提升」是體外細胞實驗中，PureWay-C 相對於抗壞血酸(AA)的吸收速率倍數比較，屬於體外機轉層次的合理證據，但不能直接等同「人體吸收提升233%」或「效果提升233%」，這是供應商PDF行銷素材最容易被誤讀的一項數字，整理時必須清楚標示證據型別為「體外細胞實驗」。</p></div>
+    </div>
+  </div>
+
+  <!-- 核心數據 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">PureWay-C 細胞吸收與抗氧化能力（體外H9淋巴母細胞實驗）</p><table><thead><tr><th>指標</th><th>PureWay-C</th><th>比較對象</th><th>備注</th></tr></thead><tbody><tr><td>細胞相對吸收速率</td><td>較AA提升233%</td><td>抗壞血酸(AA)</td><td>體外H9 T淋巴母細胞株，此為供應商「233%」數字原始出處</td></tr><tr><td>殺蟲劑誘導T細胞聚集之保護</td><td>減少84%</td><td>Ester-C 僅減少34%</td><td>反映PureWay-C 進入細胞後的抗氧化保護功能性表現</td></tr><tr><td>DPPH自由基清除率</td><td>20μg/mL時近100%</td><td>—</td><td>標準體外抗氧化試驗，僅能陳述為「實驗室測定」</td></tr><tr><td>ORAC值</td><td>>1200 μmol Trolox當量/g</td><td>—</td><td>標準體外抗氧化試驗，僅能陳述為「實驗室測定」</td></tr></tbody></table>
+      
+    </div>
+  </div>
+
+  <!-- 研究局限 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list"><li><div class="limit-num">1</div><span><strong>原料發明人直接參與研究</strong>：共同作者 Pedro P. Perez 為 PureWay-C 技術發明人本人（供應商PDF第29頁確認其為原廠化學工程師主管），研究設計、執行、詮釋皆可能受到發明人視角影響，屬於本清單中COI型態最直接的研究之一</span></li><li><div class="limit-num">2</div><span><strong>純體外細胞證據，無人體驗證</strong>：本研究完全在體外細胞層次進行，未有任何人體數據，「233%」「84%」等數字皆不可直接外推至人體吸收率或人體保護效果</span></li><li><div class="limit-num">3</div><span><strong>DPPH/ORAC 為標準體外測定，非人體抗氧化功效</strong>：依保健食品證據評估原則，DPPH/ORAC 數字只能陳述為「實驗室測定的自由基清除能力」，不能宣稱為「人體抗氧化功效」</span></li><li><div class="limit-num">4</div><span><strong>期刊等級較低</strong>：Medical Science Monitor 屬Q3等級期刊，同行審查門檻低於頂尖營養學期刊</span></li></ul>
+    </div>
+  </div>
+
+  <!-- 與其他論文的交叉評述 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Carr 2025 獨立範疇性回顧）的關係</div>
+        <div class="cross-ref-body"><p>Carr 2025 回顧聚焦於2016年後的人體PK研究，未納入本篇2007年體外細胞研究；Carr 特別指出「僅2篇研究測了細胞內攝取」，本研究雖為體外細胞證據且早於Carr回顧範圍，但恰好補足了Carr所述證據缺口中的一塊——只是層次為體外而非活體。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Purpura 2024 血漿/白血球RCT）的關係</div>
+        <div class="cross-ref-body"><p>兩篇皆探討「維生素C 進入細胞」的議題，但層次不同（本研究為體外細胞株，Purpura為活體白血球），方向一致支持脂質相關技術可提升細胞內維生素C 濃度，可視為體外機轉對人體觀察的機制橋接。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（Gopi 2021 交叉RCT）的關係</div>
+        <div class="cross-ref-body"><p>無直接數據關聯，技術路徑不同。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（Żmuda 2024 粉劑交叉RCT）的關係</div>
+        <div class="cross-ref-body"><p>無直接數據關聯。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_05（Davis 2016 缺血再灌流保護試驗）的關係</div>
+        <div class="cross-ref-body"><p>本研究的DPPH/ORAC 抗氧化數據與Davis 2016 的人體TBARS抗氧化保護終點，構成「體外抗氧化能力→人體抗氧化保護效果」的證據層次橋接，但Davis 2016 顯示的人體功能性優勢並不明確優於一般口服，顯示體外的顯著抗氧化能力未必完全轉譯為人體功能優勢。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_06（Pancorbo 2008 PureWay-C CRP/OxLDL）的關係</div>
+        <div class="cross-ref-body"><p>本研究與rsc_06為同一研究團隊（皆涉及Pedro Perez／One Innovation Labs技術體系）在不同層次的研究——本研究為體外細胞吸收機轉，rsc_06為人體吸收與生物標記，兩篇合併構成PureWay-C技術「體外機轉→人體驗證」的證據鏈，也是COI累積效應最明顯的一組（同一原廠技術，多篇研究皆有發明人/原廠直接參與）。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_08（Weeks 2007 神經突生成/傷口癒合）的關係</div>
+        <div class="cross-ref-body"><p>與本研究為同一作者群（Weeks &amp; Perez）於2007年發表的姊妹研究，共同構成PureWay-C 體外機轉證據的兩大支柱（本研究聚焦吸收/抗氧化，rsc_08聚焦神經/傷口癒合），COI性質相同（Perez為原廠發明人）。</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 對產品開發的啟示 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok"><h4>✅ 可積極聲稱（有明確研究支持，惟措辭須符合證據型別）</h4><ul><li>可引用「體外細胞實驗顯示，PureWay-C 維生素C-脂質代謝物之H9 T淋巴母細胞相對吸收速率較抗壞血酸提升233%（Weeks &amp; Perez, Med Sci Monit, 2007）」，但須明確標示為「體外細胞實驗」而非人體數據</li><li>可引用DPPH/ORAC 數據說明「PureWay-C 於標準體外抗氧化測定中展現顯著自由基清除能力」，並標明為實驗室測定</li></ul></div>
+      <div class="impl-section impl-warn"><h4>⚠️ 需謹慎的聲稱（需附加條件或搭配獨立文獻）</h4><ul><li>「233%細胞吸收提升」若用於行銷文案，必須加註「體外細胞實驗數據」字樣，不可讓消費者誤認為人體吸收率提升233%</li><li>本研究共同作者為原料發明人本人，引用時建議同時引用獨立第三方研究（如rsc_01 Carr 2025、rsc_02 Purpura 2024）平衡佐證</li></ul></div>
+      <div class="impl-section impl-no"><h4>❌ 不建議的聲稱（法規禁止／證據不足／層級混淆）</h4><ul><li>不可宣稱「233%人體吸收提升」或「233%效果提升」——這是體外細胞相對吸收速率倍數，非人體吸收率或功效百分比</li><li>不可宣稱DPPH/ORAC 數字代表「人體抗氧化功效提升」，此為體外化學測定，非生理功效證據</li></ul></div>
+    </div>
+  </div>
+
+  <!-- 建議引用格式 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">強聲稱（完整數字＋研究限制註記）：</p>
+      <div class="quote-block">體外細胞實驗顯示，PureWay-C 維生素C-脂質代謝物於人類H9 T淋巴母細胞株中的相對吸收速率較抗壞血酸提升233%，並展現顯著體外自由基清除能力（DPPH於20μg/mL近100%清除、ORAC&gt;1200μmol Trolox當量/g）（Weeks &amp; Perez, Med Sci Monit, 2007；體外細胞實驗，共同作者為原料發明人，具直接利益衝突）。</div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">弱聲稱（謹慎措辭）：</p>
+      <div class="quote-block">體外機轉研究顯示PureWay-C 維生素C-脂質代謝物可能較傳統維生素C 更快被細胞吸收並具抗氧化能力，惟為體外細胞實驗且作者為原料發明人，證據層級與獨立性皆有限，不可外推為人體效果（Weeks &amp; Perez, 2007）。</div>
+    </div>
+  </div>
+
+  <!-- 文件版本紀錄 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table><thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead><tbody>
+        <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+
+</div>
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

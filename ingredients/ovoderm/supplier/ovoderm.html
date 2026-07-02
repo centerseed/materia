@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>蛋殼膜（彈性蛋白）OVODERM® — 供應商資料</title>
+<style>
+  :root {
+    --teal-deep: #0a5c60; --teal-mid: #0d8a90; --teal-light: #e5f5f6;
+    --amber: #a05c00; --amber-light: #fff6e0;
+    --red: #8b2020; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #d4dfe0; --text: #1a2a2b; --max-w: 960px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.7; font-size: 15px; }
+
+  .page-header { background: linear-gradient(135deg, var(--teal-deep) 0%, var(--teal-mid) 100%); color: #fff; padding: 36px 24px 28px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag { display: inline-block; background: rgba(255,255,255,0.2); border: 1px solid rgba(255,255,255,0.3); border-radius: 4px; padding: 2px 10px; font-size: 12px; margin-bottom: 12px; }
+  .page-header h1 { font-size: 24px; font-weight: 700; margin-bottom: 14px; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.7; font-weight: 500; margin-right: 4px; }
+
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 15px; font-weight: 700; color: var(--teal-deep); }
+  .section-body { padding: 20px; }
+
+  h3.sub { font-size: 14px; font-weight: 700; color: var(--teal-deep); margin: 18px 0 8px; }
+  h3.sub:first-child { margin-top: 0; }
+  h4.study-title { font-size: 13.5px; font-weight: 700; color: #fff; background: var(--teal-mid); padding: 6px 12px; border-radius: 5px; margin: 20px 0 10px; }
+  h4.study-title:first-child { margin-top: 0; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 12px; }
+  th { background: var(--teal-deep); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+
+  ul, ol { padding-left: 22px; margin-bottom: 10px; }
+  li { margin-bottom: 4px; }
+  p { margin-bottom: 10px; }
+  p:last-child { margin-bottom: 0; }
+
+  .pill { display: inline-block; border-radius: 4px; padding: 2px 8px; font-size: 12px; font-weight: 600; }
+  .pill-ok { background: var(--green-light); color: var(--green); }
+  .pill-warn { background: var(--amber-light); color: var(--amber); }
+  .pill-no { background: var(--red-light); color: var(--red); }
+
+  .notice-box { background: var(--amber-light); border-left: 4px solid var(--amber); border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13.5px; margin-top: 12px; }
+  .fact-box { background: var(--red-light); border-left: 4px solid var(--red); border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13.5px; margin: 12px 0; }
+  .fact-box strong { color: var(--red); }
+  .claim-box { background: var(--teal-light); border-left: 4px solid var(--teal-mid); border-radius: 0 6px 6px 0; padding: 12px 16px; font-size: 13.5px; margin: 8px 0; }
+
+  .img-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; }
+  .img-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .img-card img { width: 100%; display: block; aspect-ratio: 4/3; object-fit: contain; background: var(--gray-2); cursor: zoom-in; padding: 6px; }
+  .img-card-meta { padding: 8px 12px 4px; display: flex; align-items: center; gap: 8px; }
+  .img-card-num { background: var(--teal-deep); color: #fff; border-radius: 4px; padding: 1px 7px; font-size: 11px; font-weight: 700; }
+  .img-card-title { font-size: 13px; font-weight: 600; color: var(--teal-deep); }
+  .img-card-body { padding: 4px 12px 12px; font-size: 12.5px; color: var(--gray-3); }
+
+  #lightbox { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
+  #lightbox.open { display: flex; }
+  #lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; }
+  #lightbox-caption { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.85); font-size: 13px; background: rgba(0,0,0,0.5); padding: 6px 14px; border-radius: 20px; pointer-events: none; }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag">供應商資料 · Supplier</div>
+    <h1>蛋殼膜（彈性蛋白）OVODERM® — 西班牙專利蛋殼膜粉末</h1>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>供應商</strong>美隆貿易股份有限公司 Meelung Trading Co., Ltd.</div>
+      <div class="meta-item"><strong>原料分類</strong>美容（皮膚彈性／保濕／毛髮指甲健康）</div>
+      <div class="meta-item"><strong>來源文件</strong>Ovoderm西班牙專利蛋殼膜(美容)_高劑量彈性蛋白_人體實驗_蘋果肌拉提_保濕緊緻除皺.pdf（簡報標註 2024.12）</div>
+      <div class="meta-item"><strong>整理日期</strong>2026-07-02</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🌿</span><h2>基本資訊</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>內容</th></tr></thead>
+        <tbody>
+          <tr><td>品牌 / 商品名</td><td>OVODERM®（品牌標語：NATURAL INNER BEAUTY）</td></tr>
+          <tr><td>原料本質</td><td>蛋殼膜粉末（Eggshell Membrane Powder），唯一蛋素來源的膠原蛋白，主要活性成分為彈性蛋白（Elastin）</td></tr>
+          <tr><td>產地／原廠</td><td>西班牙製造；原廠品牌 eggnovo</td></tr>
+          <tr><td>外觀</td><td>米白色粉末（slightly cream）</td></tr>
+          <tr><td>溶解性</td><td>不溶於水</td></tr>
+          <tr><td>保存期限</td><td>48 個月</td></tr>
+          <tr><td>建議每日劑量</td><td>300 mg/day</td></tr>
+          <tr><td>適用劑型</td><td>膠囊（簡報示例劑型；未列出其他劑型資料）</td></tr>
+          <tr><td>原料是否基改</td><td>非基因改造來源</td></tr>
+          <tr><td>認證／官方文件（簡報列出）</td><td>西班牙製程專利（未附專利號）、美國 GRAS、西班牙 HACCP、HALAL 認證、加拿大 Health Canada 天然健康產品許可證（詳見「法規／使用限制」區塊之事實澄清）、多項臨床實驗與國際期刊佐證</td></tr>
+          <tr><td>特殊聲明</td><td>本產品含有雞蛋，不適合對蛋過敏體質者食用；產品外盒需特別標註雞蛋過敏源</td></tr>
+        </tbody>
+      </table>
+      <p>供應商定位：以「專利水分離技術」萃取蛋殼膜，強調製程以水為媒介、無化學溶劑，且保留蛋殼膜完整結構（相對於他牌可能經部分水解、破壞功能性結構的做法）。簡報未附具體專利證書或專利號，「專利」二字為供應商單方陳述，建議業主向原廠索取專利號碼與核准狀態後再對外引用。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🕰️</span><h2>原料起源（供應商簡報內容）</h2></div>
+    <div class="section-body">
+      <p>簡報以「鳳凰衣」為引，說明蛋殼膜自古即被用於傷口／燒燙傷照護：</p>
+      <ul>
+        <li><strong>中國，1596 年</strong>：明朝《本草綱目》記載蛋殼膜作為治療外傷的方法，享有「鳳凰衣」之譽名。</li>
+        <li><strong>日本，1609 年</strong>：德川初期被用作急救石膏，治療戰鬥中的傷口。</li>
+      </ul>
+      <p>簡報說明：儘管蛋殼膜的獨特優勢已被記載數百年，但二十世紀才開始由科學理論角度進行研究。（此段為原料歷史脈絡，非現代臨床證據，僅供背景參考，不可作為功效宣稱依據。）</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🧬</span><h2>成分組成</h2></div>
+    <div class="section-body">
+      <p>依供應商簡報之「超過 400 種蛋白質體分析」結果：</p>
+      <table>
+        <thead><tr><th>成分</th><th>比例</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>蛋白質（總量）</td><td>Min 90%</td><td>—</td></tr>
+          <tr><td>彈性蛋白 Elastin</td><td>25%</td><td>彈性纖維主成分，主要存在於人體韌帶、血管、肺臟、皮膚；本原料標榜為「高劑量彈性蛋白」的核心成分</td></tr>
+          <tr><td>膠原蛋白 Collagen（I、V、X 型）</td><td>22%</td><td>第一型佔全部膠原蛋白 90%，主要存在於動物結締組織，包括皮膚、硬骨、肌腱、韌帶、角膜</td></tr>
+          <tr><td>玻尿酸 Hyaluronic Acid</td><td>3%</td><td>—</td></tr>
+          <tr><td>葡萄糖胺 Glucosamine</td><td>—（圓餅圖列出但未標示比例）</td><td>—</td></tr>
+          <tr><td>軟骨素 Chondroitin</td><td>—</td><td>—</td></tr>
+          <tr><td>溶菌酶 Lysozyme</td><td>—</td><td>—</td></tr>
+          <tr><td>角蛋白 Keratin</td><td>—</td><td>組成人類皮膚的主要構成物質，亦是頭髮和指甲的主要構成物質</td></tr>
+          <tr><td>其他蛋白質（含生長因子等）</td><td>合計約 25%（圓餅圖「其他蛋白質」區塊，含上述葡萄糖胺、軟骨素、溶菌酶、角蛋白等未單獨標示比例的成分）</td><td>生長因子：刺激細胞增殖和細胞分化；卵鐵傳遞蛋白（Ovotransferrin）：抗微生物；鎖鏈素（Desmosine）、異鎖鏈素（Isodesmosine）：組成彈性蛋白之原料</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:13px;color:var(--gray-3)">＊蛋殼膜為天然來源，成分含量隨批次有所差異，實際含量以 COA 為主。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">✅</span><h2>核心訴求（供應商簡報陳述，非最終對外宣稱文案）</h2></div>
+    <div class="section-body">
+      <ol>
+        <li><strong>唯一蛋素來源的膠原蛋白</strong>：適合奉行植物／蛋素飲食但仍需膠原蛋白來源的族群。</li>
+        <li><strong>每日建議劑量低（300mg/日）</strong>：供應商稱「代表安全無副作用」——此推論不成立，劑量低與安全性、副作用無直接因果關係，屬供應商行銷語言，整理時予以保留原文但標註為待商榷之推論。</li>
+        <li><strong>改善皮膚健康、彈性、緊緻與保濕</strong>：主要訴求，見下方臨床實驗。</li>
+        <li><strong>改善皮膚黑色素沉澱</strong>：研究 2 顯示黑色素測試儀讀數下降 9%。</li>
+        <li><strong>促進頭髮健康、減少落髮</strong>：研究 1、研究 5（RCT）皆有評分佐證。</li>
+        <li><strong>改善指甲健康狀況</strong>：研究 1、研究 5、指甲照片前後對比佐證。</li>
+        <li><strong>皮膚屏障功能</strong>：研究 4 及動物實驗均支持。</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📜</span><h2>功效說明（供應商簡報陳述，須依台灣衛福部法規重新檢視允許宣稱範圍）</h2></div>
+    <div class="section-body">
+      <ul>
+        <li>改善皮膚健康、改善皮膚彈性、皮膚緊緻效果</li>
+        <li>保持皮膚的濕度、增加皮膚的屏障功能</li>
+        <li>減少皺紋、提升皮膚彈性（供應商稱「皮膚拉提效果」，以皮膚等高線圖佐證，線條越寬鬆代表臉越鬆垮，惟簡報未附具體數字，僅為示意圖）</li>
+        <li>加速皮膚更新：加速表皮細胞新生、避免毛孔阻塞、加快黑斑色素代謝（此段簡報僅列出訴求標題與死皮細胞檢測儀器名稱，未附測試數字）</li>
+        <li>促進頭髮健康狀況、提升指甲健康狀況</li>
+      </ul>
+      <div class="notice-box">⚠️ 保健食品證據評估原則：以上訴求多有人體或動物／細胞實驗佐證（見下方臨床實驗），屬「有研究佐證」等級，但對外文案措辭仍須符合台灣衛福部保健食品「不得宣稱醫療效能」之規範，例如不可使用「治療」「除皺」「拉提」等具醫療／醫美暗示的字眼，「皮膚彈性檢測儀」「等高線圖」等屬儀器學術用語，行銷時應轉譯為合規的保健訴求（如「有助於維持肌膚彈性」）。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🧪</span><h2>臨床實驗</h2></div>
+    <div class="section-body">
+
+      <h4 class="study-title">實驗 1：頭髮、皮膚、指甲健康自評（研究.1）</h4>
+      <ul>
+        <li><strong>研究類型</strong>：人體實驗（單組自評，非隨機對照）</li>
+        <li><strong>受試者</strong>：25 位受測者</li>
+        <li><strong>實驗設計</strong>：劑量 OVODERM® 300mg/day；天數 60 天；對比組 — 無對照組，採自評量表（頭髮、指甲、皮膚評分量表）</li>
+        <li><strong>主要結果</strong>：改善臉部膚況 100%；改善身體膚況 94%；促進頭髮健康狀況 67%；提升指甲健康狀況 50%（皆為受測者自評「有改善」之比例，非儀器客觀量測百分比變化量）</li>
+        <li><strong>圖表</strong>：`ovoderm_p12.jpg` — 4 個環狀百分比圖示（100%／94%／67%／50%），對應臉部膚況／身體膚況／頭髮健康／指甲健康四項自評改善比例</li>
+        <li><strong>出處</strong>：Aguirre A et al. J Diet. Sup. (Journal of Dietary Supplements). (2017) 14(6): 706-714.</li>
+      </ul>
+
+      <h4 class="study-title">實驗 2：皮膚彈性與黑色素沉澱（研究.2）</h4>
+      <ul>
+        <li><strong>研究類型</strong>：人體實驗（儀器客觀量測）</li>
+        <li><strong>受試者</strong>：10 位受測者</li>
+        <li><strong>實驗設計</strong>：劑量 OVODERM® 300mg/day；天數 5 週；測量工具：皮膚彈性檢測儀、黑色素測試儀</li>
+        <li><strong>主要結果</strong>：皮膚彈性改善 +15%；皮膚黑色素沉澱減少 -9%</li>
+        <li><strong>圖表</strong>：`ovoderm_p13.jpg` — 兩個環狀百分比圖示（+15% 改善皮膚彈性、-9% 減少皮膚黑色素沉澱），並附皮膚彈性檢測儀、黑色素測試儀操作照片</li>
+        <li><strong>出處</strong>：Aguirre A et al. J Diet. Sup. (Journal of Dietary Supplements). (2017) 14(6): 706-714.（與實驗 1 同篇文獻的不同子分析）</li>
+      </ul>
+
+      <h4 class="study-title">實驗 3：雙盲試驗．保水、緊緻、彈性（研究.3）</h4>
+      <ul>
+        <li><strong>研究類型</strong>：人體雙盲試驗（設計標示為「雙盲」，惟簡報未揭露對照組類型／受試人數／統計數字）</li>
+        <li><strong>受試者</strong>：— （簡報未列出人數）</li>
+        <li><strong>實驗設計</strong>：劑量 OVODERM® 300mg/day；天數 60 天；對比組 — 未揭露</li>
+        <li><strong>主要結果</strong>：以受試者臉部側拍照片（T0 起始 vs T60 第 60 天）呈現法令紋、眼周細紋主觀外觀改善，共 4 位受試者編號 VOL 37、VOL 43、VOL 20、VOL 29（試驗代碼 MTH-EGG0116），惟簡報未提供彈性、保水、緊緻的具體量測數值，僅有照片佐證，證據強度低於研究 1、2、4</li>
+        <li><strong>圖表</strong>：`ovoderm_p14.jpg` — 4 組（8 張）受試者臉部側拍 Before/After 對照照片，臉部有馬賽克遮蔽保護隱私</li>
+        <li><strong>出處</strong>：Aguirre A et al. J Diet. Sup. (Journal of Dietary Supplements). (2017) 14(6): 706-714.（推測與實驗 1、2 同篇文獻或同一系列試驗，簡報未明確標示出處，此為整理者推測，建議查證原文獻確認）</li>
+      </ul>
+
+      <h4 class="study-title">實驗 4：皮膚屏障能力（研究.4）</h4>
+      <ul>
+        <li><strong>研究類型</strong>：人體實驗（儀器客觀量測）</li>
+        <li><strong>受試者</strong>：25 位受測者</li>
+        <li><strong>實驗設計</strong>：劑量 OVODERM® 300mg/day；天數 60 天；測量工具：皮膚水分流失測定儀（TEWL，經皮水分散失測定）</li>
+        <li><strong>主要結果</strong>：60 天後皮膚保濕能力提升 43%</li>
+        <li><strong>圖表</strong>：`ovoderm_p15.jpg` — 不健康肌膚 vs 健康肌膚示意圖（角質層/表皮屏障阻擋有害物質、保留水分的機轉圖），搭配「60天後皮膚保濕能力 43%」數字</li>
+        <li><strong>出處</strong>：Aguirre A et al. J Diet. Sup. (Journal of Dietary Supplements). (2017) 14(6): 706-714.（推測同一系列人體試驗，簡報未逐頁標明出處）</li>
+      </ul>
+
+      <h4 class="study-title">實驗 5：毛髮密度與落髮改善、指甲健康（安慰劑對照人體試驗）</h4>
+      <ul>
+        <li><strong>研究類型</strong>：人體隨機安慰劑對照試驗（RCT，OVODERM® vs Placebo）</li>
+        <li><strong>受試者</strong>：67 位受測者</li>
+        <li><strong>實驗設計</strong>：劑量 OVODERM® 300mg vs 安慰劑；天數 30 天及 60 天兩個時間點；測量方式：自評問卷（Self-Assessment questionnaire）；試驗似搭配 dermo prime／dermo bella 品牌成品（簡報以此二品牌 logo 標示，可能為實際使用該試驗結果之終端產品）</li>
+        <li><strong>主要結果（毛髮密度提升百分比）</strong>：Control 組 30 天約 -5%、60 天約 -3%（低於基線）；Ovoderm 組 30 天約 +20%、60 天約 +29%</li>
+        <li><strong>主要結果（落髮程度百分比，負值代表落髮改善／減少）</strong>：Control 組 30 天約 +3%、60 天約 +5%（落髮程度上升）；Ovoderm 組 30 天約 -8%、60 天約 -20%（落髮程度下降）</li>
+        <li><strong>主要結果（指甲雷達圖，0-80 分自評量表，非百分比）</strong>：生長速度 約 68 分、改善指甲破損 約 68 分、硬度 約 72 分、指甲光澤 約 35 分、指甲倒刺改善 約 48 分</li>
+        <li><strong>主要結果（頭髮雷達圖，0-80 分自評量表，非百分比）</strong>：髮量提升 約 78 分、頭髮粗細 約 45 分、落髮改善 約 78 分、頭髮光澤 約 48 分、頭皮敏感改善 約 30 分</li>
+        <li><strong>主要結果（指甲照片佐證）</strong>：60 天後指甲粗糙無光澤、指甲破損、指甲倒刺等狀況於照片中顯著改善（Before/After 對照，無數字量化）</li>
+        <li><strong>圖表</strong>：`ovoderm_p25.jpg`（毛髮密度提升／落髮程度長條圖）、`ovoderm_p26.jpg`（指甲 Before/After 照片）、`ovoderm_p27.jpg`（指甲、頭髮雷達圖）</li>
+        <li><strong>出處</strong>：簡報未附期刊／作者出處，僅標示「67 participants」「Self-Assessment questionnaire」與 dermo prime、dermo bella 品牌 logo，無法確認是否為正式發表之同儕審查文獻，建議業主向供應商索取完整研究報告或期刊出處後再引用。</li>
+      </ul>
+
+      <div class="notice-box">⚠️ 供應商提供的臨床數據需注意：實驗 1-4 的數字多為受試者「自評改善比例」或單組前後測（缺乏安慰劑對照），僅實驗 5 為隨機安慰劑對照設計。所有百分比、雷達圖分數皆截自簡報圖表目測估算（原始簡報未附精確數值表格），建議尋找 Aguirre A et al. (2017) J Dietary Supplements 原文獻交叉核對確切數字後再對外引用。</div>
+
+      <h4 class="study-title">動物實驗：UV 光老化無毛鼠模型（Woo-Jin et al. 2022）</h4>
+      <ul>
+        <li><strong>研究類型</strong>：動物實驗（含皮膚組織切片與基因表現分析）</li>
+        <li><strong>受試者</strong>：48 隻無毛老鼠（hairless mice）</li>
+        <li><strong>實驗設計</strong>：劑量分組 0.5X／1X／2X 蛋殼膜（簡報以 150mg／300mg／600mg 標示劑量組）vs 4X 玻尿酸（UV+HA 組）；天數 12 週；以紫外光燈照射造成皮膚光老化破壞後給予介入；委託機構標示為 KCL（Korea Conformity Laboratories）</li>
+        <li><strong>主要結果</strong>：
+          <ul>
+            <li>促進膠原蛋白合成（COL1A1 mRNA 表現量，相對值）：NO UV/NO SUPP=1.0、UV/NO SUPP=0.2、UV+150mg=0.5、UV+300mg=1.2、UV+600mg=2.5、UV+HA=2.6（劑量依賴性上升，600mg 組已超越無 UV 對照組）</li>
+            <li>促進玻尿酸合成（HAS2 mRNA 表現量，相對值）：NO UV/NO SUPP=1.0、UV/NO SUPP=0.4、UV+150mg=1.35、UV+300mg=1.4、UV+600mg=1.4、UV+HA=1.0</li>
+            <li>抑制膠原蛋白分解（Relative MMP-1 intensity，數值越低表示分解越少）：NO UV/NO SUPP=0.4、UV/NO SUPP=1.0（UV 破壞後上升最高）、UV+150mg=0.95、UV+300mg=0.38、UV+600mg=0.4、UV+HA=0.42</li>
+            <li>抗氧化力（SOD1 mRNA 表現量，相對值）：NO UV/NO SUPP=1.0、UV/NO SUPP=0.3、UV+150mg≈0.05、UV+300mg=1.9、UV+600mg=4.2、UV+HA=2.8（600mg 組抗氧化酶表現量最高）</li>
+            <li>抗發炎反應（IL-6 mRNA 表現量，相對值）：NO UV/NO SUPP=1、UV/NO SUPP=11.3（UV 破壞後發炎指標大幅上升）、UV+150mg=4、UV+300mg=2、UV+600mg=0.2、UV+HA=2</li>
+            <li>表皮發炎（Epidermal inflammation）於 600mg 組較 UV/NO SUPP 組下降 94%（組織切片染色標示數字：28.04／42.07／32.92／28.93／31.36／32.54，對應 6 個處理組的發炎指標讀數）</li>
+            <li>皮膚屏障與保水功能：經皮水分散失 TEWL（g/nm²）：NO UV/NO SUPP=2.1、UV/NO SUPP=4.8、UV+150mg=3.5、UV+300mg=3.3、UV+600mg=3.2、UV+HA=3.3；皮膚保水度 Moisture（a.u.）：NO UV/NO SUPP≈38、UV/NO SUPP≈13、UV+150mg≈24、UV+300mg≈28、UV+600mg≈30、UV+HA≈28</li>
+            <li>皺紋深度（Relative wrinkle depth，相對值，越低越好）：NO UV/NO SUPP=1.0、UV/NO SUPP=1.45（UV 破壞後最深）、UV+150mg=1.3、UV+300mg=1.28、UV+600mg=0.9（優於無 UV 對照組）、UV+HA=0.98</li>
+          </ul>
+        </li>
+        <li><strong>圖表</strong>：`ovoderm_p21.jpg`（膠原蛋白合成／玻尿酸合成／膠原蛋白分解抑制 三組長條圖）、`ovoderm_p22.jpg`（抗氧化力 SOD1／抗發炎 IL-6 長條圖 + 表皮組織切片染色照片）、`ovoderm_p23.jpg`（皮膚屏障示意圖、TEWL/保水度雙軸長條圖、皮膚外觀顯微照片、皺紋深度長條圖）</li>
+        <li><strong>出處</strong>：Woo-Jin et al. Antiaging activity of eggshell membrane administration and its underlying mechanism. Molecular & Cellular Toxicology. (2022)</li>
+      </ul>
+
+      <div class="notice-box">⚠️ 動物實驗數字保留原則：以上動物實驗（細胞激素/mRNA 表現量、組織切片）屬於保健食品合理的機轉證據，不應因「非人體症狀改善試驗」而被視為無效，惟劑量換算（老鼠 0.5X-2X 對應人體 150-600mg）與人體實際反應可能有差異，行銷應用時須註明「動物實驗」字樣並避免直接宣稱等同人體效果。</div>
+
+      <h4 class="study-title">相關體外研究（簡報列點，未附獨立文獻出處）</h4>
+      <p>簡報第 20 頁與第 24 頁以「相關的體外研究」為標題，列出下列訴求重點；第 20 頁緊接於 Woo-Jin 動物實驗（第 21-23 頁）之前、第 24 頁緊接於 67 人安慰劑對照人體試驗（第 25-27 頁）之前，推測此處「體外研究」標題可能為簡報製作時的標籤沿用／翻譯不精確，實際內容多由後續動物或人體試驗支持，而非獨立的細胞（in vitro）實驗，整理時予以如實呈現、不代為修正：</p>
+      <ul>
+        <li>可抑制 Collagenase 和 Elastase 的活性</li>
+        <li>促使膠原蛋白前驅物（procollagen）生成</li>
+        <li>促使玻尿酸的生成</li>
+        <li>維持正常皮膚屏障功能</li>
+        <li>（第 24 頁另列）提升毛髮密度、減少落髮、加速指甲生長速度、改善指甲光澤</li>
+      </ul>
+      <p style="font-size:13px;color:var(--gray-3)">出處：簡報未標示，建議查證是否有獨立細胞實驗文獻支持，或確認僅為 Woo-Jin (2022) 動物實驗及第 25-27 頁人體試驗結果之摘要重述。</p>
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚖️</span><h2>法規／使用限制（台灣）與事實澄清</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>內容</th></tr></thead>
+        <tbody>
+          <tr><td>台灣衛福部每日食用限量</td><td>500 mg 以下（100.4.6 署授食字第1001300783號公告）；本原料建議劑量 300mg/day 在此上限內</td></tr>
+          <tr><td>需標示過敏原</td><td>是。本產品含有雞蛋，不適合對其過敏體質者食用，產品外盒需特別標註雞蛋過敏源</td></tr>
+          <tr><td>特殊族群注意</td><td>懷孕、哺乳期間婦女及對蛋過敏者應避免食用</td></tr>
+        </tbody>
+      </table>
+
+      <div class="fact-box">
+        <strong>⚠️ 重要事實澄清：簡報第 28 頁「加拿大功效證明」與實際 Health Canada 許可文件內容不符</strong>
+        <p style="margin-top:8px">簡報第 28 頁標題為「加拿大功效證明」，行銷文字寫「建議連續使用 60 天以上，可幫助改善肌膚彈性、維持肌膚健康」，並附上一張 Health Canada（加拿大衛生部）Natural Health Product 許可證影本作為佐證。但仔細檢視該許可證內容（Product Number 80083734，品牌名稱 <strong>Ovomet</strong>，持證商為 Cambrian Solutions Inc.，成分為 Chicken Eggshell Membrane 300mg，發證日 2018-03-12，修訂日 2018-11-01）：</p>
+        <ul style="margin-top:8px">
+          <li>該許可證核准的「Recommended use or purpose（建議用途）」<strong>全部與關節健康有關</strong>：「Helps to reduce joint pain and stiffness（有助於降低關節疼痛與僵硬）」「Helps to relieve stiffness associated with chronic joint pain」「Helps to support joint health by reducing joint pain and stiffness」「Helps to reduce joint pain in knee osteoarthritis as early as 5 days（5 天就能夠減少因膝骨性關節炎所引起的疼痛）」。</li>
+          <li>許可證內容<strong>完全沒有提及皮膚彈性、皮膚健康或美容相關用途</strong>。</li>
+          <li>此許可證核准對象是品牌 <strong>Ovomet</strong>（訴求關節健康的膠囊產品），與本簡報主打的美容品牌 <strong>Ovoderm</strong> 並非同一登記商品，僅原料（Chicken Eggshell Membrane 300mg）相同。</li>
+        </ul>
+        <p style="margin-top:8px">因此，簡報將此「加拿大關節健康許可證」直接標題為「加拿大功效證明」並用來佐證「改善肌膚彈性、維持肌膚健康」的訴求，<strong>是張冠李戴、事實不符的引用</strong>。若對外行銷延用此頁面，將構成誤導性宣稱風險。建議業主：(1) 移除或修正此頁行銷文案，不得再以此許可證佐證皮膚訴求；(2) 若供應商另有以皮膚／美容用途核准的加拿大 NHP 許可證，應請供應商提供正確文件；(3) 若要引用 Health Canada 對蛋殼膜（300mg/day）安全性與 1 個月起效的一般性佐證（劑型、劑量、風險警語部分），可保留使用，但不可延伸為皮膚功效證明。</p>
+      </div>
+
+      <div class="notice-box">⚠️ 專利聲稱查證：簡報多處提及「專利技術」「專利水分離技術」「西班牙生產製造」，但全份簡報未附任何專利證書、專利號或申請/核准狀態文件。依保健食品證據評估原則，「專利」用語屬於可能誤導的事實陳述，若對外文案要使用「專利」字樣，須先向供應商索取專利證書並確認為「已核准」而非「申請中」。</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🎯</span><h2>應用建議</h2></div>
+    <div class="section-body">
+      <h3 class="sub">應用方向與功效訴求</h3>
+      <div class="claim-box"><strong>方向一：肌膚彈性與保濕</strong><br>依實驗 2（+15% 皮膚彈性）、實驗 4（+43% 保水能力）與動物實驗（膠原蛋白/玻尿酸合成上升、皺紋深度下降），可作為「有助於維持肌膚彈性與保濕」的保健訴求依據，唯不可使用「拉提」「除皺」「緊緻回春」等醫美暗示字眼。</div>
+      <div class="claim-box"><strong>方向二：蛋素族群的膠原蛋白來源</strong><br>訴求「唯一蛋素來源的膠原蛋白」，鎖定奉行植物／蛋素飲食但仍需補充膠原蛋白相關成分的消費者。惟需同時標註含蛋過敏原警語。</div>
+      <div class="claim-box"><strong>方向三：毛髮與指甲健康</strong><br>依實驗 1、實驗 5（RCT）之自評數據，可作為「有助於維持頭髮、指甲健康」之輔助訴求，惟證據強度（自評問卷為主，缺乏客觀儀器如落髮鏡檢或指甲硬度計數據）低於皮膚彈性訴求，對外文案宜保守表述。</div>
+
+      <h3 class="sub">配方參考</h3>
+      <table>
+        <thead><tr><th>成分</th><th>用量</th></tr></thead>
+        <tbody>
+          <tr><td>OVODERM® 蛋殼膜（彈性蛋白）</td><td>300 mg／日（簡報建議劑量，未超過台灣衛福部 500mg 上限）</td></tr>
+          <tr><td>搭配原料</td><td>簡報未提供搭配配方建議，可依業主既有美容線產品（如玻尿酸、維生素C）評估複方可行性，惟需另行查證交互作用與穩定性資料</td></tr>
+        </tbody>
+      </table>
+
+      <h3 class="sub">適用劑型</h3>
+      <p>簡報未明確列出劑型選項，僅以膠囊產品（Ovomet／dermo prime／dermo bella）作為臨床試驗使用之劑型示例。</p>
+
+      <h3 class="sub">適用族群（依簡報「適用族群」頁）</h3>
+      <ul>
+        <li>欲維持肌膚健康的族群</li>
+        <li>改善肌膚健康的族群</li>
+        <li>落髮危機族群</li>
+        <li>經常曝曬於陽光的族群</li>
+        <li>蛋素者（奉行植物／蛋素飲食者）</li>
+      </ul>
+      <p style="font-size:13px;color:var(--gray-3)">排除族群：孕婦、哺乳期婦女、對蛋過敏者應避免食用。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🖼️</span><h2>簡報圖片資產（點擊放大，共 32 張，PDF 全頁渲染）</h2></div>
+    <div class="section-body">
+      <div class="img-gallery">
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p01.jpg" alt="封面：專利蛋殼膜粉末，唯一蛋素來源的膠原蛋白，簡報標註 2024.12" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P1</span><span class="img-card-title">封面</span></div>
+          <div class="img-card-body">專利蛋殼膜粉末／唯一蛋素來源的膠原蛋白，簡報日期 2024.12</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p02.jpg" alt="專利蛋殼膜：專利技術、環境友善技術、西班牙生產製造、非基改來源、HALAL認證" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P2</span><span class="img-card-title">專利蛋殼膜特色總覽</span></div>
+          <div class="img-card-body">五大特色標籤：專利技術／環境友善技術／西班牙生產製造／非基改來源／HALAL認證</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p03.jpg" alt="專利水分離技術優勢：製程以水為媒介、環保無污染、保留蛋殼膜完整結構" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P3</span><span class="img-card-title">專利水分離技術優勢</span></div>
+          <div class="img-card-body">製程以水為媒介（無化學溶劑）、環保無污染、保留蛋殼膜完整結構（他牌可能經部分水解破壞功能結構）</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p04.jpg" alt="產品特色：西班牙eggnovo產地、300mg/日、唯一蛋素來源膠原蛋白、加拿大FDA功效認證、多項臨床實驗" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P4</span><span class="img-card-title">產品特色總覽</span></div>
+          <div class="img-card-body">產地西班牙 eggnovo；300mg/日；唯一蛋素來源膠原蛋白；加拿大官方FDA功效認證（見法規區塊事實澄清）；多項臨床實驗與國際期刊支持；無麩質、無重金屬殘留、無化學添加</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p05.jpg" alt="蛋殼膜的起源：鳳凰衣，中國1596年本草綱目、日本1609年德川初期急救石膏" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P5</span><span class="img-card-title">蛋殼膜的起源（鳳凰衣）</span></div>
+          <div class="img-card-body">歷史脈絡：中國1596年《本草綱目》記載為「鳳凰衣」；日本1609年德川初期用作急救石膏</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p06.jpg" alt="產品特性：米白色粉末、不溶於水、保存48個月、認證清單、蛋殼膜使用注意事項" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P6</span><span class="img-card-title">產品特性與使用注意</span></div>
+          <div class="img-card-body">外觀、溶解性、保存期限、認證清單；使用注意：含蛋過敏原、衛福部500mg以下限量、孕婦哺乳蛋過敏者禁用</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p07.jpg" alt="產品成分組成圓餅圖：蛋白質Min90%，彈性蛋白25%，膠原蛋白22%，玻尿酸3%，超過400種蛋白質體分析" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P7</span><span class="img-card-title">產品成分組成（圓餅圖）</span></div>
+          <div class="img-card-body">超過400種蛋白質體分析；彈性蛋白25%、膠原蛋白22%、玻尿酸3%、其他蛋白質、葡萄糖胺、軟骨素、溶菌酶、角蛋白</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p08.jpg" alt="產品成分組成與美容作用對照表：膠原蛋白、彈性蛋白、角蛋白、其他蛋白質的功能說明" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P8</span><span class="img-card-title">成分與美容作用對照表</span></div>
+          <div class="img-card-body">膠原蛋白(I、V、X型)22%；彈性蛋白25%；角蛋白；其他蛋白質（生長因子、卵鐵傳遞蛋白、鎖鏈素/異鎖鏈素）之功能說明</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p09.jpg" alt="多元蛋白質產品訴求：改善皮膚健康、彈性、緊緻效果、保濕、屏障功能" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P9</span><span class="img-card-title">多元蛋白質訴求總覽</span></div>
+          <div class="img-card-body">玻尿酸、角蛋白、膠原蛋白、多元蛋白質、彈性蛋白產品的5項訴求圖示</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p10.jpg" alt="皮膚老化示意圖：年輕肌膚vs老化肌膚，膠原蛋白彈性蛋白玻尿酸隨年齡與紫外線減少" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P10</span><span class="img-card-title">皮膚老化機轉示意圖</span></div>
+          <div class="img-card-body">皮膚分層（角質層/表皮/真皮/皮下/肌肉）示意；年輕vs老化肌膚中膠原蛋白、彈性蛋白、玻尿酸含量差異</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p11.jpg" alt="臨床實驗4項研究總覽：頭髮皮膚指甲健康、皮膚彈性黑色素、雙盲實驗、皮膚屏障" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P11</span><span class="img-card-title">臨床實驗4項研究總覽</span></div>
+          <div class="img-card-body">章節頁：列出後續4項人體臨床實驗主題</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p12.jpg" alt="研究1：頭髮皮膚指甲，改善臉部膚況100%、身體膚況94%、頭髮67%、指甲50%" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P12</span><span class="img-card-title">研究1 結果圖表</span></div>
+          <div class="img-card-body">實驗1詳細數字：見臨床實驗區塊實驗1</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p13.jpg" alt="研究2：皮膚彈性和黑色素沉澱，+15%彈性改善，-9%黑色素減少" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P13</span><span class="img-card-title">研究2 結果圖表</span></div>
+          <div class="img-card-body">實驗2詳細數字：見臨床實驗區塊實驗2</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p14.jpg" alt="研究3：雙盲試驗，保水緊緻彈性，4組受試者臉部側拍T0/T60對照照片" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P14</span><span class="img-card-title">研究3 前後對照照片</span></div>
+          <div class="img-card-body">4位受試者（VOL 37/43/20/29，試驗代碼MTH-EGG0116）T0起始vs T60第60天側臉照片</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p15.jpg" alt="研究4：皮膚屏障能力，60天後皮膚保濕能力提升43%" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P15</span><span class="img-card-title">研究4 結果圖表</span></div>
+          <div class="img-card-body">實驗4詳細數字：見臨床實驗區塊實驗4</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p16.jpg" alt="真皮密度示意圖：年輕肌膚vs老人肌膚，膠原蛋白彈性蛋白玻尿酸提升，肌膚重返緊緻" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P16</span><span class="img-card-title">真皮密度示意圖</span></div>
+          <div class="img-card-body">行銷示意圖，無具體數字，強調「肌膚重返緊緻」訴求</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p17.jpg" alt="皺紋外觀訴求：有效減少皺紋、提升皮膚彈性" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P17</span><span class="img-card-title">皺紋外觀訴求</span></div>
+          <div class="img-card-body">行銷標語頁，無具體數字</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p18.jpg" alt="皮膚拉提效果：皮膚等高線圖，線條越寬鬆代表臉越鬆垮" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P18</span><span class="img-card-title">皮膚拉提效果示意（等高線圖）</span></div>
+          <div class="img-card-body">以等高線圖示意皮膚鬆弛程度，無具體測量數字，「拉提」用語具醫美暗示需留意合規性</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p19.jpg" alt="加速皮膚更新：加速表皮細胞新生、避免毛孔阻塞、加快黑斑色素代謝，死皮細胞檢測" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P19</span><span class="img-card-title">加速皮膚更新訴求</span></div>
+          <div class="img-card-body">死皮細胞檢測示意，訴求標題無具體數字佐證</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p20.jpg" alt="相關的體外研究：抑制Collagenase和elastase活性、促使膠原蛋白前驅物生成、促使玻尿酸生成、維持皮膚屏障功能" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P20</span><span class="img-card-title">相關的體外研究（章節頁）</span></div>
+          <div class="img-card-body">4點列表，緊接後續Woo-Jin動物實驗頁面，未附獨立文獻出處</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p21.jpg" alt="Woo-Jin動物實驗：48隻無毛老鼠，膠原蛋白合成/玻尿酸合成/膠原蛋白分解抑制長條圖" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P21</span><span class="img-card-title">動物實驗：促進合成/抑制分解</span></div>
+          <div class="img-card-body">COL1A1、HAS2 mRNA表現量、MMP-1相對強度長條圖，詳細數字見臨床實驗區塊「動物實驗」</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p22.jpg" alt="Woo-Jin動物實驗：抗氧化力SOD1、抗發炎反應IL-6長條圖，表皮發炎組織切片照片，發炎減少94%" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P22</span><span class="img-card-title">動物實驗：抗氧化/抗發炎</span></div>
+          <div class="img-card-body">SOD1、IL-6 mRNA表現量長條圖 + 6組表皮組織切片染色照片（發炎指標讀數）</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p23.jpg" alt="Woo-Jin動物實驗：皮膚屏障與保水功能TEWL/Moisture雙軸圖，皮膚外觀顯微照片，皺紋深度長條圖" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P23</span><span class="img-card-title">動物實驗：屏障保水/皺紋深度</span></div>
+          <div class="img-card-body">正常vs脆弱皮膚屏障示意圖、TEWL與保水度雙軸長條圖、皮膚外觀顯微照片、相對皺紋深度長條圖</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p24.jpg" alt="相關的體外研究（毛髮指甲）：提升毛髮密度、減少落髮、加速指甲生長、改善指甲光澤" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P24</span><span class="img-card-title">相關的體外研究（毛髮指甲，章節頁）</span></div>
+          <div class="img-card-body">4點列表，緊接後續67人安慰劑對照人體試驗頁面，未附獨立文獻出處</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p25.jpg" alt="67人安慰劑對照試驗：毛髮密度提升百分比、落髮程度百分比長條圖，30天/60天對照" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P25</span><span class="img-card-title">研究5：毛髮密度/落髮長條圖</span></div>
+          <div class="img-card-body">Ovoderm 300mg vs Placebo，67位受試者，30天/60天毛髮密度提升與落髮程度百分比對比</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p26.jpg" alt="指甲Before/After照片：粗糙無光澤、指甲破損、指甲倒刺，60天後顯著改善" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P26</span><span class="img-card-title">研究5：指甲Before/After照片</span></div>
+          <div class="img-card-body">3組指甲問題（粗糙無光澤/指甲破損/指甲倒刺）60天前後對照照片</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p27.jpg" alt="指甲與頭髮雷達圖：生長速度改善指甲破損硬度指甲光澤指甲倒刺；髮量提升頭髮粗細落髮改善頭髮光澤頭皮敏感" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P27</span><span class="img-card-title">研究5：指甲/頭髮雷達圖</span></div>
+          <div class="img-card-body">0-80分自評量表雷達圖，指甲5維度、頭髮5維度</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p28.jpg" alt="加拿大功效證明：建議連續使用60天以上可幫助改善肌膚彈性維持肌膚健康，附Health Canada NHP許可證影本" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P28</span><span class="img-card-title">⚠️ 加拿大功效證明（事實有誤，見法規區塊）</span></div>
+          <div class="img-card-body">Health Canada許可證影本（品牌Ovomet，關節健康用途），簡報誤用為皮膚彈性佐證，詳見「法規／使用限制」區塊之事實澄清</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p29.jpg" alt="綜合結論：6點總結，300mg/日、唯一蛋素來源膠原蛋白、改善皮膚健康彈性、促進毛髮生長、改善指甲、加拿大功效證明" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P29</span><span class="img-card-title">綜合結論</span></div>
+          <div class="img-card-body">6點總結（第6點沿用有誤的「加拿大功效證明」表述，引用時應修正）</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p30.jpg" alt="適用族群：欲維持肌膚健康、改善肌膚健康、落髮危機、經常曝曬陽光、蛋素者" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P30</span><span class="img-card-title">適用族群</span></div>
+          <div class="img-card-body">5類適用族群列表</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p31.jpg" alt="產品形象影片連結頁（點擊觀看）" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P31</span><span class="img-card-title">產品形象影片連結</span></div>
+          <div class="img-card-body">簡報內嵌影片連結頁，靜態PDF無法擷取影片內容</div>
+        </div>
+        <div class="img-card">
+          <img src="images/ovoderm/ovoderm_p32.jpg" alt="美隆貿易股份有限公司聯絡資訊：官網、電話、傳真、公司地址" onclick="openLightbox(this)">
+          <div class="img-card-meta"><span class="img-card-num">P32</span><span class="img-card-title">供應商聯絡資訊</span></div>
+          <div class="img-card-body">美隆貿易股份有限公司；官網 www.meelung.com.tw；電話 06-261-9348；傳真 06-265-5747；地址 702台南市南區中華西路一段450號</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>備註</h2></div>
+    <div class="section-body">
+      <ul>
+        <li>本簡報標註「本資料僅供公司內部人員研究評估之用，請勿散佈廣告複製或引用」，屬供應商內部資料，對外使用前需重新確認授權與合規文案。</li>
+        <li>簡報中多處僅列出訴求標題或示意圖（如 P16-P20），未附具體實驗數字，整理時已如實標註「無具體數字佐證」，避免業主誤以為每項訴求皆有量化證據。</li>
+        <li>實驗 1-4 疑似皆出自同一篇文獻（Aguirre A et al. 2017, J Dietary Supplements 14(6): 706-714），但簡報將其拆分為 4 個「研究」呈現，且部分頁面（研究3、研究4）未逐頁重複標示出處，建議取得原始期刊全文以確認各子研究的受試者人數、統計方法與 p 值是否達顯著。</li>
+        <li>最重要的事實查核發現：簡報第 28-29 頁「加拿大功效證明」引用的 Health Canada 許可證實際核准用途為「關節疼痛/膝關節炎」而非「皮膚彈性」，且品牌為 Ovomet 而非 Ovoderm，此為本次整理發現的關鍵合規風險，已於「法規／使用限制」區塊詳細說明，行銷團隊使用本原料時務必避免延用此頁面的錯誤佐證邏輯。</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

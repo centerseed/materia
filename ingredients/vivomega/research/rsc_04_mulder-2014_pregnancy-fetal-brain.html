@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>孕期 DHA 補充與胎兒 DHA 缺乏之隨機對照試驗 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; } .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); } .impl-warn h4 { color: var(--amber); } .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; } .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag rct">隨機對照試驗 · RCT</span>
+      <span class="hdr-tag q1">Q1（多學科）· IF 2.9</span>
+    </div>
+    <h1>孕期 DHA 補充與胎兒／嬰兒神經發育：270 人隨機對照試驗</h1>
+    <p class="subtitle">Omega-3 Fatty Acid Deficiency in Infants before Birth Identified Using a Randomized Trial of Maternal DHA Supplementation in Pregnancy</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Mulder KA, King DJ, Innis SM（Nutrition and Metabolism Program, Child and Family Research Institute, University of British Columbia）</div>
+      <div class="meta-item"><strong>期刊</strong>PLOS One</div>
+      <div class="meta-item"><strong>年份</strong>2014 · 9(1):e83764</div>
+      <div class="meta-item"><strong>PMID</strong>24427279</div>
+      <div class="meta-item"><strong>DOI</strong>10.1371/journal.pone.0083764</div>
+      <div class="meta-item"><strong>PMC</strong>PMC3888379</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★☆</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">PLOS One · Q1（多學科）· IF 2.9</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★★</span><span class="star-empty"></span></div>
+          <div class="cred-sub">雙盲安慰劑對照 RCT（N=270，隨機分派）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★★</span><span class="star-empty"></span></div>
+          <div class="cred-sub">開放全文（PMC），含多時間點追蹤數據</div>
+        </div>
+        <div class="cred-card" style="background: var(--green-light); border-color:var(--green)">
+          <div class="cred-label" style="color:var(--green)">利益衝突</div>
+          <div class="cred-val" style="color:var(--green)">✅ 無</div>
+          <div class="cred-sub">加拿大衛生研究院（CIHR）政府經費資助，作者聲明無競爭利益</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本篇為由加拿大英屬哥倫比亞大學獨立學術團隊執行、加拿大衛生研究院（CIHR）政府經費資助之雙盲安慰劑對照 RCT（N=270），無廠商資助或利益衝突，方法學嚴謹（隨機分派、多時間點標準化神經發育量表評估），是本知識庫中證據品質最高的研究之一。研究對象為一般健康孕婦，介入物為 DHA（藻油三酸甘油酯型式）而非魚油複方，故其結論主要適用於「DHA 單一成分於孕期之神經發育角色」，非直接測試 EPA+DHA 複方魚油之效果。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">DHA（二十二碳六烯酸）是大腦與視網膜細胞膜磷脂中含量最豐富的長鏈多元不飽和脂肪酸，於神經細胞膜形成、突觸可塑性及神經傳導物質代謝中扮演結構性角色。人類大腦於胎兒期第三孕期（約 28 週後）至出生後前兩年經歷「腦部生長陡增期」（brain growth spurt），此階段大腦對 DHA 的需求量急遽上升，而胎兒自身合成 DHA 的能力有限（需仰賴母體經胎盤提供之 DHA，或由母體攝取之 ALA 經去飽和酶／延長酶轉換合成，惟此轉換效率在人體僅約 5% 以下），故母體膳食 DHA 攝取量被認為是決定胎兒 DHA 供應是否充足的關鍵因子。</p>
+      <p style="margin-bottom:20px">然而，西方典型飲食模式（Western diet）之 omega-3 攝取量普遍偏低，多數孕婦每日 DHA 攝取量遠低於國際建議之 200 mg/day 以上標準，過去雖有觀察性研究（如流行病學世代研究）發現母體 DHA 攝取量與嬰兒認知發展測驗分數相關，但觀察性研究無法排除社經地位、母親教育程度等干擾因子，因果關係尚待隨機對照試驗驗證。此外，先前少數孕期 DHA 補充 RCT 樣本量較小或追蹤時間較短，難以偵測到語言發展等較晚顯現之神經發育指標差異。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">研究填補的知識缺口</p>
+      <div class="mech-detail">
+        <h4>驗證「胎兒 DHA 不足」假說</h4>
+        <p>本研究之核心研究問題為：「西方典型飲食下的孕婦，其胎兒是否確實存在 DHA 供應不足，並因此限制中樞神經系統發育？」作者透過隨機分派 270 名孕婦於妊娠 16 週起接受 400 mg/day DHA 或安慰劑，並以標準化神經發育量表（Bayley Scales of Infant Development, 3rd edition, BSID-III）於出生後多個時間點（2、9、12、14、16、18 個月）追蹤評估，試圖以介入性試驗設計直接驗證因果關係，而非僅停留於觀察性相關。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>評量工具說明：BSID-III</h4>
+        <p>Bayley Scales of Infant and Toddler Development, Third Edition（BSID-III）是國際廣泛使用之嬰幼兒發展標準化評估工具，涵蓋認知、語言（含接受性語言 receptive language 與表達性語言 expressive language 兩分量表）、動作（粗大動作、精細動作）等多面向發展指標，本研究主要使用其語言與動作分量表評估介入效果。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>雙盲、安慰劑對照、隨機分派試驗</td></tr>
+          <tr><td>受試者</td><td>270 名懷孕婦女於妊娠 16 週隨機分派；追蹤至妊娠 36 週完成協定者：安慰劑組 115 人、DHA 組 105 人</td></tr>
+          <tr><td>介入方式</td><td>DHA 400 mg/day（藻油三酸甘油酯型式）</td></tr>
+          <tr><td>對照組</td><td>安慰劑（玉米油與大豆油混合物）</td></tr>
+          <tr><td>介入起訖時間</td><td>妊娠 16 週起至分娩</td></tr>
+          <tr><td>嬰兒追蹤時間點</td><td>出生後 2、9、12、14、16、18 個月</td></tr>
+          <tr><td>主要終點</td><td>BSID-III 語言（接受性／表達性）與動作發展分量表分數；視覺敏銳度</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">母體 DHA 補充 → 胎兒／嬰兒神經發育
+├─ 層次一 — 胎盤轉運層次（妊娠期間持續）
+│   ├─ DHA 經胎盤主動轉運至胎兒循環，供應量與母體血漿 DHA
+│   │   濃度呈正相關
+│   └─ 母體若攝取不足，胎兒僅能依賴有限之自體 ALA→DHA
+│       轉換（人體轉換效率約 <5%），供應量明顯受限
+├─ 層次二 — 神經細胞層次（第三孕期至出生後 2 年，腦部生長陡增期）
+│   ├─ 神經新生（neurogenesis）：DHA 為神經細胞膜磷脂主要
+│   │   結構成分，供應充足與否影響新生神經元細胞膜完整性
+│   ├─ 神經突觸生成（synaptogenesis）與突觸可塑性：DHA 影響
+│   │   突觸小泡膜流動性與神經傳導物質釋放效率
+│   └─ 軸突修剪（axonal elimination）與基因表現調控：DHA 參與
+│       神經發育過程中之選擇性修剪機制
+└─ 層次三 — 行為／發展層次（出生後數月至數年方可測得差異）
+    ├─ 語言發展：本研究觀察到 14、18 個月時語言相關指標差異，
+    │   反映語言中樞發育對 DHA 供應之相對敏感性
+    └─ 視覺功能：DHA 為視網膜光受體細胞膜主要成分，本研究
+        觀察到 2 個月時視覺敏銳度差異，惟 12 個月時差異消失
+        （可能反映出生後追趕效應或評估工具敏感度變化）</pre>
+      <div class="mech-detail">
+        <h4>DHA 不足時的代償機轉與其限制</h4>
+        <p>作者於討論中指出，當 DHA 供應不足時，大腦會以結構相似之 n-6 脂肪酸（22:4n-6、22:5n-6）代償併入細胞膜磷脂，但這些替代脂肪酸之「功能性質」與 DHA 不同（如膜流動性、訊息傳導效率有別），可能是解釋語言與視覺功能等特定神經發育指標受影響、而認知與動作發展整體評分未受顯著影響的機轉基礎——即代償機轉可維持基本神經功能，但對特定高需求敏感期發育指標仍可能造成可偵測之限制。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">語言發展（14 個月）</p>
+      <table>
+        <thead><tr><th>指標</th><th>安慰劑組風險</th><th>OR（95% CI）</th><th>P 值</th></tr></thead>
+        <tbody>
+          <tr><td>理解詞彙量偏低</td><td>風險上升</td><td><strong>3.22（1.49–6.94）</strong></td><td>0.002</td></tr>
+          <tr><td>表達詞彙量偏低</td><td>風險上升</td><td><strong>2.61（1.22–5.58）</strong></td><td>0.01</td></tr>
+        </tbody>
+      </table>
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">語言發展（18 個月）</p>
+      <table>
+        <thead><tr><th>指標</th><th>安慰劑組風險</th><th>OR（95% CI）</th><th>P 值</th></tr></thead>
+        <tbody>
+          <tr><td>理解詞彙量偏低</td><td>風險上升</td><td><strong>2.77（1.23–6.28）</strong></td><td>0.03</td></tr>
+          <tr><td>表達句子數偏低</td><td>風險上升</td><td><strong>2.60（1.15–5.89）</strong></td><td>0.02</td></tr>
+          <tr><td>BSID-III 接受性語言分量表</td><td>風險上升</td><td><strong>2.23（1.08–4.60）</strong></td><td>0.03</td></tr>
+          <tr><td>BSID-III 表達性語言分量表</td><td>風險上升（臨界）</td><td>1.89（0.94–3.83）</td><td>0.05（臨界顯著）</td></tr>
+        </tbody>
+      </table>
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">視覺敏銳度</p>
+      <table>
+        <thead><tr><th>時間點</th><th>結果</th><th>OR（95% CI）</th><th>P 值</th></tr></thead>
+        <tbody>
+          <tr><td>2 個月</td><td>安慰劑組視覺敏銳度較低風險上升</td><td><strong>2.69（1.10–6.54）</strong></td><td>0.03</td></tr>
+          <tr><td>12 個月</td><td>組間無顯著差異</td><td>—</td><td>不顯著</td></tr>
+        </tbody>
+      </table>
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">認知與動作發展（18 個月）</p>
+      <table>
+        <thead><tr><th>分量表</th><th>結果</th></tr></thead>
+        <tbody>
+          <tr><td>BSID-III 認知分量表</td><td>⚠️ 組間無顯著差異</td></tr>
+          <tr><td>BSID-III 精細動作分量表</td><td>⚠️ 組間無顯著差異</td></tr>
+          <tr><td>BSID-III 粗大動作分量表</td><td>⚠️ 組間無顯著差異</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 本研究之顯著效果「侷限於語言發展與早期（2 個月）視覺敏銳度」兩項指標，整體認知評分與動作發展（粗大／精細動作）於 18 個月時皆未觀察到顯著差異，對外聲稱時須明確聚焦於「語言發展」而非籠統宣稱「提升智力」或「全面認知發展」。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>介入起始時間較晚</strong>：自妊娠 16 週開始補充，未涵蓋孕早期（第一孕期）神經管發育階段，無法評估更早期介入是否有額外效益。</span></li>
+        <li><div class="limit-num">2</div><span><strong>單一劑量、單一成分</strong>：僅測試 400 mg/day DHA（藻油），未包含 EPA 成分，亦未比較不同劑量或不同來源（如魚油 vs 藻油）之效果差異，結論不可直接外推至「EPA+DHA 複方魚油」之效果。</span></li>
+        <li><div class="limit-num">3</div><span><strong>部分終點僅達臨界顯著</strong>：如 18 個月表達性語言分量表 P=0.05，屬臨界值，需更大樣本驗證其穩健性。</span></li>
+        <li><div class="limit-num">4</div><span><strong>失訪率</strong>：270 人隨機分派，至 36 週妊娠僅 220 人完成協定（安慰劑 115、DHA 105），失訪可能引入選擇性偏誤，惟作者已進行意向治療分析敏感度檢定。</span></li>
+        <li><div class="limit-num">5</div><span><strong>單一地區族群</strong>：受試者來自加拿大溫哥華地區，飲食型態與基礎 omega-3 攝取量可能與台灣孕婦族群不同，外推時需考慮地區飲食差異。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Minton et al. 2023，rTG 生體可用率）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接</strong>：本篇證實母體 DHA 供應量直接影響胎兒神經發育結局，前提是母體攝取之 DHA 能被有效吸收並轉運；rsc_02 顯示三酸甘油酯型式（尤其高 rTG 純度）較能提升血中／組織 DHA 濃度，兩篇合併支持「選擇高生體可用率之三酸甘油酯型式 DHA/EPA 產品，可能有助於更有效率地達到母體及胎兒所需之 DHA 供應濃度」的邏輯推論，惟此為跨研究推論，孕婦族群之吸收動力學未經直接驗證。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_05（Chang et al. 2024，憂鬱/失智統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>時序關聯・生命全期視角</strong>：本篇聚焦生命最早期（胎兒／嬰兒期）之神經發育，rsc_05 聚焦生命後期（高齡）之神經精神症狀，兩篇共同支持「DHA／omega-3 於神經系統中樞功能之結構性角色貫穿生命全期」的整體圖像，但屬完全不同族群與終點，證據不可交互替代引用。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Khan et al. 2021）及 rsc_03（Lee et al. 2012）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>無直接交集，屬不同適應症</strong>：本篇為孕期／胎兒神經發育專屬研究，與心血管（rsc_01）、類風濕性關節炎（rsc_03）分屬不同族群與臨床終點，無直接數據交集，亦無矛盾之處，四篇合併呈現 omega-3 於不同生命階段、不同生理系統之多元角色。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>可陳述「孕期 DHA 補充（400 mg/day）於雙盲 RCT 中與嬰兒 14–18 個月語言發展指標顯著相關（N=270，OR 2.23–3.22）」，此為獨立學術研究佐證，可作為孕期營養補充教育性內容之科學依據。</li>
+          <li>可引用「DHA 為胎兒腦部與視網膜細胞膜之關鍵結構性成分」之機制陳述，此為廣泛接受之營養生理學基礎。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>本研究僅測試單一 DHA 成分（藻油），非 EPA+DHA 複方魚油，若產品為複方魚油，須註明「本研究驗證之為 DHA 單一成分之效果，複方魚油之等效性未經本研究直接證實」。</li>
+          <li>顯著效果侷限於「語言發展」與「早期視覺敏銳度」，不可延伸聲稱「提升智力」「全面認知發展」，因整體認知評分與動作發展指標於本研究中皆未達顯著。</li>
+          <li>孕婦為特殊生理族群，任何孕期營養補充建議應同時提醒諮詢婦產科醫師或營養師，不可暗示自行依產品行銷內容決定補充劑量。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可聲稱「預防」或「治療」任何胎兒發育異常或神經發育疾病，此屬醫療效能聲稱。</li>
+          <li>不可宣稱「讓寶寶更聰明」等誇大認知功能之行銷語言，本研究認知分量表未達顯著差異，此類聲稱缺乏本研究支持。</li>
+        </ul>
+      </div>
+      <p style="font-size:13px; color:var(--gray-3); margin-top:8px">台灣衛福部規範：孕婦與嬰幼兒相關保健食品行銷需特別謹慎，依《食品安全衛生管理法》規定不得為醫療效能之標示或宣傳，涉及孕期營養品行銷時建議同時標示「懷孕期間營養補充請諮詢醫師或營養師」等警語。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為孕期營養研究佐證引用：</p>
+      <div class="quote-block">
+        一項發表於 PLOS One 之雙盲安慰劑對照隨機試驗（N=270，加拿大衛生研究院資助，無廠商利益衝突）顯示，妊娠 16 週起每日補充 400 mg DHA 之孕婦，其嬰兒於 14 個月時語言理解與表達能力偏低之風險顯著低於安慰劑組（OR 3.22 與 2.61；P=0.002、0.01）；惟認知與動作發展整體評分於 18 個月時未觀察到顯著差異（Mulder et al., PLOS One, 2014；N=270；CIHR 政府經費資助，無 COI）。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>rsc_02（Minton et al., PLOS One, 2023）</td><td>提供「三酸甘油酯型式提升生體可用率」之獨立佐證，補強孕期補充劑型選擇之機轉說明</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

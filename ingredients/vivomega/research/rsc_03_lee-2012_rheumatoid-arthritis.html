@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omega-3 多元不飽和脂肪酸與類風濕性關節炎治療：10 項 RCT 統合分析 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; } .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); } .impl-warn h4 { color: var(--amber); } .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; } .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">系統性回顧 · Meta-analysis</span>
+      <span class="hdr-tag q1">Q1 · IF 3.6</span>
+    </div>
+    <h1>Omega-3 多元不飽和脂肪酸與類風濕性關節炎：10 項 RCT 統合分析</h1>
+    <p class="subtitle">Omega-3 polyunsaturated fatty acids and the treatment of rheumatoid arthritis: a meta-analysis</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Lee YH, Bae SC, Song GG（Korea University College of Medicine, Seoul）</div>
+      <div class="meta-item"><strong>期刊</strong>Archives of Medical Research</div>
+      <div class="meta-item"><strong>年份</strong>2012 · 43(5):356–362</div>
+      <div class="meta-item"><strong>PMID</strong>22835600</div>
+      <div class="meta-item"><strong>DOI</strong>10.1016/j.arcmed.2012.06.011</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★☆</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">Archives of Medical Research · Q1 · IF 3.6</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★☆</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">10 項 RCT 統合分析（N=370，介入 183／對照 187）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★☆☆</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">摘要資訊完整，全文之 COI／資金揭露段落未能於公開摘要中取得</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val" style="color:var(--gray-3)">— 未載明</div>
+          <div class="cred-sub">通訊作者為韓國大學醫學院獨立學術單位，公開摘要未見廠商資助聲明</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本篇為 2012 年發表於 Archives of Medical Research（Q1，IF 3.6）之統合分析，作者群屬韓國高麗大學附設醫院獨立學術單位，非廠商委託研究，可信度較高。研究年代較早（2012），未納入近年（2020 年後）之新試驗，惟其結論（NSAID 用量顯著減少，關節症狀呈改善趨勢但未達顯著）與後續 2024 年新統合分析（納入 18 RCT、1,018 名患者）之方向一致，顯示結論具時間穩定性。本篇證據型別屬「人體臨床試驗統合分析」，為保健食品證據中相對高等級的型別。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">類風濕性關節炎（Rheumatoid Arthritis, RA）是一種慢性自體免疫性發炎疾病，全球盛行率約 0.5–1%，好發於中年女性，主要病理特徵為滑膜發炎、關節軟骨破壞及進行性關節變形，患者常需長期依賴非類固醇消炎藥（NSAID）、疾病修飾抗風濕藥物（DMARDs）及生物製劑控制病情，但這些藥物皆伴隨不同程度的副作用（如 NSAID 之腸胃道與心血管風險、DMARDs 之肝腎毒性及感染風險）。因此，尋找可作為輔助療法、能減少藥物依賴劑量的營養介入策略，長期以來是 RA 領域的重要研究方向。</p>
+      <p style="margin-bottom:20px">Omega-3 多元不飽和脂肪酸因具抗發炎特性，自 1980 年代起即被納入 RA 輔助治療研究，但早期個別小型試驗結果並不一致——部分試驗顯示晨僵時間縮短、關節壓痛數減少，另一些試驗則未觀察到顯著臨床效果，此差異可能與各試驗劑量（範圍自不足 1 g/day 至超過 5 g/day）、療程長短（數週至逾一年）及疾病活動度評估工具（如壓痛關節數 TJC、腫脹關節數 SJC、晨僵時間、DAS28 疾病活動度評分）的異質性有關。1998 年一篇早期文獻回顧雖總結「omega-3 可能有益」，但因納入研究數量少、未使用嚴謹統合分析方法學，證據強度有限。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">相關評量工具說明</p>
+      <div class="mech-detail">
+        <h4>NSAID 消耗量（NSAID consumption）</h4>
+        <p>指患者為控制關節疼痛與發炎所需服用之非類固醇消炎藥劑量或使用頻率，常作為 RA 臨床試驗之替代性療效指標——若介入措施能有效減少患者對 NSAID 的依賴，即間接反映關節發炎與疼痛獲得改善，同時降低患者長期暴露於 NSAID 副作用（腸胃道出血、腎功能損傷、心血管風險）的機會。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>壓痛關節數（TJC）／腫脹關節數（SJC）／晨僵時間</h4>
+        <p>三者皆為 RA 疾病活動度之標準臨床評估項目：TJC 為醫師觸診時患者感到疼痛的關節總數；SJC 為視診／觸診確認腫脹之關節總數；晨僵時間指患者晨起後關節僵硬感持續之分鐘數，三者共同構成疾病活動度綜合評分（如 DAS28）之核心組成要件。</p>
+      </div>
+      <p style="margin-top:12px">本研究之目的即在於彙整截至 2012 年為止所有評估「omega-3 PUFA 補充（劑量 ≥2.7 g/day、療程 ≥3 個月）對 RA 患者臨床結局影響」之 RCT，以統合分析方法提高統計檢定力，釐清早期個別試驗結果不一致的原因，並提供劑量與療程閾值之具體建議。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>統合分析（Meta-analysis），納入標準：RCT、omega-3 劑量 ≥2.7 g/day、療程 ≥3 個月</td></tr>
+          <tr><td>納入研究</td><td>10 項隨機對照試驗</td></tr>
+          <tr><td>受試者</td><td>共 370 名 RA 患者（介入組 183 人，對照組 187 人）</td></tr>
+          <tr><td>介入方式</td><td>Omega-3 PUFA（魚油來源 EPA/DHA）補充，劑量 ≥2.7 g/day</td></tr>
+          <tr><td>對照組</td><td>安慰劑（多為橄欖油、玉米油等對照油脂）</td></tr>
+          <tr><td>追蹤時間</td><td>≥3 個月（各納入試驗療程長度不一）</td></tr>
+          <tr><td>主要終點</td><td>NSAID 消耗量、壓痛關節數（TJC）、腫脹關節數（SJC）、晨僵時間、身體功能</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">Omega-3 PUFA（EPA/DHA）於類風濕性關節炎之抗發炎路徑
+├─ 層次一 — 分子／膜磷脂層次（數週內開始置換）
+│   ├─ 細胞膜磷脂中之花生四烯酸（AA）逐漸被 EPA/DHA 取代，
+│   │   降低可供代謝生成促發炎介質之 AA 儲備池
+│   └─ EPA 與 AA 競爭環氧化酶（COX）與脂氧化酶（LOX）路徑，
+│       降低 Series 2 前列腺素（PGE2）與 Series 4 白三烯（LTB4）生成
+├─ 層次二 — 細胞／發炎介質層次（數週～數月）
+│   ├─ 促發炎細胞激素抑制：降低 IL-1β、TNF-α、IL-6 等促發炎
+│   │   細胞激素表現，減少滑膜巨噬細胞活化
+│   └─ 特殊促消退介質（SPM）生成：EPA/DHA 代謝生成 Resolvin E、
+│       Resolvin D 系列脂質介質，主動促進發炎消退（非僅被動抑制）
+└─ 層次三 — 關節／臨床症狀層次（數月，需持續補充達療效閾值）
+    ├─ 滑膜發炎減輕：對應臨床上晨僵時間縮短、關節壓痛與腫脹減少
+    └─ NSAID 依賴降低：因基礎發炎程度下降，患者對症狀緩解藥物
+        （NSAID）之需求量隨之減少，此為本研究最主要之顯著發現</pre>
+      <div class="mech-detail">
+        <h4>劑量閾值與時間動態</h4>
+        <p>本研究之納入標準要求劑量 ≥2.7 g/day、療程 ≥3 個月，反映作者群依既有機轉文獻認為此為觀察到臨床效果之最低有效劑量與最短所需療程——因細胞膜磷脂置換與發炎介質生成模式改變需數週至數月的持續攝取才能達到穩態，短期或低劑量補充較難產生可偵測之臨床效果，此也部分解釋早期個別小型試驗結果不一致的原因（部分試驗劑量或療程未達此閾值）。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">主要終點：NSAID 消耗量（10 RCT，N=370）</p>
+      <table>
+        <thead><tr><th>終點指標</th><th>效果量（SMD）</th><th>95% CI</th><th>P 值</th></tr></thead>
+        <tbody>
+          <tr><td>NSAID 消耗量</td><td><strong>-0.518</strong></td><td>-0.915 至 -0.121</td><td><strong>0.011</strong>（顯著）</td></tr>
+        </tbody>
+      </table>
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">次要終點：關節症狀相關指標</p>
+      <table>
+        <thead><tr><th>終點指標</th><th>方向性</th><th>統計顯著性</th></tr></thead>
+        <tbody>
+          <tr><td>壓痛關節數（TJC）</td><td>改善趨勢</td><td>⚠️ 未達統計顯著</td></tr>
+          <tr><td>腫脹關節數（SJC）</td><td>改善趨勢</td><td>⚠️ 未達統計顯著</td></tr>
+          <tr><td>晨僵時間</td><td>改善趨勢</td><td>⚠️ 未達統計顯著</td></tr>
+          <tr><td>身體功能評分</td><td>改善趨勢</td><td>⚠️ 未達統計顯著</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 本研究之唯一達統計顯著的終點為「NSAID 消耗量減少」，其餘關節症狀相關指標（TJC、SJC、晨僵時間、身體功能）僅呈現改善趨勢但未達統計顯著，對外聲稱時不可宣稱 omega-3「顯著改善關節腫脹疼痛」，僅可陳述「有助於減少 NSAID 用量」並註明其他指標未達顯著。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>納入試驗年代較早</strong>：多數納入 RCT 發表於 1990–2000 年代初期，當時 RA 治療標準（如生物製劑普及率）與現今不同，結果外推至接受現代 DMARDs/生物製劑治療之患者時需謹慎。</span></li>
+        <li><div class="limit-num">2</div><span><strong>樣本量中等</strong>：370 名患者之統合樣本量雖優於個別試驗，但對於次要終點（如 TJC、SJC）之統計檢定力仍可能不足，此為次要終點未達顯著的可能原因之一。</span></li>
+        <li><div class="limit-num">3</div><span><strong>納入試驗劑型異質</strong>：未區分乙酯型式與三酸甘油酯型式魚油，亦未報告各試驗使用之魚油濃縮物確切品牌與純度規格。</span></li>
+        <li><div class="limit-num">4</div><span><strong>公開摘要未見完整 COI 揭露</strong>：無法確認個別納入試驗是否存在廠商資助情形，惟本篇統合分析之作者群本身為獨立學術單位。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Khan et al. 2021，心血管統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制共通・支持</strong>：兩篇皆以 omega-3 之抗發炎路徑（類花生酸競爭抑制、促發炎細胞激素抑制）為核心機轉基礎，rsc_01 聚焦血管系統之發炎介導性斑塊穩定，本篇聚焦關節滑膜發炎，屬同一分子機制在不同器官系統的臨床表現。兩篇合併可強化「omega-3 具跨系統抗發炎作用」之機轉論述，惟臨床終點證據強度不同：rsc_01 心血管死亡等硬終點達顯著，本篇僅 NSAID 用量減少達顯著，關節症狀本身未達顯著，二者不可等量齊觀。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Minton et al. 2023，rTG 生體可用率）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接</strong>：本篇要求劑量 ≥2.7 g/day、療程 ≥3 個月方能觀察到顯著效果，反映達到有效組織濃度需要時間與劑量閾值；rsc_02 顯示不同劑型（rTG 純度）會影響達到該閾值濃度所需的攝取效率，兩篇合併支持「劑型選擇可能影響達到抗發炎療效所需的實際劑量或時間」之推論，但此為跨研究邏輯連結，未經同一試驗直接驗證。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（Mulder et al. 2014，孕期 DHA）及 rsc_05（Chang et al. 2024，憂鬱/失智）的關係</div>
+        <div class="cross-ref-body">
+          <p>屬不同適應症領域（胎兒神經發育、高齡認知/情緒 vs 本篇之自體免疫關節發炎），無直接數據交集，各自獨立之臨床證據支持 omega-3 在不同生理系統的角色，但不可互相引申替代。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>可陳述「Omega-3 脂肪酸（劑量 ≥2.7 g/day、療程 ≥3 個月）於統合分析中與類風濕性關節炎患者 NSAID 用量顯著減少相關（10 RCT，N=370，SMD -0.518，P=0.011）」，此為研究文獻佐證陳述，非疾病治療聲稱。</li>
+          <li>可作為「omega-3 具抗發炎機轉研究基礎」之陳述來源，搭配機制說明（類花生酸競爭抑制、促發炎細胞激素降低）。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>不可聲稱 omega-3「改善關節腫脹疼痛」或「改善晨僵」，因這些次要終點於本研究中未達統計顯著，僅可陳述為研究趨勢，且須明確標示「未達統計顯著」。</li>
+          <li>本研究對象為「類風濕性關節炎」（自體免疫疾病）患者，非一般退化性關節炎或運動後關節不適族群，聲稱時不可跨適應症延伸。</li>
+          <li>劑量閾值（≥2.7 g/day）遠高於一般保健食品建議攝取量，若產品未達此劑量，不可直接引用本研究數字作為效果保證。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可聲稱「治療」「治癒」類風濕性關節炎，此屬醫療效能聲稱，違反台灣《健康食品管理法》規定，保健食品不得取代 DMARDs／生物製劑等正規醫療處置。</li>
+          <li>不可暗示可替代醫師處方之抗風濕藥物，僅能陳述為「輔助性營養補充之研究方向」。</li>
+        </ul>
+      </div>
+      <p style="font-size:13px; color:var(--gray-3); margin-top:8px">台灣衛福部規範：關節/發炎相關保健功效聲稱目前尚未列入衛福部核准之保健食品功效分類，若欲對外宣稱「調節生理機能」等一般性字眼，仍須以個別產品送驗核備字號為前提，本篇文獻僅作為原料研究資料庫佐證，非產品功效核可依據。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為機制/研究佐證引用（弱聲稱，需標示限制）：</p>
+      <div class="quote-block">
+        研究顯示，Omega-3 脂肪酸於劑量 ≥2.7 g/day、療程 ≥3 個月時，與類風濕性關節炎患者非類固醇消炎藥（NSAID）使用量顯著減少相關（10 項 RCT 統合分析，N=370，SMD -0.518，95% CI -0.915 至 -0.121，P=0.011）；惟關節壓痛、腫脹、晨僵等直接症狀指標於本統合分析中未達統計顯著，解讀需謹慎（Lee et al., Archives of Medical Research, 2012）。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Clinical Rheumatology 2024 統合分析（18 RCT, N=1,018）</td><td>近年新統合分析，可作為本篇（2012）結論之時間穩定性佐證（本知識庫未獨立收錄，可作外部參考）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

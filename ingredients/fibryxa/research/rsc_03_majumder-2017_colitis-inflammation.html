@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>異麥芽糖糊精緩解DSS誘導結腸炎的腸道發炎作用（小鼠模型）— 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">動物實驗 · 疾病模型</span>
+      <span class="hdr-tag q1">Q1 · IF 6.2</span>
+      <span class="hdr-tag coi">COI 部分</span>
+    </div>
+    <h1>異麥芽糖糊精透過抑制Toll樣受體-4緩解葡聚醣硫酸鈉誘導之小鼠結腸炎的腸道發炎</h1>
+    <p class="subtitle">Intervention of Isomaltodextrin Mitigates Intestinal Inflammation in a Dextran Sodium Sulfate-Induced Mouse Model of Colitis via Inhibition of Toll-like Receptor-4</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Majumder K, Fukuda T, Zhang H, Sakurai T, Taniguchi Y, Watanabe H, Mitsuzumi H, Matsui T, Mine Y</div>
+      <div class="meta-item"><strong>期刊</strong>Journal of Agricultural and Food Chemistry</div>
+      <div class="meta-item"><strong>年份</strong>2017 · 65(4):810-817</div>
+      <div class="meta-item"><strong>PMID</strong>28102669</div>
+      <div class="meta-item"><strong>DOI</strong>10.1021/acs.jafc.6b04903</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">Journal of Agricultural and Food Chemistry，Scimago Q1（食品科學），IF≈6.2</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">小鼠DSS誘導結腸炎疾病模型，含分子機轉分析（TLR4、細胞激素）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">摘要與方法完整，全文需訂閱（未取得PMC開放全文）</div>
+        </div>
+        <div class="cred-card" style="background: var(--amber-light); border-color:#f0d9a0">
+          <div class="cred-label" style="color:var(--amber)">利益衝突</div>
+          <div class="cred-val" style="color:var(--amber)">⚠️ 部分</div>
+          <div class="cred-sub">通訊作者群來自加拿大Guelph大學（獨立），但3位作者為Hayashibara員工</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本研究由加拿大University of Guelph食品科學系（Majumder、Zhang、Matsui、Mine）與日本九州大學（Taniguchi）主導，Hayashibara公司（Sakurai、Watanabe、Mitsuzumi）僅3位作者參與並可能提供原料贊助，COI程度低於rsc_01、rsc_02兩篇「全體作者皆為原廠員工」的研究，屬於「混合作者群」型態，可信度介於獨立研究與原廠自研之間。發表於JAFC（IF 6.2，Q1）為本資料夾中期刊等級最高的動物研究之一，機轉分析深度（TLR4訊號路徑）具學術嚴謹性。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">發炎性腸道疾病（Inflammatory Bowel Disease, IBD，含潰瘍性結腸炎與克隆氏症）全球盛行率持續上升，尤其在飲食西化的亞洲地區增幅明顯。腸道發炎的病理機轉核心之一是腸道菌叢失衡（dysbiosis）與腸黏膜屏障受損後，革蘭氏陰性菌細胞壁的脂多醣（LPS）透過Toll樣受體-4（TLR4）活化下游NF-κB訊號路徑，導致促發炎細胞激素（TNF-α、IL-6）大量釋放，形成慢性發炎循環。葡聚醣硫酸鈉（Dextran Sodium Sulfate, DSS）誘導結腸炎是學界最常用的IBD動物模型之一，透過破壞腸上皮屏障誘發類似人類潰瘍性結腸炎的發炎反應，具有良好的重複性與可比較性，是評估膳食纖維或益生質介入是否具腸道抗發炎效果的標準化工具。</p>
+      <p style="margin-bottom:20px">水溶性膳食纖維（如菊糖、果寡糖）過去已有多篇文獻顯示可透過腸道菌叢發酵產生短鏈脂肪酸（SCFA），進而降低腸道發炎，但作用機轉多聚焦於SCFA對免疫細胞的直接調節，較少研究直接檢驗纖維本身是否能干預TLR4這個上游訊號路徑。本研究的目的即在於：(1) 確認口服IMD介入是否能改善DSS誘導小鼠結腸炎的疾病嚴重度；(2) 測量結腸組織促發炎細胞激素（TNF-α、IL-6）與抗發炎細胞激素（IL-10）的表現變化；(3) 特別聚焦TLR4訊號路徑，探討IMD是否透過抑制此受體的表現達到抗發炎效果，補足學界對非SCFA依賴型纖維抗發炎機轉的理解空缺。</p>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">與供應商簡報數據的對照</p>
+      <div class="mech-detail">
+        <h4>試驗設計高度吻合原廠簡報</h4>
+        <p>本論文的DSS誘導結腸炎模型與Fibryxa原廠簡報（P42-43）之「對於DSS引發的結腸炎有抑制作用」實驗設計（2%IMD、2.5% DSS誘導6天、疾病活動指數DAI評估）高度一致，推測簡報數據即為本論文之基礎數據或延伸研究的一部分。本論文相較簡報更進一步，額外分析了細胞激素與TLR4分子機轉層次的數據。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>動物實驗（小鼠DSS誘導急性結腸炎模型）</td></tr>
+          <tr><td>受試者</td><td>雌性小鼠（品系與確切數量詳見全文，摘要顯示分組比較設計）</td></tr>
+          <tr><td>介入方式</td><td>口服IMD補充（供應商簡報對應劑量為2%飲水濃度），於誘導DSS結腸炎前預先給予</td></tr>
+          <tr><td>對照組</td><td>未給予IMD、僅接受DSS誘導結腸炎的小鼠組</td></tr>
+          <tr><td>追蹤時間</td><td>DSS誘導期間每日評估疾病活動指數（DAI），實驗結束後取結腸組織分析</td></tr>
+          <tr><td>主要終點</td><td>體重變化、結腸長度縮短程度、結腸組織TNF-α與IL-6濃度、IL-10表現趨勢、TLR4蛋白表現</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+<pre class="mech-block">異麥芽糖糊精（IMD）— 腸道抗發炎路徑
+├─ 層次一 — 分子受體層次（介入後持續期間）
+│   ├─ 抑制TLR4表現：這是本研究最核心的發現——IMD介入組結腸組織TLR4蛋白表現受抑制，降低LPS訊號活化下游發炎路徑的敏感度
+│   └─ 非依賴腸道菌叢發酵SCFA的路徑：與傳統「纖維→發酵→SCFA→抗發炎」的間接路徑不同，本研究聚焦於受體層次的直接調節，補充IMD可能存在的非SCFA依賴機轉
+├─ 層次二 — 細胞激素層次（DSS誘導期間）
+│   ├─ 降低促發炎細胞激素：IMD介入組結腸組織TNF-α、IL-6濃度低於單純DSS對照組
+│   └─ 提升抗發炎細胞激素趨勢：IL-10（調節性細胞激素）表現呈現上升趨勢，支持發炎/抗發炎細胞激素平衡朝有利方向移動
+└─ 層次三 — 組織／全身層次（實驗結束時評估）
+    ├─ 疾病活動指數（DAI）降低：與供應商簡報數據一致，2% IMD組DAI於第4-6天顯著低於對照組
+    └─ 未改善體重減輕與結腸縮短：本研究明確指出IMD「對體重減輕與結腸長度縮短無保護效果」，僅在細胞激素與分子層次觀察到改善，顯示效果侷限於發炎介質調節，未能完全逆轉組織損傷的巨觀指標</pre>
+      <div class="mech-detail">
+        <h4>重要區分：機轉層次改善 ≠ 疾病巨觀指標改善</h4>
+        <p>本研究最值得注意的細節是：IMD雖然能降低TNF-α、IL-6並抑制TLR4表現，但對「體重減輕」與「結腸長度縮短」這兩項DSS結腸炎最直接的巨觀病理指標並無保護效果。這代表IMD的抗發炎效果屬於「分子/細胞激素層次的部分緩解」，而非「完全阻斷疾病進程」，此區分對於避免過度誇大功效聲稱至關重要。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>與供應商簡報DAI數據的機轉補充關係</h4>
+        <p>供應商簡報僅呈現DAI（疾病活動指數，一個綜合體重、糞便性狀、出血的臨床評分）數據，本論文則進一步拆解至細胞激素與受體層次，說明DAI改善背後的分子基礎可能是TNF-α/IL-6降低而非結構性腸道修復，兩者合併閱讀可獲得更完整的證據圖像。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">疾病活動指數（DAI，與供應商簡報P42-43數據對應）</p>
+      <table>
+        <thead><tr><th>終點指標</th><th>DSS對照組</th><th>DSS+2% IMD組</th><th>P 值</th></tr></thead>
+        <tbody>
+          <tr><td>DAI分數（第4-6天，約值）</td><td>≈3.7-4.1</td><td><strong>≈2.3-2.7</strong></td><td>&lt;0.05</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">結腸組織細胞激素與TLR4表現（方向性結果，精確數值需查閱全文）</p>
+      <table>
+        <thead><tr><th>指標</th><th>DSS對照組</th><th>DSS+IMD組</th><th>方向</th></tr></thead>
+        <tbody>
+          <tr><td>TNF-α（結腸組織）</td><td>較高</td><td><strong>顯著降低</strong></td><td>抗發炎方向</td></tr>
+          <tr><td>IL-6（結腸組織）</td><td>較高</td><td><strong>顯著降低</strong></td><td>抗發炎方向</td></tr>
+          <tr><td>IL-10（結腸組織）</td><td>較低</td><td>上升趨勢</td><td>抗發炎方向（未明確標示統計顯著）</td></tr>
+          <tr><td>TLR4蛋白表現</td><td>較高</td><td><strong>受抑制</strong></td><td>機轉核心發現</td></tr>
+          <tr><td>體重減輕程度</td><td>—</td><td>無顯著改善</td><td>⚠️ 未達保護效果</td></tr>
+          <tr><td>結腸長度縮短</td><td>—</td><td>無顯著改善</td><td>⚠️ 未達保護效果</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 體重減輕與結腸長度縮短兩項最直接的疾病嚴重度巨觀指標，IMD介入並「無」顯著保護效果，僅細胞激素與DAI綜合評分顯示改善，須如實標示此落差，不可僅呈現正向的DAI/細胞激素數據。</p>
+      <p class="table-note">註：本論文全文未能取得開放PMC版本，細胞激素與TLR4的精確數值（pg/mL、倍數變化）需查閱JAFC原始全文，本表格數字為摘要與供應商簡報交叉比對後的方向性整理。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>部分作者COI</strong>：3位共同作者為Hayashibara員工，雖非全體作者，但原料很可能由該公司提供或贊助，需留意潛在選擇性報告偏差。</span></li>
+        <li><div class="limit-num">2</div><span><strong>對疾病巨觀指標無保護效果</strong>：IMD未能改善DSS結腸炎最直接的體重減輕與結腸縮短指標，效果侷限於分子/細胞激素層次，臨床意義的強度有限。</span></li>
+        <li><div class="limit-num">3</div><span><strong>動物疾病模型，非人體發炎性腸道疾病證據</strong>：DSS誘導結腸炎是急性化學誘導模型，與人類潰瘍性結腸炎或克隆氏症的慢性自體免疫病理機轉存在本質差異，動物數據不可直接外推至人類IBD治療。</span></li>
+        <li><div class="limit-num">4</div><span><strong>全文未能取得開放取用版本</strong>：本次整理僅能依據摘要與二手引用資訊，精確劑量、樣本數與完整統計數值需另行查證原始全文。</span></li>
+        <li><div class="limit-num">5</div><span><strong>預防性給予，非治療性介入</strong>：IMD是在DSS誘導結腸炎「之前」預先給予（預防性設計），並非在疾病已發生後才介入（治療性設計），不能作為「治療」現有腸道發炎的證據。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（Hann 2019，IMD抗發炎LPS慢性低度發炎模型）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>支持／機轉互補：</strong>兩篇均證實IMD具抗發炎潛力，但誘發發炎的方式不同——本篇為DSS化學誘導急性腸道發炎，rsc_04為LPS誘導全身性慢性低度發炎（16週長期模型）。兩篇合併顯示IMD的抗發炎效果並非侷限於單一發炎誘發模式，機轉上均涉及降低TNF-α等促發炎因子，具一致性。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_06（Takagaki 2020，IMD抑制腸道腐敗代謝物）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接：</strong>rsc_06顯示IMD可降低腸道菌代謝色胺酸等胺基酸產生的酚類與對甲酚等腐敗產物，這類物質本身具腸黏膜刺激性，可能是本篇TLR4活化的上游誘因之一。兩篇合併支持「IMD降低腸道有害代謝物→減少TLR4活化→降低發炎細胞激素」的完整因果鏈假說，惟此鏈結尚未在單一研究中直接驗證，屬於跨論文的機轉推論。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_05（Wei 2022，IMD體外益生質效果）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接：</strong>rsc_05顯示IMD可選擇性促進雙歧桿菌與乳酸桿菌生長，這類益菌與腸道屏障完整性、抗發炎能力相關；本篇的抗發炎效果可能部分透過此菌叢調節路徑實現，惟本篇論文本身未直接測量菌叢組成變化，此為跨篇推論而非同一研究內的直接證據鏈。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱（附條件）</h4>
+        <ul>
+          <li>「動物研究顯示，異麥芽糖糊精可能有助於調節腸道發炎相關細胞激素表現」——可作為「維持消化道機能」「有助腸道健康」的機制佐證使用</li>
+          <li>可作為腸道保健類產品的機轉說明素材，強調「非SCFA依賴之受體層次調節」的差異化機轉</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>不可宣稱「改善結腸炎」或任何暗示對IBD疾病有保護效果的用語——本研究IMD對疾病巨觀指標（體重、結腸長度）並無顯著保護效果，僅細胞激素層次有改善</li>
+          <li>引用時應註明「動物疾病模型」與「預防性給予」的實驗設計限制，不可暗示對已罹患腸道疾病者具治療效果</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不得宣稱「治療潰瘍性結腸炎」「治療克隆氏症」或任何疾病治療用語——保健食品不得宣稱治療特定疾病，且本研究為動物模型非人體臨床證據</li>
+          <li>不建議將動物DSS模型結果直接類比為「適合IBD患者食用」，IBD病患的腸道狀態與健康動物模型差異極大，需醫療專業評估</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為機制說明引用（弱聲稱，標明動物模型與部分COI）：</p>
+      <div class="quote-block">
+        小鼠DSS誘導結腸炎模型顯示，異麥芽糖糊精介入可顯著降低疾病活動指數（DAI），並抑制結腸組織Toll樣受體-4（TLR4）表現與促發炎細胞激素（TNF-α、IL-6）濃度（Majumder et al., Journal of Agricultural and Food Chemistry, 2017）；惟IMD對體重減輕與結腸長度縮短等巨觀病理指標無顯著保護效果，且部分作者具原料製造商雇傭關係，解讀需謹慎。
+        <span class="warn-note">⚠️ 注意：3位共同作者為 Hayashibara Co., Ltd.（原料製造商）員工，可能涉及原料贊助關係</span>
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>rsc_04（Hann et al., Nutrients, 2019）</td><td>加拿大Guelph大學主導、非Hayashibara資助，提供慢性低度發炎模型的獨立佐證，可交叉比對抗發炎機轉一致性</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>維生素B群補充改善運動耐力表現與疲勞代謝物 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre-wrap; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag rct">隨機雙盲交叉試驗 · RCT</span>
+      <span class="hdr-tag q2">Q2（Medicine, general）· IF 3.2</span>
+    </div>
+    <h1>維生素B群補充28天可提升運動耐力表現、降低疲勞代謝物：能量代謝功效之人體臨床證據</h1>
+    <p class="subtitle">A Functional Evaluation of Anti-Fatigue and Exercise Performance Improvement Following Vitamin B Complex Supplementation in Healthy Humans, a Randomized Double-Blind Trial</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Mon-Chien Lee, Yi-Ju Hsu, Sih-Yu Shen, Chin-Shan Ho, Chi-Chang Huang</div>
+      <div class="meta-item"><strong>期刊</strong>International Journal of Medical Sciences</div>
+      <div class="meta-item"><strong>年份</strong>2023 · 20(10):1272-1281</div>
+      <div class="meta-item"><strong>PMID</strong>37786445</div>
+      <div class="meta-item"><strong>DOI</strong>10.7150/ijms.86738</div>
+      <div class="meta-item"><strong>PMC</strong>PMC10542023</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">International Journal of Medical Sciences，Q2，IF≈3.2</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">隨機雙盲交叉試驗，N=32（男16女16），28天介入，開放取用全文（PMC）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">PMC開放全文，含具體數字與統計檢定</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val" style="color:var(--green)">✅ 無</div>
+          <div class="cred-sub">作者聲明無利益衝突；作者皆任職台灣學術機構（國立體育大學、輔仁大學、大仁科技大學）</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本研究為台灣本地學術機構執行之隨機雙盲交叉試驗，設計嚴謹（同一批受試者交叉接受介入組與安慰劑組，可控制個體間差異），且全文於 PMC 開放取用，可完整核實方法學與統計數字。研究對象為健康成人（非運動員），介入產品為「Ex PLUS®」維生素B群複方，非 Cultavit® 本身，但可作為「B群維生素補充對能量代謝、運動耐力、疲勞代謝物之人體功效」的獨立、高品質實證，支持 Cultavit® 簡報中「協助人體大腦、肝臟、皮膚等各項功能正常發揮」及能量代謝相關訴求的證據基礎。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">B群維生素在細胞能量代謝（醣類、脂質、蛋白質三大營養素轉化為ATP的過程）中扮演不可或缺的輔酶角色，長期以來被視為「抗疲勞」「提神」保健食品的核心成分，市場上以B群為主打的能量補充品眾多。然而，過去關於B群補充是否確實能改善「一般健康人」的運動表現與疲勳感受，證據品質參差不齊：部分早期研究樣本量小、未採雙盲設計，也有大型系統性回顧（如針對慢性疲勞症候群或認知功能之meta-analysis）顯示效果不一致或無顯著效益，顯示B群對疲勞與運動表現的功效可能因族群（健康人 vs 疾病族群）、終點指標（主觀疲勞感 vs 客觀運動生理指標）不同而有差異。</p>
+      <p style="margin-bottom:20px">既有研究對「B群補充是否能透過降低運動後代謝物（如血乳酸、血氨）而客觀改善耐力表現」此一機制路徑的直接證據仍相對有限。本研究團隊因此設計了一項28天、隨機雙盲交叉試驗，同時測量主觀疲勞感受、客觀運動耐力表現（跑步至力竭時間）與生化代謝物指標（血乳酸、血氨），希望以較完整的多維度終點，釐清B群複方補充對健康成人運動表現與疲勞代謝的實際功效。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">研究設計背景</p>
+      <div class="mech-detail">
+        <h4>血乳酸與血氨 — 運動疲勞的客觀生化指標</h4>
+        <p>血乳酸（blood lactate）反映無氧醣解代謝負荷，血氨（blood ammonia）則與蛋白質/胺基酸分解代謝及中樞疲勞相關，兩者皆為運動生理學中常用以客觀量化「代謝性疲勞」程度的指標，較單純主觀疲勞問卷更能反映生理層面的變化，是本研究設計的重要方法學亮點。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>隨機雙盲交叉試驗（randomized double-blind crossover trial）</td></tr>
+          <tr><td>受試者</td><td>32名健康成人（16名男性、16名女性），年齡20-30歲</td></tr>
+          <tr><td>介入方式</td><td>Ex PLUS® 維生素B群複方錠劑，每日服用，共28天</td></tr>
+          <tr><td>對照組</td><td>安慰劑組（同一批受試者交叉接受，降低個體差異干擾）</td></tr>
+          <tr><td>追蹤時間</td><td>28天補充期，介入前後皆進行運動至力竭測試</td></tr>
+          <tr><td>主要終點</td><td>跑步至力竭時間（endurance running time to exhaustion）；血乳酸、血氨濃度（運動中及運動後測量）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">維生素B群複方補充 → 能量代謝與運動耐力
+├─ 層次一 — 分子輔酶層次（補充期間持續作用）
+│   ├─ B1（TPP）：丙酮酸去氫酶複合體輔酶，促進醣解產物進入檸檬酸循環，
+│   │   減少無氧醣解累積乳酸的比例
+│   ├─ B2（FAD）、B3（NAD+）：粒線體電子傳遞鏈關鍵輔酶，提升ATP生成效率
+│   └─ B6（PLP）：胺基酸轉胺酶輔酶，參與蛋白質分解代謝路徑調節，可能
+│       影響運動中血氨的生成速率
+├─ 層次二 — 細胞能量代謝層次（急性運動時，補充2-4週後顯現）
+│   ├─ 粒線體氧化磷酸化效率提升：輔酶充足度提高，理論上可提升三大
+│   │   營養素轉化為ATP的效率，延緩無氧醣解啟動時間點
+│   └─ 代謝廢物清除：血乳酸、血氨生成減少或清除加快，降低中樞與
+│       周邊疲勞訊號的累積速度
+└─ 層次三 — 系統性運動表現層次（28天補充後觀察到的整體效果）
+    └─ 耐力運動至力竭時間延長，反映上述分子與細胞層次效益之整合
+        表現；需持續補充達一定期間（本研究為28天）才能觀察到穩定效果</pre>
+      <div class="mech-detail">
+        <h4>時間動態：需持續補充28天才能觀察到顯著效果，非單次服用見效</h4>
+        <p>B群輔酶在體內的累積與粒線體代謝效率的調整並非急性、單次補充即可達成，本研究設計28天補充期反映了「B群對能量代謝的助益屬於長期累積型效果」，這與坊間常見「B群提神飲」訴求「即時提神」的短效訴求有本質差異，對外文案措辭應區分「長期規律補充有助於能量代謝」與「單次服用立即見效」兩種不同層次的聲稱。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">耐力運動表現（N=32，健康成人，28天補充後）</p>
+      <table>
+        <thead><tr><th>終點指標</th><th>B群補充組</th><th>安慰劑組</th><th>效果量</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>跑步至力竭時間</td><td><strong>較補充前及安慰劑組顯著增加，達1.26倍</strong></td><td>無顯著變化</td><td>1.26-fold increase</td><td>公開摘要以倍數呈現，完整P值需查閱全文表格</td></tr>
+          <tr><td>運動中/後血乳酸濃度</td><td><strong>顯著降低</strong></td><td>無顯著變化</td><td>—</td><td>反映無氧醣解負荷減輕</td></tr>
+          <tr><td>運動中/後血氨濃度</td><td><strong>顯著降低</strong></td><td>無顯著變化</td><td>—</td><td>反映蛋白質分解代謝負荷減輕</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 本頁摘要層級數字（1.26倍）取自可公開取得之研究摘要與轉載內容，完整統計數字（含P值、95% CI、各時間點詳細數值）建議查閱 PMC 全文（PMC10542023）以核實精確數字後再用於正式行銷文案。</p>
+      <p style="margin-top:10px">結論：作者認為28天Ex PLUS®維生素B群複方補充，在無明顯副作用的情況下，改善了健康成人的耐力運動表現並降低了疲勞代謝物（血乳酸、血氨）濃度。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>受試產品非Cultavit®</strong>：本研究使用之「Ex PLUS®」為特定廠牌B群複方，其確切配方、劑量、B群來源型態（合成或天然）與Cultavit®不同，數字不可直接套用於Cultavit®產品。</span></li>
+        <li><div class="limit-num">2</div><span><strong>受試者為健康成人非特定疲勞病患族群</strong>：本研究對象為一般健康成人（20-30歲），效果是否可外推至慢性疲勞、老年人或特殊工作壓力族群，仍需個別研究驗證；此與供應商簡報中提及「飲食不均、作息不正常、工作壓力大」族群的適用性存在推論落差。</span></li>
+        <li><div class="limit-num">3</div><span><strong>樣本量中等</strong>：N=32雖採交叉設計提升統計效力，但相較大型RCT仍屬中小型試驗，建議後續有更大規模、更長期之獨立重複驗證研究強化證據穩固性。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（蕎麥發芽對生物分子與抗氧化特徵之影響）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>互補、機制橋接</strong>：本篇提供「B群補充對能量代謝、運動耐力的人體功效」證據；rsc_01則提供「發芽蕎麥可能提升B群等營養素生物可利用性」的機制原理。兩篇合看可支持「Cultavit®（發芽蕎麥來源B群）理論上具備能量代謝相關生理功能」的邏輯鏈，但兩篇分屬不同研究對象（一般B群複方 vs 發芽蕎麥），中間仍缺乏「Cultavit®專屬產品之運動表現人體試驗」直接證據，此為邏輯鏈上的推論缺口，應誠實標註。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02、rsc_03（葉酸生物利用率、神經管缺陷預防）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>無直接關聯</strong>：rsc_02、rsc_03聚焦葉酸單一成分之生物利用率與孕期功效，本篇聚焦B群複方之整體能量代謝功效，證據領域不同，可獨立引用、互不衝突。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_05（B群補充與心血管同半胱胺酸meta分析）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>支持、互補</strong>：兩篇皆為「B群維生素」對人體生理功能的正向臨床證據（rsc_05聚焦心血管系統的同半胱胺酸與中風風險，本篇聚焦能量代謝與運動表現），共同支持B群維生素在不同生理系統的多面向健康角色，強化「B群維生素」此一成分類別整體證據基礎的完整性。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>「維生素B1、B2、B3等有助於維持能量正常代謝」——此為台灣衛福部核准之營養素功能宣稱標準用語，可直接使用。</li>
+          <li>「獨立學術研究顯示，維生素B群複方補充28天，可改善健康成人耐力運動表現、降低運動疲勞代謝物」——作為一般性科學背景引用，需標明研究對象為「B群複方」非Cultavit®專屬產品。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>不可將「1.26倍耐力提升」數字直接標示為「Cultavit®產品效果」，此為其他廠牌B群複方之研究結果，若要引用需明確標註「一般B群複方研究參考」而非「本產品實測」。</li>
+          <li>「抗疲勞」相關訴求若涉及特定病理性疲勞（如慢性疲勞症候群），需注意本研究對象為健康成人，非病患族群，證據不可跨族群外推。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可宣稱「立即提神」「秒殺疲勞」等暗示急性速效的措辭，本研究效果建立在28天持續補充的基礎上，非單次服用見效。</li>
+          <li>不可宣稱本研究「證實Cultavit®可提升運動表現」，本研究之介入產品與Cultavit®為不同廠牌配方。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為B群維生素能量代謝功效之一般性科學背景引用：</p>
+      <div class="quote-block">
+        獨立隨機雙盲交叉試驗顯示，健康成人每日補充維生素B群複方28天後，耐力運動至力竭時間較安慰劑組顯著提升達1.26倍，運動中血乳酸與血氨等疲勞代謝物濃度亦顯著降低（Lee et al., International Journal of Medical Sciences, 2023；N=32；無不良反應報告）。
+        <span class="warn-note">⚠️ 注意：研究介入產品為Ex PLUS®B群複方，非Cultavit®專屬產品，引用時應標明為一般性B群功效佐證。</span>
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Effectiveness of B-Complex Vitamins in Reducing Symptoms of Chronic Fatigue Syndrome: Systematic Review and Meta-Analysis, 2025</td><td>另一篇針對病患族群（慢性疲勞症候群）之B群meta-analysis，可作為不同族群證據之補充對照，該篇顯示效果在單一RCT層次不顯著、但彙整後顯著，凸顯B群疲勞功效的異質性</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

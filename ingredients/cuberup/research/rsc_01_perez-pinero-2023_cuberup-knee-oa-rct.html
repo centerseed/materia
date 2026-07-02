@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CuberUp® 黃瓜萃取物改善膝關節炎疼痛與功能 RCT — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; } .star-empty { color: #ccc; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); } .impl-warn h4 { color: var(--amber); } .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  .img-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .img-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fff; }
+  .img-card img { width: 100%; display: block; aspect-ratio: 4/3; object-fit: contain; background: var(--gray-2); cursor: zoom-in; padding: 8px; }
+  .img-card-meta { padding: 8px 12px 4px; display: flex; align-items: center; gap: 8px; }
+  .img-card-num { background: var(--indigo); color: #fff; border-radius: 4px; padding: 1px 7px; font-size: 11px; font-weight: 700; }
+  .img-card-title { font-size: 13px; font-weight: 600; color: var(--indigo); }
+  .img-card-body { padding: 4px 12px 12px; font-size: 12.5px; color: var(--gray-3); }
+  #lightbox { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
+  #lightbox.open { display: flex; }
+  #lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; }
+  #lightbox-caption { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.85); font-size: 13px; background: rgba(0,0,0,0.5); padding: 6px 14px; border-radius: 20px; pointer-events: none; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag rct">隨機雙盲對照試驗 · RCT</span>
+      <span class="hdr-tag q1">Q2 · IF ≈ 2.5</span>
+    </div>
+    <h1>CuberUp® 黃瓜萃取物補充 60 天改善膝關節炎疼痛、僵硬與肌力表現：隨機雙盲安慰劑對照試驗（原廠核心研究）</h1>
+    <p class="subtitle">Effectiveness of a Cucumber Extract Supplement on Articular Pain in Patients with Knee Osteoarthritis: A Randomized Double-Blind Controlled Clinical Trial</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Pérez-Piñero S, Muñoz-Carrillo JC, Victoria-Montesinos D, 等（西班牙 Catholic University of San Antonio de Murcia, UCAM）</div>
+      <div class="meta-item"><strong>期刊</strong>Applied Sciences (MDPI)</div>
+      <div class="meta-item"><strong>年份</strong>2023 · 13(1):485</div>
+      <div class="meta-item"><strong>PMID</strong>未於 PubMed 收錄索引（MDPI 開放期刊，非 Medline 收錄）</div>
+      <div class="meta-item"><strong>DOI</strong>10.3390/app13010485</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">Applied Sciences（MDPI）· Scimago Q2（Multidisciplinary），IF 約 2.5；非 Medline/PubMed 直接索引期刊，屬中等偏上開放期刊</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">隨機雙盲安慰劑對照試驗（N=55，實驗組29／安慰劑組26）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">開放取用全文，含完整方法學與多項次要終點數字；統計顯著性多以 * 號標示，精確 p 值部分缺漏</div>
+        </div>
+        <div class="cred-card" style="background: var(--red-light); border-color:#f5c0c0">
+          <div class="cred-label" style="color:var(--red)">利益衝突</div>
+          <div class="cred-val" style="color:var(--red)">⚠️ 需留意</div>
+          <div class="cred-sub">CuberUp® 為 Euromed® S.A. 商品原料，研究對象即為此商品，須確認資助來源／作者與原廠關係（原文 Funding 欄未明確揭露是否由 Euromed® 全額贊助，供應商簡報稱其為「原廠文獻」，顯示為原廠委託或合作研究）</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本研究是 CuberUp® 這個特定商品原料唯一一篇公開發表的人體臨床試驗，也是本原料最重要的證據來源——供應商簡報中所有臨床數字（IL-1β 降 28%、MMP-3 降 13%、疼痛降 46%、肌力提升 14-18%、TUG 降 8.5%、僵硬降 45%）皆出自本研究。研究設計具備隨機化、雙盲、安慰劑對照，樣本量對關節保健品 pilot RCT 而言屬中等規模（N=55），且採用多元評估工具（VAS、WOMAC、TUG、等速肌力測試、血漿生物標記），資訊完整度高。**核心限制**在於：(1) 期刊非 PubMed/Medline 直接索引，可信度略低於典型 Q1 醫學期刊；(2) 研究對象即原廠自家商品，COI 風險需標注；(3) 60 天療程屬短期觀察，長期安全性與持續效果未知。整體屬於「有一定品質的原廠核心 RCT」，可作為主要功效聲稱依據，但建議搭配同屬性但非原廠委託的獨立研究（如 rsc_02、rsc_03）交叉驗證。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">膝骨關節炎（knee osteoarthritis, OA）是全球最常見的退化性關節疾病之一，好發於 40 歲以上族群，隨年齡增長盛行率顯著上升；台灣衛福部相關統計顯示國內膝關節退化盛行率約 15%，70 歲以上長者盛行率高達 70%（此為供應商簡報引用之新聞媒體轉述數字，非本論文原始統計，建議另行查證衛福部原始資料）。OA 的核心病理機轉為軟骨基質降解與低度慢性發炎的惡性循環：關節軟骨受到機械或代謝壓力後，軟骨細胞與滑膜巨噬細胞釋放促發炎細胞激素（如 IL-1β、TNF-α）與基質金屬蛋白酶（如 MMP-3、MMP-13），這些介質進一步分解軟骨中的第二型膠原蛋白與蛋白聚醣，導致軟骨結構持續流失、關節間隙變窄，臨床表現為疼痛、僵硬與活動功能受限。</p>
+      <p style="margin-bottom:20px">傳統一線治療以非類固醇消炎止痛藥（NSAID，如阿司匹林、布洛芬）為主，可有效緩解疼痛與發炎，但長期使用有腸胃道出血、心血管風險、腎功能負擔等副作用疑慮，促使學界持續尋找具相似抗發炎止痛作用、但安全性較佳的天然植物來源介入方式。既有文獻已證實黃瓜（Cucumis sativus）萃取物中的胺基酸衍生物、黃酮類與葫蘆素（cucurbitacin）成分具備體外抗氧化、抗發炎活性（如本原料資料夾中 rsc_04 之體外試驗），但截至本研究發表前，缺乏針對「特定標準化黃瓜萃取物商品」在人體膝關節炎族群中的隨機對照試驗數據。本研究即針對 Euromed® 開發之標準化黃瓜萃取物 CuberUp®（成分組成：80% Cucumis sativus L. 萃取物、18% 麥芽糊精、2% 無水膠態二氧化矽賦形劑）進行 8 週隨機雙盲安慰劑對照試驗，目的在於填補「標準化萃取物 × 人體 OA 症狀與功能改善 × 客觀生物標記變化」三者合一的證據缺口，並同時檢驗其對肌肉力量表現（透過等速/等長肌力測試）之潛在附加效益——這是既有黃瓜萃取物關節研究較少同時涵蓋的面向。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">關鍵評估工具說明</p>
+      <div class="mech-detail">
+        <h4>WOMAC（Western Ontario and McMaster Universities Osteoarthritis Index）</h4>
+        <p>國際上最廣泛使用的膝／髖關節炎自評量表，涵蓋疼痛（5題）、僵硬（2題）、生理功能（17題）三分量表，分數越低代表症狀越輕、功能越好，是 OA 臨床試驗的標準終點工具之一。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>Timed Up and Go（TUG）測試</h4>
+        <p>客觀功能性測試：受試者從椅子起身、行走 3 公尺、繞行後返回坐下所需秒數，廣泛用於評估高齡族群跌倒風險與下肢功能，時間越短代表行動能力越佳。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>等速／等長肌力動力學測試（Isokinetic/Isometric Dynamometry）</h4>
+        <p>使用測力機客觀量化膝關節伸屈肌群之峰值扭矩（Peak Torque）、總作功量（Total Work）、平均功率（Average Power），是評估膝 OA 患者肌肉功能退化與介入效果的金標準工具，較主觀量表更不易受安慰劑效應影響。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>隨機、雙盲、安慰劑對照臨床試驗（Randomized Double-Blind Placebo-Controlled Trial）</td></tr>
+          <tr><td>受試者</td><td>55 位 40 歲以上、經診斷患有輕中度膝骨關節炎之受試者（平均年齡 50.6 ± 8.6 歲）；實驗組 29 人，安慰劑組 26 人</td></tr>
+          <tr><td>介入方式</td><td>CuberUp® 膠囊，每粒 10 mg，每日 2 粒（合計 20 mg/日），為期 60 天（8 週）</td></tr>
+          <tr><td>對照組</td><td>外觀相同之安慰劑膠囊，隨機分派、雙盲設計，受試者與評估者均不知分組</td></tr>
+          <tr><td>追蹤時間</td><td>基線（Day 0）、療程中與 Day 60（療程結束）評估；部分主觀量表可能有中期時間點測量</td></tr>
+          <tr><td>主要終點</td><td>VAS 疼痛量表評分變化（Day 0 → Day 60）</td></tr>
+          <tr><td>次要終點</td><td>WOMAC 疼痛／僵硬／生理功能分量表、TUG 測試時間、血漿 IL-1β 與 MMP-3 濃度、等速/等長肌力動力學指標（Average Peak Torque、Total Work、Average Power）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">CuberUp®（標準化黃瓜萃取物, 2500倍濃縮 Pure-Hydro®水萃）
+├─ 層次一 — 分子層次（補充期間持續發生）
+│   ├─ 胺基酸衍生物：協助抗氧化、清除自由基，減少軟骨氧化壓力
+│   └─ L-瓜胺酸 → L-精胺酸 → 一氧化氮（NO）路徑：促進血管舒張、
+│       改善關節局部血流與營養/氧氣運送
+├─ 層次二 — 細胞層次（約 4-8 週顯現）
+│   ├─ 抑制滑膜巨噬細胞/軟骨細胞釋放 IL-1β（本研究觀察：降低28%）
+│   ├─ 抑制 MMP-3 表現，減少第二型膠原蛋白與蛋白聚醣降解
+│   │   （本研究觀察：降低13%）
+│   └─ 促進膠原蛋白合成路徑，輔助軟骨基質修復
+└─ 層次三 — 系統/功能層次（8 週療程末顯現，最終可觀察結果）
+    ├─ 主觀症狀：VAS疼痛降46%、WOMAC僵硬與功能困難降45%
+    ├─ 客觀功能：TUG測試時間降8.5%
+    └─ 肌力表現：Peak Torque +14%、Total Work +15%、
+        Average Power +18%（安慰劑組同步小幅進步，惟介入組顯著更高）</pre>
+      <div class="mech-detail">
+        <h4>抗發炎路徑：IL-1β / MMP-3 雙標記下調</h4>
+        <p>IL-1β 是骨關節炎發炎級聯反應中的關鍵啟動因子，會誘導軟骨細胞產生 MMP 家族酵素並抑制軟骨基質合成；MMP-3 則直接分解蛋白聚醣與部分膠原蛋白，是軟骨結構性破壞的下游執行者。本研究同時觀察到兩者血漿濃度下降（IL-1β -28%、MMP-3 -13%），機制上可解讀為「上游發炎訊號減弱 → 下游降解酵素減少」的連鎖抑制效果，與黃瓜萃取物體外抗發炎活性（見 rsc_04、rsc_05）方向一致。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>瓜胺酸-精胺酸-NO 路徑：肌力與關節修復的協同機制</h4>
+        <p>本研究是少數同時測量 OA 患者「症狀改善」與「客觀肌力表現」的黃瓜萃取物試驗。供應商機轉論述指出，CuberUp® 所含胺基酸衍生物中之瓜胺酸可經腎臟轉化為精胺酸，再由一氧化氮合成酶（NOS）催化生成一氧化氮，促進血管舒張與局部血流灌注，理論上有助於關節與肌肉組織的營養供應及蛋白質合成效率——此為肌力指標（Peak Torque、Total Work、Average Power）均顯著提升的可能生理基礎，但本研究本身並未直接測量血漿瓜胺酸/精胺酸/NO 濃度變化，此機制推論主要依據既有瓜胺酸文獻外推，屬合理但未在本研究中直接驗證的機制假說。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>時間動態：症狀改善呈漸進式而非立即起效</h4>
+        <p>供應商簡報與媒體報導（Nutrition Insight 引用之研究者說明）指出，疼痛感受從第 1 週開始逐漸下降，至第 4 週兩組間差異已達統計顯著，顯示本產品效果需要至少 4 週的累積補充才會顯現明確臨床意義，並非急性止痛藥式的立即起效，此點在對外溝通「需持續補充」的消費者教育上具重要意義。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">主要與次要終點（N=55，40歲以上膝OA患者，60天／8週療程）</p>
+      <table>
+        <thead><tr><th>指標</th><th>CuberUp®組</th><th>安慰劑組</th><th>統計顯著性</th></tr></thead>
+        <tbody>
+          <tr><td>VAS 疼痛量表</td><td><strong>降低 46%</strong></td><td>亦有下降，惟幅度較小</td><td>組間差異 p = 0.013</td></tr>
+          <tr><td>疼痛降幅 vs 安慰劑組相對差</td><td><strong>再多降低 21 個百分點</strong></td><td>—</td><td>供應商簡報引用數字</td></tr>
+          <tr><td>WOMAC 疼痛/僵硬/功能分量表</td><td><strong>顯著改善</strong></td><td>改善幅度較小</td><td>組間顯著（* 標示，精確 p 值原文未完整揭露於摘要）</td></tr>
+          <tr><td>關節僵硬與活動困難程度</td><td><strong>降低 45%</strong>（vs 安慰劑再降 17%）</td><td>—</td><td>* 顯著</td></tr>
+          <tr><td>血漿 IL-1β 濃度</td><td><strong>降低 28%</strong></td><td>無顯著變化</td><td>組內顯著下降</td></tr>
+          <tr><td>血漿 MMP-3 濃度</td><td><strong>降低 13%</strong></td><td>無顯著變化</td><td>組內顯著下降</td></tr>
+          <tr><td>Timed Up and Go（TUG）</td><td><strong>降低 8.5%</strong>（動作時間縮短）</td><td>變化較小</td><td>組間顯著</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">等速/等長肌力動力學指標（測力機測量，食用前後對比，CuberUp® 組 vs 安慰劑組）</p>
+      <table>
+        <thead><tr><th>肌力指標</th><th>CuberUp®組變化</th><th>單位/量測範圍</th><th>統計顯著性</th></tr></thead>
+        <tbody>
+          <tr><td>Average Peak Torque（平均峰值扭矩）</td><td><strong>提升 14%</strong></td><td>約 130–170 Nm 區間</td><td>標示 * 顯著</td></tr>
+          <tr><td>Total Work（總作功量）</td><td><strong>提升 15%</strong></td><td>約 270–345 J 區間</td><td>標示 * 顯著</td></tr>
+          <tr><td>Average Power（平均功率）</td><td><strong>提升 18%</strong></td><td>約 30–50 W 區間</td><td>標示 * 顯著</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 原始論文摘要與供應商簡報均以 * 號標示統計顯著，未在公開可取得的資料中列出精確 p 值、95% 信賴區間或效果量（Cohen's d / SMD），建議取得原文全文附錄以核實精確統計值，避免對外聲稱時過度精確化引用不存在的數字。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>樣本量中等，屬 Pilot/確效性規模</strong>：N=55（各組僅 26-29 人），對於偵測中小效果量而言統計檢定力有限，且未見樣本量計算（power calculation）說明，結果穩健性待更大型試驗驗證。</span></li>
+        <li><div class="limit-num">2</div><span><strong>療程僅 60 天，缺乏長期追蹤</strong>：OA 為慢性退化性疾病，8 週的短期觀察無法回答長期（6-12個月以上）補充的持續效果與安全性，也無法排除安慰劑效應隨時間消退的可能性。</span></li>
+        <li><div class="limit-num">3</div><span><strong>期刊非 Medline/PubMed 直接索引</strong>：Applied Sciences 為 MDPI 旗下多學科期刊，同儕審查品質參差、審查週期較快，其學術權重略低於專門骨科/風濕免疫學期刊。</span></li>
+        <li><div class="limit-num">4</div><span><strong>受試者所在地與族群單一</strong>：研究於西班牙進行，樣本為地中海區域成人，結果外推至亞洲/台灣人群體型、飲食與關節退化型態的適用性尚待在地驗證。</span></li>
+        <li><div class="limit-num">5</div><span><strong>精確統計數字揭露不足</strong>：多數效果以 * 號標示顯著性、以百分比呈現變化幅度，缺乏完整 p 值、CI 與效果量表格，限制了對結果穩健性的深入評估。</span></li>
+        <li><div class="limit-num">6</div><span><strong>可能之利益衝突未完整揭露</strong>：研究對象為特定商業原料 CuberUp®，是否由 Euromed® 資助或提供原料/經費未在可查證資料中明確聲明，供應商簡報稱其為「原廠文獻」暗示存在原廠關聯。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Hausenblas et al. 2025, Cureus, Cucumis sativus 粉劑 RCT N=80）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>支持關係</strong：兩篇皆為隨機雙盲安慰劑對照試驗，均使用 20 mg/日的黃瓜萃取物劑量，均觀察到疼痛與功能顯著改善，方向高度一致，形成「不同商品配方、相同活性物種、相似劑量下均見效」的收斂證據，增加整體證據可信度。rsc_02 由美國研究團隊獨立執行（無明確 Euromed® 資助關係），可部分緩解本研究之 COI 疑慮。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（Nash et al. 2023, Current Rheumatology Reviews, ido-BR1/Q-Actin 劑量反應 RCT N=101）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>支持關係 + 劑量反應補充</strong>：rsc_03 針對另一標準化黃瓜萃取物（Q-Actin，含 ido-BR1 標準化成分）進行劑量反應試驗，證實效果具劑量依賴性，補足本研究「僅測單一劑量（20mg/日）」未能回答的劑量-反應曲線問題。兩篇作用方向一致，但活性標準化指標不同（CuberUp® 未標示 ido-BR1 含量），須留意這是「同科屬不同標準化萃取物」而非完全相同原料，不可將 Q-Actin 的劑量反應數字直接套用於 CuberUp®。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（Amani et al. 2024, Cureus, 黃瓜複方體外抗發炎抗氧化試驗）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接</strong>：rsc_04 之體外 DPPH、H2O2、BSA、EA 抗發炎抗氧化試驗結果，可作為本研究人體 IL-1β/MMP-3 下降之上游機制佐證——體外實驗證實黃瓜萃取物確有抑制發炎與氧化反應的分子基礎，本研究則證實此機制可轉化為人體可測量之生物標記變化與症狀改善，兩篇形成「體外機制 → 人體驗證」的完整證據鏈。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_05（PEA+CSE 動物 OA 模型，2026, Inflammopharmacology）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接</strong>：rsc_05 動物模型中觀察到 CSE（Cucumis sativus 萃取物）合併 PEA 可使 IL-1β、MMP-13 降低約 50%，方向與本研究人體 IL-1β/MMP-3 下降一致，動物實驗劑量效果甚至更明顯，提供跨物種（大鼠 → 人類）機制一致性佐證，強化「黃瓜萃取物確實可下調 IL-1β/MMP 家族發炎介質」此一核心機制論述的可信度。</p>
+          <p class="caveat">⚠️ 需留意 rsc_05 為複方（PEA+CSE）而非純 CSE 單方，效果強化可能部分歸因於 PEA 的協同作用，不可將動物合併用藥的降幅直接等同於本研究純 CuberUp® 單方之效果。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_06（Vårvik et al. 2021, IJSNEM, 瓜胺酸蘋果酸鹽肌力表現 Meta-analysis）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接（跨成分佐證）</strong>：本研究觀察到之肌力指標提升（Peak Torque/Total Work/Average Power 提升 14-18%）在機制上被歸因於 CuberUp® 所含瓜胺酸/精胺酸/NO 路徑，rsc_06 針對瓜胺酸蘋果酸鹽（citrulline malate，非黃瓜萃取物來源，但同為瓜胺酸活性成分）在阻力訓練中的表現有系統性回顧佐證（小幅但一致之運動表現提升）。兩篇可相互佐證「瓜胺酸類成分具肌力/運動表現潛在助益」之機制假說，但須明確告知讀者：CuberUp® 中瓜胺酸的確切含量未於供應商資料或本研究中揭露，不可將 rsc_06 高劑量純瓜胺酸蘋果酸鹽（通常 6-8g/次）之效果量直接套用於 CuberUp® 20mg/日的低劑量情境。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可直接引用（有明確臨床試驗支持）</h4>
+        <ul>
+          <li>「原廠人體臨床研究顯示，40 歲以上膝關節不適族群每日補充 20mg CuberUp®黃瓜萃取物 60 天後，膝蓋疼痛感受、關節僵硬與活動困難程度、日常行動效率（TUG測試）及肌力表現指標，相較安慰劑組均有更顯著的正向變化」（Pérez-Piñero et al., Applied Sciences, 2023；N=55；⚠️ 需附註原廠關聯性）</li>
+          <li>「補充期間，受試者血漿發炎指標 IL-1β 與軟骨分解酵素 MMP-3 濃度亦呈現下降趨勢，此變化與症狀改善方向一致」——可作為機制輔助論述，搭配 rsc_04/rsc_05 體外與動物證據使用</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>「降低 46% 疼痛」「降低 28% IL-1β」等具體百分比數字若對外引用，須完整標示研究來源、樣本數與研究性質（原廠核心研究），避免消費者誤認為大型獨立研究或臨床共識；建議搭配 rsc_02 獨立研究之數字並陳，增加可信度。</li>
+          <li>肌力提升（14-18%）與瓜胺酸-NO 路徑的機制連結目前僅為理論推論，本研究並未直接測量瓜胺酸/精胺酸/NO 血中濃度，對外若提及此機制應使用「理論上有助於」而非「已證實透過此路徑改善」。</li>
+          <li>療程僅驗證 60 天，若產品建議長期食用，應註明「長期效果尚待更多研究驗證」，不可暗示效果會隨時間持續累加。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議直接引用</h4>
+        <ul>
+          <li>不可宣稱「CuberUp® 可治療膝骨關節炎」或「與阿司匹林/布洛芬藥效相同」——本研究為保健品 RCT，非藥品等效試驗，且缺乏影像學（X光/MRI軟骨厚度）等疾病修飾（disease-modifying）證據，僅能陳述症狀與功能性指標的統計改善。</li>
+          <li>不可省略 COI 揭露，逕自將本研究包裝為「獨立第三方研究」對外宣傳；台灣衛福部對保健食品廣告要求引用研究須誠實揭露利益關係。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為主要人體臨床證據引用（強聲稱）：</p>
+      <div class="quote-block">
+        「一項針對 55 位 40 歲以上膝骨關節炎患者的隨機雙盲安慰劑對照試驗顯示，每日補充 20mg CuberUp® 黃瓜萃取物連續 60 天後，受試者膝蓋疼痛感受降低 46%（組間 p = 0.013），關節僵硬與活動困難程度降低 45%，血漿發炎標記 IL-1β 降低 28%、MMP-3 降低 13%，且肌力表現（平均峰值扭矩、總作功量、平均功率）分別提升 14%、15%、18%（Pérez-Piñero et al., Applied Sciences, 2023, 13(1):485）。」
+        <span class="warn-note">⚠️ 注意：CuberUp® 為研究對象商品原料本身，本研究與原廠 Euromed® 之資助關係未完整公開揭露，建議標示「原廠核心研究」並搭配獨立研究並陳。</span>
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Hausenblas et al., Cureus, 2025（rsc_02）</td><td>獨立美國研究團隊執行之類似 RCT，同劑量（20mg/日）觀察到一致方向結果，可作為交叉驗證、緩解 COI 疑慮</td></tr>
+          <tr><td>Nash et al., Current Rheumatology Reviews, 2023（rsc_03）</td><td>提供劑量反應證據，補足本研究單一劑量設計之限制</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立，資料來源：MDPI Applied Sciences 官網摘要、供應商簡報引用之原廠文獻數字、公開新聞稿（Nutrition Insight, Nutraceutical Business Review 等）交叉整理；因 MDPI 全文 PDF 無法完整程式化抽取，部分數字（如精確 p 值全表）未能逐一核對原文，已於「研究局限」與「核心數據」中明確標注</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

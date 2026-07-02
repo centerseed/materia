@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黑種草籽補充對肥胖指標之系統性回顧與統合分析 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  ul.plain { padding-left: 20px; margin-bottom: 10px; }
+  ul.plain li { margin-bottom: 4px; font-size: 13.5px; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">系統性回顧與統合分析 · Meta-analysis</span>
+      <span class="hdr-tag q1">Q2 · IF 2.7（Complementary Therapies in Medicine）</span>
+      
+    </div>
+    <h1>黑種草籽補充對肥胖指標之系統性回顧與統合分析</h1>
+    <p class="subtitle">Effect of Nigella sativa supplementation on obesity indices: A systematic review and meta-analysis of randomized controlled trials</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Seyed Mohammad Mousavi, Alireza Sheikhi, Hamed Kord Varkaneh, Meysam Zarezadeh, Jamal Rahmani, Alireza Milajerdi</div>
+      <div class="meta-item"><strong>期刊</strong>Complementary Therapies in Medicine</div>
+      <div class="meta-item"><strong>年份</strong>2018 · 38:48-57</div>
+      <div class="meta-item"><strong>PMID</strong>29857879</div>
+      <div class="meta-item"><strong>DOI</strong>10.1016/j.ctim.2018.04.003</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">Complementary Therapies in Medicine · Q2</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">系統性回顧與統合分析 · Meta-analysis（N=875（13篇RCT，64%為男性））</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">提供完整之納入試驗數、樣本數、效果量（WMD、95% CI、I²）</div>
+        </div>
+        <div class="cred-card" style="">
+          <div class="cred-label" style="">利益衝突</div>
+          <div class="cred-val" style="">⚠️ 需查證</div>
+          <div class="cred-sub">摘要未附完整COI聲明，建議查證全文</div>
+        </div>
+      </div>
+      
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本篇為黑種草籽體重管理相關證據中，樣本規模較大（875人、13篇RCT）且明確報告效果量（WMD -1.76kg）與異質性（I²=87.4%，屬高異質性）的統合分析，發表於Q2互補醫學期刊。其明確指出腰圍、臀圍、腰臀比未見顯著改善，僅體重及BMI有統計顯著但幅度有限的降低，此「部分顯著、部分不顯著」的誠實呈現方式提高本篇的可信度，但也意味著「雕塑體態」類宣稱不受此篇支持。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">全球肥胖盛行率持續攀升，WHO統計顯示全球逾19億成人過重、逾6.5億人肥胖，肥胖與第二型糖尿病、心血管疾病、部分癌症風險密切相關，故市場對天然體重管理輔助原料的需求持續成長，黑種草籽因其潛在的能量代謝調節、脂肪細胞棕色化等機轉近年受到關注（詳見供應商簡報中TriNutra原廠動物實驗證據）。</p><p style="margin-bottom:12px">此前已有零星RCT測試黑種草籽對體重、BMI、腰圍等人體測量指標的效果，但樣本數普遍偏小（多在30-90人），結果不一致，部分研究顯示體重顯著降低，部分則未達顯著。本研究之目的即在系統性彙整截至2018年1月為止、發表於PubMed/Medline、SCOPUS、Cochrane Library及Google Scholar資料庫之相關RCT，以提高統計檢定力並釐清黑種草籽對不同肥胖指標（體重、BMI、腰圍、臀圍、腰臀比）效果之一致性。</p>
+      
+      
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+        <tr><td>試驗類型</td><td>系統性回顧與統合分析（Meta-analysis of RCTs）</td></tr>
+<tr><td>納入試驗</td><td>13篇隨機對照試驗（體重相關效果量分析納入其中10篇）</td></tr>
+<tr><td>受試者總數</td><td>875位（64%為男性）</td></tr>
+<tr><td>介入方式</td><td>黑種草籽補充（劑型與劑量依原始試驗而異）</td></tr>
+<tr><td>對照組</td><td>安慰劑</td></tr>
+<tr><td>主要終點</td><td>體重（Body Weight, BW）、身體質量指數（BMI）、腰圍（Waist Circumference, WC）</td></tr>
+<tr><td>次要終點</td><td>臀圍、腰臀比（均未達統計顯著）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">黑種草籽（Nigella sativa）補充
+├─ 層次一 — 能量代謝分子層次（供應商TriNutra動物實驗機轉，非本篇人體證據）
+│   ├─ UCP-1（產熱素）表現上調：促進白色脂肪棕色化，增加能量消耗
+│   └─ AMPK活化：改善能量平衡調節
+├─ 層次二 — 脂肪組織層次
+│   └─ 降低脂肪組織發炎與胰島素阻抗（動物/細胞實驗證據為主）
+└─ 層次三 — 人體臨床體重指標（本篇統合分析證據）
+    ├─ 體重（BW）：WMD -1.76 kg（統計顯著，惟I²=87.4%高異質性）
+    ├─ BMI：顯著降低（幅度有限）
+    └─ 腰圍/臀圍/腰臀比：未達統計顯著</pre>
+      <div class="mech-detail"><h4>人體證據 vs 動物機轉證據的落差</h4><p>供應商簡報中UCP-1、粒線體功能等機轉證據主要來自TriNutra原廠之細胞與動物實驗（見supplier資料夾rsc相關頁面），本篇人體統合分析雖顯示體重與BMI有統計顯著降低，但效果量（-1.76kg）遠小於動物實驗展示的顯著代謝改善幅度，提示動物機轉證據不能直接等比例外推至人體效果量，這是保健品開發中常見的「機轉支持但臨床效果量縮小」現象，應誠實揭露。</p></div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">主要終點：肥胖指標統合分析結果（N=875，13篇RCT）</p>
+      <table>
+        <thead><tr><th>指標</th><th>加權平均差異（WMD）</th><th>95% CI</th><th>異質性（I²）</th><th>統計顯著性</th></tr></thead>
+        <tbody>
+        <tr><td>體重（BW）</td><td>-1.76 kg</td><td>-3.34 to -0.17</td><td>87.4%（高異質性）</td><td>顯著</td></tr>
+<tr><td>BMI</td><td>顯著降低（摘要未列精確WMD）</td><td>—</td><td>—</td><td>顯著</td></tr>
+<tr><td>腰圍（WC）</td><td>無顯著差異</td><td>—</td><td>—</td><td>未達顯著</td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">臀圍、腰臀比同樣未達統計顯著（摘要說明「no significant reductions were found in waist circumference, hip circumference, or waist-to-hip ratio」）。</p>
+      
+
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+      <li><div class="limit-num">1</div><span><strong>高異質性（I²=87.4%）</strong>：體重效果量之異質性極高，顯示納入試驗間結果差異大，可能受劑型、劑量、療程、受試族群（健康人 vs 肥胖/代謝症候群患者）等因子影響，單一WMD數字的代表性需謹慎解讀。</span></li>
+<li><div class="limit-num">2</div><span><strong>體態雕塑類指標未見效果</strong>：腰圍、臀圍、腰臀比均未達統計顯著，顯示黑種草籽對「體態雕塑」（如減少腹部脂肪）之效果證據不足，不應宣稱局部塑身效果。</span></li>
+<li><div class="limit-num">3</div><span><strong>效果量臨床意義有限</strong>：-1.76kg之體重降幅相較於生活型態介入（飲食+運動可達5-10kg）效果量甚小，僅可作為體重管理之輔助角色。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（糖尿病/心代謝統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p>rsc_04指出BMI改善需劑量>1g/天且療程>8週方顯著（於糖尿病族群），本篇（一般成人為主）體重效果量-1.76kg之異質性高，兩篇結果提示黑種草籽體重效果可能高度依賴劑量、療程與受試族群，產品宣稱時應保守並註明條件。</p>
+          
+        </div>
+      </div>
+<div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（血脂統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p>體重降低與血脂改善可能存在共同代謝路徑（如降低整體發炎與胰島素阻抗），兩篇統合分析共同支持黑種草籽於代謝症候群整體風險因子調節之角色，惟均屬中低幅度效果。</p>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+        <li>可引用「統合分析（13篇RCT、875人）顯示，黑種草籽補充相較安慰劑可顯著降低體重1.76公斤及BMI（Mousavi et al., Complementary Therapies in Medicine 2018;38:48-57）」，作為體重管理輔助角色之學術佐證，並應標示效果量幅度有限</li>
+<li>可作為「有助於維持體態」等一般性、非局部塑身之結構功能訴求依據之一</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+        <li>高異質性（I²=87.4%）意味著個別使用者效果差異可能極大，對外宣稱時應加註「效果因人而異」等但書</li>
+<li>不應將動物/細胞實驗（UCP-1棕色化、燃脂機轉）之顯著效果直接等同於人體臨床效果幅度，兩者證據型別與效果量級不同，須分開陳述並標明證據層級</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+        <li>不得宣稱「減少腰圍」「雕塑腹部線條」等局部塑身效果，本統合分析明確顯示腰圍、臀圍、腰臀比均未達統計顯著</li>
+<li>不得宣稱「治療肥胖」或暗示可取代飲食控制與運動，效果量（-1.76kg）遠低於生活型態介入幅度</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">強聲稱：</p>
+      <div class="quote-block">
+        涵蓋13篇隨機對照試驗、共875位受試者之統合分析顯示，黑種草籽補充相較安慰劑可顯著降低體重1.76公斤（95% CI -3.34至-0.17）及BMI，惟異質性達87.4%（Mousavi et al., Complementary Therapies in Medicine 2018;38:48-57）。
+        
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; margin-top:14px; color:var(--indigo)">弱聲稱：</p>
+      <div class="quote-block">
+        初步證據顯示黑種草籽補充可能對體重管理有小幅輔助效果，惟個別試驗間結果差異極大（高異質性），且對腰圍、臀圍等局部體態指標無顯著效果，不應作為主要體重管理方案，僅供搭配飲食運動之輔助參考（Mousavi et al., 2018）。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; margin-top:14px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+        <tr><td>供應商簡報引用之TriNutra原廠動物/細胞實驗（UCP-1棕色化機轉）</td><td>機轉層級證據，可作為「作用原理」說明，惟不可直接作為人體效果量佐證</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

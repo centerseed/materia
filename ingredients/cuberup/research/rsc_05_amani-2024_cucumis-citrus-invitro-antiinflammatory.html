@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黃瓜與柑橘複方之抗發炎抗氧化體外研究 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; } .star-empty { color: #ccc; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); } .impl-warn h4 { color: var(--amber); } .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">體外實驗 · In-Vitro Study</span>
+      <span class="hdr-tag q1">Q3 · IF ≈ 1.0</span>
+    </div>
+    <h1>黃瓜（Cucumis sativus）與柑橘（Citrus macroptera）複方之抗發炎抗氧化活性：體外機轉研究</h1>
+    <p class="subtitle">Anti-inflammatory and Antioxidant Activity of Cucumis sativus and Citrus macroptera Herbal Formulation: An In-Vitro Study</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Amani T, Surenthar M, Shanmugam R（Saveetha Dental College and Hospitals, 印度）</div>
+      <div class="meta-item"><strong>期刊</strong>Cureus</div>
+      <div class="meta-item"><strong>年份</strong>2024 · 16(1):e51818</div>
+      <div class="meta-item"><strong>PMID</strong>38327926</div>
+      <div class="meta-item"><strong>DOI</strong>10.7759/cureus.51818</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★</span><span class="star-empty">☆☆☆</span></div>
+          <div class="cred-sub">Cureus · Scimago Q3，IF約1.0；PMC完整索引開放期刊</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★</span><span class="star-empty">☆☆☆</span></div>
+          <div class="cred-sub">體外（in-vitro）機轉研究，非人體或動物試驗</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">四種標準化體外測定方法，完整劑量-反應數字</div>
+        </div>
+        <div class="cred-card" style="background: var(--green-light); border-color:#b8e0c8">
+          <div class="cred-label" style="color:var(--green)">利益衝突</div>
+          <div class="cred-val" style="color:var(--green)">✅ 無</div>
+          <div class="cred-sub">作者聲明無競爭性利益，研究單位為學術牙科醫學院（口腔醫學研究），非黃瓜萃取物商業原料商</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本研究為體外（in-vitro）機轉層級研究，依保健食品證據評估原則，**體外機轉研究是保健食品的合理證據型別**，用以說明「為什麼」黃瓜萃取物在人體試驗中觀察到抗發炎效果（IL-1β、MMP-3下降），提供分子/生化層次的機制支持，但不可作為「人體有效」的直接證據，其角色是補強機制論述完整性。本研究無明確COI（無黃瓜萃取物商業原料商資助），研究單位為印度學術牙科醫學院，出於口腔醫學應用角度（探討此複方用於口腔黏膜病灶如口腔白斑症、扁平苔癬之潛力）而非關節保健角度切入，這代表黃瓜萃取物之抗發炎抗氧化活性具有跨適應症的機制普適性，是一個有趣的獨立佐證來源。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">氧化壓力與慢性發炎是多種疾病共通的病理生理基礎，從骨關節炎的軟骨降解，到口腔黏膜疾病如口腔白斑症（leukoplakia）、扁平苔癬（lichen planus）的黏膜損傷，皆與自由基累積及發炎介質失衡密切相關。合成抗氧化劑與消炎藥物長期使用存在安全性疑慮，促使學界積極尋找天然植物來源的替代方案。黃瓜（Cucumis sativus）與柑橘（Citrus macroptera）皆為傳統上被認為具有抗氧化、抗發炎特性的植物，但兩者複方組合的協同效果此前缺乏系統性體外驗證數據。</p>
+      <p style="margin-bottom:20px">本研究之目的是透過四種國際公認的標準化體外生化測定方法，量化評估黃瓜與柑橘萃取物複方（加入甘油作為賦形/協同介質）之抗氧化與抗發炎活性強度，並與已知標準品（如抗壞血酸等標準抗氧化劑）比較，驗證此複方是否具備「作為合成抗氧化劑/消炎藥物天然替代方案」的分子生化基礎。此研究雖聚焦於口腔醫學應用情境，但其驗證之抗發炎抗氧化活性數據對理解黃瓜萃取物成分的一般性抗發炎抗氧化機制，具有跨適應症的參考價值，可與關節保健應用之機轉論述互相呼應。</p>
+      <div class="mech-detail">
+        <h4>DPPH 自由基清除試驗</h4>
+        <p>國際通用的抗氧化能力測定方法，透過測量受試物質清除穩定自由基 DPPH（2,2-diphenyl-1-picrylhydrazyl）的能力，反映物質整體自由基清除潛力，是植物萃取物抗氧化研究最常用的體外指標之一。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>BSA/EA 蛋白變性抑制試驗</h4>
+        <p>牛血清蛋白（BSA）與蛋清蛋白（EA）變性抑制試驗，模擬發炎反應中蛋白質變性過程，測定受試物質抑制此過程的能力，是評估體外抗發炎活性的經典生化模型，機轉上與NSAID類藥物之抗發炎測定方法學相通。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>體外（in-vitro）生化活性測定研究</td></tr>
+          <tr><td>受試物質</td><td>黃瓜（Cucumis sativus）+ 柑橘（Citrus macroptera）+ 甘油複方萃取物</td></tr>
+          <tr><td>測定方法</td><td>DPPH自由基清除試驗、H2O2過氧化氫清除試驗、BSA蛋白變性抑制試驗、EA蛋白變性抑制試驗</td></tr>
+          <tr><td>測試濃度</td><td>30、40、50 微升（劑量遞增設計）</td></tr>
+          <tr><td>對照組</td><td>標準抗氧化劑/消炎藥物對照品（standard controls）</td></tr>
+          <tr><td>主要終點</td><td>各濃度下抑制率百分比，與標準品比較</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">黃瓜+柑橘+甘油複方萃取物（體外測定）
+├─ 層次一 — 自由基清除層次（DPPH/H2O2試驗，即時反應）
+│   └─ 清除DPPH與H2O2自由基：90%抑制率（vs標準品92%）
+│       ── 顯示接近標準抗氧化劑之自由基清除能力
+├─ 層次二 — 蛋白變性抑制層次（BSA/EA試驗，模擬發炎級聯反應）
+│   └─ 抑制BSA/EA蛋白變性：76%抑制率（vs標準品78%）
+│       ── 顯示接近標準消炎藥物之抗發炎活性
+└─ 層次三 — 劑量效應層次（30/40/50微升遞增測試）
+    └─ 各濃度下抑制率呈劑量依賴性遞增，50微升時效果最強
+        （所有濃度測試中皆一致觀察到此趨勢）</pre>
+      <div class="mech-detail">
+        <h4>與人體研究IL-1β/MMP-3下降之機制橋接</h4>
+        <p>本研究之BSA/EA蛋白變性抑制試驗，機轉上模擬的正是發炎級聯反應中蛋白結構破壞的過程，與 rsc_01 人體試驗觀察到之 IL-1β（發炎細胞激素）、MMP-3（軟骨降解酵素）血漿濃度下降具有機制上的一致性——體外實驗證實黃瓜萃取物確實具備抑制發炎相關蛋白反應的分子基礎能力，為人體觀察到的生物標記變化提供合理的機轉支持，形成「體外機制證據 → 人體臨床驗證」的完整證據鏈條。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>「與NSAID相似作用」論述的體外實證基礎</h4>
+        <p>供應商簡報引用文獻宣稱黃瓜萃取物「具有與阿司匹林、布洛芬相似的緩解疼痛和抗發炎作用」，本研究之BSA/EA試驗結果（76% vs標準品78%，差距僅2個百分點）為此類論述提供了較具體的體外量化基礎——惟需嚴格區分「體外蛋白變性抑制活性與NSAID相近」和「人體止痛/消炎藥效與NSAID相同」是兩個完全不同層次的宣稱，前者有本研究等體外證據支持，後者則需要頭對頭人體臨床試驗才能證實，不可混淆使用。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">體外抗氧化/抗發炎活性測定結果（50微升最高測試濃度）</p>
+      <table>
+        <thead><tr><th>測定方法</th><th>複方萃取物抑制率</th><th>標準品抑制率</th><th>差距</th></tr></thead>
+        <tbody>
+          <tr><td>DPPH 自由基清除</td><td><strong>90%</strong></td><td>92%</td><td>-2個百分點</td></tr>
+          <tr><td>H2O2 過氧化氫清除</td><td><strong>90%</strong></td><td>92%</td><td>-2個百分點</td></tr>
+          <tr><td>BSA 蛋白變性抑制</td><td><strong>76%</strong></td><td>78%</td><td>-2個百分點</td></tr>
+          <tr><td>EA 蛋白變性抑制</td><td><strong>76%</strong></td><td>78%</td><td>-2個百分點</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 上述數字為30/40/50微升三個測試濃度中「最高濃度（50微升）」之結果，代表體外測定條件下的最大反應能力，不可直接換算為人體攝取20mg/日之等效活性強度，兩者測定條件（體外培養皿環境 vs 人體消化吸收代謝後之生體可用率）完全不同，不能簡單類比。原文未列出精確p值統計檢定，僅以描述性百分比呈現趨勢性結果。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>體外研究，非人體或動物實驗</strong>：體外測定條件（培養皿、化學反應）與人體實際生理環境差異極大，無法直接推論人體攝取後的實際效果強度，僅能作為機制支持證據，不可作為療效主要聲稱依據。</span></li>
+        <li><div class="limit-num">2</div><span><strong>複方而非單方黃瓜萃取物</strong>：本研究測試黃瓜+柑橘+甘油複方，觀察到的效果無法完全歸因於黃瓜萃取物單一成分，柑橘與甘油可能有協同或獨立貢獻，不可將複方結果直接等同於純黃瓜萃取物（如CuberUp®）之活性。</span></li>
+        <li><div class="limit-num">3</div><span><strong>研究焦點為口腔醫學應用</strong>：本研究設計目的是評估用於口腔黏膜病灶（白斑症、扁平苔癬）之潛力，非直接針對關節健康應用設計，雖機轉具跨適應症普適性，但外推至關節保健情境需謹慎。</span></li>
+        <li><div class="limit-num">4</div><span><strong>缺乏活性成分定量分析</strong>：未明確說明複方中黃瓜萃取物的具體活性成分含量或標準化指標，難以與CuberUp®（80%標準化Cucumis sativus萃取物）進行精確的活性強度比較。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Pérez-Piñero et al. 2023, CuberUp® 原廠核心 RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接</strong>：本研究之BSA/EA蛋白變性抑制活性（76-78%）為 rsc_01 觀察到之人體血漿IL-1β下降28%、MMP-3下降13%提供了分子層次的機轉合理性支持——體外證實黃瓜萃取物類成分確實具備抑制發炎蛋白反應的生化能力，兩篇合併閱讀可形成「體外機制 → 人體效果」較完整的證據論述。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_06（PEA+CSE MIA大鼠模型）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接（體外→動物→人體三階佐證）</strong>：本研究（體外）與rsc_06（動物模型）皆獨立觀察到黃瓜萃取物相關成分之抗發炎活性，兩篇搭配rsc_01（人體）恰好構成「體外機制驗證 → 動物模型驗證 → 人體臨床驗證」的完整三階證據金字塔，是本原料資料夾中證據完整性最紮實的機制論述路徑，建議在研究索引中特別標示此三篇的互補關係。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">COI 分散價值</div>
+        <div class="cross-ref-body">
+          <p>本研究無黃瓜萃取物商業原料商資助（研究單位為口腔醫學學術機構），與 rsc_03、rsc_04（PhytoQuest體系，COI已確認）形成鮮明對比，可作為「機制證據非僅來自商業利益相關方」的獨立佐證。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可直接引用（有明確體外實驗支持，措辭需標明為「實驗室測定」）</h4>
+        <ul>
+          <li>「獨立體外實驗研究顯示，黃瓜萃取物複方之抗氧化與抗發炎生化活性接近標準抗氧化劑/消炎藥物對照品水準（DPPH/H2O2抑制率90% vs標準品92%；BSA/EA抑制率76% vs標準品78%），為其人體臨床觀察到的發炎指標改善提供分子機制支持」（Amani et al., Cureus, 2024；體外實驗室測定，非人體功效聲稱）</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>「與NSAID作用相似」之表述僅能限縮於「體外蛋白變性抑制活性相近」層次，不可延伸為「止痛消炎藥效相同」，兩者為完全不同等級之宣稱，必須明確區分。</li>
+          <li>本研究為黃瓜+柑橘複方而非純黃瓜萃取物，若引用需註明「複方研究」，不可暗示為CuberUp®單方之直接證據。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議直接引用</h4>
+        <ul>
+          <li>不可將體外抑制率百分比（如「90%抗氧化率」）包裝為人體攝取後的功效數字，體外測定條件與人體吸收代謝環境完全不同，此為常見誤導性引用手法，須避免。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為機制輔助證據引用（弱聲稱，標明體外實驗性質）：</p>
+      <div class="quote-block">
+        「體外實驗室測定顯示，含黃瓜萃取物之複方配方展現接近標準抗氧化劑與消炎藥物對照品水準的自由基清除與蛋白變性抑制活性（DPPH/H2O2抑制率90% vs標準品92%；BSA/EA抑制率76% vs標準品78%），為黃瓜萃取物之抗發炎抗氧化機制提供實驗室層級的分子生化基礎（Amani et al., Cureus, 2024, 16(1):e51818；PMID: 38327926；體外複方研究，非CuberUp®單方直接數據）。」
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Pérez-Piñero et al., Applied Sciences, 2023（rsc_01）</td><td>人體臨床驗證，補足體外機制與人體效果的連結</td></tr>
+          <tr><td>動物MIA模型研究, 2026（rsc_06）</td><td>提供動物模型層級之機制橋接證據</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立，資料來源：PMC開放全文摘要整理</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>魚鱗膠原蛋白胜肽抵抗角質細胞氧化壓力與發炎損傷之機轉研究 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">體外細胞實驗 · In Vitro Mechanistic Study</span>
+      <span class="hdr-tag q1">Q1 · IF 6.75（2024，惟該期刊近年有大量論文因造假集中撤稿之爭議紀錄，需謹慎看待）</span>
+    </div>
+    <h1>魚鱗膠原蛋白胜肽經抑制ROS、MAPK與NF-κB路徑保護角質細胞抵抗CoCl₂/TNF-α誘發之細胞毒性與發炎反應</h1>
+    <p class="subtitle">Fish Scale Collagen Peptides Protect against CoCl2/TNF-α-Induced Cytotoxicity and Inflammation via Inhibition of ROS, MAPK, and NF-κB Pathways in HaCaT Cells</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Subhan F, Kang HY, Lim Y, Ikram M, Baek SY, Jin S, Jeong YH, Kwak JY, Yoon S</div>
+      <div class="meta-item"><strong>期刊</strong>Oxidative Medicine and Cellular Longevity</div>
+      <div class="meta-item"><strong>年份</strong>2017 · Vol.2017, Article 9703609</div>
+      <div class="meta-item"><strong>PMID</strong>28717410</div>
+      <div class="meta-item"><strong>DOI</strong>10.1155/2017/9703609</div>
+      <div class="meta-item"><strong>PMC</strong>PMC5498912</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">Oxidative Medicine and Cellular Longevity · Q1 · IF 6.75（2024）· Hindawi旗下期刊，惟該期刊2021-2023年間因論文工廠（paper mill）問題出現大量集中撤稿，2023年後已由Wiley/Hindawi進行內容審查與部分停刊處理，須將此背景納入信賴度折減考量</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★</span><span class="star-empty">☆☆☆</span></div>
+          <div class="cred-sub">體外細胞實驗（HaCaT人類角質細胞株），無動物或人體驗證，證據等級屬機轉研究層次</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">PMC開放全文，數據完整含精確百分比變化與多重訊號路徑指標</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val">✅</div>
+          <div class="cred-sub">資助方為韓國國家研究基金會（NRF），與NIPPI或其他膠原蛋白廠商無關，作者聲明無利益衝突</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本篇提供了魚鱗膠原蛋白胜肽（FSCP）在表皮角質細胞層次的抗氧化與抗發炎機轉證據，與rsc_01（真皮纖維母細胞層次）互補，共同構成魚鱗膠原蛋白胜肽對皮膚保護的兩層機轉圖像。須特別注意：本研究所用之FSCP並非NIPPI原廠特定產品（分子量0.1-1.3 kDa，較NIPPI之4-5 kDa平均分子量更小），僅可作為「魚鱗來源膠原蛋白胜肽」此一原料類別的機轉參考證據，而非NIPPI產品的直接驗證。此外，發表期刊近年之學術誠信爭議背景須在對外引用時一併揭露。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">表皮角質細胞（keratinocyte）是皮膚最外層的主要細胞成分，其功能完整性直接決定皮膚屏障能力。慢性缺氧、發炎介質暴露（如TNF-α）與氧化壓力是導致角質細胞損傷、加速皮膚老化與發炎性皮膚疾病（如異位性皮膚炎、乾癬）發展的重要致病因子。既有研究雖已證實膠原蛋白胜肽對真皮纖維母細胞具生物活性（如rsc_01所示），但關於膠原蛋白胜肽是否能保護表皮角質細胞抵抗氧化壓力與發炎損傷，在本研究發表前相對缺乏系統性機轉證據。</p>
+      <p style="margin-bottom:20px">本研究團隊（韓國釜山大學醫學院解剖學系與Pioneer Research Center）採用兩種經典的體外損傷模型：(1) CoCl₂（氯化鈷）誘導的化學性缺氧模型，模擬皮膚微循環障礙情境；(2) TNF-α誘導的發炎模型，模擬慢性發炎性皮膚疾病的細胞層次反應。透過觀察魚鱗膠原蛋白胜肽（FSCP）對這兩種損傷模型的保護效果，並進一步追蹤活性氧物種（ROS）生成、促發炎細胞激素表現、細胞凋亡蛋白與MAPK/NF-κB訊號路徑等多重機轉指標，試圖建立FSCP保護角質細胞的完整分子機轉圖譜，填補「膠原蛋白胜肽對表皮細胞氧化壓力／發炎反應保護作用」這一機轉空白。</p>
+
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">實驗模型設計背景</p>
+      <div class="mech-detail">
+        <h4>CoCl₂化學性缺氧模型 — 為何選用此模型</h4>
+        <p>CoCl₂可穩定缺氧誘導因子（HIF-1α），模擬細胞在低氧環境下的生理反應，是體外研究「微循環障礙／缺氧相關皮膚老化」機轉的標準化學誘導模型，較動物缺氧模型更易於精確控制劑量與時間。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>TNF-α發炎模型 — 連結慢性發炎性皮膚疾病</h4>
+        <p>TNF-α是異位性皮膚炎、乾癬等慢性發炎性皮膚疾病的核心促發炎細胞激素，以TNF-α誘導HaCaT細胞發炎反應，可作為評估膠原蛋白胜肽是否具潛在抗發炎皮膚保健應用價值的細胞層次篩選模型。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>體外細胞實驗</td></tr>
+          <tr><td>細胞模型</td><td>HaCaT細胞（人類永生化表皮角質細胞株）</td></tr>
+          <tr><td>損傷誘導劑</td><td>CoCl₂（100-500 μM，模擬化學性缺氧）；TNF-α（20 ng/mL，模擬發炎）</td></tr>
+          <tr><td>介入方式</td><td>魚鱗膠原蛋白胜肽（FSCP）0.005-1 mg/mL，分子量範圍0.1-1.3 kDa（經TripleTOF質譜分析）</td></tr>
+          <tr><td>對照組</td><td>未處理對照組；NAC（N-乙醯半胱胺酸，抗氧化劑陽性對照）；SB203580（p38/MAPK抑制劑，路徑驗證對照）</td></tr>
+          <tr><td>追蹤時間</td><td>CoCl₂處理24小時；TNF-α處理12小時；FSCP預處理3、12或24小時</td></tr>
+          <tr><td>主要終點</td><td>細胞存活率、ROS生成量、促發炎細胞激素表現（TNF-α、IL-1β、IL-8、iNOS）、細胞凋亡相關蛋白（Bcl-2、Bax、caspase-3、cytochrome c）、MAPK磷酸化程度（p-p38、p-ERK、p-JNK）、NF-κB p65核轉位</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">魚鱗膠原蛋白胜肽（FSCP）於HaCaT角質細胞
+├─ 層次一 — 分子層次（處理後3-24小時）
+│   ├─ 抑制ROS（活性氧物種）生成：CoCl₂誘導ROS升高，FSCP（1 mg/mL）將其降至近對照組水準
+│   └─ 抑制MAPK路徑磷酸化：抑制p-p38、p-ERK（-72.5%）、p-JNK（-62.7%）
+├─ 層次二 — 訊號傳遞層次（處理後12-24小時）
+│   ├─ 阻止NF-κB p65核轉位：TNF-α使細胞質p65減少56.7%、核內p65增加430%；FSCP逆轉此趨勢（細胞質p65+250%、核內p65-60.4%）
+│   └─ 調控細胞凋亡蛋白平衡：CoCl₂使Bax增加332.6%，FSCP抑制92.4%；Bcl-2經CoCl₂降低44.5%後由FSCP恢復至對照組水準
+└─ 層次三 — 細胞功能層次（處理24小時後）
+    ├─ 抑制促發炎細胞激素表現：TNF-α誘導IL-8增加282.5%，FSCP（1 mg/mL,24h）降低96.3%；IL-1β增加142%，FSCP降低74.5%
+    └─ 提升細胞存活率：CoCl₂使存活率降低52.0%，FSCP預處理恢復72.5-80.1%</pre>
+
+      <div class="mech-detail">
+        <h4>雙重路徑交叉調控——ROS/MAPK/NF-κB形成完整發炎抑制軸線</h4>
+        <p>本研究的核心機轉發現是FSCP透過「抑制ROS生成 → 阻斷MAPK磷酸化（p38/ERK/JNK）→ 阻止NF-κB p65核轉位」這一上下游連貫的訊號路徑，同時降低多種促發炎細胞激素（TNF-α、IL-1β、IL-8、iNOS）表現。此三重路徑（ROS-MAPK-NF-κB）為皮膚發炎與氧化損傷的核心共同路徑，FSCP同時作用於此路徑的多個節點，顯示其具有較廣譜的細胞保護潛力，而非僅單一標靶的窄效應。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>與rsc_01真皮機轉的互補——表皮＋真皮雙層防護</h4>
+        <p>rsc_01顯示FSCP刺激真皮纖維母細胞增生與膠原蛋白合成（結構支撐機轉），本篇則顯示FSCP保護表皮角質細胞抵抗氧化與發炎損傷（屏障保護機轉），兩者合併構成「魚鱗膠原蛋白胜肽同時作用於皮膚兩大主要細胞層（表皮角質細胞＋真皮纖維母細胞）」的完整生物活性圖像。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">細胞存活率與ROS生成</p>
+      <table>
+        <thead><tr><th>指標</th><th>損傷組 vs 對照</th><th>FSCP處理後恢復</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>細胞存活率（CoCl₂ 500 μM）</td><td>下降52.0 ± 1.9%</td><td><strong>恢復72.5-80.1%</strong>（FSCP 0.5-1 mg/mL）</td><td>劑量依賴性</td></tr>
+          <tr><td>ROS生成（CoCl₂誘導）</td><td>顯著升高</td><td>FSCP（1 mg/mL）降至近對照組水準</td><td>—</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">促發炎細胞激素表現（RT-PCR）</p>
+      <table>
+        <thead><tr><th>細胞激素</th><th>誘導劑升高幅度</th><th>FSCP抑制幅度</th></tr></thead>
+        <tbody>
+          <tr><td>TNF-α（CoCl₂誘導）</td><td>+66.2%</td><td><strong>-49.3~57.6%</strong>（FSCP 0.2-1 mg/mL）</td></tr>
+          <tr><td>iNOS（CoCl₂誘導）</td><td>+57.1%</td><td><strong>-32.5~57.0%</strong></td></tr>
+          <tr><td>IL-1β（TNF-α誘導）</td><td>+142.0%</td><td><strong>-74.5%</strong>（FSCP 1 mg/mL, 24h）</td></tr>
+          <tr><td>IL-8（TNF-α誘導）</td><td>+282.5%</td><td><strong>-96.3%</strong>（FSCP 1 mg/mL, 24h）</td></tr>
+        </tbody>
+      </table>
+
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">凋亡相關蛋白與MAPK訊號路徑（Western Blot）</p>
+      <table>
+        <thead><tr><th>指標</th><th>CoCl₂/TNF-α誘導變化</th><th>FSCP逆轉幅度</th></tr></thead>
+        <tbody>
+          <tr><td>Bcl-2（抗凋亡）</td><td>降低44.5%</td><td>恢復至對照組水準</td></tr>
+          <tr><td>Bax（促凋亡）</td><td>增加332.6%</td><td>抑制92.4%</td></tr>
+          <tr><td>Cleaved caspase-3</td><td>增加157.0%</td><td>降低28.2%</td></tr>
+          <tr><td>Cytochrome c</td><td>增加328.6%</td><td>降低64.5%</td></tr>
+          <tr><td>p-ERK（TNF-α誘導）</td><td>增加75.7%</td><td>抑制72.5%（FSCP 24h）</td></tr>
+          <tr><td>p-JNK（TNF-α誘導）</td><td>增加170.5%</td><td>抑制62.7%</td></tr>
+        </tbody>
+      </table>
+      <p class="table-note">所有數字為體外細胞實驗測定值，不能直接轉換為人體皮膚功效百分比；統計顯著性原文以P&lt;0.05至P&lt;0.001分級標示。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>純體外細胞實驗，無動物或人體驗證</strong>：所有數據均來自單層細胞培養模型，細胞層次的保護效果無法直接外推至完整皮膚組織或人體臨床功效，須降級為「機轉／實驗室測定」等級措辭。</span></li>
+        <li><div class="limit-num">2</div><span><strong>期刊近年學術誠信爭議</strong>：Oxidative Medicine and Cellular Longevity 於2021-2023年間爆發大量論文工廠（paper mill）相關撤稿事件，雖本篇（2017年）發表時間早於爭議高峰期且未見被列入撤稿名單，但引用時仍建議一併說明此期刊背景，供業主自行評估風險。</span></li>
+        <li><div class="limit-num">3</div><span><strong>FSCP分子量與NIPPI產品不同</strong>：本研究使用之FSCP分子量為0.1-1.3 kDa，遠小於NIPPI供應商簡報所述平均分子量4000-5000 Da，兩者為不同分子量規格之魚鱗膠原蛋白胜肽，機轉可能相似但不可視為同一原料的直接驗證。</span></li>
+        <li><div class="limit-num">4</div><span><strong>高劑量測試偏離實際生理濃度</strong>：部分實驗使用之FSCP濃度（如1 mg/mL）是否能反映口服攝取後實際到達皮膚細胞的濃度，原文未提供藥物動力學數據佐證，濃度轉換的生理相關性存疑。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Chai et al. 2010，真皮纖維母細胞人體皮膚試驗）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接／互補</strong>：rsc_01證實魚鱗膠原蛋白胜肽對真皮層纖維母細胞之刺激增生與膠原合成作用（結構支撐機轉），本篇則證實其對表皮角質細胞之抗氧化、抗發炎、抗凋亡保護作用（屏障保護機轉）。兩篇合併形成魚鱗膠原蛋白胜肽對皮膚「表皮＋真皮」雙層防護的完整機轉論述，惟兩篇所用胜肽分子量規格不完全相同（rsc_01測試4500/3500/2000/1300 Da，本篇為0.1-1.3 kDa範圍），交叉引用時應註明此差異。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Koyama 2016 NIPPI綜述，UVB動物實驗與皮膚RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制支持</strong>：rsc_02引用之NIPPI自有UVB無毛小鼠動物實驗（保水度、膠原蛋白含量改善）與人體皮膚RCT（抑制UV誘發紅斑）皆屬「整體動物／人體層次」的現象觀察，本篇（rsc_04）則從「細胞分子層次」提供了「魚鱗膠原蛋白胜肽如何抵抗氧化壓力與UV相關發炎損傷」的具體訊號路徑證據（ROS-MAPK-NF-κB軸抑制），可作為rsc_02中「抗UV」宣稱的獨立機轉支持證據，惟rsc_04非NIPPI委託研究，不可直接視為NIPPI產品的專屬驗證。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（Lin et al. 2023，膝關節炎Meta分析）、rsc_05（Song et al. 2022，胸腺上皮細胞機轉）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>跨組織一致性主題</strong>：rsc_03（關節軟骨）、rsc_05（胸腺上皮細胞）與本篇（表皮角質細胞）皆顯示膠原蛋白胜肽對不同人體組織細胞具有細胞保護或功能促進之生物活性，尤其rsc_05與本篇同樣涉及MAPK訊號路徑之調控機轉（本篇為ROS-MAPK-NF-κB軸；rsc_05為MAPK/cisplatin誘導凋亡抑制），兩篇的機轉框架高度相似，顯示膠原蛋白胜肽對氧化壓力誘導之細胞損傷可能具有跨組織的共通保護機轉（抑制ROS生成→調控MAPK訊號→減少細胞凋亡）。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🖼️</span><h2>圖表資產</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; color:var(--gray-3)">本篇圖表因PMC全文之圖片伺服器需個別授權下載，本次整理未能取得可直接嵌入之圖檔，以下依原文Figure列表提供文字描述供查詢對照：</p>
+      <table>
+        <thead><tr><th>圖號</th><th>內容描述</th></tr></thead>
+        <tbody>
+          <tr><td>Figure 1</td><td>FSCP對HaCaT細胞增殖之刺激效果與CoCl₂誘導細胞毒性之緩解</td></tr>
+          <tr><td>Figure 2</td><td>FSCP對CoCl₂/TNF-α誘導ROS生成之抑制效果</td></tr>
+          <tr><td>Figure 3</td><td>FSCP對促發炎細胞激素表現（TNF-α、iNOS、IL-1β、IL-8）之抑制效果</td></tr>
+          <tr><td>Figure 4</td><td>FSCP對凋亡相關蛋白（Bcl-2、Bax、caspase-3、cytochrome c）之調控效果</td></tr>
+          <tr><td>Figure 5</td><td>FSCP對p38/MAPK路徑之抑制效果</td></tr>
+          <tr><td>Figure 6</td><td>FSCP對TNF-α誘導MAPK活化（ERK、JNK）之抑制效果</td></tr>
+          <tr><td>Figure 7</td><td>FSCP阻止NF-κB p65核轉位之效果</td></tr>
+          <tr><td>Figure 8</td><td>FSCP調控機轉之總結示意圖</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱（作為機轉背景，須標明為體外實驗）</h4>
+        <ul>
+          <li>「體外細胞實驗顯示，魚鱗來源膠原蛋白胜肽可抑制角質細胞氧化壓力（ROS生成）與促發炎細胞激素表現」——可作為抗氧化／舒緩機轉說明使用，須標明為實驗室細胞層次測定，非人體功效聲稱</li>
+          <li>可作為「魚鱗膠原蛋白胜肽具皮膚細胞保護潛力」之機轉背景文獻，與rsc_01合併使用強化皮膚領域機轉論述完整性</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>本研究之發表期刊近年有學術誠信爭議紀錄，若業主計劃在正式行銷素材中引用此文獻，建議同時準備替代或補充文獻，並於內部技術資料中註明此背景以供風險評估</li>
+          <li>「抗發炎」相關數字（如IL-8降低96.3%）僅為體外實驗結果，不可用於暗示「舒緩發炎性皮膚疾病」等醫療化宣稱</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可宣稱「治療皮膚發炎」或「改善異位性皮膚炎／乾癬」等疾病關聯字眼，此為醫療器材／藥品等級聲稱，保健食品不得使用</li>
+          <li>不可將體外實驗之細胞激素抑制百分比（如74.5%、96.3%）直接轉換為人體皮膚功效百分比對外宣傳，兩者不具可比性</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">弱聲稱（機轉說明，須標明體外實驗性質與期刊背景）：</p>
+      <div class="quote-block">
+        體外細胞實驗顯示，魚鱗來源膠原蛋白胜肽可透過抑制活性氧物種（ROS）生成、MAPK與NF-κB訊號路徑活化，保護人類表皮角質細胞抵抗缺氧與發炎誘導之損傷，並降低多種促發炎細胞激素（TNF-α、IL-1β、IL-8）表現（Subhan et al., Oxidative Medicine and Cellular Longevity, 2017；PMID 28717410）；惟此為體外細胞實驗結果，不能直接等同人體皮膚舒緩功效，且發表期刊近年有論文工廠相關學術誠信爭議紀錄，解讀與引用需謹慎，建議搭配獨立人體或動物研究交叉佐證。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>rsc_01（Chai et al., 2010）</td><td>提供真皮纖維母細胞層次與人體皮膚彈性改善之互補證據</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

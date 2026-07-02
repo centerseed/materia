@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>微脂體維生素C生物利用率：獨立範疇性文獻回顧（10篇 PK 研究彙整） — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .section-body p { margin-bottom: 10px; }
+  .section-body ul, .section-body ol { margin: 6px 0 12px 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  .img-gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+  .img-card { border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: #fff; }
+  .img-card img { width: 100%; display: block; aspect-ratio: 4/3; object-fit: contain; background: var(--gray-2); cursor: zoom-in; padding: 8px; }
+  .img-card-meta { padding: 8px 12px 4px; display: flex; align-items: center; gap: 8px; }
+  .img-card-num { background: var(--indigo); color: #fff; border-radius: 4px; padding: 1px 7px; font-size: 11px; font-weight: 700; }
+  .img-card-title { font-size: 13px; font-weight: 600; color: var(--indigo); }
+  .img-card-body { padding: 4px 12px 12px; font-size: 12.5px; color: var(--gray-3); }
+  #lightbox { display: none; position: fixed; inset: 0; z-index: 9999; background: rgba(0,0,0,0.9); align-items: center; justify-content: center; cursor: zoom-out; }
+  #lightbox.open { display: flex; }
+  #lightbox img { max-width: 92vw; max-height: 92vh; object-fit: contain; }
+  #lightbox-caption { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.85); font-size: 13px; background: rgba(0,0,0,0.5); padding: 6px 14px; border-radius: 20px; pointer-events: none; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row"><span class="hdr-tag type">範疇性回顧 · Scoping Review</span><span class="hdr-tag q1">Q2 · IF 2.7</span></div>
+    <h1>微脂體維生素C生物利用率：獨立範疇性文獻回顧（10篇 PK 研究彙整）</h1>
+    <p class="subtitle">Do Liposomal Vitamin C Formulations Have Improved Bioavailability? A Scoping Review Identifying Future Research Directions</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Anitra C. Carr</div>
+      <div class="meta-item"><strong>期刊</strong>Basic &amp; Clinical Pharmacology &amp; Toxicology</div>
+      <div class="meta-item"><strong>年份</strong>2025 · 137(1):e70067</div>
+      <div class="meta-item"><strong>PMID</strong>40506693</div>
+      <div class="meta-item"><strong>DOI</strong>10.1111/bcpt.70067</div>
+      <div class="meta-item"><strong>PMC</strong>PMC12163105</div>
+    </div>
+  </div>
+</header>
+<div class="layout">
+
+  <!-- 可信度評估 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">Basic &amp; Clinical Pharmacology &amp; Toxicology · Q2 · IF≈2.7</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★★</span><span class="star-empty"></span></div>
+          <div class="cred-sub">範疇性文獻回顧（Scoping Review）（10 篇原始研究彙整（自 321 篇初篩文獻中納入））</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★★</span><span class="star-empty"></span></div>
+          <div class="cred-sub">摘要/全文可取得程度</div>
+        </div>
+        <div class="cred-card" style="">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val">✅ 已聲明無利益衝突</div>
+          <div class="cred-sub">作者無廠商資助；但明確指出「所納入10篇研究全數具產業資助或作者任職於廠商」</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7"><strong>綜合評估：</strong>本研究屬bioavailability領域證據，範疇性文獻回顧（Scoping Review）（10 篇原始研究彙整（自 321 篇初篩文獻中納入）），發表於Basic &amp; Clinical Pharmacology &amp; Toxicology（Q2）。於本原料 liposomax-vitc 之整體證據體系中，屬於方法學最嚴謹、COI風險最低的獨立回顧型證據。</p>
+    </div>
+  </div>
+
+  <!-- 研究背景與目的 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:14px">微脂體（Liposomal）維生素C 產品近年在保健食品市場快速成長，行銷訴求多聚焦於「較高吸收率」「較高生物利用率」，但截至本文發表前，市面上缺乏一篇獨立、系統性彙整所有相關藥物動力學（PK）研究的文獻回顧，各廠商引用的個別研究之間劑量、方法學、族群差異極大，難以直接比較。</p><p style="margin-bottom:14px">作者 Anitra C. Carr（紐西蘭奧塔哥大學）為維生素C 藥物動力學領域的資深研究者，本文以「範疇性回顧」（scoping review，非窄義 meta-analysis）方式，系統性搜尋 2016-2024 年間所有比較微脂體與非微脂體維生素C 口服吸收率的人體研究，目的在於：(1) 彙整現有證據的一致性方向 (2) 指出方法學上的異質性來源 (3) 找出目前證據的缺口，作為未來研究設計的建議方向。</p><p style="margin-bottom:14px">本文對於保健食品產業與消費者的意義在於：它是目前唯一由非產業資助的獨立學者所做的跨研究彙整，可作為評估個別廠商研究（如原廠 PureWay-C 系列研究）可信度的「外部參照基準」。</p>
+    </div>
+  </div>
+
+  <!-- 研究設計 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table><thead><tr><th>項目</th><th>說明</th></tr></thead><tbody><tr><td>試驗類型</td><td>範疇性文獻回顧（非 meta-analysis，未做效果量統計合併）</td></tr><tr><td>納入研究</td><td>10 篇人體 PK 研究（2016–2024），其中 7 篇隨機交叉設計、1 篇平行分組、2 篇非隨機設計</td></tr><tr><td>介入方式</td><td>各研究劑量範圍 0.15–10 g 維生素C（微脂體 vs 非微脂體形式），採樣時間 4–24 小時不等</td></tr><tr><td>對照組</td><td>各研究以非微脂體維生素C（抗壞血酸、鈣抗壞血酸等）作為對照組</td></tr><tr><td>追蹤時間</td><td>依各研究而異，多數為單次劑量後 4–24 小時採血</td></tr><tr><td>主要終點</td><td>血漿 Cmax（尖峰濃度）與 AUC（曲線下面積）的微脂體 vs 非微脂體比值</td></tr></tbody></table>
+    </div>
+  </div>
+
+  <!-- 作用機制 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">維生素C 微脂體化 → 生物利用率變化（跨研究彙整觀點）
+├─ 層次一 — 腸道吸收層次（口服後 0-4 小時）
+│   ├─ 磷脂雙層包覆：理論上使部分維生素C 經由胞吞/膜融合路徑吸收，
+│   │   繞過飽和型主動運輸（SVCT1）的限制
+│   └─ 實測結果：9/10 研究顯示 Cmax 提升 1.2-5.4 倍，但跨研究差異極大
+├─ 層次二 — 血漿分佈層次（4-24 小時）
+│   ├─ AUC 提升 1.3-7.2 倍（跨研究變異同樣顯著）
+│   └─ 僅 2 篇研究進一步測量細胞內（白血球）攝取，證據極為有限
+└─ 層次三 — 功能性結果層次（目前證據最少）
+    ├─ 僅 2 篇研究評估生物效應（如抗氧化指標），且結果差異小
+    └─ 尿液排泄型態尚無研究，血漿比值是否等同尿液排泄比值仍未知</pre>
+      <div class="mech-detail"><h4>跨研究一致方向但幅度差異大</h4><p>9/10 研究方向一致支持「微脂體 Cmax/AUC 較高」，但 1.2-5.4 倍（Cmax）與 1.3-7.2 倍（AUC）的區間跨度極大，顯示「微脂體化」本身不是單一均質技術，不同廠商的磷脂比例、粒徑、製程差異會直接影響實測吸收率倍數。</p></div><div class="mech-detail"><h4>血漿吸收 ≠ 細胞攝取 ≠ 功能性效益</h4><p>作者特別強調現有證據鏈在「血漿濃度提升」之後幾乎斷裂——僅 2 篇研究測了細胞內濃度，僅 2 篇測了下游生物效應，因此「血漿 Cmax 提高」不能自動等同「細胞可用度提高」或「有臨床功能效益」，這是評估任何微脂體維生素C 產品行銷主張時最關鍵的證據缺口。</p></div>
+    </div>
+  </div>
+
+  <!-- 核心數據 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">10 篇納入研究的 Cmax / AUC 提升倍數彙整（N=10 篇研究，2016–2024）</p><table><thead><tr><th>終點指標</th><th>微脂體 vs 非微脂體</th><th>研究數</th><th>備注</th></tr></thead><tbody><tr><td>血漿 Cmax 倍數</td><td>1.2 – 5.4 倍</td><td>9/10 篇顯示提升</td><td>跨研究差異達 4.5 倍區間，與劑型/劑量高度相關</td></tr><tr><td>血漿 AUC 倍數</td><td>1.3 – 7.2 倍</td><td>9/10 篇顯示提升</td><td>同上，變異來源包含採樣時長不一（4-24小時）</td></tr><tr><td>無顯著差異</td><td>—</td><td>1/10 篇（Mikirova 2019）</td><td>唯一未觀察到明顯差異的研究</td></tr><tr><td>細胞內濃度評估</td><td>—</td><td>僅 2/10 篇</td><td>證據極稀少，無法下定論</td></tr><tr><td>功能性生物效應評估</td><td>—</td><td>僅 2/10 篇</td><td>結果差異小，證據極稀少</td></tr></tbody></table>
+      
+    </div>
+  </div>
+
+  <!-- 研究局限 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list"><li><div class="limit-num">1</div><span><strong>方法學異質性極高</strong>：各研究採用不同劑量（0.15-10g）、不同分析方法（HPLC vs 螢光/比色法）、不同採樣時長，使跨研究直接比較的效度受限</span></li><li><div class="limit-num">2</div><span><strong>基線維生素C 濃度處理不一</strong>：多數研究未報告受試者基線抗壞血酸濃度，或數值異常偏低（可能反映檢體處理/保存問題），影響結果解讀</span></li><li><div class="limit-num">3</div><span><strong>全數研究皆有產業關聯</strong>：作者明確指出「所納入10篇研究全數具產業資助或作者任職於廠商」，代表整個微脂體維生素C 的人體 PK 證據庫目前尚無一篇完全獨立資助的原始研究</span></li><li><div class="limit-num">4</div><span><strong>功能性/尿液排泄證據幾乎空白</strong>：血漿濃度提升的下游意義（細胞可用度、實際生理效益、尿液排泄）證據嚴重不足，無法確認「血漿吸收率較高」是否轉譯為「更好的健康效益」</span></li></ul>
+    </div>
+  </div>
+
+  <!-- 與其他論文的交叉評述 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Purpura 2024 血漿/白血球RCT）的關係</div>
+        <div class="cross-ref-body"><p>本篇範疇性回顧納入了 Purpura 2024 作為其中一篇分析對象，Purpura 的 Cmax+27%／AUC+21% 落在本回顧彙整區間（Cmax 1.2-5.4倍、AUC 1.3-7.2倍）的中低端，屬於方法學相對嚴謹（雙盲、有安慰劑組）但效應量保守的代表研究。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（Gopi 2021 交叉RCT）的關係</div>
+        <div class="cross-ref-body"><p>本篇回顧納入 Gopi 2021，並特別點名其作者具明確產業關聯；其1.77倍生物利用率落在回顧區間中段，是COI程度較高但數字未特別誇大的案例。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（Żmuda 2024 粉劑交叉RCT）的關係</div>
+        <div class="cross-ref-body"><p>本篇回顧納入 Żmuda 2024，其AUC+30%（約1.3倍）是回顧彙整區間中效應量最保守的研究之一，且是少數Cmax未達統計顯著的研究，是本回顧「跨研究效應量差異極大」論點的具體例證。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_05（Davis 2016 缺血再灌流保護試驗）的關係</div>
+        <div class="cross-ref-body"><p>本篇回顧納入 Davis 2016，並指出僅2篇研究測了生物效應終點，Davis 2016 即為其中之一——其「血漿濃度提升但功能保護效果未顯著優於一般口服」的發現，正是本回顧「血漿吸收提升不必然等同健康效益提升」論點的關鍵實證。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_06（Pancorbo 2008 PureWay-C CRP/OxLDL）的關係</div>
+        <div class="cross-ref-body"><p>本篇回顧之納入範圍為2016-2024年研究，未涵蓋2008年發表的Pancorbo研究；且Pancorbo測試的PureWay-C為脂質代謝物複合技術，與本回顧聚焦的磷脂雙層微脂體定義不完全相同，兩者屬不同技術世代/類別，不可直接合併解讀。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_07（Weeks 2007 細胞吸收/抗氧化研究）的關係</div>
+        <div class="cross-ref-body"><p>本篇回顧範圍不含體外細胞研究（僅納入人體PK研究），rsc_07 提供的是本回顧所缺乏的「細胞層次」證據補充，惟其COI程度（作者為原料發明人）較本回顧納入的多數研究更高。</p></div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_08（Weeks 2007 神經突生成/傷口癒合）的關係</div>
+        <div class="cross-ref-body"><p>同上，本篇回顧未涵蓋此類體外功能性研究，rsc_08 提供的神經/傷口癒合終點完全在本回顧的血漿PK範疇之外。</p></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 對產品開發的啟示 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok"><h4>✅ 可積極聲稱（有明確研究支持，惟措辭須符合證據型別）</h4><ul><li>可引用「多篇獨立設計的人體研究一致顯示，微脂體維生素C 口服後血漿濃度（Cmax、AUC）較非微脂體形式提升，惟提升幅度依產品配方不同而異（約1.2至7.2倍）」，並註明出處為 Carr 2025 範疇性回顧</li><li>可用於說明「微脂體技術對維生素C 吸收率的提升方向已獲多篇獨立研究支持」，作為技術可信度的外部佐證（非單一廠商研究）</li></ul></div>
+      <div class="impl-section impl-warn"><h4>⚠️ 需謹慎的聲稱（需附加條件或搭配獨立文獻）</h4><ul><li>不可將「血漿濃度提升 X 倍」直接等同「細胞吸收提升 X 倍」或「健康效益提升 X 倍」——本文明確指出這兩者證據鏈幾乎斷裂，措辭需寫「血漿濃度」而非籠統的「吸收率」或「效果」</li><li>若要引用「1.2-5.4倍」等具體倍數，必須註明這是跨10篇不同配方/劑量研究的區間範圍，而非本原廠產品的實測數字，避免消費者誤認為單一產品的固定倍數</li></ul></div>
+      <div class="impl-section impl-no"><h4>❌ 不建議的聲稱（法規禁止／證據不足／層級混淆）</h4><ul><li>不可宣稱微脂體維生素C「已證實提升細胞吸收」或「已證實提升健康效益/免疫力」——本文明確指出這兩類終點的研究數量僅 2 篇，證據嚴重不足以下定論</li><li>不可迴避「全數現有人體研究皆有產業資助」這項事實去強調「已有大量獨立研究證實」，此為不實陳述</li></ul></div>
+    </div>
+  </div>
+
+  <!-- 建議引用格式 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">強聲稱（完整數字＋研究限制註記）：</p>
+      <div class="quote-block">多篇獨立設計的隨機交叉試驗顯示，口服微脂體維生素C 之血漿 Cmax 較非微脂體形式提升 1.2–5.4 倍、AUC 提升 1.3–7.2 倍（Carr, Basic Clin Pharmacol Toxicol, 2025；彙整 10 篇 2016-2024 人體 PK 研究，惟原始研究均有產業資助背景，且細胞攝取與功能性效益之獨立證據仍有限）。</div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">弱聲稱（謹慎措辭）：</p>
+      <div class="quote-block">現有微脂體維生素C 人體吸收率研究多數方向一致，但因劑型、劑量、方法學差異極大，且缺乏獨立資助研究，實際效益仍待更嚴謹的獨立研究驗證（Carr, 2025）。</div>
+    </div>
+  </div>
+
+  <!-- 文件版本紀錄 -->
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table><thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead><tbody>
+        <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+
+</div>
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

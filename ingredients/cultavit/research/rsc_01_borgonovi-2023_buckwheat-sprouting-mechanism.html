@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>蕎麥發芽對生物分子與抗氧化特徵的影響 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre-wrap; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">實驗室分析 · Laboratory Study</span>
+      <span class="hdr-tag q1">Q1（Food Science & Technology）· IF 5.1</span>
+    </div>
+    <h1>蕎麥發芽對生物分子與抗氧化特徵的影響：Cultavit® 技術原理的獨立學術佐證</h1>
+    <p class="subtitle">Effect of Sprouting on Biomolecular and Antioxidant Features of Common Buckwheat (Fagopyrum esculentum)</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Borgonovi SM, Chiarello E, Pasini F, Picone G, Marzocchi S, Capozzi F, Bordoni A, Barbiroli A, Marti A, Iametti S, Di Nunzio M</div>
+      <div class="meta-item"><strong>期刊</strong>Foods（MDPI）</div>
+      <div class="meta-item"><strong>年份</strong>2023 · 12(10):2047</div>
+      <div class="meta-item"><strong>PMID</strong>37238865</div>
+      <div class="meta-item"><strong>DOI</strong>10.3390/foods12102047</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">Foods（MDPI）· Q1，Food Science & Technology 分類排名 42/181，IF=5.1</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">實驗室分析（未發芽 vs 發芽48小時 vs 發芽72小時，多重代謝體學與生化分析）</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">公開摘要完整，方法學（代謝體學、抗氧化力測定）描述明確</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val" style="color:var(--green)">✅ 無</div>
+          <div class="cred-sub">作者聲明無利益衝突；受 MIND FoodS HUB 計畫支持，非原料商資助</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本研究由義大利米蘭大學（DeFENS）與波隆那大學（DISTAL、CIRI）團隊執行，屬獨立學術機構研究，非供應商委託之行銷資料，可信度較高。研究並非直接針對「Cultavit®」品牌原料，而是針對「發芽蕎麥（sprouted buckwheat）」此一技術類別進行系統性生化分析，因此可作為 Cultavit® 供應商簡報中「發芽蕎麥富含高生物利用率維生素」核心技術原理的獨立第三方佐證，但不能直接等同於 Cultavit® 專屬產品的功效證據——兩者的原料處理條件（發芽時間、營養液配方、乾燥/研磨製程）未必完全相同。本研究屬於食品科學實驗室分析等級的證據，適合用於「機制說明」，不適合作為人體功效聲稱的直接依據。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">蕎麥（<em>Fagopyrum esculentum</em>）雖俗稱「蕎麥」，但在植物分類上屬於蓼科（Polygonaceae）而非禾本科穀物，因此天然不含麩質，長期被視為麩質不耐受族群的替代澱粉來源。近年來，「發芽（sprouting／germination）」作為一種傳統但被重新重視的食品加工技術，被認為是少數能在不添加任何化學物質的前提下，同時提升食物營養價值與生物利用率的加工方式——這也正是 Cultavit® 等發芽穀物原料商在行銷素材中反覆強調的技術賣點。</p>
+      <p style="margin-bottom:20px">然而，過去關於發芽對穀物營養成分影響的研究，多集中在單一指標（如總酚類含量或單一抗氧化測定方法），缺乏系統性、多層次（蛋白質分子層次＋代謝體層次＋抗氧化功能層次）的整合分析，且發芽時間對成分變化的「時間動態」（48小時 vs 72小時等不同發芽階段的差異）也少有文獻完整比較。本研究團隊因此設計了一項對照實驗，比較未發芽蕎麥、發芽48小時蕎麥、發芽72小時蕎麥三種樣本在生物分子組成（胜肽、游離酚類化合物）、抗營養因子含量、代謝體輪廓與抗氧化活性上的差異，目的是填補「發芽時間—營養轉化程度」這條劑量反應關係的知識缺口，並為發芽穀物作為機能性食品原料的工業應用（industrial applications）提供科學基礎。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">研究設計背景</p>
+      <div class="mech-detail">
+        <h4>三組對照設計 — 未發芽 vs 發芽48小時 vs 發芽72小時</h4>
+        <p>研究團隊選擇兩個發芽時間點（48小時、72小時）作為對照，用意在於捕捉發芽過程中營養轉化的「時間曲線」，而非僅比較「發芽 vs 未發芽」的單一終點。這個設計邏輯與 Cultavit® 供應商簡報中所述「配合精準控制的溫度與時間，在整株植物的能量黃金高峰期直接採收」的技術訴求高度吻合——即發芽並非時間越長越好，存在一個最適採收窗口。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>實驗室對照分析（非人體試驗），比較三組蕎麥樣本的生化與代謝體學特徵</td></tr>
+          <tr><td>樣本組別</td><td>(1) 未發芽普通蕎麥（對照組）；(2) 發芽48小時蕎麥；(3) 發芽72小時蕎麥</td></tr>
+          <tr><td>分析方法</td><td>代謝體學（metabolomics）分析、胜肽與游離酚類化合物定量、抗氧化活性測定、抗營養因子（anti-nutritional components）含量測定</td></tr>
+          <tr><td>對照設計</td><td>以同批次未發芽蕎麥種子作為基準，控制品種、產地、初始種子批次一致性</td></tr>
+          <tr><td>追蹤時間</td><td>發芽過程 0–72 小時</td></tr>
+          <tr><td>主要終點</td><td>胜肽含量、游離酚類化合物含量、抗氧化活性、抗營養因子濃度、整體代謝體輪廓變化</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">蕎麥種子發芽（Germination）
+├─ 層次一 — 分子層次（發芽 0-24 小時）
+│   ├─ 儲存蛋白分解：種子內儲存蛋白質被內生蛋白酶分解為游離胺基酸與小分子胜肽，
+│   │   提升蛋白質的可消化性與生物利用度
+│   └─ 抗營養因子降解：植酸（phytic acid）等會螯合礦物質、降低吸收率的抗營養
+│       物質濃度隨發芽開始明顯下降
+├─ 層次二 — 代謝活化層次（發芽 24-48 小時）
+│   ├─ 酚類化合物釋放：結合態酚類化合物因細胞壁水解酶活化而釋放為游離酚類，
+│   │   抗氧化活性隨之提升
+│   └─ 維生素合成啟動：胚芽中的維生素B群合成路徑（硫胺素、核黃素、吡哆醇等）
+│       隨發芽代謝活動增強而被誘導表現
+└─ 層次三 — 系統性營養轉化層次（發芽 48-72 小時）
+    ├─ 整體代謝體輪廓改變：氨基酸組成趨於均衡，游離胜肽與酚類化合物持續累積
+    └─ 營養黃金窗口：發芽時間過長可能導致部分營養成分因種子自身消耗（供應
+        後續生長所需）而反向下降，故存在一個最適採收時間點</pre>
+      <div class="mech-detail">
+        <h4>抗營養因子降解 → 礦物質與微量元素吸收率提升</h4>
+        <p>發芽過程中植酸等抗營養物質濃度下降，是穀物／種子類食材普遍存在的機制，其意義在於：即使原料本身礦物質總含量不變，發芽後人體實際可吸收利用的比例仍可能提高。這與 Cultavit® 簡報中「礦物質可緩慢釋放、生物利用率高」的訴求方向一致，但本研究並未直接測量人體吸收率（僅為體外生化指標），不能將「抗營養因子下降」直接等同於「人體吸收率提升 X%」的具體數字聲稱。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>維生素合成啟動的時間動態</h4>
+        <p>發芽是植物種子從「休眠儲存態」轉為「代謝活躍態」的過程，此過程中種子會啟動包括B群維生素在內的多條生合成路徑，以支持後續幼苗生長所需的能量代謝。這正是 Cultavit® 簡報第5-6頁所述「蕎麥發芽會釋放所有能量，並將營養素轉化為生物體可利用的輔酶形式」之技術原理的獨立學術基礎；惟本研究聚焦於胜肽、酚類與抗氧化力，並未針對B群維生素個別定量測定，故不可直接引用本篇之數字作為B群含量或B群生物利用率的證據來源。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">發芽前後生化指標變化（未發芽 vs 發芽48小時 vs 發芽72小時）</p>
+      <table>
+        <thead><tr><th>指標</th><th>未發芽（對照）</th><th>發芽後變化方向</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>游離胜肽含量</td><td>基準值</td><td><strong>顯著上升</strong>（隨發芽時間增加）</td><td>公開摘要未提供具體數值，僅摘要層級的方向性描述</td></tr>
+          <tr><td>游離酚類化合物含量</td><td>基準值</td><td><strong>顯著上升</strong></td><td>與抗氧化活性上升呈正相關</td></tr>
+          <tr><td>抗氧化活性</td><td>基準值</td><td><strong>顯著上升</strong></td><td>體外測定（非人體血中抗氧化指標）</td></tr>
+          <tr><td>抗營養因子濃度</td><td>基準值</td><td><strong>明顯下降</strong>（部分成分近乎消失）</td><td>有利於礦物質等微量營養素的相對可利用性</td></tr>
+          <tr><td>代謝體整體輪廓</td><td>基準值</td><td>明顯改變，整體朝營養價值提升方向轉變</td><td>代謝體學為多變量分析，本文摘要未附具體 P 值或效果量</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 本研究可公開取得之摘要層級資訊未附具體統計數字（如平均值、標準差、P值），完整定量數據需查閱期刊全文（Foods 12(10):2047，開放取用期刊，可透過 DOI 10.3390/foods12102047 取得完整 PDF 全文與圖表）。本頁摘要為方向性描述，不建議在終端行銷文案中引用具體百分比，除非取得全文核實原始數字。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>非人體研究</strong>：本研究為體外實驗室生化與代謝體學分析，未涉及人體攝取後的實際吸收率、血中濃度或生理反應測定，不能作為「人體生物利用率提升 X%」的直接證據。</span></li>
+        <li><div class="limit-num">2</div><span><strong>非 Cultavit® 專屬原料</strong>：研究樣本為研究團隊自行培育之發芽蕎麥，其發芽條件（營養液配方、溫度、時間、品種）未必與 KeimKraft GmbH 之 Cultavit® 專利製程完全相同，數字不可直接套用於 Cultavit® 產品本身。</span></li>
+        <li><div class="limit-num">3</div><span><strong>未針對B群維生素個別定量</strong>：本研究聚焦於胜肽、酚類化合物與整體抗氧化力，並未針對硫胺素、核黃素、葉酸等個別B群維生素進行定量分析，無法直接佐證 Cultavit® 簡報中各項B群的具體毫克數。</span></li>
+        <li><div class="limit-num">4</div><span><strong>樣本量與重複次數未於摘要說明</strong>：公開摘要未提供實驗重複次數（technical/biological replicates）與統計檢定方法細節，完整方法學品質需查閱全文評估。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（食物型葉酸生物利用率為合成葉酸之80%）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接、部分矛盾張力</strong>：rsc_01 從機制面支持「發芽可提升穀物營養素之生物可利用性」的技術原理；但 rsc_02 的人體對照試驗顯示，天然食物來源葉酸的生物利用率（約80%）實際上「低於」化學合成葉酸，而非更高。兩篇文獻合在一起看，說明「發芽提升生物利用率」的機制雖成立，但不代表「天然來源的每一種維生素在任何條件下都優於合成型態」——Cultavit® 簡報中引用的「Cultavit®-Folate AUC 138% 高於 Pure Folate 100%」數字，與 rsc_02 的一般食物葉酸文獻結論方向相反，凸顯 Cultavit® 該項生物利用率數據更需要以其專屬人體 PK 試驗原始文獻交叉核實，不宜僅以「天然優於合成」的一般性原理直接類推。</p>
+          <p class="caveat">⚠️ 此為本專案研究彙整過程中發現的重要交叉張力，建議在對外文案中避免簡化為「天然B群吸收一定比合成好」的絕對性語句。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_03（葉酸補充預防神經管缺陷復發）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>無直接關聯，屬不同證據層次</strong>：rsc_03 聚焦於葉酸（合成型）在高劑量（4mg/day）下對神經管缺陷復發的臨床預防效果，屬於人體疾病終點證據；rsc_01 則是發芽蕎麥的體外生化機制研究。兩者分屬「原料技術機制」與「特定維生素臨床功效」兩個不同層次，不可互相引用支持對方的結論。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（B群補充改善運動疲勞表現RCT）及 rsc_05（B群補充與心血管同半胱胺酸meta分析）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>互補、非直接關聯</strong>：rsc_04、rsc_05 皆為「B群維生素」（不限來源型態）的人體功效證據，可用以支持「B群本身具備能量代謝、降同半胱胺酸的生理功能」，但無法區分「天然發芽來源」與「一般合成來源」的B群何者效果更佳。rsc_01 僅能佐證「Cultavit®採用的發芽技術原理有其學術基礎」，本身不提供B群功效的人體證據；此功效證據需由 rsc_04、rsc_05 等一般性B群人體研究補強。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>「蕎麥發芽過程可提升胜肽、游離酚類化合物含量並增強體外抗氧化活性，此為獨立學術研究（Foods期刊，2023）之發現」——可作為原料技術背景說明，需標明「體外／實驗室測定」。</li>
+          <li>「發芽過程可降低抗營養因子（如植酸）濃度，理論上有助於礦物質等微量營養素的相對可利用性」——需標明為機制性推論，非直接人體吸收率數字。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>不可將本研究的胜肽／酚類上升數字直接轉譯為「B群維生素含量提升 X%」，本研究未對B群個別定量。</li>
+          <li>「發芽蕎麥」一般性研究成果，不等同「Cultavit®」專屬產品實測數據，對外文宣若引用本篇需明確區分「行業技術原理佐證」與「Cultavit®自有數據」兩者來源。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可宣稱本研究證實「發芽蕎麥維生素B群生物利用率一定優於合成維生素」——本研究未測量維生素生物利用率，且此類比較需視個別維生素與型態而定（見 rsc_02 之反例）。</li>
+          <li>不可宣稱本研究為「Cultavit®臨床試驗」或「人體功效證實」，本研究純屬體外生化分析，無人體受試者。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為原料技術原理背景說明引用：</p>
+      <div class="quote-block">
+        獨立學術研究顯示，蕎麥經發芽處理後，其游離胜肽、游離酚類化合物含量與體外抗氧化活性均顯著提升，同時抗營養因子（如植酸）濃度下降，整體代謝體輪廓朝營養價值提升方向轉變（Borgonovi et al., Foods, 2023；體外／實驗室測定，非人體吸收率數據）。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Wijngaard & Arendt, "Buckwheat", Cereal Chemistry, 2006（供應商簡報未引用，建議業主自行查證作為補強）</td><td>蕎麥整體營養學綜述，可作為背景補充</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

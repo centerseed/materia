@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Omega-3 脂肪酸與高齡失智患者憂鬱症狀：系統性回顧與統合分析 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; } .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); } .impl-warn h4 { color: var(--amber); } .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; } .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">系統性回顧 · Meta-analysis</span>
+      <span class="hdr-tag q2">Q2 · IF 2.7</span>
+    </div>
+    <h1>Omega-3 脂肪酸與高齡失智／輕度認知障礙患者憂鬱症狀：系統性回顧與統合分析</h1>
+    <p class="subtitle">Omega-3 Fatty Acids for Depression in the Elderly and Patients with Dementia: A Systematic Review and Meta-Analysis</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Chang YY, Ting B, Chen DTL, Hsu WT, Lin SC, Kuo CY, Wang MF（Providence University／China Medical University／Taipei Medical University，台灣）</div>
+      <div class="meta-item"><strong>期刊</strong>Healthcare（Basel）</div>
+      <div class="meta-item"><strong>年份</strong>2024 · 12(5):536</div>
+      <div class="meta-item"><strong>PMID</strong>38470647</div>
+      <div class="meta-item"><strong>DOI</strong>10.3390/healthcare12050536</div>
+      <div class="meta-item"><strong>PMC</strong>PMC10931076</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★☆☆</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">Healthcare（MDPI）· Q2 · IF 2.7</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★☆</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">5 項 RCT 統合分析（N=517），另質性回顧 9 篇系統性回顧</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★★</span><span class="star-empty"></span></div>
+          <div class="cred-sub">開放全文（PMC），含完整亞組分析數據</div>
+        </div>
+        <div class="cred-card" style="background: var(--green-light); border-color:var(--green)">
+          <div class="cred-label" style="color:var(--green)">利益衝突</div>
+          <div class="cred-val" style="color:var(--green)">✅ 無</div>
+          <div class="cred-sub">作者聲明無利益衝突，無廠商資助</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本篇為 2024 年最新發表之系統性回顧與統合分析，作者群來自台灣多所大學（靜宜大學、中國醫藥大學、臺北醫學大學），期刊為 MDPI 旗下 Healthcare（Q2，IF 2.7），屬中等偏上等級之同儕審查期刊，非頂尖期刊但方法學嚴謹（含完整亞組分析、GRADE 風格證據呈現）。研究無廠商資助或利益衝突。核心發現屬「整體效果不顯著、但特定亞組（DHA 單方、低劑量 EPA、輕度認知障礙族群）顯著」之精細分層結果，對外引用時須完整呈現整體與亞組的落差，不可選擇性引用顯著亞組而忽略整體不顯著之事實。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">憂鬱症狀在高齡失智症與輕度認知障礙（Mild Cognitive Impairment, MCI）患者中盛行率極高，據流行病學估計，失智症患者中憂鬱症狀共病盛行率可達 20–40%，且憂鬱症狀不僅影響患者生活品質，亦與認知功能加速惡化、照顧者負擔加重相關。傳統抗憂鬱藥物（如 SSRIs）於失智族群之療效證據並不一致，部分大型試驗（如 HTA-SADD 研究）顯示傳統抗憂鬱藥於失智相關憂鬱症狀之效果並不優於安慰劑，且高齡患者常合併多重用藥，藥物交互作用與副作用風險較高，因此尋找耐受性較佳之非藥物介入策略（包括營養介入）成為此領域重要研究方向。</p>
+      <p style="margin-bottom:20px">Omega-3 脂肪酸因其神經保護與抗發炎特性，長期被視為高齡認知/情緒健康之候選介入措施，但過去個別 RCT 結果高度不一致——部分試驗顯示 DHA 或低劑量 EPA 有顯著效果，另一些試驗（尤其使用高劑量 EPA 或混合失智嚴重度族群者）未觀察到顯著效果。過去統合分析多未依「DHA vs EPA」「劑量高低」「認知損傷嚴重度（MCI vs 輕度失智 vs 中重度失智）」進行精細亞組分層，導致「omega-3 是否對失智相關憂鬱有效」的結論在文獻間反覆搖擺。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">研究填補的知識缺口</p>
+      <div class="mech-detail">
+        <h4>為何需要精細亞組分層分析</h4>
+        <p>本研究作者假設，omega-3 對憂鬱症狀之效果可能因「成分組成（DHA vs EPA）」「劑量高低」與「患者認知損傷嚴重度」而有顯著差異，過去統合分析將所有異質性試驗混為單一整體效果量估計，可能因效果方向相互抵銷而低估特定亞組之真實效益。本研究系統性檢索 9 篇系統性回顧、纳入其中 5 項具完整數據之 RCT（N=517）進行量化統合分析，並依上述變項進行亞組分析，試圖釐清「哪些特定介入型態對哪些特定族群可能有效」，以提供更具臨床操作性的建議。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>系統性回顧與統合分析</td></tr>
+          <tr><td>系統性回顧範圍</td><td>9 篇既有系統性回顧經質性檢視</td></tr>
+          <tr><td>量化統合分析納入</td><td>5 項 RCT（具完整可萃取數據者）</td></tr>
+          <tr><td>受試者</td><td>共 517 名高齡失智症或輕度認知障礙（MCI）患者</td></tr>
+          <tr><td>介入方式</td><td>Omega-3 脂肪酸補充，依成分分為 EPA 單方、DHA 單方、EPA+DHA 複方；依劑量分為高／中／低劑量</td></tr>
+          <tr><td>對照組</td><td>安慰劑</td></tr>
+          <tr><td>主要終點</td><td>標準化憂鬱量表評分變化（標準化平均差 SMD）</td></tr>
+          <tr><td>亞組分析變項</td><td>成分組成（EPA/DHA/複方）、EPA 劑量高低、認知損傷嚴重度（MCI／中度失智／重度失智）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">Omega-3 脂肪酸與高齡憂鬱／認知症狀之神經精神機轉
+├─ 層次一 — 分子／膜磷脂層次（持續補充後數週內開始置換）
+│   ├─ DHA 為神經元細胞膜磷脂主要結構成分，維持膜流動性與
+│   │   神經傳導物質受體（如血清素受體）之正常構型與功能
+│   └─ EPA 透過競爭抑制 AA 代謝路徑，減少促發炎類花生酸生成
+├─ 層次二 — 神經傳導與神經發炎層次（數週～數月）
+│   ├─ 血清素（serotonin）傳導優化：EPA/DHA 影響突觸前後膜
+│   │   流動性，可能改善血清素受體訊息傳導效率，此與部分
+│   │   抗憂鬱路徑機轉重疊
+│   └─ 神經發炎抑制：高齡失智患者常伴隨慢性低度神經發炎
+│       （neuroinflammation），omega-3 之抗發炎特性可能透過
+│       降低促發炎細胞激素間接改善憂鬱相關症狀
+└─ 層次三 — 行為／情緒症狀層次（需數月方顯現，且效果因
+    患者亞群而異）
+    ├─ MCI 患者：神經可塑性與代償能力相對完整，可能對介入
+    │   反應較佳（本研究 MCI 亞組 SMD 達顯著）
+    └─ 中重度失智患者：神經退化程度較深、代償能力有限，
+        對相同介入之反應可能較弱（本研究此亞組未達顯著）</pre>
+      <div class="mech-detail">
+        <h4>DHA 單方與低劑量 EPA 效果較佳的可能機轉</h4>
+        <p>本研究觀察到 DHA 單方（SMD -0.247，P=0.039）與低劑量 EPA（SMD -0.953，P=0.001）顯著，而高／中劑量 EPA 與 EPA+DHA 複方則未達顯著，此一「劑量非線性反應」現象在神經精神領域研究中並非罕見，作者推測可能與「U 型劑量反應曲線」（過高劑量可能因改變膜脂質比例過度或產生促氧化效應而抵銷效益）或原始納入試驗之樣本異質性有關，惟確切機轉仍待進一步基礎與臨床研究釐清，不宜過度解讀為「劑量越低越好」的通則。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">整體效果（5 RCT，N=517）</p>
+      <table>
+        <thead><tr><th>終點</th><th>SMD</th><th>95% CI</th><th>P 值</th></tr></thead>
+        <tbody>
+          <tr><td>憂鬱症狀（整體）</td><td>0.147</td><td>-0.324 至 0.049</td><td>0.141（⚠️ 未達顯著）</td></tr>
+        </tbody>
+      </table>
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">亞組分析：依成分組成</p>
+      <table>
+        <thead><tr><th>介入型態</th><th>SMD</th><th>P 值</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>EPA 單方</td><td>-0.169</td><td>0.246</td><td>未達顯著</td></tr>
+          <tr><td>DHA 單方</td><td><strong>-0.247</strong></td><td><strong>0.039</strong></td><td>✅ 顯著</td></tr>
+          <tr><td>EPA+DHA 複方</td><td>-0.061</td><td>0.470</td><td>未達顯著</td></tr>
+        </tbody>
+      </table>
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">亞組分析：依 EPA 劑量高低</p>
+      <table>
+        <thead><tr><th>劑量分層</th><th>SMD</th><th>P 值</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>高劑量 EPA</td><td>-0.169</td><td>0.246</td><td>未達顯著</td></tr>
+          <tr><td>中劑量 EPA</td><td>-0.061</td><td>0.470</td><td>未達顯著</td></tr>
+          <tr><td>低劑量 EPA</td><td><strong>-0.953</strong></td><td><strong>0.001</strong></td><td>✅ 顯著（效果量大）</td></tr>
+        </tbody>
+      </table>
+      <p style="font-weight:700; color:var(--indigo); margin:16px 0 10px; font-size:13.5px">亞組分析：依認知損傷嚴重度</p>
+      <table>
+        <thead><tr><th>族群</th><th>SMD</th><th>P 值</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>輕度認知障礙（MCI）</td><td><strong>-0.934</strong></td><td><strong>&lt;0.001</strong></td><td>✅ 顯著（效果量大）</td></tr>
+          <tr><td>中度失智</td><td>-0.073</td><td>0.265</td><td>未達顯著</td></tr>
+          <tr><td>重度失智</td><td>-0.295</td><td>0.076</td><td>未達顯著（臨界）</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 整體效果（5 RCT 彙總）未達統計顯著（P=0.141），僅在特定亞組（DHA 單方、低劑量 EPA、MCI 族群）觀察到顯著效果。對外聲稱時絕對不可省略「整體效果不顯著」此一關鍵事實，僅可於明確標示亞組條件（如「輕度認知障礙族群」）之前提下引用顯著亞組數字。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>量化統合樣本量有限</strong>：僅 5 項 RCT、517 人納入統合分析，亞組分析後每組樣本更小，效果量估計之信賴區間寬，統計檢定力有限。</span></li>
+        <li><div class="limit-num">2</div><span><strong>整體效果不顯著</strong>：核心限制是主要終點（整體憂鬱症狀改善）未達統計顯著，顯著結果僅來自事後（post-hoc 性質的）亞組分析，此類分析易有第一型錯誤（偽陽性）風險，結論需以「探索性發現」而非「確定性結論」看待。</span></li>
+        <li><div class="limit-num">3</div><span><strong>異質性來源複雜</strong>：納入試驗之憂鬱量表工具、失智診斷標準、追蹤時間可能不一致，增加解讀複雜度。</span></li>
+        <li><div class="limit-num">4</div><span><strong>族群侷限於失智／MCI 患者</strong>：結論不可直接外推至一般健康高齡族群或非失智相關之憂鬱症患者。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（Mulder et al. 2014，孕期 DHA）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>時序關聯・DHA 神經角色的生命全期呼應</strong>：本篇於高齡族群觀察到「DHA 單方」顯著改善憂鬱症狀，rsc_04 於胎兒期觀察到 DHA 對神經（語言）發展之顯著角色，兩篇雖分屬生命兩端（胎兒 vs 高齡）且終點不同（語言發展 vs 憂鬱症狀），但共同支持「DHA 作為神經系統結構性營養素，於生命全期皆具潛在功能角色」之整體論述框架，可合併作為 DHA 神經保護機轉之佐證，但不可互相替代作為特定聲稱之直接證據。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Khan et al. 2021，心血管統合分析）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制共通</strong>：兩篇皆涉及 omega-3 之抗發炎機轉（rsc_01 之血管發炎路徑、本篇之神經發炎路徑），可互相佐證 omega-3 抗發炎作用之跨系統一致性，惟本篇整體效果未達顯著，證據強度明顯弱於 rsc_01 之心血管硬終點顯著結果，交叉引用時應清楚標示證據強度落差。</p>
+          <p class="caveat">⚠️ 不可將 rsc_01 之高證據強度「借用」來暗示本篇（憂鬱症狀，整體未顯著）之結論同樣可信，兩者證據等級不同，須分開陳述。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02、rsc_03 的關係</div>
+        <div class="cross-ref-body">
+          <p>本篇「低劑量 EPA 反而效果較佳、高劑量無效」之劑量非線性現象，與 rsc_03（要求 ≥2.7 g/day 高劑量方顯著）之劑量反應模式恰成對比，提示 omega-3 之劑量反應曲線可能因適應症（神經精神 vs 關節發炎）不同而異，此為值得注意之交叉觀察，惟不構成直接矛盾（不同疾病機轉，劑量閾值本可不同）。與 rsc_02（生體可用率研究）無直接數據交集，僅共享「omega-3 需達足夠組織濃度方能顯效」之基礎邏輯。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>可陳述「Omega-3 DHA 於統合分析中與輕度認知障礙（MCI）族群之憂鬱症狀改善顯著相關（SMD -0.934，P<0.001）」，但須明確標示「限定於 MCI 族群」之研究條件。</li>
+          <li>可作為「omega-3 具神經精神健康相關研究方向」之教育性內容依據，搭配機制說明（神經細胞膜結構、抗神經發炎）。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>本研究整體效果（彙總 5 RCT）未達統計顯著，若對外引用顯著亞組數字，**必須**同時清楚標示「整體效果未達顯著，此為特定亞組（如 MCI 族群、DHA 單方、低劑量 EPA）之探索性發現」，不可省略此限定條件，避免誤導消費者。</li>
+          <li>「低劑量 EPA 效果較佳」屬非線性劑量反應之初步觀察，不可據此宣稱「劑量越低越好」，此非本研究之結論方向，亦非確立之機轉共識。</li>
+          <li>本研究對象為失智症／MCI 患者（已有認知功能損傷之高齡族群），不可將結論延伸至一般健康成人之「情緒改善」或「抗憂鬱」聲稱。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可聲稱「治療」憂鬱症或失智症，此屬醫療效能聲稱，且憂鬱症與失智症之診斷與治療應由專業醫療人員負責，保健食品不可暗示替代性治療效果。</li>
+          <li>不可僅擷取「MCI 族群 SMD -0.934」等顯著亞組數字，卻隱藏「整體效果 P=0.141 未顯著」之事實，此為選擇性引用，構成誤導性行銷。</li>
+        </ul>
+      </div>
+      <p style="font-size:13px; color:var(--gray-3); margin-top:8px">台灣衛福部規範：憂鬱症、失智症皆屬醫療診斷疾病範疇，保健食品依《食品安全衛生管理法》不得為醫療效能之標示或宣傳；涉及高齡認知/情緒相關產品行銷時，建議同時提醒消費者「憂鬱或認知功能異常請諮詢專業醫療人員評估」。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為亞組研究佐證引用（弱聲稱，需完整標示限定條件）：</p>
+      <div class="quote-block">
+        一項 2024 年發表於 Healthcare 期刊之系統性回顧與統合分析（5 RCT，N=517）顯示，Omega-3 脂肪酸整體對高齡失智／輕度認知障礙患者之憂鬱症狀改善「未達統計顯著」（SMD 0.147，P=0.141）；惟於亞組分析中，DHA 單方（SMD -0.247，P=0.039）及輕度認知障礙（MCI）族群（SMD -0.934，P&lt;0.001）觀察到顯著效果，屬探索性發現，仍待更大型 RCT 驗證（Chang et al., Healthcare, 2024）。
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>rsc_04（Mulder et al., PLOS One, 2014）</td><td>提供 DHA 於生命早期神經發育角色之獨立佐證，補強 DHA 神經系統結構性角色之機轉一致性論述</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+<div id="lightbox" onclick="closeLightbox()">
+  <img id="lightbox-img" src="" alt="">
+  <div id="lightbox-caption"></div>
+</div>
+<script>
+  function openLightbox(img) {
+    document.getElementById('lightbox-img').src = img.src;
+    document.getElementById('lightbox-caption').textContent = img.alt;
+    document.getElementById('lightbox').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeLightbox() {
+    document.getElementById('lightbox').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLightbox(); });
+</script>
+</body>
+</html>

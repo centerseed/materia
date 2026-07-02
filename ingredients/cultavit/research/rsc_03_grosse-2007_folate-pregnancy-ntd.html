@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>葉酸補充與神經管缺陷復發預防 — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.q2 { background: #78909c; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; }
+  .star-empty { color: #ccc; }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  table p.table-note { font-size: 12px; color: var(--gray-3); margin-top: 6px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre-wrap; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; counter-reset: limits; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; counter-increment: limits; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); }
+  .impl-warn h4 { color: var(--amber); }
+  .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag type">Meta-analysis · 系統性文獻回顧</span>
+      <span class="hdr-tag q2">Q2（Developmental Biology）· IF 1.6</span>
+    </div>
+    <h1>葉酸補充預防神經管缺陷復發：孕期葉酸營養的高強度臨床證據</h1>
+    <p class="subtitle">Folic Acid Supplementation and Neural Tube Defect Recurrence Prevention</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Scott D. Grosse, Julianne S. Collins</div>
+      <div class="meta-item"><strong>期刊</strong>Birth Defects Research Part A: Clinical and Molecular Teratology</div>
+      <div class="meta-item"><strong>年份</strong>2007 · 79(11):737-742</div>
+      <div class="meta-item"><strong>PMID</strong>17990333</div>
+      <div class="meta-item"><strong>DOI</strong>10.1002/bdra.20394</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">Birth Defects Research，Q2，Developmental Biology 專科期刊，IF≈1.6</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">Meta-analysis 彙整多篇隨機對照試驗與觀察性研究之復發預防數據</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">具體百分比、信賴區間層次分明</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">利益衝突</div>
+          <div class="cred-val" style="color:var(--green)">✅ 無</div>
+          <div class="cred-sub">作者任職美國疾病管制與預防中心（CDC）出生缺陷部門，屬公衛機構獨立研究，非原料商資助</div>
+        </div>
+      </div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本文為美國 CDC 出生缺陷部門研究者所撰寫之 meta-analysis，彙整既有隨機對照試驗與觀察性研究，屬葉酸與神經管缺陷（NTD）預防領域被廣泛引用的權威文獻之一。此篇研究針對「合成葉酸」（folic acid，而非發芽穀物來源之天然葉酸）在高劑量（4mg/day）下的復發預防效果，證據等級高（meta-analysis of RCTs），可作為說明「葉酸」此一B群成分本身具備強實證健康價值的支持文獻，但不可直接作為 Cultavit® 天然葉酸來源產品之孕期功效證據，因劑量、型態均與本研究不同。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">神經管缺陷（Neural Tube Defects, NTD）是懷孕早期（受孕後約21-28天，神經管閉合期）最常見的嚴重先天性畸形之一，包含脊柱裂（spina bifida）與無腦畸形（anencephaly），全球盛行率因地區與族群飲食型態不同而有明顯差異。已知曾生育過NTD患兒的婦女，其後續懷孕再次發生NTD的風險（復發風險）明顯高於一般族群，過去研究已確立「懷孕前後高劑量（4mg/day）補充葉酸」可有效降低此復發風險，但關於「降低幅度的精確估計」以及「不同分析方式（意向治療分析 intention-to-treat vs 依從性分析）下數字差異」，此前文獻尚未有系統性彙整。</p>
+      <p style="margin-bottom:20px">此外，即使臨床證據明確，實務上仍存在「有NTD病史婦女是否確實在下次懷孕前規律服用葉酸」的落差問題——葉酸諮詢介入計畫的實際覆蓋率因族群背景與衛教強度差異，從33%到85%不等。本研究因此除了彙整復發風險降低的量化證據外，也一併檢視公共衛生介入（衛教與諮詢）對提升葉酸服用依從性的效果，目的是為出生缺陷預防公共衛生政策提供實證基礎。</p>
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:12px; font-size:14px">研究設計背景</p>
+      <div class="mech-detail">
+        <h4>意向治療分析（ITT） vs 依從性分析（Per-protocol）的差異</h4>
+        <p>本研究刻意同時呈現「意向治療分析」（納入所有隨機分派受試者，不論實際是否依從服藥）與「僅計算確實在懷孕前開始服用葉酸者」兩種分析角度的復發風險降低幅度，這是評估葉酸介入效果時的重要方法學區分——後者代表「理想依從情境下」的最大效果，前者則較接近實務上的平均效果。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>Meta-analysis（彙整既有隨機對照試驗）+ 觀察性研究之文獻回顧</td></tr>
+          <tr><td>受試者族群</td><td>曾生育過神經管缺陷患兒、計畫再次懷孕之婦女</td></tr>
+          <tr><td>介入方式</td><td>高劑量葉酸補充：4 mg/day，於懷孕前及懷孕早期（神經管閉合期前）服用</td></tr>
+          <tr><td>對照組</td><td>未規律服用葉酸補充之同族群婦女（歷史對照或未介入組）</td></tr>
+          <tr><td>分析角度</td><td>意向治療分析（ITT）vs 僅計算懷孕前即開始服用者（per-protocol）；隨機試驗數據 vs 觀察性研究數據</td></tr>
+          <tr><td>主要終點</td><td>後續懷孕神經管缺陷復發率降低百分比；葉酸服用依從率</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">葉酸（Folate/Folic Acid）與神經管發育
+├─ 層次一 — 分子層次（受孕後21-28天，神經管閉合關鍵窗口）
+│   ├─ 一碳單位代謝（one-carbon metabolism）：葉酸經還原為四氫葉酸
+│   │   （THF）後，作為一碳單位載體參與嘌呤、嘧啶合成，是DNA複製與
+│   │   細胞快速分裂不可或缺的輔酶
+│   └─ 同半胱胺酸再甲基化：葉酸循環與甲硫胺酸循環耦合，參與同半胱
+│       胺酸轉化為甲硫胺酸的再甲基化反應，此路徑異常與NTD風險相關
+├─ 層次二 — 細胞層次（神經管閉合期，胚胎發育第3-4週）
+│   ├─ 神經上皮細胞快速增殖：神經管閉合需要神經上皮細胞高速分裂，
+│   │   對葉酸供應（DNA合成原料）需求量在此階段達到高峰
+│   └─ 葉酸不足時DNA合成受限，可能導致神經上皮細胞增殖不足、神經管
+│       閉合失敗
+└─ 層次三 — 系統層次（懷孕前至懷孕早期，需提前補充）
+    └─ 因神經管閉合發生在多數婦女尚未察覺懷孕的極早期（受孕後3-4週），
+        故葉酸補充必須「提前」於懷孕前即開始，達到足夠血中/紅血球
+        葉酸濃度儲備，此即本研究強調「懷孕前規律服用」之重要性所在</pre>
+      <div class="mech-detail">
+        <h4>時間動態：需提前5-6個月開始補充，且須达到高劑量</h4>
+        <p>由於紅血球葉酸濃度需要相當時間才能達到預防NTD所需的理想水平，文獻指出以4mg/day劑量而言，可能需要約20週才能使紅血球葉酸濃度達到降低NTD風險之最適水平，因此建議應於計畫懷孕前5-6個月即開始補充，而非等到確認懷孕後才開始。這對於「何時開始補充」「補充多久才有效」等產品使用建議具有重要參考價值。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">葉酸補充對神經管缺陷復發風險的降低幅度</p>
+      <table>
+        <thead><tr><th>分析角度</th><th>復發風險降低幅度</th><th>資料來源類型</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>隨機對照試驗，意向治療分析（ITT）</td><td><strong>69%</strong></td><td>RCT meta-analysis</td><td>納入所有隨機分派受試者，不論是否依從服藥</td></tr>
+          <tr><td>隨機對照試驗，僅計算懷孕前即服用者</td><td><strong>87%</strong></td><td>RCT，per-protocol 子集</td><td>代表理想依從情境下的最大效果</td></tr>
+          <tr><td>觀察性研究</td><td><strong>85%–100%</strong></td><td>觀察性研究彙整</td><td>與RCT結果方向一致，效果量甚至更高，但觀察性研究易受選擇性偏誤影響</td></tr>
+        </tbody>
+      </table>
+      <p style="font-weight:700; color:var(--indigo); margin: 20px 0 10px; font-size:13.5px">葉酸補充依從率（公共衛生介入效果指標）</p>
+      <table>
+        <thead><tr><th>指標</th><th>數值範圍</th><th>影響因素</th></tr></thead>
+        <tbody>
+          <tr><td>有NTD病史婦女於下次懷孕前服用葉酸之比例</td><td>33%–85%</td><td>依族群背景、衛教諮詢強度不同而有明顯差異</td></tr>
+        </tbody>
+      </table>
+      <p style="font-size:13px; color:var(--gray-3)">此區間數字顯示，即使臨床證據明確（69-87%復發風險降低），實務落地成效高度仰賴後續公共衛生衛教與諮詢介入的強度。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>研究對象為「復發預防」而非「初次預防」</strong>：本研究聚焦於已有NTD病史婦女之復發風險降低，與一般孕婦族群之初次預防（一般建議劑量通常為0.4mg/day，而非本研究之4mg/day高劑量）情境不同，數字不可直接套用於一般孕婦的初級預防場景。</span></li>
+        <li><div class="limit-num">2</div><span><strong>研究之葉酸型態為合成葉酸（folic acid）</strong>：本研究所有介入均使用合成葉酸補充劑，非天然食物來源葉酸或發芽穀物來源葉酸（如Cultavit®），數字不能直接類推至天然來源葉酸產品之孕期功效。</span></li>
+        <li><div class="limit-num">3</div><span><strong>觀察性研究部分易受混淆因素影響</strong>：85-100%復發降低幅度之觀察性研究數據，可能受服藥依從婦女本身健康行為較佳（健康使用者偏誤）等混淆因素影響，需以隨機對照試驗數字（69-87%）為主要參考基準。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（食物型葉酸生物利用率為合成葉酸之80%）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>機制橋接、劑量換算警示</strong>：本篇研究的高強度預防效果（69-87%復發風險降低）是建立在「合成葉酸4mg/day」的高劑量基礎上；若考量 rsc_02 所示天然食物葉酸生物利用率僅為合成葉酸之約80%，意味著若欲以天然來源葉酸達到相同的血中/紅血球葉酸濃度效果，理論上需要更高的攝取量才能達到相當效用。此為產品定劑量與孕期功效聲稱時必須納入考量的重要交叉關係。</p>
+          <p class="caveat">⚠️ Cultavit® 簡報中天然蕎麥粉（含維生素B）-200% 品項之葉酸含量為400 mcg/g（相當於100% RDA），此劑量遠低於本篇研究之4mg（4000mcg）高劑量復發預防情境，不可將本篇之高強度預防數字直接套用於一般日常保健劑量的Cultavit®產品。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（蕎麥發芽對生物分子與抗氧化特徵之影響）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>無直接關聯</strong>：rsc_01 為蕎麥發芽的體外生化機制研究，本篇為合成葉酸的人體臨床復發預防數據，分屬不同證據層次，不可互相引用支持對方結論。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04、rsc_05（B群疲勞與心血管功效文獻）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>互補</strong>：三篇合看可支持「B群維生素（含葉酸）在不同生理階段皆有明確人體臨床實證的健康角色」——本篇聚焦孕期神經管發育，rsc_04聚焦運動疲勞，rsc_05聚焦心血管同半胱胺酸代謝，共同構成B群維生素多面向健康價值的證據拼圖，但須注意各篇之劑量、型態、族群均不相同，對外文案需分別標注適用情境。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可積極聲稱</h4>
+        <ul>
+          <li>「葉酸（維生素B9）有助於紅血球的形成，有助於核酸與核蛋白的形成，有助胎兒發育與生長」——此為台灣衛福部核准之葉酸營養素功能宣稱標準用語，Cultavit® 簡報中已採用此措辭，屬合規範圍。</li>
+          <li>「醫學文獻顯示，孕前及孕期充足葉酸攝取對神經管正常發育具有重要角色」——可作為一般性衛教資訊，不涉及特定產品療效聲稱。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>不可直接引用本篇「復發風險降低69-87%」之數字用於一般孕婦保健食品行銷，此數字僅適用於「已有NTD病史婦女之高劑量（4mg/day）復發預防」情境，與一般日常保健劑量（Cultavit®品項1為400mcg/g）不符。</li>
+          <li>Cultavit®屬於天然食物來源葉酸，若欲聲稱其孕期預防功效，須額外提供其專屬人體吸收率或功效數據，不能直接套用本篇合成葉酸之高劑量臨床數字。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議的聲稱</h4>
+        <ul>
+          <li>不可宣稱「服用本產品可降低神經管缺陷風險69-87%」，此為將特定高劑量合成葉酸復發預防研究之數字，錯誤套用至一般劑量天然來源保健食品，屬過度誇大且違反台灣食品標示與廣告法規精神。</li>
+          <li>孕婦補充葉酸劑量與時機屬醫療專業判斷範疇，產品文宣不應暗示可取代醫師處方或建議之高劑量葉酸（如已有NTD病史者所需之4mg/day）。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為葉酸與孕期神經管發育之一般性科學背景引用（非直接產品功效聲稱）：</p>
+      <div class="quote-block">
+        Meta-analysis彙整多篇隨機對照試驗顯示，對於有神經管缺陷病史之婦女，於懷孕前及懷孕早期高劑量（4mg/day）補充葉酸，可使後續懷孕神經管缺陷復發風險降低69%（意向治療分析）至87%（懷孕前即規律服用者）（Grosse & Collins, Birth Defects Research Part A, 2007）。
+        <span class="warn-note">⚠️ 注意：此數字為高劑量合成葉酸之特定醫療情境數據，不可直接套用於一般保健食品日常劑量之天然葉酸產品。</span>
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>台灣衛福部國民健康署孕產婦葉酸攝取建議（0.4mg/day 一般孕婦，4mg/day 高風險族群）</td><td>提供台灣本地劑量建議之官方依據，用於區分本研究之特殊高劑量情境</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>

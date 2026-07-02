@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cucumis sativus 萃取物 vs 葡萄糖胺-軟骨素治療中度骨關節炎 RCT — 研究摘要</title>
+<style>
+  :root {
+    --indigo: #2c3e80; --indigo-mid: #3d52a8; --indigo-light: #eef0fb;
+    --teal: #0b7a72; --teal-light: #e5f5f4;
+    --amber: #b36800; --amber-light: #fff7e0;
+    --red: #a01f1f; --red-light: #fdf0f0;
+    --green: #1a6b35; --green-light: #edf7f1;
+    --gray-1: #f8f9fa; --gray-2: #e9ecef; --gray-3: #6c757d;
+    --border: #dde1e9; --text: #1a1e2d; --max-w: 920px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", sans-serif; color: var(--text); background: var(--gray-1); line-height: 1.75; font-size: 15px; }
+  .page-header { background: linear-gradient(135deg, #1c2454 0%, var(--indigo-mid) 100%); color: #fff; padding: 40px 24px 32px; }
+  .page-header-inner { max-width: var(--max-w); margin: 0 auto; }
+  .tag-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 14px; }
+  .hdr-tag { display: inline-block; border-radius: 4px; padding: 2px 10px; font-size: 12px; font-weight: 600; }
+  .hdr-tag.type { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); }
+  .hdr-tag.q1 { background: #4caf8a; color: #fff; }
+  .hdr-tag.rct { background: #5c6bc0; color: #fff; }
+  .hdr-tag.coi { background: #e74c3c; color: #fff; }
+  .page-header h1 { font-size: 20px; font-weight: 700; margin-bottom: 8px; line-height: 1.4; }
+  .page-header .subtitle { font-size: 13.5px; opacity: 0.8; margin-bottom: 18px; font-style: italic; }
+  .meta-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 6px 20px; font-size: 13px; opacity: 0.88; }
+  .meta-item strong { opacity: 0.65; font-weight: 500; margin-right: 4px; }
+  .layout { max-width: var(--max-w); margin: 0 auto; padding: 28px 24px; }
+  .section { background: #fff; border-radius: 8px; border: 1px solid var(--border); margin-bottom: 18px; overflow: hidden; }
+  .section-head { display: flex; align-items: center; gap: 10px; padding: 14px 20px; border-bottom: 1px solid var(--border); background: var(--gray-1); }
+  .section-head .icon { font-size: 17px; }
+  .section-head h2 { font-size: 14.5px; font-weight: 700; color: var(--indigo); }
+  .section-body { padding: 20px; }
+  .cred-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: 10px; margin-bottom: 14px; }
+  .cred-card { border-radius: 6px; padding: 12px 14px; border: 1px solid var(--border); }
+  .cred-card .cred-label { font-size: 12px; font-weight: 600; color: var(--gray-3); margin-bottom: 4px; }
+  .cred-card .cred-val { font-size: 14px; font-weight: 700; color: var(--indigo); }
+  .cred-card .cred-sub { font-size: 12px; color: var(--gray-3); margin-top: 2px; }
+  .star { color: #f5c518; } .star-empty { color: #ccc; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; margin-bottom: 14px; }
+  th { background: var(--indigo); color: #fff; text-align: left; padding: 9px 12px; font-size: 13px; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid var(--gray-2); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: var(--gray-1); }
+  td strong { color: var(--indigo); }
+  .coi-alert { background: var(--red-light); border: 1px solid #f5c0c0; border-left: 4px solid var(--red); border-radius: 4px; padding: 12px 16px; font-size: 13.5px; color: var(--red); margin-top: 12px; }
+  .mech-block { background: var(--gray-1); border: 1px solid var(--border); border-radius: 6px; padding: 16px; font-family: "SF Mono", "Fira Code", monospace; font-size: 12.5px; line-height: 1.7; overflow-x: auto; margin-bottom: 14px; white-space: pre; }
+  .mech-detail { border-left: 3px solid var(--teal); padding: 10px 14px; margin-bottom: 12px; background: var(--teal-light); border-radius: 0 6px 6px 0; }
+  .mech-detail h4 { font-size: 13.5px; font-weight: 700; color: var(--teal); margin-bottom: 6px; }
+  .mech-detail p, .mech-detail ul { font-size: 13.5px; }
+  .mech-detail ul { padding-left: 18px; margin-top: 6px; }
+  .limit-list { list-style: none; }
+  .limit-list li { display: flex; gap: 12px; align-items: flex-start; padding: 10px 0; border-bottom: 1px dashed var(--gray-2); font-size: 14px; }
+  .limit-list li:last-child { border-bottom: none; }
+  .limit-num { flex-shrink: 0; width: 24px; height: 24px; background: var(--indigo); color: #fff; border-radius: 50%; font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; }
+  .impl-section { margin-bottom: 14px; }
+  .impl-section h4 { font-size: 13.5px; font-weight: 700; margin-bottom: 8px; }
+  .impl-ok h4 { color: var(--green); } .impl-warn h4 { color: var(--amber); } .impl-no h4 { color: var(--red); }
+  .impl-section ul { list-style: disc; padding-left: 18px; font-size: 13.5px; line-height: 1.7; }
+  .cross-ref { border-radius: 6px; border: 1px solid var(--border); overflow: hidden; margin-bottom: 12px; }
+  .cross-ref-head { background: var(--indigo); color: #fff; padding: 10px 14px; font-size: 13px; font-weight: 700; }
+  .cross-ref-body { padding: 14px; font-size: 13.5px; }
+  .cross-ref-body p { margin-bottom: 10px; }
+  .cross-ref-body p:last-child { margin-bottom: 0; }
+  .cross-ref-body .caveat { font-size: 12.5px; color: var(--amber); border-top: 1px dashed var(--gray-2); padding-top: 8px; margin-top: 8px; }
+  .quote-block { background: var(--indigo-light); border-left: 4px solid var(--indigo); border-radius: 0 6px 6px 0; padding: 14px 18px; font-size: 14px; font-style: italic; margin: 14px 0; line-height: 1.7; }
+  .quote-block .warn-note { display: block; margin-top: 8px; font-size: 12.5px; font-style: normal; color: var(--red); }
+  .version-badge { display: inline-block; background: var(--indigo-light); color: var(--indigo); border-radius: 4px; padding: 1px 7px; font-size: 12px; font-weight: 600; }
+  @media (max-width: 640px) { .meta-grid { grid-template-columns: 1fr 1fr; } .page-header h1 { font-size: 17px; } .cred-grid { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+
+<header class="page-header">
+  <div class="page-header-inner">
+    <div class="tag-row">
+      <span class="hdr-tag rct">隨機對照試驗 · RCT（先驅 Pilot 研究）</span>
+      <span class="hdr-tag q1">Q2 · IF ≈ 3.4</span>
+      <span class="hdr-tag coi">COI 已確認</span>
+    </div>
+    <h1>黃瓜籽萃取物（CSE）優於葡萄糖胺-軟骨素治療中度膝骨關節炎：先驅性隨機對照試驗（2018 年首篇黃瓜萃取物 OA 人體研究）</h1>
+    <p class="subtitle">Effectiveness of Cucumis sativus extract versus glucosamine-chondroitin in the management of moderate osteoarthritis: a randomized controlled trial</p>
+    <div class="meta-grid">
+      <div class="meta-item"><strong>作者</strong>Nash RJ, Azantsa BKG, Sharp H, Shanmugham V（PhytoQuest Ltd, UK；University of Yaoundé I, Cameroon；Samrat Research Institute, India）</div>
+      <div class="meta-item"><strong>期刊</strong>Clinical Interventions in Aging</div>
+      <div class="meta-item"><strong>年份</strong>2018 · 13:2119-2126</div>
+      <div class="meta-item"><strong>PMID</strong>30498336</div>
+      <div class="meta-item"><strong>DOI</strong>10.2147/CIA.S173227</div>
+      <div class="meta-item"><strong>PMC</strong>PMC6207263</div>
+    </div>
+  </div>
+</header>
+
+<div class="layout">
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔍</span><h2>可信度評估</h2></div>
+    <div class="section-body">
+      <div class="cred-grid">
+        <div class="cred-card">
+          <div class="cred-label">期刊等級</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">Clinical Interventions in Aging · Scimago Q2（Geriatrics & Gerontology），IF 約 3.4，PubMed/PMC 完整索引</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">研究設計</div>
+          <div class="cred-val"><span class="star">★★★</span><span class="star-empty">☆☆</span></div>
+          <div class="cred-sub">隨機對照試驗（N=122，未明確標示雙盲），180 天療程</div>
+        </div>
+        <div class="cred-card">
+          <div class="cred-label">資訊完整性</div>
+          <div class="cred-val"><span class="star">★★★★</span><span class="star-empty">☆</span></div>
+          <div class="cred-sub">PMC 開放全文，Day 30/180 完整 WOMAC 變化百分比數字</div>
+        </div>
+        <div class="cred-card" style="background: var(--red-light); border-color:#f5c0c0">
+          <div class="cred-label" style="color:var(--red)">利益衝突</div>
+          <div class="cred-val" style="color:var(--red)">❌ 已確認</div>
+          <div class="cred-sub">研究由 IminoTech（黃瓜籽萃取物商業原料商）贊助；作者 Nash 與 Sharp 任職於 PhytoQuest Ltd（植物萃取物商業公司），非完全獨立研究者</div>
+        </div>
+      </div>
+      <div class="coi-alert"><strong>COI 聲明：</strong>本研究明確由 IminoTech 贊助，兩位主要作者（Nash、Sharp）任職於商業植萃公司 PhytoQuest Ltd，雖論文聲明「researchers received no compensation or benefits」，但機構層級的商業關聯仍構成潛在利益衝突，對外引用時須完整揭露。</div>
+      <p style="font-size:13.5px; margin-top:12px; line-height:1.7">本研究是黃瓜萃取物應用於骨關節炎領域「最早」的人體對照試驗（2018年發表），具有重要的歷史地位——為後續 rsc_01（2023）、rsc_04（2023 劑量反應）、rsc_02（2025 獨立驗證）等研究奠定基礎證據。研究設計以「活性對照」（葡萄糖胺-軟骨素，而非安慰劑）為對照組，這是本研究的特色也是限制：活性對照設計無法排除兩組皆有效但程度不同的可能性，且未使用安慰劑意味著無法完全控制安慰劑效應。COI 風險明確存在（贊助商 + 作者商業關聯），需標記為「有產業關聯之先驅研究」，其數字可作為背景參考，但不宜作為主要獨立聲稱依據。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📖</span><h2>研究背景與目的</h2></div>
+    <div class="section-body">
+      <p style="margin-bottom:12px">葡萄糖胺-軟骨素（glucosamine-chondroitin）組合是骨關節炎領域最廣泛使用的保健品介入方式之一，但其臨床效果在大型試驗（如 GAIT 試驗）中呈現不一致結果，部分研究顯示效果與安慰劑無顯著差異，促使學界持續尋找替代或輔助性天然成分。截至本研究發表（2018年）之前，黃瓜（Cucumis sativus）萃取物雖已有體外抗發炎、抗氧化活性的初步證據，但完全缺乏針對人體骨關節炎族群的對照試驗數據，本研究即為填補此一空白的先驅性嘗試。</p>
+      <p style="margin-bottom:20px">研究團隊選擇以「頭對頭」（head-to-head）比較設計——黃瓜籽萃取物（Cucumber Seed Extract, CSE）對比已具實證基礎的葡萄糖胺-軟骨素標準介入，而非傳統安慰劑對照，其目的是直接評估 CSE 作為現有保健品選項替代方案的相對效力，此設計在保健品領域屬於較具野心但也較難解讀的比較方式（因缺乏「完全無介入」的基準線）。研究族群鎖定「中度」骨關節炎患者，療程長達 180 天（6個月），是本原料資料夾中追蹤時間最長的人體研究，可補足其他短期（60-90天）研究無法回答的中長期效果問題。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔬</span><h2>研究設計</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>項目</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>試驗類型</td><td>隨機對照試驗（活性對照設計，非安慰劑對照）</td></tr>
+          <tr><td>受試者</td><td>122 位中度膝骨關節炎患者</td></tr>
+          <tr><td>介入方式</td><td>黃瓜籽萃取物（CSE）10 mg，每日兩次（合計 20 mg/日）</td></tr>
+          <tr><td>對照組</td><td>標準劑量葡萄糖胺-軟骨素組合（活性對照，非安慰劑）</td></tr>
+          <tr><td>追蹤時間</td><td>180 天（6個月），於 Day 30 與 Day 180 進行 WOMAC 評估</td></tr>
+          <tr><td>主要終點</td><td>WOMAC 總分變化百分比（Day 30、Day 180 對比基線）</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚙️</span><h2>作用機制</h2></div>
+    <div class="section-body">
+      <pre class="mech-block">黃瓜籽萃取物（CSE，20mg/日）vs 葡萄糖胺-軟骨素
+├─ 層次一 — 分子層次（推論機制，本研究未直接測量）
+│   └─ 胺基酸衍生物/黃酮類：抗發炎、抗氧化活性
+├─ 層次二 — 症狀層次（Day 30 起可見差異，持續擴大至 Day 180）
+│   ├─ CSE組：WOMAC降低 22.44%（Day30）→ 70.29%（Day180）
+│   └─ 葡萄糖胺-軟骨素組：WOMAC降低 14.80%（Day30）→ 32.81%（Day180）
+└─ 層次三 — 長期趨勢層次（6個月觀察窗特有發現）
+    └─ CSE組改善幅度隨時間持續擴大，且擴大速度快於對照組
+        （Day30→180期間，CSE組改善幅度約再增47.85個百分點，
+         對照組僅再增18.01個百分點）</pre>
+      <div class="mech-detail">
+        <h4>長期效果隨時間持續擴大：與短期研究（rsc_01、rsc_02）的重要差異</h4>
+        <p>本研究最具價值的發現是「6個月」的長期追蹤顯示 CSE 組的改善幅度隨時間持續擴大（Day30的22.44%到Day180的70.29%），而非在早期達到平台期後停滯。這與 rsc_01、rsc_02（皆僅追蹤60天）呈現的「漸進式改善」趨勢方向一致，但本研究進一步證實此趨勢至少可延續到6個月，為「長期補充效果可能優於短期」的產品溝通提供機制性佐證，但仍需注意這是頭對頭對照而非安慰劑對照下的相對效果。</p>
+      </div>
+      <div class="mech-detail">
+        <h4>活性對照設計的機制解讀限制</h4>
+        <p>由於對照組為已知有一定效力的葡萄糖胺-軟骨素而非安慰劑，本研究無法回答「CSE 是否優於完全不介入」，只能回答「CSE 是否優於另一種保健品」。兩組均呈現改善趨勢（僅程度不同），意味著無法排除兩者機制可能有部分重疊（如共同影響軟骨基質代謝），或者部分改善來自兩組共同的安慰劑/自然病程因素。</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📊</span><h2>核心數據</h2></div>
+    <div class="section-body">
+      <p style="font-weight:700; color:var(--indigo); margin-bottom:10px; font-size:13.5px">WOMAC 總分降低百分比（N=122，中度膝OA患者，180天療程）</p>
+      <table>
+        <thead><tr><th>組別</th><th>Day 30 降幅</th><th>Day 180 降幅</th><th>備注</th></tr></thead>
+        <tbody>
+          <tr><td>CSE 組（10mg 每日兩次）</td><td><strong>22.44%</strong></td><td><strong>70.29%</strong></td><td>持續改善，未見平台期</td></tr>
+          <tr><td>葡萄糖胺-軟骨素組</td><td>14.80%</td><td>32.81%</td><td>亦有改善但幅度較小</td></tr>
+        </tbody>
+      </table>
+      <p style="color:var(--amber); font-size:13px; margin-top:4px">⚠️ 摘要未提供組間比較之精確 p 值與信賴區間，「CSE優於葡萄糖胺-軟骨素」之結論主要基於百分比數字直接比較，非正式統計檢定之組間差異報告；且無安慰劑組作為基準，無法確認兩組改善中有多少比例歸因於自然病程波動或安慰劑效應。研究並報告「無不良反應」（no adverse effects），支持安全性但非療效之額外佐證。</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">⚠️</span><h2>研究局限</h2></div>
+    <div class="section-body">
+      <ul class="limit-list">
+        <li><div class="limit-num">1</div><span><strong>明確利益衝突</strong>：贊助商 IminoTech 為商業原料公司，兩位作者任職於植萃商業公司 PhytoQuest，是本原料資料夾中 COI 風險最高之研究，結果解讀需格外謹慎。</span></li>
+        <li><div class="limit-num">2</div><span><strong>無安慰劑對照組</strong>：活性對照設計無法排除兩組改善皆主要來自安慰劑效應或自然病程波動的可能性，效果歸因較 rsc_01/rsc_02（安慰劑對照）薄弱。</span></li>
+        <li><div class="limit-num">3</div><span><strong>盲法設計未明確說明</strong>：論文摘要未清楚標示是否為雙盲，若受試者知曉自己使用何種介入，可能放大主觀量表（WOMAC）之安慰劑/期待效應。</span></li>
+        <li><div class="limit-num">4</div><span><strong>統計方法揭露不足</strong>：僅提供百分比變化，缺乏正式組間比較統計檢定結果，難以判斷「CSE優於葡萄糖胺-軟骨素」的結論是否具統計顯著性。</span></li>
+        <li><div class="limit-num">5</div><span><strong>產品標準化程度不明</strong>：本研究使用「黃瓜籽萃取物（CSE）」，其活性標準化指標與 CuberUp®（80% Cucumis sativus萃取物標準化配方）是否相同未明確說明，兩者可能為不同萃取部位（籽 vs 全株/果肉）或不同標準化製程。</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">🔗</span><h2>與其他論文的交叉評述</h2></div>
+    <div class="section-body">
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_01（Pérez-Piñero et al. 2023, CuberUp® 原廠核心 RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>時序關聯 + 支持關係</strong>：本研究是 2018 年最早的黃瓜萃取物OA人體研究，為 rsc_01（2023年CuberUp®特定商品RCT）提供了先驅性背景證據，證明「黃瓜萃取物類別」在OA族群具潛在效果的初步概念驗證（proof of concept）。兩篇雖使用不同標準化萃取物，但改善趨勢方向一致，形成跨5年、不同商品配方的收斂證據。</p>
+          <p class="caveat">⚠️ 需留意：本研究COI風險（IminoTech贊助+作者商業關聯）高於rsc_01，若兩篇合併引用，應個別標示各自COI狀況，不可混為一談。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_04（Nash et al. 2023, Q-Actin/ido-BR1 劑量反應 RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>時序關聯（同一研究團隊之後續研究）</strong>：本研究與 rsc_04 由部分相同作者群（Nash等人）於PhytoQuest體系下執行，rsc_04可視為本研究的後續深化版本，加入劑量反應設計以回答本研究未處理的「劑量-效果」關係問題。由於兩篇作者高度重疊，COI累積效應需特別注意——若兩篇皆用於同一產品論述，應避免營造「多篇獨立研究支持」的錯誤印象，實質上屬於同一研究團隊/商業體系之系列研究。</p>
+        </div>
+      </div>
+      <div class="cross-ref">
+        <div class="cross-ref-head">與 rsc_02（Hausenblas et al. 2025, 獨立RCT）的關係</div>
+        <div class="cross-ref-body">
+          <p><strong>支持關係</strong>：rsc_02 是與本研究、rsc_04 完全不同研究團隊、不同資助來源（Gateway Health而非IminoTech/PhytoQuest）之獨立驗證，兩篇結論方向一致（黃瓜萃取物優於對照），為本研究之COI疑慮提供部分外部驗證支持，顯示效果並非僅來自特定商業利益團體的一面之詞。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">💡</span><h2>對產品開發的啟示</h2></div>
+    <div class="section-body">
+      <div class="impl-section impl-ok">
+        <h4>✅ 可直接引用（有明確臨床試驗支持）</h4>
+        <ul>
+          <li>「黃瓜萃取物應用於骨關節炎領域的先驅性研究（2018年）顯示，180天長期補充下症狀改善幅度隨時間持續擴大，且長期安全性良好、無回報不良反應」——可作為長期安全性佐證，不涉及療效比較優劣</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-warn">
+        <h4>⚠️ 需謹慎的聲稱</h4>
+        <ul>
+          <li>「黃瓜萃取物優於葡萄糖胺-軟骨素」此類比較性聲稱，因本研究COI風險高、無安慰劑組、統計方法揭露不足，不建議作為主要行銷訴求，若使用須完整揭露資助來源與研究限制。</li>
+          <li>「症狀改善隨時間持續擴大至6個月」可作為「建議長期持續補充」的溝通依據，但須註明此為活性對照（非安慰劑對照）下的觀察結果。</li>
+        </ul>
+      </div>
+      <div class="impl-section impl-no">
+        <h4>❌ 不建議直接引用</h4>
+        <ul>
+          <li>不可將「WOMAC降低70.29%」直接作為CuberUp®的功效數字對外宣傳——此為不同商品（CSE，非CuberUp®）、不同對照設計（vs葡萄糖胺-軟骨素，非安慰劑）之結果，混用將構成誤導。</li>
+          <li>不可省略COI揭露而單獨引用本研究作為「獨立第三方證據」，應與rsc_02等COI風險較低之研究合併引用。</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📝</span><h2>建議引用格式</h2></div>
+    <div class="section-body">
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:8px; color:var(--indigo)">作為背景/歷史證據引用（弱聲稱，需完整COI標注）：</p>
+      <div class="quote-block">
+        「黃瓜萃取物應用於骨關節炎領域的先驅性對照試驗（2018年）顯示，中度膝OA患者補充黃瓜籽萃取物20mg/日達180天後，WOMAC症狀分數持續改善（Day180降低70.29%），優於對照之葡萄糖胺-軟骨素組（降低32.81%），且未觀察到不良反應（Nash et al., Clinical Interventions in Aging, 2018, 13:2119-2126；PMID: 30498336）。」
+        <span class="warn-note">⚠️ 注意：本研究由IminoTech贊助，兩位作者任職於商業植萃公司PhytoQuest Ltd，屬有明確產業關聯之研究，對外引用務必完整揭露此利益關係。</span>
+      </div>
+      <p style="font-size:13.5px; font-weight:600; margin-bottom:10px; color:var(--indigo)">建議同時引用的獨立文獻：</p>
+      <table>
+        <thead><tr><th>文獻</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td>Hausenblas et al., Cureus, 2025（rsc_02）</td><td>COI風險較低之獨立驗證研究，建議並陳以平衡可信度</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="section-head"><span class="icon">📋</span><h2>文件版本紀錄</h2></div>
+    <div class="section-body">
+      <table>
+        <thead><tr><th>版本</th><th>日期</th><th>說明</th></tr></thead>
+        <tbody>
+          <tr><td><span class="version-badge">v1.0</span></td><td>2026-07-02</td><td>初版建立，資料來源：PubMed/PMC摘要頁整理</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

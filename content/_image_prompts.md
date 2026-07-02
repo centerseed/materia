@@ -28,10 +28,10 @@ Composition & scene:
 - `article_compare-lutein`：a bright top-down flat-lay — marigold flowers, a piece of sweet corn and fresh dark leafy greens with one small dish of amber softgel capsules (natural sources beside the supplement).
 
 ## 骨骼關節
-- `article_elder-joint-care`：a single-subject studio still life — one fresh whole cucumber with a couple of slices on a light wood board.
+- `article_elder-joint-care`：a 45-degree arrangement on light wood — fresh cucumber (whole and a few slices), a spoon of collagen powder, a couple of eggs and a small dish of amber capsules, warm and wholesome joint-care ingredients.
 - `article_elder-bone-collagen`：a side-view in-context scene — a warm bowl of clear bone broth with fish skin and citrus slices beside it, soft steam.
 - `article_sports-recovery`：a 45-degree angle on wood — a water bottle, a banana, a rolled towel and a few softgel capsules.
-- `article_what-is-cuberup`：a macro close-up with water droplets — freshly sliced cucumber, very shallow depth of field.
+- `article_what-is-cuberup`：a macro close-up with water droplets — freshly sliced cucumber with a few amber capsules beside it, shallow depth of field.
 - `article_what-is-ovoderm`：a single-subject studio shot — one cracked egg revealing its thin inner membrane, on cream seamless background.
 
 ## 心血管代謝

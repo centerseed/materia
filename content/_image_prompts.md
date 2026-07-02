@@ -25,7 +25,7 @@ Composition & scene:
 - `article_kids-eye-care`：a cozy in-context scene — an open lunchbox with leafy greens beside a corner of a colorful picture book on a table, gentle angle.
 - `article_office-eye-fatigue`：a 45-degree desk scene — the corner of a laptop, a cup of tea, reading glasses and a small dish of leafy greens on a wooden desk.
 - `article_what-is-lutein`：a macro close-up, shallow depth of field — marigold petals, corn kernels and a glossy egg yolk.
-- `article_compare-lutein`：a clean top-down flat-lay — three small dishes of capsules of different sizes with a marigold flower.
+- `article_compare-lutein`：a bright top-down flat-lay — marigold flowers, a piece of sweet corn and fresh dark leafy greens with one small dish of amber softgel capsules (natural sources beside the supplement).
 
 ## 骨骼關節
 - `article_elder-joint-care`：a single-subject studio still life — one fresh whole cucumber with a couple of slices on a light wood board.
@@ -40,7 +40,7 @@ Composition & scene:
 - `article_men-vitality`：a 45-degree hearty arrangement on dark wood — black cumin seeds, a salmon fillet, whole grains and a glass of water.
 - `article_what-is-thymoquin`：a macro close-up — black cumin (Nigella sativa) seeds spilling from a wooden spoon beside a small dark oil bottle.
 - `article_what-is-fishoil`：a single-subject studio shot — a glistening salmon fillet on parchment with a lemon wedge.
-- `article_compare-fishoil`：a top-down flat-lay — three small dishes each with a different fish-oil softgel, plus a salmon slice.
+- `article_compare-fishoil`：a top-down flat-lay — a fresh salmon fillet, a lemon wedge and a small dish of golden fish-oil softgels.
 - `article_omega3-intake-gap`：a 45-degree angle emphasizing emptiness — a large plate holding only a very small piece of fish, lots of empty space, a few softgels at the edge.
 - `article_what-is-fibryxa`：a side-view in-context scene — a tall glass of water with soluble fiber powder swirling and dissolving, oats beside it.
 
@@ -67,9 +67,9 @@ Composition & scene:
 
 ## 基礎營養
 - `article_what-is-vitc`：a macro close-up, juicy — a fresh orange slice with a single vitamin C capsule and droplets.
-- `article_vitc-comparison`：a top-down flat-lay — three small dishes of different vitamin C capsules with orange slices.
+- `article_vitc-comparison`：a bright top-down flat-lay — fresh oranges, kiwi and red bell pepper with one small dish of vitamin C capsules.
 - `article_what-is-bcomplex`：a single-subject studio shot — a small bundle of wheat and buckwheat sprouts on cream background.
-- `article_compare-bcomplex`：a top-down flat-lay — buckwheat sprouts and grains beside two small dishes of B-complex capsules.
+- `article_compare-bcomplex`：a top-down flat-lay — fresh buckwheat sprouts and whole grains with one small dish of B-complex capsules.
 
 ---
 ## 想換整體風格（替換基底前綴即可）

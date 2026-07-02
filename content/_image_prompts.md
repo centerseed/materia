@@ -59,7 +59,7 @@ Subject & scene:
 - `article_elder-immune-care`：環境情境 — a cozy autumn scene by a window: a warm cup of tea with steam, a knitted scarf, a few citrus fruits and a book on the sill, soft seasonal light.
 - `article_kids-immune`：人物生活 — a happy East Asian child playing outdoors in a sunny park, running or laughing, bright healthy energy, candid.
 - `article_allergy-respiratory`：環境 — an open window with sheer curtains gently billowing, a green potted plant and a tissue box on the sill, fresh clean morning air, calm.
-- `article_what-is-spm`：深色精緻·原料 — a salmon fillet, a small dish of amber softgels, walnuts and fresh herbs on dark slate with a single dramatic light beam, premium science-ingredient feel.
+- `article_what-is-spm`：生活情境 — a calm recovery scene: a person (back view or hands only) resting after a walk/exercise with a towel and a glass of water by a bright window, soft light, conveying the body settling and recovering (no salmon, no dark seeds — differentiate from other articles).
 
 ## 婦幼孕產
 - `article_kids-omega3`：人物生活 — an East Asian child focused on reading or drawing at a study desk with books and colored pencils, bright window light, concentrated and content.

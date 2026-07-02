@@ -1,0 +1,146 @@
+[
+ {
+  "slug": "article_elder-bone-collagen",
+  "file": "content/article_elder-bone-collagen.md",
+  "type": "衛教主題文",
+  "audience": "中老年",
+  "topic": "骨骼膠原",
+  "title": "膠原流失、身體架構變弱？中老年的結構保養",
+  "excerpt": "蹲下站起來膝蓋卡卡的、爬樓梯要扶著扶手、皮膚一捏就是一道摺痕不容易回彈——這些看似各自獨立的小狀況，背後可能指向同一件事：身體的「結構材料」"
+ },
+ {
+  "slug": "article_elder-brain-care",
+  "file": "content/article_elder-brain-care.md",
+  "type": "衛教主題文",
+  "audience": "中老年",
+  "topic": "腦力記憶",
+  "title": "記性變差、思緒鈍鈍？中老年腦力保養營養",
+  "excerpt": "明明話到嘴邊卻想不起名字、走進房間忘了要拿什麼、開會時思緒跟不上大家——這些小狀況，很多中老年朋友都遇過。腦力和身體一樣，也需要日常保養。這"
+ },
+ {
+  "slug": "article_elder-eye-care",
+  "file": "content/article_elder-eye-care.md",
+  "type": "衛教主題文",
+  "audience": "中老年",
+  "topic": "護眼保養",
+  "title": "50 歲後看東西越來越吃力？銀髮護眼營養這樣補",
+  "excerpt": "看近要拿遠一點才清楚、晚上開車覺得對向車燈特別刺眼、在昏暗餐廳看菜單很吃力——這些不是「老花」兩個字就能帶過。隨著年紀，眼睛最精華的「黃斑部"
+ },
+ {
+  "slug": "article_elder-heart-care",
+  "file": "content/article_elder-heart-care.md",
+  "type": "衛教主題文",
+  "audience": "中老年",
+  "topic": "心血管保養",
+  "title": "中老年心血管日常保養：Omega-3 與 B 群怎麼補",
+  "excerpt": "爬兩層樓就喘、天氣一變手腳容易發麻、最近老是覺得思緒卡卡不太靈光——這些看似小事的變化，往往是心血管系統在提醒你「該多照顧一下了」。心血管保"
+ },
+ {
+  "slug": "article_elder-immune-care",
+  "file": "content/article_elder-immune-care.md",
+  "type": "衛教主題文",
+  "audience": "中老年",
+  "topic": "免疫保養",
+  "title": "換季就中鏢？中老年免疫日常保養",
+  "excerpt": "早晚溫差一大，喉嚨先癢、鼻水跟著來，好轉的速度也比年輕時慢了一大截——這是很多中老年朋友換季時的共同心聲。這篇帶你了解背後的原因，以及維生素"
+ },
+ {
+  "slug": "article_elder-joint-care",
+  "file": "content/article_elder-joint-care.md",
+  "type": "衛教主題文",
+  "audience": "中老年",
+  "topic": "關節保養",
+  "title": "上下樓梯膝蓋卡卡？中老年關節保養這樣顧",
+  "excerpt": "走樓梯時膝蓋隱隱作痛、蹲下去要扶著東西才站得起來、久坐後第一步特別僵硬——這些狀況很多中老年朋友都不陌生。關節不適不是一夜之間發生的，而是日"
+ },
+ {
+  "slug": "article_elder-metabolic-care",
+  "file": "content/article_elder-metabolic-care.md",
+  "type": "衛教主題文",
+  "audience": "中老年",
+  "topic": "代謝保養",
+  "title": "代謝變慢了？中老年血糖與體重的日常飲食保養",
+  "excerpt": "年輕時吃完飯馬上就消化掉，現在同樣一碗飯，卻覺得餐後昏昏沉沉、腰圍也一年比一年寬。很多人到了中年才發現，代謝好像悄悄「變慢」了——不是吃得比"
+ },
+ {
+  "slug": "article_kids-eye-care",
+  "file": "content/article_kids-eye-care.md",
+  "type": "衛教主題文",
+  "audience": "兒童",
+  "topic": "兒童護眼",
+  "title": "孩子一看平板就是一小時？兒童視力保養怎麼做",
+  "excerpt": "叫孩子放下平板，十分鐘後又黏回去；寫功課沒多久就喊眼睛痠、頻頻揉眼睛；假日待在家的時間比在外面跑跳還多——這些畫面，現代爸媽應該都不陌生。孩"
+ },
+ {
+  "slug": "article_kids-gut-fiber",
+  "file": "content/article_kids-gut-fiber.md",
+  "type": "衛教主題文",
+  "audience": "兒童",
+  "topic": "兒童腸胃",
+  "title": "孩子便便不順？兒童腸胃與膳食纖維怎麼補",
+  "excerpt": "「媽媽我肚子脹脹的」「已經三天沒上大號了」「上廁所要蹲好久還一直哭」——孩子腸胃不順，常常是家長最頭痛卻又說不出所以然的日常小事。多半不是什"
+ },
+ {
+  "slug": "article_kids-immune",
+  "file": "content/article_kids-immune.md",
+  "type": "衛教主題文",
+  "audience": "兒童",
+  "topic": "兒童免疫",
+  "title": "孩子挑食、容易生病？兒童免疫與營養補給",
+  "excerpt": "青菜挑掉、魚肉不碰、只吃白飯配肉鬆——這樣的餐桌場景，很多家長天天上演。換季一到，孩子又開始咳嗽流鼻水，忍不住懷疑「是不是營養沒補夠？」這篇"
+ },
+ {
+  "slug": "article_kids-omega3",
+  "file": "content/article_kids-omega3.md",
+  "type": "衛教主題文",
+  "audience": "兒童",
+  "topic": "成長專注",
+  "title": "Omega-3 與孩子的專注、學習與成長",
+  "excerpt": "功課寫到一半就分心、聯絡簿抄一半忘記抄什麼、上課常常放空——很多家長都遇過這種「明明很聰明，就是坐不住」的階段。除了作息與習慣，孩子每天吃進"
+ },
+ {
+  "slug": "article_compare-bcomplex",
+  "file": "content/article_compare-bcomplex.md",
+  "type": "原材料比較文",
+  "audience": "全齡",
+  "topic": "B群比較",
+  "title": "B 群怎麼選？天然發酵 vs 合成、活性型一次看懂",
+  "excerpt": "藥局架上一整排維生素 B 群，價格從幾十元到上千元都有：一般合成的、標榜「天然發酵」的、還有寫著「活性型」「甲基化」的。到底差在哪、貴的有沒"
+ },
+ {
+  "slug": "article_compare-collagen",
+  "file": "content/article_compare-collagen.md",
+  "type": "原材料比較文",
+  "audience": "全齡",
+  "topic": "膠原比較",
+  "title": "膠原蛋白怎麼選？魚膠原、蛋殼膜、分子量與吸收一次看懂",
+  "excerpt": "保養品櫃位上「膠原蛋白」百百種：魚膠原、豬牛膠原、蛋殼膜、小分子胜肽……到底差在哪、哪一種比較好吸收？如果你正在膝關節活動度或肌膚彈性上多花"
+ },
+ {
+  "slug": "article_compare-fishoil",
+  "file": "content/article_compare-fishoil.md",
+  "type": "原材料比較文",
+  "audience": "全齡",
+  "topic": "魚油比較",
+  "title": "魚油怎麼挑？濃度、型態（TG／EE／rTG）、純度一次看懂",
+  "excerpt": "走進藥局或打開購物網站，魚油產品少說幾十種：有的標榜「高濃度」、有的寫「TG 天然型」、有的強調「無重金屬」，價格從幾百到上千元都有。到底差"
+ },
+ {
+  "slug": "article_compare-lutein",
+  "file": "content/article_compare-lutein.md",
+  "type": "原材料比較文",
+  "audience": "全齡",
+  "topic": "葉黃素比較",
+  "title": "葉黃素怎麼選？游離型 vs 酯化型、劑量與複方一次看懂",
+  "excerpt": "長時間盯螢幕、看 3C，眼睛容易乾澀疲勞；家裡長輩年紀漸長，也開始關心黃斑部的日常保養。走進藥局或搜尋葉黃素產品，會看到「游離型」「酯化型」"
+ },
+ {
+  "slug": "article_vitc-comparison",
+  "file": "content/article_vitc-comparison.md",
+  "type": "原材料比較文",
+  "audience": "全齡",
+  "topic": "維生素C／營養素比較",
+  "title": "維生素 C 怎麼選？一般左旋C、緩釋型、微脂體一次比較",
+  "excerpt": "大家都知道要補維生素 C，但走進藥妝店會發現：一般 C、緩釋 C、微脂體 C、酯化 C……價差好幾倍。它們差在哪？該怎麼挑？這篇用一張表幫你"
+ }
+]

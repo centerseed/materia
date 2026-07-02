@@ -1,5 +1,6 @@
-# 內容站部署：只上傳 content 與 content-preview（擋掉 ingredients 素材、site 舊版、schema 等）
+# 內容站部署：只上傳根 index.html + content + content-preview
 /*
+!/index.html
 !/content
 !/content-preview
 !/vercel.json

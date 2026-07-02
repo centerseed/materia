@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>原鑑 Materia — 保健原料 × 衛教知識</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@600;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<style>
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{background:#F7F3EA;color:#26231D;font-family:"Noto Sans TC",system-ui,sans-serif;line-height:1.85;-webkit-font-smoothing:antialiased;}
+  a{color:inherit;text-decoration:none;}
+  .wrap{max-width:780px;margin:0 auto;padding:0 20px;}
+  .max{max-width:1120px;margin:0 auto;padding:0 20px;}
+  /* header */
+  header.site{background:#234139;color:#F7F3EA;position:sticky;top:0;z-index:20;box-shadow:0 1px 0 rgba(0,0,0,.06);}
+  .htop{max-width:1120px;margin:0 auto;padding:0 20px;height:60px;display:flex;align-items:center;gap:16px;}
+  .logo{font-family:"Noto Serif TC",serif;font-weight:700;font-size:21px;letter-spacing:.02em;cursor:pointer;white-space:nowrap;}
+  .logo small{font-size:11px;letter-spacing:.26em;color:#B9C6BE;font-weight:600;margin-left:8px;}
+  .search{margin-left:auto;display:flex;align-items:center;background:#1c332c;border:1px solid #3c5a50;border-radius:999px;padding:5px 12px;gap:8px;}
+  .search input{background:transparent;border:none;outline:none;color:#F7F3EA;font-family:inherit;font-size:13px;width:130px;}
+  .search input::placeholder{color:#8fa79c;}
+  nav.cats{background:#1f382f;}
+  .catrow{max-width:1120px;margin:0 auto;padding:0 12px;display:flex;flex-wrap:wrap;gap:2px;}
+  .catrow a{color:#cdd8d1;font-size:13.5px;font-weight:500;padding:11px 13px;cursor:pointer;border-bottom:2px solid transparent;}
+  .catrow a:hover{color:#fff;}
+  .catrow a.on{color:#fff;border-bottom-color:#C2894B;}
+  /* hero */
+  .hero{padding:clamp(30px,5vw,52px) 0 clamp(8px,2vw,16px);}
+  .hero .kicker{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:.14em;color:#8a6d3b;text-transform:uppercase;margin-bottom:12px;}
+  .hero .kicker span{width:24px;height:1px;background:#b98a4b;}
+  .hero h1{font-family:"Noto Serif TC",serif;font-weight:700;font-size:clamp(26px,4vw,40px);margin:0 0 10px;line-height:1.25;}
+  .hero p{color:#5f594e;max-width:600px;margin:0;font-size:16px;}
+  /* sections */
+  .sec{padding:26px 0 6px;}
+  .sechd{display:flex;align-items:baseline;gap:12px;margin-bottom:16px;cursor:pointer;}
+  .sechd h2{font-family:"Noto Serif TC",serif;font-weight:700;font-size:22px;margin:0;}
+  .sechd .more{margin-left:auto;font-size:13px;color:#8a6d3b;font-weight:600;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;}
+  .card{cursor:pointer;background:#FCFAF3;border:1px solid #E7E1D2;border-radius:14px;overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s;}
+  .card:hover{transform:translateY(-3px);border-color:#234139;}
+  .card .thumb{position:relative;aspect-ratio:16/8;background:linear-gradient(135deg,#e7ddc9,#d8cbb0);display:flex;align-items:center;justify-content:center;font-size:34px;overflow:hidden;}
+  .card .thumb img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;}
+  .arthero{width:100%;border-radius:14px;margin:10px 0 6px;display:block;}
+  .card .body{padding:16px 18px;}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:9px;}
+  .chip{font-size:11px;font-weight:600;color:#8a6d3b;background:#F0E7D6;border-radius:6px;padding:3px 9px;}
+  .chip.type{color:#234139;background:#E5EBE4;}
+  .card h3{font-family:"Noto Serif TC",serif;font-weight:700;font-size:17px;margin:0 0 7px;line-height:1.4;}
+  .card .ex{font-size:13px;color:#6b6558;margin:0;}
+  .pagetitle{font-family:"Noto Serif TC",serif;font-weight:700;font-size:clamp(24px,3.4vw,32px);margin:24px 0 20px;}
+  /* article */
+  .crumb{font-size:13px;color:#9a9488;margin:22px 0 4px;}
+  .crumb a{color:#8a6d3b;cursor:pointer;font-weight:600;}
+  .related{border-top:1px solid #E4DAC6;margin-top:40px;padding-top:24px;}
+  .related h3{font-family:"Noto Serif TC",serif;font-size:18px;margin:0 0 14px;}
+  .md h1{font-family:"Noto Serif TC",serif;font-weight:700;font-size:clamp(25px,4vw,36px);line-height:1.3;margin:.1em 0 .5em;}
+  .md h2{font-family:"Noto Serif TC",serif;font-weight:700;font-size:clamp(19px,2.6vw,25px);margin:1.7em 0 .5em;padding-top:.4em;border-top:1px solid #EAE1CE;color:#1c1a16;}
+  .md h3{font-family:"Noto Serif TC",serif;font-weight:700;font-size:17px;margin:1.3em 0 .4em;color:#234139;}
+  .md p{margin:.7em 0;color:#33302B;}
+  .md blockquote{margin:1.1em 0;padding:13px 17px;background:#FBF4E4;border-left:3px solid #C9A24B;border-radius:0 10px 10px 0;color:#6e5a2e;}
+  .md blockquote p{margin:.3em 0;color:#6e5a2e;}
+  .md ul{padding-left:1.2em;}.md li{margin:.35em 0;}
+  .md strong{color:#234139;}
+  .md table{width:100%;border-collapse:collapse;margin:1.2em 0;font-size:14px;}
+  .md th,.md td{border:1px solid #E4DAC6;padding:10px 12px;text-align:left;vertical-align:top;}
+  .md th{background:#F0E7D6;font-weight:700;color:#4a3d22;}
+  .md tr:nth-child(even) td{background:#FCFAF3;}
+  .md hr{border:none;border-top:1px solid #EAE1CE;margin:2em 0;}
+  .md em{color:#8a857b;font-size:13.5px;}
+  footer{border-top:1px solid #E1DBCC;background:#EEE9DD;margin-top:60px;}
+  footer .max{padding:32px 20px;font-size:13px;color:#8a857b;}
+  .hidden{display:none;}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="htop">
+    <span class="logo" onclick="go({view:'home'})">原鑑 Materia<small>HEALTH NOTES</small></span>
+    <div class="search"><span style="color:#8fa79c;font-size:13px;">⌕</span><input id="q" placeholder="搜尋文章…" oninput="onSearch(this.value)"></div>
+  </div>
+  <nav class="cats"><div class="catrow" id="catrow"></div></nav>
+</header>
+
+<div class="max"><div id="app"></div></div>
+
+<footer><div class="max">原鑑 Materia · 保健原料 × 衛教知識　|　本站內容為營養保健資訊，非醫療建議；如有症狀請諮詢專業醫療人員。</div></footer>
+
+<script>
+const CATS=[
+ {key:'eye',   name:'護眼明目', topics:['護眼保養','兒童護眼','3C護眼抗疲勞','葉黃素','葉黃素比較']},
+ {key:'bone',  name:'骨骼關節', topics:['關節保養','骨骼膠原','運動保養','專利黃瓜萃取','蛋殼膜']},
+ {key:'heart', name:'心血管代謝', topics:['心血管保養','代謝保養','男性保養','黑種草籽油','異麥芽糖糊精','Omega-3攝取','魚油','魚油比較']},
+ {key:'brain', name:'腦力情緒', topics:['腦力記憶','睡眠舒壓']},
+ {key:'beauty',name:'美容養顏', topics:['美容保養','更年期保養','膠原蛋白','膠原比較']},
+ {key:'immune',name:'免疫呼吸', topics:['免疫保養','兒童免疫','呼吸道保養','SPM促消炎介質']},
+ {key:'family',name:'婦幼孕產', topics:['孕期營養','成長專注','兒童腸胃']},
+ {key:'basic', name:'基礎營養', topics:['維生素C','維生素C／營養素比較','維生素B群','B群比較']},
+];
+const EMOJI={'關節保養':'🦵','心血管保養':'❤️','腦力記憶':'🧠','骨骼膠原':'🦴','代謝保養':'⚖️','免疫保養':'🛡️','護眼保養':'👁️','兒童護眼':'👓','成長專注':'📚','兒童免疫':'🧒','兒童腸胃':'🌱','維生素C／營養素比較':'🍊','魚油比較':'🐟','葉黃素比較':'🌼','膠原比較':'✨','B群比較':'⚡','Omega-3攝取':'🐟','黑種草籽油':'🌿','蛋殼膜':'🥚','SPM促消炎介質':'🕊️','專利黃瓜萃取':'🥒','異麥芽糖糊精':'🌾','3C護眼抗疲勞':'💻','美容保養':'💧','孕期營養':'🤰','男性保養':'💪','運動保養':'🏃','睡眠舒壓':'😴','更年期保養':'🌸','呼吸道保養':'🌬️','葉黃素':'🌼','魚油':'🐟','膠原蛋白':'✨','維生素C':'🍊','維生素B群':'⚡'};
+let INDEX=[], state={view:'home'};
+function catOf(a){ const c=CATS.find(c=>c.topics.includes(a.topic)); return c?c.key:'basic'; }
+function catName(k){ const c=CATS.find(c=>c.key===k); return c?c.name:'原料解析'; }
+function go(s){ state=s; render(); window.scrollTo(0,0); document.getElementById('q').value=''; }
+function renderCats(){
+  const el=document.getElementById('catrow');
+  el.innerHTML='';
+  const items=[{n:'首頁',v:{view:'home'}}].concat(CATS.map(c=>({n:c.name,v:{view:'cat',cat:c.key}}))).concat([{n:'原料解析',v:{view:'material'}}]);
+  items.forEach(it=>{
+    const a=document.createElement('a');a.textContent=it.n;
+    const on=(it.v.view===state.view)&&(it.v.cat===state.cat||(it.v.view!=='cat'));
+    if(on)a.className='on';
+    a.onclick=()=>go(it.v);el.appendChild(a);
+  });
+}
+function card(a){
+  return `<div class="card" onclick="openA('${a.slug}')"><div class="thumb"><span>${EMOJI[a.topic]||'📄'}</span><img src="/content-preview/img/${a.slug}.png" alt="" loading="lazy" onerror="this.remove()"></div>
+    <div class="body"><div class="chips"><span class="chip type">${a.type.replace('主題文','').replace('原材料','')}</span><span class="chip">${a.audience}</span><span class="chip">${a.topic}</span></div>
+    <h3>${a.title}</h3><p class="ex">${a.excerpt}…</p></div></div>`;
+}
+function grid(list){ return `<div class="grid">${list.map(card).join('')}</div>`; }
+function render(){
+  renderCats();
+  const app=document.getElementById('app');
+  if(state.view==='home'){
+    let h=`<section class="hero"><div class="kicker"><span></span>保健原料 × 衛教知識</div>
+      <h1>吃對，比吃多重要。</h1><p>用你關心的健康主題，帶你看懂每種保健原料的好處、怎麼吃、怎麼選——有依據，也好懂。</p></section>`;
+    CATS.forEach(c=>{
+      const list=INDEX.filter(a=>catOf(a)===c.key);
+      if(!list.length)return;
+      h+=`<section class="sec"><div class="sechd" onclick="go({view:'cat',cat:'${c.key}'})"><h2>${c.name}</h2><span class="more">查看全部 (${list.length}) →</span></div>${grid(list.slice(0,3))}</section>`;
+    });
+    const mats=INDEX.filter(a=>a.type==='原料科普'||a.type==='原材料比較文');
+    h+=`<section class="sec"><div class="sechd" onclick="go({view:'material'})"><h2>原料解析</h2><span class="more">查看全部 (${mats.length}) →</span></div>${grid(mats.slice(0,3))}</section>`;
+    app.innerHTML=h;
+  } else if(state.view==='cat'){
+    const list=INDEX.filter(a=>catOf(a)===state.cat);
+    app.innerHTML=`<h1 class="pagetitle">${catName(state.cat)}</h1>${grid(list)}`;
+  } else if(state.view==='material'){
+    const list=INDEX.filter(a=>a.type==='原料科普'||a.type==='原材料比較文');
+    app.innerHTML=`<h1 class="pagetitle">原料解析 · 科普與比較</h1>${grid(list)}`;
+  } else if(state.view==='search'){
+    const q=state.query;
+    const list=INDEX.filter(a=>(a.title+a.topic+a.audience).includes(q));
+    app.innerHTML=`<h1 class="pagetitle">搜尋「${q}」· ${list.length} 篇</h1>${list.length?grid(list):'<p style="color:#8a857b">找不到相關文章。</p>'}`;
+  } else if(state.view==='article'){
+    renderArticle(state.articleSlug);
+  }
+}
+async function openA(slug){ go({view:'article',articleSlug:slug}); }
+async function renderArticle(slug){
+  const a=INDEX.find(x=>x.slug===slug); if(!a)return;
+  const app=document.getElementById('app');
+  app.innerHTML=`<div class="crumb"><a onclick="go({view:'home'})">首頁</a> / <a onclick="go({view:'cat',cat:'${catOf(a)}'})">${catName(catOf(a))}</a> / ${a.topic}</div><div class="wrap" style="padding:0;"><img class="arthero" src="/content-preview/img/${slug}.png" alt="" onerror="this.remove()"><div class="md" id="md">載入中…</div></div>`;
+  const txt=await fetch('/'+a.file).then(r=>r.text());
+  let body=txt; if(txt.startsWith('---')){body=txt.slice(txt.indexOf('\n---',3)+4).replace(/^\s*/,'');}
+  const rel=INDEX.filter(x=>catOf(x)===catOf(a)&&x.slug!==slug).slice(0,3);
+  document.getElementById('md').innerHTML=marked.parse(body)+
+    (rel.length?`<div class="related"><h3>相關文章</h3>${grid(rel)}</div>`:'');
+}
+let st;
+function onSearch(v){ clearTimeout(st); st=setTimeout(()=>{ v=v.trim(); if(v){state={view:'search',query:v};render();} else if(state.view==='search'){go({view:'home'});} },250); }
+(async()=>{ INDEX=await fetch('/content/_index.json').then(r=>r.json()); render(); })();
+</script>
+</body>
+</html>

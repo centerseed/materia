@@ -23,7 +23,7 @@ Subject & scene:
 
 ## 護眼明目
 - `article_elder-eye-care` ✅已生
-- `article_kids-eye-care` ✅已生
+- `article_kids-eye-care`：人物生活 — a young East Asian child taking a break from a tablet to look out a bright window at green trees outside, gently resting the eyes, warm natural light（改：孩子人物，跟公園玩/書桌讀書區隔）.
 - `article_office-eye-fatigue` ✅已生
 - `article_what-is-lutein` ✅已生（原料科普·食材）
 - `article_compare-lutein` ✅已生（比較·食材）
@@ -31,14 +31,14 @@ Subject & scene:
 ## 骨骼關節
 - `article_elder-bone-collagen` ✅已生
 - `article_elder-joint-care` ✅已生
-- `article_sports-recovery` ✅已生
+- `article_sports-recovery`：人物生活 — an athletic East Asian person stretching or foam-rolling after a workout (or a runner catching their breath on a trail), dynamic and healthy, natural light（改：運動當下/伸展的人物，跟 SPM 靜態恢復、更年期瑜伽區隔）.
 - `article_what-is-cuberup` ✅已生（原料科普·食材）
 - `article_what-is-ovoderm` ✅已生（原料科普·食材）
 
 ## 心血管代謝
 - `article_elder-heart-care` ✅已生（料理成品）
 - `article_elder-metabolic-care` ✅已生（大理石食材）
-- `article_men-vitality` ✅已生
+- `article_men-vitality`：人物生活 — an energetic middle-aged East Asian man exercising outdoors on a sunny morning (jogging or hiking on a green trail, or finishing a workout with a water bottle), vigorous, healthy and confident, natural light（改：不要深色食材擺拍，跟黑種草籽油/魚油區隔）.
 - `article_what-is-thymoquin` ✅已生（原料科普·食材）
 - `article_what-is-fishoil` ✅已生（原料科普·食材）
 - `article_compare-fishoil`：環境情境 — a fresh fish market / fishmonger counter with whole salmon and mackerel on crushed ice, clean and bright, a shopper's hand reaching (market lifestyle, not a plated dish).

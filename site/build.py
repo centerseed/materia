@@ -135,6 +135,14 @@ class Component extends DCLogic {
     return { lvl, label:m.label, color:m.color, tint:m.tint, border:m.border, bars };
   }
 
+  catList(){ return ['眼睛健康','心血管代謝','認知神經','關節骨骼','皮膚美容','免疫防護','消化腸道','抗氧化體能','孕產育兒']; }
+  catOf(domain){
+    const R=[['眼睛','眼睛健康'],['孕','孕產育兒'],['胎兒','孕產育兒'],['葉酸','孕產育兒'],['腸道','消化腸道'],['消化','消化腸道'],['飽足','消化腸道'],['過敏','免疫防護'],['呼吸道','免疫防護'],['免疫','免疫防護'],['抗發炎','免疫防護'],['關節','關節骨骼'],['疼痛','關節骨骼'],['骨','關節骨骼'],['皮膚','皮膚美容'],['美容','皮膚美容'],['毛髮','皮膚美容'],['指甲','皮膚美容'],['修復','皮膚美容'],['認知','認知神經'],['神經','認知神經'],['情緒','認知神經'],['能量','抗氧化體能'],['運動','抗氧化體能'],['肌力','抗氧化體能'],['疲勞','抗氧化體能'],['抗老','抗氧化體能'],['抗氧化','抗氧化體能'],['利用率','抗氧化體能'],['吸收','抗氧化體能'],['心血管','心血管代謝'],['血糖','心血管代謝'],['血脂','心血管代謝'],['體重','心血管代謝'],['代謝','心血管代謝']];
+    for(const pair of R){ if(domain.indexOf(pair[0])>=0) return pair[1]; }
+    return null;
+  }
+  catsFor(c){ const s=[]; (c.domains||[]).forEach(d=>{ const k=this.catOf(d); if(k&&s.indexOf(k)<0) s.push(k); }); return s; }
+
   renderVals(){
     const v = this.state.view;
     const open = (id)=>{
@@ -150,18 +158,18 @@ class Component extends DCLogic {
 
     const list = Object.values(DATA);
     const active = this.state.filter;
-    const domainSet = ['全部'];
-    list.forEach(c=>(c.domains||[]).forEach(d=>{ if(!domainSet.includes(d)) domainSet.push(d); }));
-    const filters = domainSet.map(n=>({
+    const present = this.catList().filter(cat => list.some(c=>this.catsFor(c).indexOf(cat)>=0));
+    const filterNames = ['全部'].concat(present);
+    const filters = filterNames.map(n=>({
       name:n, onClick:()=>this.setState({ filter:n }),
       bg: n===active?'#234139':'transparent',
       color: n===active?'#F3EFE6':'#55514A',
       border: n===active?'#234139':'#C9C1AE',
     }));
     const cards = list
-      .filter(c=> active==='全部' || (c.domains||[]).includes(active))
+      .filter(c=> active==='全部' || this.catsFor(c).indexOf(active)>=0)
       .sort((a,b)=> (b.lvl||0)-(a.lvl||0) || a.name.localeCompare(b.name))
-      .map(c=>({ name:c.name, brand:c.brand, oneLine:c.oneLine, chips:c.chips||[], badge:this.badge(c.lvl), onClick:()=>open(c.id) }));
+      .map(c=>({ name:c.name, brand:c.brand, oneLine:c.oneLine, chips:this.catsFor(c).slice(0,3), badge:this.badge(c.lvl), onClick:()=>open(c.id) }));
 
     const base = {
       ...nav,

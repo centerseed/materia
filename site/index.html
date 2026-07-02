@@ -282,9 +282,10 @@
       <p style="font-size:14.5px; color:#8A857B; margin:0 0 30px;">來自具名的專業第三方（醫師／學者），非業配 KOL。</p>
       <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:18px;">
         <sc-for list="{{ videos }}" as="v" hint-placeholder-count="3">
-          <a href="#" style="text-decoration:none; display:flex; flex-direction:column; background:#FCFAF3; border:1px solid #E7E1D2; border-radius:12px; overflow:hidden;" style-hover="border-color:#234139;">
-            <div style="position:relative; aspect-ratio:16/9; background:repeating-linear-gradient(135deg,#E3DCCB,#E3DCCB 10px,#DDD6C4 10px,#DDD6C4 20px); display:flex; align-items:center; justify-content:center;">
-              <span style="width:48px; height:48px; border-radius:50%; background:rgba(35,65,57,0.92); color:#F3EFE6; display:flex; align-items:center; justify-content:center; font-size:16px;">▶</span>
+          <a href="{{ v.link }}" target="_blank" rel="noopener" style="text-decoration:none; display:flex; flex-direction:column; background:#FCFAF3; border:1px solid #E7E1D2; border-radius:12px; overflow:hidden;" style-hover="border-color:#234139;">
+            <div style="position:relative; aspect-ratio:16/9; background:#E3DCCB; display:flex; align-items:center; justify-content:center; overflow:hidden;">
+              <img src="{{ v.thumb }}" alt="{{ v.name }}" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover;">
+              <span style="position:relative; width:48px; height:48px; border-radius:50%; background:rgba(20,30,26,0.72); color:#F3EFE6; display:flex; align-items:center; justify-content:center; font-size:16px;">▶</span>
             </div>
             <div style="padding:18px;">
               <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px;">

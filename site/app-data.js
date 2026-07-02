@@ -2910,6 +2910,202 @@ const COMBOS = [
       "維生素C 於每日建議量下安全；一次攝取極高劑量可能造成腸胃不適。",
       "膠原蛋白為蛋白質，對特定來源（魚、海鮮）過敏者請留意原料來源。"
     ]
+  },
+  {
+    "id": "spm-omega3",
+    "title": "SPM ＋ 魚油 Omega-3",
+    "lvl": 2,
+    "oneLine": "上下游關係：魚油提供 EPA/DHA 原料，身體再轉化成主動「收尾」發炎的 SPM 訊號分子。",
+    "desc": "專門促消炎介質（SPM）是 Omega-3 脂肪酸在體內轉化出的活性代謝產物，負責主動引導發炎反應「消退收尾」。魚油補足前驅物原料池，直接補充 SPM 則跳過轉化步驟——兩者是清楚的上下游互補。",
+    "members": [
+      {
+        "id": "spms",
+        "name": "SPM 促消炎介質",
+        "brand": "SPM"
+      },
+      {
+        "id": "vivomega",
+        "name": "魚油 Omega-3",
+        "brand": "VivoMega®"
+      }
+    ],
+    "synergy": [
+      {
+        "h": "上下游關係",
+        "p": "EPA/DHA 是 SPM 的前驅物，SPM 是其活性代謝產物，方向一致。"
+      },
+      {
+        "h": "原料與訊號分工",
+        "p": "魚油提供充足原料池，SPM 直接補足「發炎消退」的訊號分子。"
+      },
+      {
+        "h": "研究脈絡",
+        "p": "魚油的人體證據豐富；SPM 為新興領域，複方數據仍在累積。"
+      }
+    ],
+    "evidence": [
+      {
+        "domain": "發炎調節",
+        "lvl": 2,
+        "oneLine": "魚油對發炎相關指標有較多人體研究；SPM 直接參與發炎消退，機轉明確、人體證據累積中。"
+      },
+      {
+        "domain": "心血管 / 關節",
+        "lvl": 1,
+        "oneLine": "以機轉與初步研究為主，支持發炎相關的原料搭配思路。"
+      }
+    ],
+    "risks": [
+      "兩者皆為脂溶性，建議隨餐食用；服用抗凝血藥物者補充較高劑量魚油前宜諮詢醫師。",
+      "SPM 為新興原料，長期高劑量的人體資料仍有限。"
+    ]
+  },
+  {
+    "id": "collagen-cuberup",
+    "title": "膠原蛋白 ＋ 黃瓜萃取",
+    "lvl": 2,
+    "oneLine": "關節保養的「結構 ＋ 舒適」組合：膠原提供結締組織原料，黃瓜萃取支持關節舒適與活動。",
+    "desc": "膠原蛋白胜肽是軟骨與結締組織的胺基酸原料；Euromed 專利黃瓜萃取（CuberUp®）則有人體研究支持關節舒適與活動表現。一個顧「結構原料」、一個顧「使用舒適」，是關節保養常見的互補搭配。",
+    "members": [
+      {
+        "id": "nippi-collagen",
+        "name": "膠原蛋白",
+        "brand": "NIPPI®"
+      },
+      {
+        "id": "cuberup",
+        "name": "黃瓜萃取",
+        "brand": "CuberUp®"
+      }
+    ],
+    "synergy": [
+      {
+        "h": "結構與舒適互補",
+        "p": "膠原提供結締組織原料，黃瓜萃取支持關節舒適與活動表現。"
+      },
+      {
+        "h": "機轉不同",
+        "p": "一為原料補充，一走抗氧化與一氧化氮相關路徑，覆蓋不同面向。"
+      },
+      {
+        "h": "研究脈絡",
+        "p": "兩者各自有人體研究；直接比較複方的協同試驗較少。"
+      }
+    ],
+    "evidence": [
+      {
+        "domain": "關節骨骼",
+        "lvl": 2,
+        "oneLine": "兩者各自對關節舒適與結締組織有人體研究支持。"
+      },
+      {
+        "domain": "運動 / 活動表現",
+        "lvl": 1,
+        "oneLine": "以初步研究與機轉為主。"
+      }
+    ],
+    "risks": [
+      "膠原蛋白為蛋白質，對特定來源（魚、海鮮）過敏者請留意來源。",
+      "關節保養屬長期方向，效果需持續數週至數月累積。"
+    ]
+  },
+  {
+    "id": "blackseed-omega3",
+    "title": "黑種草籽油 ＋ 魚油 Omega-3",
+    "lvl": 2,
+    "oneLine": "兩種機轉互補的脂溶性活性來源，常見於心血管代謝與發炎調節的搭配。",
+    "desc": "黑種草籽油富含百里醌等活性成分，魚油則提供 EPA/DHA。兩者分屬不同的脂溶性活性來源，在代謝與發炎相關的研究方向上一致，適合作為互補搭配。",
+    "members": [
+      {
+        "id": "thymoquin",
+        "name": "黑種草籽油",
+        "brand": "ThymoQuin®"
+      },
+      {
+        "id": "vivomega",
+        "name": "魚油 Omega-3",
+        "brand": "VivoMega®"
+      }
+    ],
+    "synergy": [
+      {
+        "h": "活性成分互補",
+        "p": "百里醌與 EPA/DHA 屬不同活性來源，機轉互補。"
+      },
+      {
+        "h": "吸收相輔",
+        "p": "皆為脂溶性，隨含油脂餐食用有助吸收。"
+      },
+      {
+        "h": "研究脈絡",
+        "p": "兩者各自有人體研究；複方協同數據仍在累積。"
+      }
+    ],
+    "evidence": [
+      {
+        "domain": "心血管代謝",
+        "lvl": 2,
+        "oneLine": "兩者各自對代謝相關指標有人體研究支持。"
+      },
+      {
+        "domain": "發炎 / 過敏",
+        "lvl": 1,
+        "oneLine": "以機轉與初步研究為主。"
+      }
+    ],
+    "risks": [
+      "服用抗凝血或降血壓藥物者，併用前宜先諮詢醫師或藥師。",
+      "皆為脂溶性，留意整體油脂與熱量攝取。"
+    ]
+  },
+  {
+    "id": "collagen-eggshell",
+    "title": "膠原蛋白 ＋ 蛋殼膜",
+    "lvl": 2,
+    "oneLine": "皮膚與關節結締組織的原料互補：膠原胜肽 ＋ 蛋殼膜的彈性蛋白與醣胺聚醣。",
+    "desc": "蛋殼膜天然含有膠原蛋白、彈性蛋白與醣胺聚醣（如玻尿酸、軟骨素等）；與膠原蛋白胜肽搭配，能為皮膚與關節的結締組織提供更多元的原料組成。",
+    "members": [
+      {
+        "id": "nippi-collagen",
+        "name": "膠原蛋白",
+        "brand": "NIPPI®"
+      },
+      {
+        "id": "ovoderm",
+        "name": "蛋殼膜",
+        "brand": "OVODERM®"
+      }
+    ],
+    "synergy": [
+      {
+        "h": "原料互補",
+        "p": "膠原胜肽提供胺基酸原料，蛋殼膜額外帶來彈性蛋白與醣胺聚醣。"
+      },
+      {
+        "h": "皮膚與關節雙面向",
+        "p": "兩者研究皆橫跨皮膚保養與關節結締組織。"
+      },
+      {
+        "h": "研究脈絡",
+        "p": "各自有初步至中等人體研究；複方直接數據有限。"
+      }
+    ],
+    "evidence": [
+      {
+        "domain": "皮膚美容",
+        "lvl": 2,
+        "oneLine": "兩者各自對皮膚彈性與保濕有人體研究支持。"
+      },
+      {
+        "domain": "關節骨骼",
+        "lvl": 1,
+        "oneLine": "以初步研究與機轉為主。"
+      }
+    ],
+    "risks": [
+      "對蛋、魚或海鮮過敏者，請留意各成分的原料來源。",
+      "皮膚與關節保養屬長期方向，效果需持續累積。"
+    ]
   }
 ];
 
@@ -2937,6 +3133,7 @@ class Component extends DCLogic {
     return null;
   }
   catsFor(c){ const s=[]; (c.domains||[]).forEach(d=>{ const k=this.catOf(d); if(k&&s.indexOf(k)<0) s.push(k); }); return s; }
+  ytThumb(link){ if(!link) return ''; const m=String(link).match(/(?:v=|youtu\.be\/|embed\/)([A-Za-z0-9_-]{11})/); return m ? ('https://img.youtube.com/vi/'+m[1]+'/hqdefault.jpg') : ''; }
 
   renderVals(){
     const v = this.state.view;
@@ -3003,7 +3200,8 @@ class Component extends DCLogic {
           expandLabel: has ? (isopen?'收合文獻':'展開研究文獻') : '文獻整理中',
           arrow: isopen?'▲':'▼' };
       });
-      base.claims = cur.claims||[]; base.safety = cur.safety||[]; base.videos = cur.videos||[];
+      base.claims = cur.claims||[]; base.safety = cur.safety||[];
+      base.videos = (cur.videos||[]).map(v=>({ ...v, thumb:this.ytThumb(v.link) }));
       base.combos = COMBOS.filter(c=>c.members.some(m=>m.id===cur.id)).map(c=>({ name:c.title, desc:c.oneLine, cta:'查看搭配 →', onClick:()=>openCombo(c.id) }));
     }
     base.comboCards = COMBOS.map(c=>({ title:c.title, membersText:c.members.map(m=>m.name).join('、'), oneLine:c.oneLine, badge:this.badge(c.lvl), onClick:()=>openCombo(c.id) }));

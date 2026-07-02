@@ -11,6 +11,7 @@
 ```
 Imagery for a premium Taiwanese health-education website. Warm, wholesome, trustworthy mood,
 realistic photography (never surreal, never a collage of floating objects).
+Styled and abundant with several complementary elements, layers and depth — NOT a single bare object on an empty background.
 No people faces, no body parts, no text, no words, no logos, no watermark. Aspect ratio 16:9.
 Style & scene:
 ```
@@ -39,7 +40,7 @@ Style & scene:
 - `article_elder-metabolic-care`：大理石 — a kitchen scale with whole grains, fresh vegetables and a glass of water on a white marble surface, top-down.
 - `article_men-vitality`：深色精緻 — black cumin seeds, a salmon fillet and whole grains on dark rustic wood, moody hearty side light.
 - `article_what-is-thymoquin`：深色精緻 — black cumin (Nigella sativa) seeds spilling from a spoon beside a dark oil bottle, close-up on dark slate.
-- `article_what-is-fishoil`：明亮白底 — a glistening salmon fillet with a lemon wedge on a clean bright white surface.
+- `article_what-is-fishoil`：亞麻明亮豐富 — a salmon fillet on a pale ceramic plate, a small glass dish of golden fish-oil softgels, lemon wedges, a sprig of fresh dill and a linen napkin on a bright wooden counter, styled and abundant (not a single bare fillet).
 - `article_compare-fishoil`：亞麻明亮 — a salmon fillet, a lemon wedge and a small dish of golden fish-oil softgels.
 - `article_omega3-intake-gap`：料理成品 — a large plate holding only one small piece of fish with lots of empty space, angled, quietly conveying a nutrition gap.
 - `article_what-is-fibryxa`：飲品玻璃杯 — a tall glass of water with soluble fiber powder swirling and dissolving, oats beside it, bright and clean.
@@ -58,7 +59,7 @@ Style & scene:
 - `article_elder-immune-care`：木質平擺 — bright citrus fruits, red bell peppers and vitamin C capsules on warm wood.
 - `article_kids-immune`：生活物件 — a child's plate arranged with colorful fruits and vegetables in a cheerful pattern.
 - `article_allergy-respiratory`：深色精緻 — black cumin seeds, a dark oil bottle and a sprig of fresh herb, close-up on dark slate.
-- `article_what-is-spm`：明亮白底 — a salmon fillet with a few fish-oil softgels on a clean bright white surface.
+- `article_what-is-spm`：深色精緻 — a salmon fillet, a small dish of amber softgels, walnuts and fresh herbs arranged on dark slate with a single dramatic light beam, premium and rich.
 
 ## 婦幼孕產
 - `article_kids-omega3`：料理成品 — a kid-friendly plate with a small piece of fish, vegetables and a few walnuts, wholesome and bright.
@@ -66,9 +67,9 @@ Style & scene:
 - `article_prenatal-nutrition`：大理石 — leafy greens, a salmon piece, eggs, citrus and a few softgels on a soft white marble surface, gentle top-down.
 
 ## 基礎營養
-- `article_what-is-vitc`：明亮白底 — a juicy fresh orange slice with a single vitamin C capsule and droplets on bright white, macro.
+- `article_what-is-vitc`：明亮清新豐富 — a vibrant cluster of citrus (orange halves, kiwi slices, red bell pepper) with a small dish of vitamin C capsules and fresh water droplets on a bright surface, juicy and abundant.
 - `article_vitc-comparison`：亞麻明亮 — fresh oranges, kiwi and red bell pepper with a dish of vitamin C capsules.
-- `article_what-is-bcomplex`：深色精緻 — a small bundle of wheat and buckwheat sprouts on dark slate, dramatic side light.
+- `article_what-is-bcomplex`：深色精緻 — a bundle of wheat and buckwheat sprouts, small bowls of whole grains and a dish of B-complex capsules arranged on dark slate, dramatic side light, rich and layered.
 - `article_compare-bcomplex`：木質平擺 — buckwheat sprouts and whole grains with a dish of B-complex capsules on wood.
 
 ---

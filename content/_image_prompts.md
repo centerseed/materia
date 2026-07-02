@@ -1,76 +1,77 @@
-# 原鑑 Materia 文章配圖 — 生圖 Prompt 包（全 35 篇・食材實物平拍風）
+# 原鑑 Materia 文章配圖 — 生圖 Prompt 包（全 35 篇・食材風但構圖多變）
 
 ## 使用方式
-1. 每次生圖：把「**共用風格前綴**」貼最前面，接該篇「場景描述」。
-2. 固定同一段前綴 → 35 張像同一套。
-3. 產出命名 `article_{slug}.png`，放到 `materia/content-preview/img/`。
-4. ⚠️ 保留「No people, No text/logos」，避免超現實器官、AI 人臉、亂加文字。
+1. 複製「**共用基底前綴**」→ 接該篇整行（該行已含**構圖 + 場景**）。
+2. 基底維持不變（統一色調/光線/氛圍 → 成套感）；**構圖每篇不同**（避免每張都一樣的平擺）。
+3. 命名 `article_{slug}.png`，放 `materia/content-preview/img/`。
+4. ⚠️ 保留「No people / No text / No logos」，不要器官、人臉、漂浮象徵物。
 
-## 共用風格前綴（每張都貼這段）
+## 共用基底前綴（每張都貼這段）
 ```
-Overhead flat-lay photograph, styled on a warm cream linen or light wood surface.
-Clean editorial food & ingredient photography, soft natural daylight, gentle soft shadows,
-calm premium wellness mood, muted warm natural palette, realistic and uncluttered,
-generous negative space. Top-down composition.
+Premium Taiwanese health-education website imagery. Realistic food & ingredient photography,
+warm natural palette (cream, light wood, muted greens and amber), soft natural daylight,
+gentle soft shadows, calm premium wellness mood, uncluttered with generous negative space.
 No people, no faces, no body parts, no text, no words, no logos, no watermark. Aspect ratio 16:9.
-Scene:
+Composition & scene:
 ```
-> 風格說明：一律用「真實食材/實物、俯拍平擺」，**不要**畫器官、人臉、漂浮象徵物（那會變超現實拼貼）。
+
+## 6 種構圖（穿插使用，讓 35 張不單調）
+`平擺`俯拍平放 ·`斜角`45°三分之三角＋淺景深 ·`特寫`微距近拍單一主體 ·`單主體`乾淨背景棚拍靜物 ·`情境`放在碗/杯/木盤的生活入鏡 ·`木質`粗獷木板側光
 
 ---
 
 ## 護眼明目
-- `article_elder-eye-care`：fresh dark leafy greens (spinach, kale), a marigold flower, two egg yolks and a few amber softgel capsules.
-- `article_kids-eye-care`：a child's picture book and crayons beside a small bowl of leafy greens and a pair of small kids' glasses.
-- `article_office-eye-fatigue`：a corner of a laptop, a cup of tea, reading glasses and a small dish of leafy greens on a wooden desk.
-- `article_what-is-lutein`：marigold flowers, a piece of corn, egg yolks and dark leafy greens (lutein food sources) grouped together.
-- `article_compare-lutein`：marigold flowers beside two small ceramic dishes holding softgel capsules of different sizes.
+- `article_elder-eye-care`：45-degree three-quarter angle with soft background blur — fresh spinach, kale, one marigold flower, two egg yolks and a few amber softgel capsules on cream linen.
+- `article_kids-eye-care`：a cozy in-context scene — an open lunchbox with leafy greens beside a corner of a colorful picture book on a table, gentle angle.
+- `article_office-eye-fatigue`：a 45-degree desk scene — the corner of a laptop, a cup of tea, reading glasses and a small dish of leafy greens on a wooden desk.
+- `article_what-is-lutein`：a macro close-up, shallow depth of field — marigold petals, corn kernels and a glossy egg yolk.
+- `article_compare-lutein`：a clean top-down flat-lay — three small dishes of capsules of different sizes with a marigold flower.
 
 ## 骨骼關節
-- `article_elder-joint-care`：sliced fresh cucumber, a small dish of capsules and a wooden walking-cane handle on linen.
-- `article_elder-bone-collagen`：fish skin and scales, a bowl of clear bone broth, citrus slices and collagen powder in a spoon.
-- `article_sports-recovery`：a water bottle, a banana, a rolled towel and a few softgel capsules on light wood.
-- `article_what-is-cuberup`：whole and sliced fresh cucumbers with a small dish of capsules.
-- `article_what-is-ovoderm`：a few eggs and one cracked eggshell showing the thin inner membrane, on cream linen.
+- `article_elder-joint-care`：a single-subject studio still life — one fresh whole cucumber with a couple of slices on a light wood board.
+- `article_elder-bone-collagen`：a side-view in-context scene — a warm bowl of clear bone broth with fish skin and citrus slices beside it, soft steam.
+- `article_sports-recovery`：a 45-degree angle on wood — a water bottle, a banana, a rolled towel and a few softgel capsules.
+- `article_what-is-cuberup`：a macro close-up with water droplets — freshly sliced cucumber, very shallow depth of field.
+- `article_what-is-ovoderm`：a single-subject studio shot — one cracked egg revealing its thin inner membrane, on cream seamless background.
 
 ## 心血管代謝
-- `article_elder-heart-care`：a salmon fillet, whole grains, walnuts and a few fish-oil softgels.
-- `article_elder-metabolic-care`：a kitchen scale holding whole grains, a glass of water and fresh vegetables around it.
-- `article_men-vitality`：black cumin seeds, a salmon fillet, whole grains and a glass of water, hearty and clean.
-- `article_what-is-thymoquin`：a small bowl of black cumin (Nigella sativa) seeds and a dark glass oil bottle with a sprig.
-- `article_what-is-fishoil`：a salmon fillet, fish-oil softgel capsules and a lemon slice.
-- `article_compare-fishoil`：three small dishes each holding a different style of fish-oil softgel, with a salmon slice.
-- `article_omega3-intake-gap`：a large plate holding only a very small piece of fish with lots of empty space, a few softgels beside it.
-- `article_what-is-fibryxa`：a glass of water with soluble fiber powder dissolving, oats and grains around it.
+- `article_elder-heart-care`：a rustic wood board with side light — a salmon fillet, walnuts and whole grains.
+- `article_elder-metabolic-care`：a top-down flat-lay — a kitchen scale with whole grains, a glass of water and fresh vegetables around it.
+- `article_men-vitality`：a 45-degree hearty arrangement on dark wood — black cumin seeds, a salmon fillet, whole grains and a glass of water.
+- `article_what-is-thymoquin`：a macro close-up — black cumin (Nigella sativa) seeds spilling from a wooden spoon beside a small dark oil bottle.
+- `article_what-is-fishoil`：a single-subject studio shot — a glistening salmon fillet on parchment with a lemon wedge.
+- `article_compare-fishoil`：a top-down flat-lay — three small dishes each with a different fish-oil softgel, plus a salmon slice.
+- `article_omega3-intake-gap`：a 45-degree angle emphasizing emptiness — a large plate holding only a very small piece of fish, lots of empty space, a few softgels at the edge.
+- `article_what-is-fibryxa`：a side-view in-context scene — a tall glass of water with soluble fiber powder swirling and dissolving, oats beside it.
 
 ## 腦力情緒
-- `article_elder-brain-care`：walnuts, a salmon piece, blueberries and fish-oil softgels grouped on linen.
-- `article_sleep-relax`：a warm cup of herbal tea, a small dish of B-vitamin capsules and whole grains, cozy soft light.
+- `article_elder-brain-care`：a macro close-up — walnuts, blueberries and a single glossy fish-oil softgel, shallow depth of field.
+- `article_sleep-relax`：a cozy dim evening scene with warm side light — a cup of herbal tea with soft steam and a small dish of capsules.
 
 ## 美容養顏
-- `article_women-beauty`：citrus slices, collagen powder in a spoon, fish skin and a glass of water, fresh and clean.
-- `article_menopause-care`：soy beans, a salmon piece, leafy greens, citrus and a few capsules, balanced and wholesome.
-- `article_what-is-collagen`：fish skin and scales, collagen powder in a spoon and citrus slices.
-- `article_compare-collagen`：two spoons of collagen powder (one by fish skin, one by eggs) side by side.
+- `article_women-beauty`：a macro close-up, dewy and fresh — a juicy citrus slice with collagen powder in a spoon and water droplets.
+- `article_menopause-care`：a 45-degree balanced arrangement — soy beans, a salmon piece, leafy greens and citrus.
+- `article_what-is-collagen`：a single-subject studio close-up — a spoon of collagen powder resting on a piece of fish skin.
+- `article_compare-collagen`：a top-down flat-lay — two spoons of collagen powder, one beside fish skin and one beside eggs.
 
 ## 免疫呼吸
-- `article_elder-immune-care`：citrus fruits, red bell peppers and vitamin C capsules.
-- `article_kids-immune`：colorful fruits and vegetables arranged playfully with a small dish of chewable capsules.
-- `article_allergy-respiratory`：black cumin seeds, a dark oil bottle, citrus and a sprig of fresh herb.
-- `article_what-is-spm`：a salmon fillet, fish-oil softgels and a small arrangement of leafy greens (omega-3 sources).
+- `article_elder-immune-care`：a rustic wood board — citrus fruits, red bell peppers and vitamin C capsules.
+- `article_kids-immune`：a playful top-down flat-lay — colorful fruits and vegetables arranged in a cheerful pattern with a small dish of chewable capsules.
+- `article_allergy-respiratory`：a macro close-up — black cumin seeds, a small dark oil bottle and a sprig of fresh herb.
+- `article_what-is-spm`：a single-subject studio shot — a salmon fillet with a few fish-oil softgels on a clean surface.
 
 ## 婦幼孕產
-- `article_kids-omega3`：small fish, walnuts and kid-friendly softgels beside a corner of a picture book.
-- `article_kids-gut-fiber`：a bowl of oats, fresh fruit, a glass of water and a small bowl of yogurt.
-- `article_prenatal-nutrition`：leafy greens, a salmon piece, eggs, citrus and a few softgels, gentle and wholesome.
+- `article_kids-omega3`：a cozy in-context scene — small fish and walnuts with kid-friendly softgels beside a corner of a picture book.
+- `article_kids-gut-fiber`：a side-view in-context scene — a bowl of oats topped with fresh fruit next to a small bowl of yogurt.
+- `article_prenatal-nutrition`：a 45-degree gentle arrangement — leafy greens, a salmon piece, eggs, citrus and a few softgels on soft linen.
 
 ## 基礎營養
-- `article_what-is-vitc`：fresh oranges, kiwi, red bell peppers and a few vitamin C capsules.
-- `article_vitc-comparison`：three small dishes of different vitamin C capsules with orange slices.
-- `article_what-is-bcomplex`：buckwheat and whole grains, wheat sprouts and a small dish of B-complex capsules.
-- `article_compare-bcomplex`：buckwheat sprouts and grains beside two small dishes of B-complex capsules.
+- `article_what-is-vitc`：a macro close-up, juicy — a fresh orange slice with a single vitamin C capsule and droplets.
+- `article_vitc-comparison`：a top-down flat-lay — three small dishes of different vitamin C capsules with orange slices.
+- `article_what-is-bcomplex`：a single-subject studio shot — a small bundle of wheat and buckwheat sprouts on cream background.
+- `article_compare-bcomplex`：a top-down flat-lay — buckwheat sprouts and grains beside two small dishes of B-complex capsules.
 
 ---
-## 備用風格（想換再用，替換上面前綴即可）
-- 生活攝影：`A warm natural-light lifestyle photo, shallow depth of field …`（可含情境但人物不露臉/背影為主）
-- 扁平插畫：`Simple friendly flat vector illustration, clean minimal shapes, warm cream palette …`（畫實物/場景，不畫器官）
+## 想換整體風格（替換基底前綴即可）
+- 生活攝影：`warm natural-light lifestyle photography, shallow depth of field`（人物只用背影/手部，不露臉）
+- 扁平插畫：`simple friendly flat vector illustration, clean minimal shapes, warm cream palette`（畫實物，不畫器官）

@@ -64,9 +64,62 @@ for f in sorted(DATA_DIR.glob("*.json")):
 
 data_js = json.dumps(DATA, ensure_ascii=False, indent=2)
 
+# 搭配範例（依現有原料、有學理基礎的真實組合；語氣客觀正向）
+COMBOS = [
+    {
+        "id": "lutein-omega3",
+        "title": "葉黃素 ＋ 魚油 Omega-3",
+        "lvl": 2,
+        "oneLine": "護眼與大腦的經典組合：葉黃素沉積於黃斑部，DHA 是視網膜與神經細胞膜的結構脂質。",
+        "desc": "兩者分屬「保護」與「結構」兩個面向——葉黃素在黃斑部形成濾光與抗氧化層，Omega-3 的 DHA 則是視網膜感光細胞與神經細胞膜的主要組成。各自的人體研究都相當豐富，是長期護眼保養常見的搭配。",
+        "members": [
+            {"id": "floraglo", "name": "葉黃素", "brand": "FloraGLO®"},
+            {"id": "vivomega", "name": "魚油 Omega-3", "brand": "VivoMega®"},
+        ],
+        "synergy": [
+            {"h": "作用位置互補", "p": "葉黃素選擇性堆積在黃斑部，作為濾光與抗氧化層；DHA 構成視網膜與神經細胞膜，兩者覆蓋不同層面。"},
+            {"h": "吸收相輔", "p": "葉黃素為脂溶性，與含油脂的魚油同時攝取有助於吸收。"},
+            {"h": "研究脈絡", "p": "兩者各自的人體研究豐富；直接比較「複方 vs 單方」的協同試驗仍在累積中。"},
+        ],
+        "evidence": [
+            {"domain": "眼睛健康", "lvl": 2, "oneLine": "各自對黃斑色素密度與視覺機能均有人體研究支持，複方協同數據持續累積。"},
+            {"domain": "認知 / 神經", "lvl": 1, "oneLine": "葉黃素與 DHA 皆存在於腦部，與認知的關聯以機轉與觀察性研究為主。"},
+        ],
+        "risks": [
+            "兩者皆為脂溶性，建議隨餐食用；同時補充多種脂溶性營養素時留意整體攝取量。",
+            "服用抗凝血藥物者，補充較高劑量魚油前宜先諮詢醫師或藥師。",
+        ],
+    },
+    {
+        "id": "collagen-vitc",
+        "title": "膠原蛋白 ＋ 維生素C",
+        "lvl": 2,
+        "oneLine": "維生素C 是膠原蛋白合成的必需輔因子，與膠原蛋白胜肽是常見的美容與關節搭配。",
+        "desc": "膠原蛋白胜肽提供合成所需的胺基酸原料，維生素C 則是膠原蛋白合成過程中關鍵酵素的必需輔因子——兩者一個是「原料」、一個是「必需的助手」，在生化上有明確的互補關係。",
+        "members": [
+            {"id": "nippi-collagen", "name": "膠原蛋白", "brand": "NIPPI®"},
+            {"id": "pureway-c", "name": "維生素C", "brand": "PureWay-C®"},
+        ],
+        "synergy": [
+            {"h": "生化上必需", "p": "維生素C 是脯胺酸、離胺酸羥化酶的輔因子，膠原蛋白的正常合成需要它參與。"},
+            {"h": "原料與助手分工", "p": "膠原胜肽提供胺基酸原料，維生素C 支援其轉化並提供抗氧化保護。"},
+            {"h": "研究脈絡", "p": "兩者各自的人體研究較多；直接針對複方的協同試驗相對較少。"},
+        ],
+        "evidence": [
+            {"domain": "皮膚美容", "lvl": 2, "oneLine": "膠原胜肽對皮膚彈性與保濕有人體研究；維生素C 為合成必需輔因子，機理明確。"},
+            {"domain": "關節 / 結締組織", "lvl": 1, "oneLine": "以機轉與初步研究為主，支持結締組織的原料與輔因子搭配思路。"},
+        ],
+        "risks": [
+            "維生素C 於每日建議量下安全；一次攝取極高劑量可能造成腸胃不適。",
+            "膠原蛋白為蛋白質，對特定來源（魚、海鮮）過敏者請留意原料來源。",
+        ],
+    },
+]
+combos_js = json.dumps(COMBOS, ensure_ascii=False, indent=2)
+
 COMPONENT = r"""
 class Component extends DCLogic {
-  state = { view:'home', filter:'全部', currentId:null, mechOpen:false, openDomain:null };
+  state = { view:'home', filter:'全部', currentId:null, currentComboId:null, mechOpen:false, openDomain:null };
 
   go(v){ this.setState({ view:v }); if(typeof window!=='undefined') window.scrollTo(0,0); }
 
@@ -84,13 +137,16 @@ class Component extends DCLogic {
 
   renderVals(){
     const v = this.state.view;
-    const nav = { goHome:()=>this.go('home'), goBadges:()=>this.go('badges'), goCombo:()=>this.go('home') };
     const open = (id)=>{
       const c = DATA[id]; if(!c) return;
-      const first = (c.evidence||[]).find(e=>e.studies && e.studies.length) || {};
-      this.setState({ view:'ingredient', currentId:id, openDomain:first.id||null, mechOpen:false });
+      this.setState({ view:'ingredient', currentId:id, openDomain:null, mechOpen:false });
       if(typeof window!=='undefined') window.scrollTo(0,0);
     };
+    const openCombo = (id)=>{
+      this.setState({ view:'combo', currentComboId:id });
+      if(typeof window!=='undefined') window.scrollTo(0,0);
+    };
+    const nav = { goHome:()=>this.go('home'), goBadges:()=>this.go('badges'), goCombo:()=>this.go('combos'), goLutein:()=>open('floraglo') };
 
     const list = Object.values(DATA);
     const active = this.state.filter;
@@ -109,12 +165,13 @@ class Component extends DCLogic {
 
     const base = {
       ...nav,
-      isHome: v==='home', isIngredient: v==='ingredient', isCombo:false, isBadges: v==='badges',
+      isHome: v==='home', isIngredient: v==='ingredient', isCombos: v==='combos', isCombo: v==='combo', isBadges: v==='badges',
       filters, cards,
       curName:'', curBrand:'', curDesc:'',
       heroDomains:[], heroGroups:[],
       mechImage:'', mechCaption:'', mechSummary:'', mechDetail:'', mechPoints:[],
       specs:[], evidence:[], claims:[], safety:[], videos:[], combos:[],
+      comboCards:[], comboTitle:'', comboDesc:'', comboMembers:[], comboSynergy:[], comboEvidence:[], comboRisks:[],
       mechOpen:this.state.mechOpen,
       toggleMech:()=>this.setState({ mechOpen:!this.state.mechOpen }),
       mechBtnLabel:this.state.mechOpen?'收合完整機制敘述':'展開完整機制敘述',
@@ -144,6 +201,16 @@ class Component extends DCLogic {
           arrow: isopen?'▲':'▼' };
       });
       base.claims = cur.claims||[]; base.safety = cur.safety||[]; base.videos = cur.videos||[];
+      base.combos = COMBOS.filter(c=>c.members.some(m=>m.id===cur.id)).map(c=>({ name:c.title, desc:c.oneLine, cta:'查看搭配 →', onClick:()=>openCombo(c.id) }));
+    }
+    base.comboCards = COMBOS.map(c=>({ title:c.title, membersText:c.members.map(m=>m.name).join('、'), oneLine:c.oneLine, badge:this.badge(c.lvl), onClick:()=>openCombo(c.id) }));
+    const cc = this.state.currentComboId ? COMBOS.find(x=>x.id===this.state.currentComboId) : null;
+    if(cc){
+      base.comboTitle = cc.title; base.comboDesc = cc.desc;
+      base.comboMembers = cc.members.map(m=>({ name:m.name, brand:m.brand, onClick:()=>open(m.id) }));
+      base.comboSynergy = cc.synergy;
+      base.comboEvidence = cc.evidence.map(e=>({ ...e, badge:this.badge(e.lvl) }));
+      base.comboRisks = cc.risks;
     }
     return base;
   }
@@ -151,7 +218,7 @@ class Component extends DCLogic {
 """
 
 header = ("/* 原鑑 Materia — 真實資料（由 build.py 從 site/data/*.json 產生，勿手改）*/\n"
-          "const DATA = ") + data_js + ";\n"
+          "const DATA = ") + data_js + ";\n" + "const COMBOS = " + combos_js + ";\n"
 
 (SITE / "app-data.js").write_text(header + COMPONENT, encoding="utf-8")
 print(f"app-data.js: 已嵌入 {len(DATA)} 個原材料 -> {', '.join(DATA)}")

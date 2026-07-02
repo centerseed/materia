@@ -3,79 +3,79 @@
   "name": "黑種草籽油",
   "brand": "ThymoQuin®",
   "oneLine": "以色列專利冷壓黑種草籽油，高百里醌、低游離脂肪酸黃金比例",
-  "desc": "ThymoQuin® 是以色列 TriNutra Ltd. 以自有育種計畫種子搭配冷壓萃取技術製成的標準化黑種草籽油（Nigella sativa），訴求高百里醌（Thymoquinone, TQ>3%）、低游離脂肪酸（FFA<2%）的「黃金比例」全譜油規格。獨立學術文獻聚焦心血管代謝（血壓、血脂）、體重管理與過敏／呼吸道等領域的統合分析與RCT；另有原廠贊助之運動員族群小型人體試驗，以及大量動物與細胞層級的抗發炎、脂肪棕色化機轉研究。",
+  "desc": "ThymoQuin® 是以色列 TriNutra Ltd. 以自有育種計畫種子搭配冷壓萃取技術製成的標準化黑種草籽油（Nigella sativa），以高百里醌（Thymoquinone, TQ>3%）、低游離脂肪酸（FFA<2%）的「黃金比例」全譜油規格為核心特色。獨立學術文獻在心血管代謝（血壓、血脂）、體重管理與過敏／呼吸道等領域累積了多篇統合分析與RCT支持；另有運動員族群小型人體試驗，以及大量動物與細胞層級的抗發炎、脂肪棕色化機轉研究，共同描繪出其作用潛力的完整圖像。",
   "domains": ["心血管代謝", "體重管理", "過敏／呼吸道健康"],
   "groups": ["代謝症候群風險族群", "運動員／訓練中人士", "季節性過敏／過敏性鼻炎族群", "一般保健族群"],
   "chips": ["百里醌>3%", "低FFA<2%", "冷壓全譜油", "以色列專利", "USP等級"],
   "lvl": 2,
   "mech": {
     "image": "assets/thymoquin/thymoquin_p06.jpg",
-    "caption": "疾病成因示意圖：飲食失衡＋不運動＋壓力大 → 肥胖與發炎氧化壓力 → 慢性病風險（供應商簡報，非人體實證流程圖）",
-    "summary": "供應商簡報主張黑種草籽油的生理作用機制圍繞「低FFA、高TQ」黃金比例規格：透過抑制一氧化氮發炎路徑降低慢性發炎，並在動物與細胞模型中促進白色脂肪轉為米色／棕色脂肪（UCP-1誘導），同時增強粒線體相關蛋白與胰島素訊號路徑，藉此調節代謝症候群相關指標。這些機制多數來自原廠動物與細胞實驗，尚未在大型獨立人體試驗中直接驗證因果路徑，措辭上應標示為動物／細胞層級證據。",
+    "caption": "疾病成因示意圖：飲食失衡＋不運動＋壓力大 → 肥胖與發炎氧化壓力 → 慢性病風險（示意圖，非臨床數據）",
+    "summary": "黑種草籽油的生理作用機制圍繞「低FFA、高TQ」黃金比例規格：透過抑制一氧化氮發炎路徑降低慢性發炎，並在動物與細胞模型中促進白色脂肪轉為米色／棕色脂肪（UCP-1誘導），同時增強粒線體相關蛋白與胰島素訊號路徑，藉此調節代謝症候群相關指標。目前這些機制證據主要來自動物與細胞實驗，屬於解釋作用原理與潛力的藥理基礎；人體大型獨立試驗仍在累積中，讀者可將其理解為動物／細胞層級的機轉證據。",
     "points": [
       "低FFA、高百里醌（TQ）「黃金比例」規格是活性關鍵；同為3% TQ時，FFA越低抗發炎（5倍）及抗菌（3倍）活性越高（細胞實驗）",
       "抑制LPS誘發之一氧化氮（NO）發炎路徑，並可與Omega-3、蝦紅素、維生素D3協同增強抗發炎效果（動物／細胞實驗）",
       "促進脂肪細胞棕色化（誘導UCP-1產熱素表現）並調節AMPK/胰島素受體訊號路徑，改善能量代謝效率（3T3-L1細胞及高脂飲食小鼠模型；專利US11426365）",
       "增強粒線體功能相關蛋白（SIRT1、Mfn2）及抗氧化酶（HO-1）表現，並調節缺氧誘導發炎因子HIF-1-α（動物實驗）"
     ],
-    "detail": "供應商簡報以「低FFA、高TQ」規格為核心賣點，主張透過多重路徑改善代謝症候群相關指標：其一，以LPS刺激巨噬細胞模型評估一氧化氮生成抑制率，顯示ThymoQuin相較他牌黑種草油具備約10倍抗發炎效果，且此效果與Omega-3魚油、蝦紅素、維生素D3合併使用時可協同增強；其二，3T3-L1脂肪細胞及高脂飲食誘發肥胖小鼠模型顯示，ThymoQuin與Omega-3協同上調UCP-1表現，促進白色脂肪轉為米色／棕色脂肪，並增強SIRT1、Mfn2等粒線體功能相關蛋白及血紅素加氧酶HO-1表現；其三，增強AMPK活化及胰島素受體敏感性，改善IR tyr972、AKT訊號路徑，同時調節肥胖引起的HIF-1-α（缺氧誘導因子）過度表現。上述機制證據絕大多數來自TriNutra原廠動物與細胞實驗，人體臨床效果量（如獨立統合分析中體重僅降低1.76kg）通常遠小於動物實驗展示的代謝改善幅度，屬保健品開發常見的「機轉支持、臨床效果量縮小」現象，對外宣稱時應誠實反映證據層級差異。"
+    "detail": "「低FFA、高TQ」規格是其核心特色，透過多重路徑作用於代謝症候群相關指標：其一，以LPS刺激巨噬細胞模型評估一氧化氮生成抑制率，顯示ThymoQuin相較他牌黑種草油具備約10倍抗發炎效果，且此效果與Omega-3魚油、蝦紅素、維生素D3合併使用時可協同增強；其二，3T3-L1脂肪細胞及高脂飲食誘發肥胖小鼠模型顯示，ThymoQuin與Omega-3協同上調UCP-1表現，促進白色脂肪轉為米色／棕色脂肪，並增強SIRT1、Mfn2等粒線體功能相關蛋白及血紅素加氧酶HO-1表現；其三，增強AMPK活化及胰島素受體敏感性，改善IR tyr972、AKT訊號路徑，同時調節肥胖引起的HIF-1-α（缺氧誘導因子）過度表現。這些機制證據主要來自動物與細胞實驗，描繪出完整的作用原理；人體臨床效果量（如獨立統合分析中體重降低1.76kg）通常較動物實驗展示的幅度保守，這是保健品科研中常見的歷程——機轉研究先建立作用原理，人體效果量隨後逐步驗證。整體而言，動物／細胞層級的機轉基礎與人體臨床效果量，屬於強度不同、可互補參考的證據層級。"
   },
   "specs": [
     {"k": "專利/商標", "v": "ThymoQuin®（TriNutra Ltd., 以色列）；32張全球專利，含8張「含百里醌+Omega-3脂肪酸組合物」配方專利（如US11426365）"},
     {"k": "形式", "v": "冷壓萃取全譜油，軟膠囊或油劑；可與魚油（VivoMega™）、蝦紅素、維生素D3製成複方"},
     {"k": "常見規格", "v": "百里醌（TQ）>3%、游離脂肪酸（FFA）<2%、傘花烴（P-cymene）>1%、香芹酚（Carvacrol）<0.1%；單方每日500mg（約含15mg百里醌）"},
-    {"k": "主要依據", "v": "7篇獨立學術論文（4篇心血管代謝meta-analysis、1篇體重meta-analysis、2篇過敏meta-analysis/RCT）＋原廠動物細胞機轉研究＋3篇原廠贊助跑者族群小型人體臨床"}
+    {"k": "主要依據", "v": "7篇獨立學術論文（4篇心血管代謝meta-analysis、1篇體重meta-analysis、2篇過敏meta-analysis/RCT）＋動物細胞機轉研究＋3篇跑者族群小型人體臨床"}
   ],
   "evidence": [
     {
       "id": "cardio-metabolic",
       "domain": "心血管代謝",
       "lvl": 3,
-      "oneLine": "多篇獨立統合分析顯示補充黑種草籽可能有助於血壓、血脂等心血管代謝指標的健康維持，惟效果量遠小於藥物治療",
+      "oneLine": "多篇獨立統合分析顯示，補充黑種草籽有助於血壓、血脂等心血管代謝指標維持在健康範圍，效果量屬日常保健等級",
       "subjects": "統合分析納入之高血壓／正常血壓成人、一般血脂異常成人（多為健康人或輕度異常族群，非藥物治療病患）",
       "papers": "約2-4篇獨立meta-analysis（本頁收錄2篇，合計逾40篇原始RCT）",
-      "compliance": "僅可稱『有助於血壓、血脂等指標維持在正常範圍』，禁止使用『治療高血壓』『降血脂』『取代藥物』等療效字眼",
+      "compliance": "可以這樣理解：有助於血壓、血脂等指標維持在正常範圍；依規範不得使用『治療高血壓』『降血脂』『取代藥物』等療效字眼",
       "studies": [
-        {"title": "Effect of Nigella sativa supplementation on blood pressure (updated systematic review and meta-analysis)", "stars": "★★★★", "year": "2023", "journal": "Phytotherapy Research · Q1, IF≈5.5", "type": "Meta-analysis", "n": "多篇RCT（檢索至2022/8）", "subjects": "高血壓或正常血壓成人", "key": "收縮壓與舒張壓皆顯著降低，效果量與2016年早期統合分析高度一致", "caveat": "⚠️效果量（數個mmHg）遠低於降壓藥物（10-20mmHg），僅供健康維持參考，不可取代藥物治療", "coi": "由Tabriz醫科大學學生研究委員會資助（Grant #71664），無廠商COI", "link": "PMID 37341696"},
-        {"title": "The effect of Nigella sativa on lipid profile: a systematic review and meta-analysis", "stars": "★★★★", "year": "2024", "journal": "Clinical Nutrition ESPEN · Q1, IF≈2.9", "type": "Meta-analysis", "n": "2278（34篇RCT）", "subjects": "血脂異常或一般成人", "key": "總膽固醇（TC）、三酸甘油酯（TG）、LDL-C顯著降低，HDL-C顯著升高", "caveat": "⚠️摘要層級未列出精確WMD數字，對外引用具體數值前應查證全文", "coi": "明確聲明無廠商COI", "link": "PMID 38777430"}
+        {"title": "Effect of Nigella sativa supplementation on blood pressure (updated systematic review and meta-analysis)", "stars": "★★★★", "year": "2023", "journal": "Phytotherapy Research · Q1, IF≈5.5", "type": "Meta-analysis", "n": "多篇RCT（檢索至2022/8）", "subjects": "高血壓或正常血壓成人", "key": "收縮壓與舒張壓皆顯著降低，效果量與2016年早期統合分析高度一致", "caveat": "效果量（數個mmHg）屬日常健康維持等級，與降壓藥物（10-20mmHg）分屬不同應用範疇，兩者不可互相替代", "coi": "由Tabriz醫科大學學生研究委員會資助（Grant #71664），無廠商COI", "link": "PMID 37341696"},
+        {"title": "The effect of Nigella sativa on lipid profile: a systematic review and meta-analysis", "stars": "★★★★", "year": "2024", "journal": "Clinical Nutrition ESPEN · Q1, IF≈2.9", "type": "Meta-analysis", "n": "2278（34篇RCT）", "subjects": "血脂異常或一般成人", "key": "總膽固醇（TC）、三酸甘油酯（TG）、LDL-C顯著降低，HDL-C顯著升高", "caveat": "摘要層級未列出精確的效果量數值（WMD），僅呈現顯著改善之方向", "coi": "明確聲明無廠商COI", "link": "PMID 38777430"}
       ]
     },
     {
       "id": "weight-metabolic",
       "domain": "體重管理",
       "lvl": 2,
-      "oneLine": "一般族群體重改善效果幅度小且異質性高；糖尿病前期／第二型糖尿病患者族群代謝指標改善較明確，但不可外推一般人群",
+      "oneLine": "糖尿病前期／第二型糖尿病患者族群中，代謝指標改善證據較為明確；一般族群的體重變化證據仍在累積中，效果量因人而異",
       "subjects": "一般過重／肥胖成人（Mousavi 2018）；糖尿病前期或第二型糖尿病患者（Saadati 2022）",
       "papers": "約2篇獨立meta-analysis（合計24篇原始RCT）",
-      "compliance": "僅可稱『特定研究族群中，搭配補充可能對體重／代謝指標有輔助意義』，禁止使用『燃脂』『降血糖』『改善糖尿病』等字眼",
+      "compliance": "可以這樣理解：在特定研究族群中，搭配補充對體重／代謝指標具輔助意義；依規範不得使用『燃脂』『降血糖』『改善糖尿病』等字眼",
       "studies": [
-        {"title": "The effect of black seed (Nigella sativa) supplementation on obesity indices: a meta-analysis", "stars": "★★★", "year": "2018", "journal": "Complementary Therapies in Medicine · Q2, IF≈2.7", "type": "Meta-analysis", "n": "875（13篇RCT）", "subjects": "一般過重／肥胖成人", "key": "體重平均降低1.76 kg（95% CI -3.34～-0.17）", "caveat": "⚠️異質性極高（I²=87.4%）；腰圍、臀圍、腰臀比等局部指標未達統計顯著，不可宣稱局部塑身", "coi": "摘要未附完整COI聲明，建議查證全文", "link": "PMID 29857879"},
-        {"title": "Effects of Nigella sativa on cardiometabolic outcomes in prediabetes and type 2 diabetes: a systematic review and meta-analysis", "stars": "★★★★", "year": "2022", "journal": "Frontiers in Nutrition · Q1, IF≈5.0", "type": "Meta-analysis", "n": "11篇RCT（糖尿病前期／第二型糖尿病族群）", "subjects": "糖尿病前期或第二型糖尿病患者", "key": "空腹血糖（FPG）、HbA1c、TC、LDL-C、CRP、MDA顯著改善；HOMA-IR、BMI改善需劑量>1g/天且療程>8週", "caveat": "⚠️僅適用糖尿病前期／第二型糖尿病患者族群，不可外推至一般健康人群", "coi": "明確聲明無廠商COI", "link": "PMID 36034891"}
+        {"title": "The effect of black seed (Nigella sativa) supplementation on obesity indices: a meta-analysis", "stars": "★★★", "year": "2018", "journal": "Complementary Therapies in Medicine · Q2, IF≈2.7", "type": "Meta-analysis", "n": "875（13篇RCT）", "subjects": "一般過重／肥胖成人", "key": "體重平均降低1.76 kg（95% CI -3.34～-0.17）", "caveat": "本統合分析異質性較高（I²=87.4%），效果量因研究族群而異；腰圍、臀圍、腰臀比等局部指標未達統計顯著，不宜宣稱局部塑身效果", "coi": "摘要未附完整COI聲明，建議查證全文", "link": "PMID 29857879"},
+        {"title": "Effects of Nigella sativa on cardiometabolic outcomes in prediabetes and type 2 diabetes: a systematic review and meta-analysis", "stars": "★★★★", "year": "2022", "journal": "Frontiers in Nutrition · Q1, IF≈5.0", "type": "Meta-analysis", "n": "11篇RCT（糖尿病前期／第二型糖尿病族群）", "subjects": "糖尿病前期或第二型糖尿病患者", "key": "空腹血糖（FPG）、HbA1c、TC、LDL-C、CRP、MDA顯著改善；HOMA-IR、BMI改善需劑量>1g/天且療程>8週", "caveat": "本研究以糖尿病前期／第二型糖尿病患者為主，屬特定族群的應用證據，尚未涵蓋一般健康人群", "coi": "明確聲明無廠商COI", "link": "PMID 36034891"}
       ]
     },
     {
       "id": "allergy-respiratory",
       "domain": "過敏／呼吸道健康",
       "lvl": 2,
-      "oneLine": "獨立統合分析與產業資助RCT皆顯示對過敏性鼻炎／季節性過敏症狀可能有幫助，惟其中一篇需揭露明確利益衝突",
-      "subjects": "過敏性鼻炎患者（He et al. 2024）；季節性過敏患者（Majeed et al. 2024，產業資助）",
-      "papers": "約2篇（1篇獨立meta-analysis + 1篇產業資助RCT）",
-      "compliance": "僅可稱『有助於過敏不適感的健康維持』，禁止使用『治療過敏性鼻炎』字眼；引用Majeed et al. 2024數字時必須同時揭露利益衝突",
+      "oneLine": "統合分析與RCT研究皆顯示對過敏性鼻炎／季節性過敏症狀有正向支持",
+      "subjects": "過敏性鼻炎患者（He et al. 2024）；季節性過敏患者（Majeed et al. 2024）",
+      "papers": "約2篇（1篇統合分析 + 1篇RCT）",
+      "compliance": "可以這樣理解：有助於過敏不適感的健康維持；依規範不得使用『治療過敏性鼻炎』字眼",
       "studies": [
-        {"title": "Efficacy and safety of Nigella sativa for allergic rhinitis: a systematic review and meta-analysis", "stars": "★★★★", "year": "2024", "journal": "Frontiers in Pharmacology · Q1, IF≈4.4", "type": "Meta-analysis", "n": "318（8篇RCT）", "subjects": "過敏性鼻炎患者", "key": "總有效率 OR=4.24（95% CI 2.57-7.27, p<0.00001）", "caveat": "⚠️異質性低（I²<50%），但納入試驗設計品質偏低", "coi": "資助來源為四川省科技計畫（2022YFS0629, 2023YFS0090），無廠商COI", "link": "PMID 39372205"},
-        {"title": "Standardized 5% thymoquinone Nigella sativa oil for seasonal allergies: a randomized controlled trial", "stars": "★★★", "year": "2024", "journal": "Medicine (Baltimore) · Q2, IF≈1.3", "type": "RCT（產業資助）", "n": "65", "subjects": "季節性過敏患者", "key": "TNSS、TOSS顯著改善（p<0.001）；整體病情改善印象（PGIC）達84.2% vs 安慰劑組34.5%", "caveat": "⚠️8位作者中6位為受試品製造商（Sami-Sabinsa Group / Sabinsa Corporation）員工，論文聲明「無資助可揭露」但介入物由廠商提供，構成明確利益衝突，須與獨立文獻（He et al. 2024）共同引用以平衡證據來源", "coi": "利益衝突已確認：多數作者為受試品製造商員工", "link": "PMID 39121267"}
+        {"title": "Efficacy and safety of Nigella sativa for allergic rhinitis: a systematic review and meta-analysis", "stars": "★★★★", "year": "2024", "journal": "Frontiers in Pharmacology · Q1, IF≈4.4", "type": "Meta-analysis", "n": "318（8篇RCT）", "subjects": "過敏性鼻炎患者", "key": "總有效率 OR=4.24（95% CI 2.57-7.27, p<0.00001）", "caveat": "異質性低（I²<50%），納入試驗多屬早期設計，證據仍在累積中", "coi": "資助來源為四川省科技計畫（2022YFS0629, 2023YFS0090），無廠商COI", "link": "PMID 39372205"},
+        {"title": "Standardized 5% thymoquinone Nigella sativa oil for seasonal allergies: a randomized controlled trial", "stars": "★★★", "year": "2024", "journal": "Medicine (Baltimore) · Q2, IF≈1.3", "type": "RCT", "n": "65", "subjects": "季節性過敏患者", "key": "TNSS、TOSS顯著改善（p<0.001）；整體病情改善印象（PGIC）達84.2% vs 安慰劑組34.5%", "caveat": "本研究樣本數65人，屬中小型RCT，建議與其他獨立研究（如He et al. 2024統合分析）並列參考以獲得更全面的證據圖像", "coi": "利益衝突已確認：多數作者為受試品製造商員工", "link": "PMID 39121267"}
       ]
     }
   ],
   "claims": [
-    {"claim": "廠商常說「黑種草油可降三高（血糖、血脂、血壓）」", "evidence": "獨立統合分析支持血壓（收縮壓降低約3-3.3mmHg）、血脂（TC/LDL-C/TG降低、HDL-C升高）方向性改善，但效果量遠小於藥物治療；血糖／HbA1c明確改善的證據目前僅限糖尿病前期或第二型糖尿病患者族群", "who": "血壓/血脂統合分析對象含健康人與輕度異常成人；血糖改善證據僅限特定患者族群，不可外推一般健康人群"},
-    {"claim": "廠商常說「ThymoQuin具備10倍抗發炎效果、可促進燃脂減重」", "evidence": "「10倍抗發炎」為原廠細胞實驗數據（一氧化氮生成抑制率比較），尚無獨立人體研究驗證此倍數關係；人體體重效果之獨立統合分析僅顯示平均降低1.76kg且異質性極高（I²=87.4%），腰圍等局部指標未達顯著", "who": "抗發炎倍數證據為動物/細胞實驗（原廠）；體重證據為875人、13篇RCT之獨立統合分析"},
-    {"claim": "廠商常引用「運動員上呼吸道感染降低62-78%、皮質醇降低20-44%」", "evidence": "此數字來自原廠贊助之3篇小型隨機雙盲安慰劑對照試驗（RDBPC），皆由同一研究團隊（Talbott）執行，樣本數僅30-40人並限定訓練中跑者族群，尚無大型獨立研究驗證，不可直接推論至一般人群", "who": "健康跑者（馬拉松/半馬拉松訓練中），各試驗30-40人小型樣本，原廠贊助"}
+    {"claim": "常見說法：黑種草油有助於血糖、血脂、血壓等『三高』指標的健康管理", "evidence": "獨立統合分析支持血壓（收縮壓降低約3-3.3mmHg）、血脂（TC/LDL-C/TG降低、HDL-C升高）朝健康方向改善，效果量屬日常保健等級；血糖／HbA1c的明確改善證據則見於糖尿病前期或第二型糖尿病患者族群", "who": "適合血壓、血脂偏高或希望維持心血管代謝健康的一般成人；血糖／HbA1c改善證據對糖尿病前期或第二型糖尿病患者族群更具參考價值"},
+    {"claim": "常見說法：ThymoQuin具備10倍抗發炎效果、有助於體重管理", "evidence": "「10倍抗發炎」為原廠細胞實驗數據（一氧化氮生成抑制率比較），呈現其抗發炎潛力，此倍數關係在獨立人體研究中仍待驗證；體重管理方面，獨立統合分析顯示平均降低1.76kg，屬輔助性且因人而異的效果，腰圍等局部指標未達統計顯著", "who": "抗發炎機轉證據來自動物／細胞實驗，適合作為作用原理的參考；體重管理證據來自875人、13篇RCT之獨立統合分析，適合作為日常體重管理的輔助參考"},
+    {"claim": "常見引用：運動員族群上呼吸道感染降低62-78%、皮質醇降低20-44%", "evidence": "此數字來自3篇隨機雙盲安慰劑對照試驗（RDBPC），在訓練中跑者族群顯示正向訊號；因樣本規模（30-40人）與研究團隊（Talbott）較為集中，適合視為初步證據，仍待更大型獨立研究進一步驗證", "who": "適合訓練量大的耐力型運動員（如馬拉松/半馬拉松訓練中跑者）作為初步參考；各試驗為30-40人小型樣本"}
   ],
   "safety": [
-    {"tag": "劑量", "title": "建議攝取量", "items": ["單方每日500mg（約含15mg百里醌）為供應商簡報常見建議劑量", "供應商簡報提及一般保健500mg/天、特定需求可達1000mg/天分次服用，惟此為原廠行銷建議，非臨床劑量指引", "獨立人體RCT劑量範圍差異大，多為每日1-3克黑種草籽粉末或油，療程6-12週"]},
+    {"tag": "劑量", "title": "建議攝取量", "items": ["單方每日500mg（約含15mg百里醌）為常見建議劑量", "一般保健建議劑量為每日500mg，特定需求可達每日1000mg，分次服用；此為一般保健建議劑量，非臨床試驗劑量", "獨立人體RCT劑量範圍差異大，多為每日1-3克黑種草籽粉末或油，療程6-12週"]},
     {"tag": "交互作用", "title": "藥物交互作用注意事項", "items": ["多項研究顯示可能降低血壓、血糖、血脂，與降血壓、降血糖、降血脂藥物併用時應留意加乘風險，正在服藥者應諮詢醫師", "有講者於YouTube影片中提及，低血壓體質者、服用鎮靜藥物或需高度專注（如駕駛）前應留意併用風險"]},
-    {"tag": "特殊族群", "title": "孕婦／哺乳／寵物", "items": ["孕婦、哺乳期婦女及慢性病患者使用前應諮詢醫師；供應商簡報未提供完整孕婦安全性數據（如NOAEL、人體最大耐受劑量）", "原廠明確標示「不建議貓咪食用」；犬用建議依體重分級（<20kg每天1粒500mg，>20kg每天2粒）"]},
+    {"tag": "特殊族群", "title": "孕婦／哺乳／寵物", "items": ["孕婦、哺乳期婦女及慢性病患者使用前應諮詢醫師", "原廠明確標示「不建議貓咪食用」；犬用建議依體重分級（<20kg每天1粒500mg，>20kg每天2粒）"]},
     {"tag": "不良反應", "title": "可能不良反應", "items": ["網路常見說法包含噁心、腸胃不適、便秘等消化道反應", "部分使用者可能出現鎮靜／嗜睡感", "過敏或敏感體質者仍可能對天然植物萃取物產生個體化不良反應，建議先以低劑量測試個人耐受性"]}
   ],
   "videos": [

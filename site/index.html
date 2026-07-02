@@ -33,8 +33,6 @@
       <div style="display:flex; align-items:center; gap:clamp(14px,2.4vw,30px); font-size:14px; font-weight:500;">
         <a onClick="{{ goHome }}" style="cursor:pointer; color:#55514A; text-decoration:none;">原材料索引</a>
         <a onClick="{{ goCombo }}" style="cursor:pointer; color:#55514A; text-decoration:none;">搭配範例</a>
-        <a onClick="{{ goBadges }}" style="cursor:pointer; color:#55514A; text-decoration:none;">徽章設計</a>
-        <span style="display:inline-flex; align-items:center; gap:6px; font-size:11px; font-weight:600; letter-spacing:0.08em; color:#9A9488; border:1px solid #E1DBCC; border-radius:999px; padding:4px 10px;">示意數據 · DEMO</span>
       </div>
     </div>
   </nav>
@@ -50,8 +48,7 @@
         <h1 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(34px,6vw,64px); line-height:1.18; letter-spacing:0.01em; margin:0 0 26px; color:#1C1A16;">讓每一種原料，<br>都有據可循。</h1>
         <p style="font-size:clamp(16px,1.7vw,19px); color:#55514A; max-width:640px; margin:0 0 40px;">原鑑 Materia 拆解每種保健原料的<strong style="color:#234139; font-weight:700;">作用機制、學理，以及研究實際支持到什麼程度</strong>。不推銷、不業配——只讓你在補充之前，看懂證據的全貌。</p>
         <div style="display:flex; flex-wrap:wrap; gap:14px;">
-          <a onClick="{{ goLutein }}" style="cursor:pointer; display:inline-flex; align-items:center; gap:9px; background:#234139; color:#F3EFE6; font-size:15px; font-weight:500; padding:14px 24px; border-radius:6px; text-decoration:none;">查看範例：葉黃素 FloraGLO® <span style="font-size:16px;">→</span></a>
-          <a onClick="{{ goBadges }}" style="cursor:pointer; display:inline-flex; align-items:center; gap:9px; background:transparent; color:#234139; font-size:15px; font-weight:500; padding:14px 22px; border-radius:6px; border:1px solid #C9C1AE; text-decoration:none;">認識證據成熟度徽章</a>
+          <a onClick="{{ goLutein }}" style="cursor:pointer; display:inline-flex; align-items:center; gap:9px; background:#234139; color:#F3EFE6; font-size:15px; font-weight:500; padding:14px 24px; border-radius:6px; text-decoration:none;">從葉黃素開始了解 <span style="font-size:16px;">→</span></a>
         </div>
       </div>
     </section>
@@ -127,23 +124,23 @@
         <span style="font-family:'Noto Serif TC',serif; font-weight:600; font-size:13px; letter-spacing:0.2em; color:#B5AE9C;">L1</span>
         <h2 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(24px,3.4vw,34px); margin:0; color:#1C1A16;">機制與學理</h2>
       </div>
-      <div style="display:grid; grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr); gap:clamp(24px,4vw,52px); align-items:start;">
-        <div>
-          <div style="position:relative; aspect-ratio:4/3.4; border-radius:12px; overflow:hidden; border:1px solid #DDD6C4; background:#ECE6D7;">
-            <img src="{{ mechImage }}" alt="{{ mechCaption }}" style="width:100%; height:100%; object-fit:cover; display:block;">
-            <span style="position:absolute; left:12px; bottom:12px; font-family:ui-monospace,monospace; font-size:11px; color:#8A857B; background:rgba(252,250,243,0.92); padding:5px 9px; border-radius:5px;">{{ mechCaption }}</span>
-          </div>
+      <div style="max-width:860px;">
+        <p style="font-size:17px; color:#33302B; margin:0 0 24px; line-height:1.85;">{{ mechSummary }}</p>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:14px; margin-bottom:28px;">
+          <sc-for list="{{ mechPoints }}" as="mp" hint-placeholder-count="3"><div style="background:#FCFAF3; border:1px solid #E7E1D2; border-radius:10px; padding:16px 18px;"><div style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:18px; color:#234139; margin-bottom:7px;">{{ mp.n }}</div><div style="font-size:14.5px; color:#44403A; line-height:1.7;">{{ mp.t }}</div></div></sc-for>
         </div>
-        <div>
-          <p style="font-size:16.5px; color:#33302B; margin:0 0 16px; line-height:1.8;">{{ mechSummary }}</p>
-          <ul style="list-style:none; padding:0; margin:0 0 22px; display:flex; flex-direction:column; gap:12px;">
-            <sc-for list="{{ mechPoints }}" as="mp" hint-placeholder-count="3"><li style="display:flex; gap:12px; font-size:15.5px; color:#44403A;"><span style="color:#234139; font-weight:700;">{{ mp.n }}</span><span>{{ mp.t }}</span></li></sc-for>
-          </ul>
-          <button onClick="{{ toggleMech }}" style="cursor:pointer; font-family:inherit; font-size:14px; font-weight:600; color:#234139; background:transparent; border:none; padding:0; display:inline-flex; align-items:center; gap:7px;">{{ mechBtnLabel }} <span style="font-size:12px;">{{ mechArrow }}</span></button>
-          <sc-if value="{{ mechOpen }}" hint-placeholder-val="{{ false }}">
-            <div style="margin-top:16px; padding:18px 20px; background:#FCFAF3; border:1px solid #E7E1D2; border-radius:10px; font-size:14.5px; color:#44403A; line-height:1.85; animation:matFade .35s ease both;">{{ mechDetail }}</div>
-          </sc-if>
+      </div>
+      <figure style="margin:0 0 28px; max-width:720px;">
+        <div style="border-radius:12px; overflow:hidden; border:1px solid #DDD6C4; background:#FBF9F2;">
+          <img src="{{ mechImage }}" alt="{{ mechCaption }}" style="display:block; width:100%; height:auto; max-height:440px; object-fit:contain; background:#FBF9F2;">
+          <figcaption style="font-size:11.5px; color:#8A857B; padding:9px 12px; border-top:1px solid #EAE4D5; line-height:1.5;">{{ mechCaption }}</figcaption>
         </div>
+      </figure>
+      <div style="max-width:860px;">
+        <button onClick="{{ toggleMech }}" style="cursor:pointer; font-family:inherit; font-size:14px; font-weight:600; color:#234139; background:#EEF1EA; border:1px solid #C4CFBE; border-radius:8px; padding:11px 18px; display:inline-flex; align-items:center; gap:8px;">{{ mechBtnLabel }} <span style="font-size:12px;">{{ mechArrow }}</span></button>
+        <sc-if value="{{ mechOpen }}" hint-placeholder-val="{{ false }}">
+          <div style="margin-top:16px; padding:18px 20px; background:#FCFAF3; border:1px solid #E7E1D2; border-radius:10px; font-size:14.5px; color:#44403A; line-height:1.85; max-width:820px; animation:matFade .35s ease both;">{{ mechDetail }}</div>
+        </sc-if>
       </div>
       <div style="margin-top:34px; border:1px solid #E1DBCC; border-radius:12px; overflow:hidden;">
         <div style="display:grid; grid-template-columns:1fr 1fr;">
@@ -204,8 +201,7 @@
                     <div style="display:flex; flex-direction:column; gap:8px; font-size:13px; color:#44403A; line-height:1.6;">
                       <div><span style="color:#9A9488;">研究對象　</span>{{ p.subjects }}</div>
                       <div style="background:#E5EBE4; border-radius:6px; padding:9px 12px; color:#234139;"><strong>關鍵數字　</strong>{{ p.key }}</div>
-                      <div style="display:flex; gap:8px; background:#F0EAD8; border-left:2px solid #C9A24B; border-radius:0 6px 6px 0; padding:9px 12px; color:#6E5A2E;"><span style="flex-shrink:0;">⚠️</span><span><strong>但書　</strong>{{ p.caveat }}</span></div>
-                      <div style="font-size:12px; color:#8A857B;">利益衝突：{{ p.coi }}</div>
+                      <div style="display:flex; gap:8px; background:#F3F0E7; border-left:2px solid #C9C1AE; border-radius:0 6px 6px 0; padding:9px 12px; color:#6B655A;"><span><strong>適用範圍　</strong>{{ p.caveat }}</span></div>
                     </div>
                     <a href="#" style="display:inline-flex; align-items:center; gap:5px; margin-top:12px; font-size:12.5px; font-weight:600; color:#234139; text-decoration:none;">原文連結 ↗</a>
                   </div>
@@ -220,20 +216,20 @@
     <!-- 宣稱 vs 實際證據 -->
     <section style="padding:clamp(46px,6vw,78px) 0; border-bottom:1px solid #E1DBCC;">
       <div style="margin-bottom:30px;">
-        <div style="font-family:'Noto Serif TC',serif; font-weight:600; font-size:13px; letter-spacing:0.2em; color:#B5AE9C; margin-bottom:8px;">FACT-CHECK</div>
-        <h2 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(24px,3.4vw,34px); margin:0 0 8px; color:#1C1A16;">宣稱 vs 實際證據</h2>
-        <p style="font-size:14.5px; color:#8A857B; margin:0; max-width:640px;">左邊是行銷常見說法，右邊是研究真正支持到的程度——差距往往在「在誰身上測的」。</p>
+        <div style="font-family:'Noto Serif TC',serif; font-weight:600; font-size:13px; letter-spacing:0.2em; color:#B5AE9C; margin-bottom:8px;">重點釐清</div>
+        <h2 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(24px,3.4vw,34px); margin:0 0 8px; color:#1C1A16;">如何正確理解它的功效</h2>
+        <p style="font-size:14.5px; color:#8A857B; margin:0; max-width:640px;">把常見的說法對回研究支持的重點，幫你抓對方向、用對地方——不誇大、也不埋沒它真正的價值。</p>
       </div>
       <div style="display:flex; flex-direction:column; gap:14px;">
         <sc-for list="{{ claims }}" as="cl" hint-placeholder-count="3">
           <div style="border:1px solid #E1DBCC; border-radius:12px; overflow:hidden; background:#FCFAF3;">
             <div style="display:grid; grid-template-columns:1fr 1fr;">
               <div style="padding:20px 22px; border-right:1px solid #EAE4D5; background:#F5EFE3;">
-                <div style="display:flex; align-items:center; gap:8px; font-size:11px; font-weight:700; letter-spacing:0.1em; color:#A08A6A; margin-bottom:10px;"><span style="font-size:14px;">“</span>廠商常這樣說</div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:11px; font-weight:700; letter-spacing:0.1em; color:#A08A6A; margin-bottom:10px;"><span style="font-size:14px;">“</span>常聽到的說法</div>
                 <div style="font-size:15.5px; color:#5A5348; line-height:1.65;">{{ cl.claim }}</div>
               </div>
               <div style="padding:20px 22px;">
-                <div style="display:flex; align-items:center; gap:8px; font-size:11px; font-weight:700; letter-spacing:0.1em; color:#234139; margin-bottom:10px;"><span style="width:14px; height:14px; border-radius:50%; border:2px solid #234139; display:inline-block;"></span>研究實際支持到</div>
+                <div style="display:flex; align-items:center; gap:8px; font-size:11px; font-weight:700; letter-spacing:0.1em; color:#234139; margin-bottom:10px;"><span style="width:14px; height:14px; border-radius:50%; border:2px solid #234139; display:inline-block;"></span>研究支持的重點</div>
                 <div style="font-size:15.5px; color:#2B2822; line-height:1.65;">{{ cl.evidence }}</div>
               </div>
             </div>
@@ -303,30 +299,59 @@
   </main>
   </sc-if>
 
-  <!-- ============================ 搭配頁 ============================ -->
+
+  <!-- ============================ 搭配範例列表 ============================ -->
+  <sc-if value="{{ isCombos }}" hint-placeholder-val="{{ false }}">
+  <main style="animation:matFade .5s ease both; max-width:1180px; margin:0 auto; padding:0 clamp(20px,4vw,48px);">
+    <section style="padding:clamp(40px,6vw,72px) 0;">
+      <div style="margin-bottom:30px;">
+        <div style="font-family:'Noto Serif TC',serif; font-weight:600; font-size:13px; letter-spacing:0.24em; color:#9A9488; text-transform:uppercase; margin-bottom:8px;">Synergy</div>
+        <h1 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(28px,4vw,44px); margin:0 0 10px; color:#1C1A16;">原料搭配範例</h1>
+        <p style="font-size:15px; color:#55514A; margin:0; max-width:640px;">有學理基礎的常見原料組合——為什麼適合一起、協同在哪，以及證據累積到什麼程度。</p>
+      </div>
+      <div style="display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:18px;">
+        <sc-for list="{{ comboCards }}" as="c" hint-placeholder-count="3">
+          <a onClick="{{ c.onClick }}" style="cursor:pointer; text-decoration:none; display:flex; flex-direction:column; background:#FCFAF3; border:1px solid #E7E1D2; border-radius:12px; padding:22px;" style-hover="border-color:#234139; transform:translateY(-2px);">
+            <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:12px;">
+              <div style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:19px; color:#1C1A16; line-height:1.3;">{{ c.title }}</div>
+              <span style="flex-shrink:0; display:inline-flex; align-items:center; gap:6px; padding:5px 10px 5px 8px; border-radius:999px; background:{{ c.badge.tint }}; border:1px solid {{ c.badge.border }};">
+                <span style="display:inline-flex; align-items:flex-end; gap:2px; height:12px;"><sc-for list="{{ c.badge.bars }}" as="b" hint-placeholder-count="3"><span style="width:3px; border-radius:1px; height:{{ b.h }}px; background:{{ b.col }};"></span></sc-for></span>
+                <span style="font-size:11px; font-weight:700; color:{{ c.badge.color }};">{{ c.badge.label }}</span>
+              </span>
+            </div>
+            <p style="font-size:13.5px; color:#55514A; margin:0 0 14px; line-height:1.65; flex:1;">{{ c.oneLine }}</p>
+            <div style="font-size:12.5px; color:#6B655A;">成員：{{ c.membersText }}</div>
+          </a>
+        </sc-for>
+      </div>
+    </section>
+  </main>
+  </sc-if>
+
+  <!-- ============================ 搭配詳情 ============================ -->
   <sc-if value="{{ isCombo }}" hint-placeholder-val="{{ false }}">
-  <main data-screen-label="Combination" style="animation:matFade .5s ease both; max-width:1180px; margin:0 auto; padding:0 clamp(20px,4vw,48px);">
+  <main style="animation:matFade .5s ease both; max-width:1180px; margin:0 auto; padding:0 clamp(20px,4vw,48px);">
     <section style="padding:clamp(34px,5vw,58px) 0 clamp(28px,4vw,44px); border-bottom:1px solid #E1DBCC;">
-      <div style="font-size:13px; color:#9A9488; margin-bottom:22px;"><a onClick="{{ goHome }}" style="cursor:pointer; color:#9A9488; text-decoration:none;">原材料索引</a> <span style="margin:0 8px;">/</span> <span style="color:#55514A;">搭配</span></div>
-      <div style="display:inline-flex; align-items:center; gap:8px; font-size:11px; font-weight:600; letter-spacing:0.14em; color:#234139; text-transform:uppercase; margin-bottom:20px;"><span style="width:22px; height:1px; background:#234139;"></span>Combination · 協同搭配</div>
-      <h1 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(32px,5.4vw,54px); margin:0 0 20px; color:#1C1A16; line-height:1.14;">葉黃素 <span style="color:#B5AE9C; font-weight:500;">＋</span> 蝦紅素</h1>
-      <p style="font-size:clamp(16px,1.8vw,19px); color:#44403A; margin:0 0 28px; max-width:720px;">兩種脂溶性抗氧化劑，作用位置與機轉互補的護眼組合。直接探討「複方協同」的人體證據仍在發展中。</p>
-      <div style="display:flex; flex-wrap:wrap; gap:12px;">
+      <div style="font-size:13px; color:#9A9488; margin-bottom:22px;"><a onClick="{{ goCombo }}" style="cursor:pointer; color:#9A9488; text-decoration:none;">搭配範例</a> <span style="margin:0 8px;">/</span> <span style="color:#55514A;">{{ comboTitle }}</span></div>
+      <div style="display:inline-flex; align-items:center; gap:8px; font-size:11px; font-weight:600; letter-spacing:0.14em; color:#234139; text-transform:uppercase; margin-bottom:18px;"><span style="width:22px; height:1px; background:#234139;"></span>Combination · 協同搭配</div>
+      <h1 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(30px,5vw,50px); margin:0 0 18px; color:#1C1A16; line-height:1.14;">{{ comboTitle }}</h1>
+      <p style="font-size:clamp(16px,1.8vw,19px); color:#44403A; margin:0 0 26px; max-width:720px;">{{ comboDesc }}</p>
+      <div style="display:flex; flex-wrap:wrap; gap:12px; align-items:center;">
         <span style="font-size:11px; font-weight:600; letter-spacing:0.1em; color:#9A9488; align-self:center;">成員</span>
-        <sc-for list="{{ members }}" as="m" hint-placeholder-count="2">
+        <sc-for list="{{ comboMembers }}" as="m" hint-placeholder-count="2">
           <a onClick="{{ m.onClick }}" style="cursor:pointer; text-decoration:none; display:inline-flex; align-items:center; gap:10px; background:#FCFAF3; border:1px solid #E7E1D2; border-radius:10px; padding:11px 16px;" style-hover="border-color:#234139;">
             <span style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:16px; color:#1C1A16;">{{ m.name }}</span>
             <span style="font-size:11px; font-weight:600; color:#8A857B; letter-spacing:0.06em;">{{ m.brand }}</span>
-            <span style="font-size:12px; color:#234139;">{{ m.cta }}</span>
+            <span style="font-size:12px; color:#234139;">看原料 →</span>
           </a>
         </sc-for>
       </div>
     </section>
 
     <section style="padding:clamp(40px,5.5vw,70px) 0; border-bottom:1px solid #E1DBCC;">
-      <h2 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(22px,3.2vw,32px); margin:0 0 24px; color:#1C1A16;">為什麼一起吃（協同機制）</h2>
+      <h2 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(22px,3.2vw,32px); margin:0 0 24px; color:#1C1A16;">為什麼適合一起</h2>
       <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:16px;">
-        <sc-for list="{{ synergy }}" as="sy" hint-placeholder-count="3">
+        <sc-for list="{{ comboSynergy }}" as="sy" hint-placeholder-count="3">
           <div style="background:#FCFAF3; border:1px solid #E7E1D2; border-radius:12px; padding:22px;">
             <div style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:16px; color:#234139; margin-bottom:10px;">{{ sy.h }}</div>
             <p style="font-size:14px; color:#44403A; margin:0; line-height:1.7;">{{ sy.p }}</p>
@@ -343,111 +368,24 @@
             <div style="display:flex; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:14px;">
               <h3 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:18px; margin:0; color:#1C1A16; line-height:1.35;">{{ e.domain }}</h3>
               <span style="flex-shrink:0; display:inline-flex; align-items:center; gap:7px; padding:6px 12px 6px 9px; border-radius:999px; background:{{ e.badge.tint }}; border:1px solid {{ e.badge.border }};">
-                <span style="display:inline-flex; align-items:flex-end; gap:2px; height:13px;">
-                  <sc-for list="{{ e.badge.bars }}" as="b" hint-placeholder-count="3"><span style="width:3.5px; border-radius:1px; height:{{ b.h }}px; background:{{ b.col }};"></span></sc-for>
-                </span>
+                <span style="display:inline-flex; align-items:flex-end; gap:2px; height:13px;"><sc-for list="{{ e.badge.bars }}" as="b" hint-placeholder-count="3"><span style="width:3.5px; border-radius:1px; height:{{ b.h }}px; background:{{ b.col }};"></span></sc-for></span>
                 <span style="font-size:11.5px; font-weight:700; color:{{ e.badge.color }};">{{ e.badge.label }}</span>
               </span>
             </div>
-            <p style="font-size:14px; color:#55514A; margin:0 0 14px; line-height:1.65;">{{ e.oneLine }}</p>
-            <div style="display:flex; flex-wrap:wrap; gap:14px 20px; padding-top:14px; border-top:1px solid #EAE4D5; font-size:12.5px;">
-              <div><span style="color:#9A9488;">研究對象　</span><span style="color:#33302B; font-weight:500;">{{ e.subjects }}</span></div>
-              <div><span style="color:#9A9488;">論文數　</span><span style="color:#33302B; font-weight:500;">{{ e.papers }}</span></div>
-            </div>
+            <p style="font-size:14px; color:#55514A; margin:0; line-height:1.65;">{{ e.oneLine }}</p>
           </div>
         </sc-for>
-      </div>
-    </section>
-
-    <section style="padding:clamp(40px,5.5vw,70px) 0; border-bottom:1px solid #E1DBCC;">
-      <div style="border:1px solid #E1DBCC; border-radius:12px; overflow:hidden; background:#FCFAF3;">
-        <div style="display:grid; grid-template-columns:1fr 1fr;">
-          <div style="padding:22px; border-right:1px solid #EAE4D5; background:#F5EFE3;">
-            <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; color:#A08A6A; margin-bottom:10px;">“ 廠商常這樣說</div>
-            <div style="font-size:15.5px; color:#5A5348; line-height:1.65;">「複方加乘，一次補足，效果 1+1&gt;2。」</div>
-          </div>
-          <div style="padding:22px;">
-            <div style="font-size:11px; font-weight:700; letter-spacing:0.1em; color:#234139; margin-bottom:10px;">研究實際支持到</div>
-            <div style="font-size:15.5px; color:#2B2822; line-height:1.65;">兩者<strong>各自單方</strong>的證據較多；直接比較「複方 vs 單方」的協同 RCT 仍少。現階段「互補」多為機轉推論，非已證實的加乘效果。</div>
-          </div>
-        </div>
-        <div style="padding:11px 22px; background:#F0EAD8; border-top:1px solid #EAE4D5; font-size:12.5px; color:#7A6E4E;">◔ 研究對象：多為單方研究於健康人；複方直接比較試驗有限。</div>
       </div>
     </section>
 
     <section style="padding:clamp(40px,5.5vw,90px) 0;">
-      <h2 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(22px,3.2vw,32px); margin:0 0 20px; color:#1C1A16;">搭配風險</h2>
-      <div style="background:#F6F2E8; border:1px solid #E7E1D2; border-left:3px solid #C9A24B; border-radius:0 12px 12px 0; padding:22px 26px;">
+      <h2 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(22px,3.2vw,32px); margin:0 0 20px; color:#1C1A16;">搭配注意事項</h2>
+      <div style="background:#F6F2E8; border:1px solid #E7E1D2; border-left:3px solid #C9C1AE; border-radius:0 12px 12px 0; padding:22px 26px;">
         <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:12px;">
-          <sc-for list="{{ comboRisks }}" as="r" hint-placeholder-count="3"><li style="display:flex; gap:10px; font-size:14.5px; color:#5A5039; line-height:1.65;"><span style="flex-shrink:0;">⚠️</span><span>{{ r }}</span></li></sc-for>
+          <sc-for list="{{ comboRisks }}" as="r" hint-placeholder-count="3"><li style="display:flex; gap:10px; font-size:14.5px; color:#5A5039; line-height:1.65;"><span style="flex-shrink:0; color:#234139;">–</span><span>{{ r }}</span></li></sc-for>
         </ul>
       </div>
     </section>
-  </main>
-  </sc-if>
-
-  <!-- ============================ 徽章設計 showcase ============================ -->
-  <sc-if value="{{ isBadges }}" hint-placeholder-val="{{ false }}">
-  <main data-screen-label="Badge System" style="animation:matFade .5s ease both; max-width:1100px; margin:0 auto; padding:clamp(40px,6vw,72px) clamp(20px,4vw,48px) clamp(70px,9vw,110px);">
-    <div style="max-width:720px; margin-bottom:44px;">
-      <div style="font-family:'Noto Serif TC',serif; font-weight:600; font-size:13px; letter-spacing:0.2em; color:#B5AE9C; margin-bottom:10px;">DESIGN SYSTEM</div>
-      <h1 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(30px,5vw,46px); margin:0 0 18px; color:#1C1A16; line-height:1.15;">證據成熟度徽章</h1>
-      <p style="font-size:16px; color:#55514A; margin:0 0 14px;">全站最重要的視覺語言。三級皆以<strong>上升條形</strong>表達累積程度，語意色階低飽和、不刺眼——絕不用紅色叉叉或「不合格」的貶意視覺。以下三種治法供你挑選，選定後套用全站。</p>
-      <div style="display:flex; flex-wrap:wrap; gap:14px; margin-top:20px;">
-        <sc-for list="{{ levels }}" as="lv" hint-placeholder-count="3">
-          <div style="display:flex; align-items:center; gap:9px; font-size:13px; color:#44403A;"><span style="width:11px; height:11px; border-radius:3px; background:{{ lv.color }};"></span><strong style="color:{{ lv.color }};">{{ lv.label }}</strong>{{ lv.note }}</div>
-        </sc-for>
-      </div>
-    </div>
-
-    <div style="display:flex; flex-direction:column; gap:20px;">
-      <!-- 治法 A -->
-      <div style="background:#FCFAF3; border:1px solid #E7E1D2; border-radius:14px; padding:clamp(24px,3vw,34px);">
-        <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:6px;"><span style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:20px; color:#234139;">治法 A</span><span style="font-size:13px; color:#8A857B;">膠囊標籤 · 站上目前預設</span></div>
-        <p style="font-size:13.5px; color:#8A857B; margin:0 0 24px; max-width:560px;">緊湊的膠囊標籤，上升條形 + 語意色文字。適合放在卡片標題旁與索引卡角落，密度高、辨識快。</p>
-        <div style="display:flex; flex-wrap:wrap; gap:14px;">
-          <sc-for list="{{ levels }}" as="lv" hint-placeholder-count="3">
-            <span style="display:inline-flex; align-items:center; gap:8px; padding:8px 16px 8px 12px; border-radius:999px; background:{{ lv.tint }}; border:1px solid {{ lv.border }};">
-              <span style="display:inline-flex; align-items:flex-end; gap:2.5px; height:15px;"><sc-for list="{{ lv.bars }}" as="b" hint-placeholder-count="3"><span style="width:4px; border-radius:1px; height:{{ b.h }}px; background:{{ b.col }};"></span></sc-for></span>
-              <span style="font-size:13px; font-weight:700; color:{{ lv.color }};">{{ lv.label }}</span>
-            </span>
-          </sc-for>
-        </div>
-      </div>
-
-      <!-- 治法 B -->
-      <div style="background:#FCFAF3; border:1px solid #E7E1D2; border-radius:14px; padding:clamp(24px,3vw,34px);">
-        <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:6px;"><span style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:20px; color:#234139;">治法 B</span><span style="font-size:13px; color:#8A857B;">訊號格磚 · 圖示優先</span></div>
-        <p style="font-size:13.5px; color:#8A857B; margin:0 0 24px; max-width:560px;">方形色磚內置大尺寸上升條形，標籤在下方以襯線呈現。像期刊的評級圖示，適合放在區塊標題或摘要卡的顯眼處。</p>
-        <div style="display:flex; flex-wrap:wrap; gap:18px;">
-          <sc-for list="{{ levels }}" as="lv" hint-placeholder-count="3">
-            <div style="display:flex; flex-direction:column; align-items:center; gap:10px; width:132px;">
-              <div style="width:100%; aspect-ratio:1.5/1; border-radius:12px; background:{{ lv.tint }}; border:1px solid {{ lv.border }}; display:flex; align-items:flex-end; justify-content:center; padding-bottom:14px;">
-                <span style="display:inline-flex; align-items:flex-end; gap:5px; height:34px;"><sc-for list="{{ lv.bars }}" as="b" hint-placeholder-count="3"><span style="width:9px; border-radius:2px; height:{{ b.hb }}px; background:{{ b.col }};"></span></sc-for></span>
-              </div>
-              <span style="font-family:'Noto Serif TC',serif; font-size:14px; font-weight:700; color:{{ lv.color }};">{{ lv.label }}</span>
-            </div>
-          </sc-for>
-        </div>
-      </div>
-
-      <!-- 治法 C -->
-      <div style="background:#FCFAF3; border:1px solid #E7E1D2; border-radius:14px; padding:clamp(24px,3vw,34px);">
-        <div style="display:flex; align-items:baseline; gap:12px; margin-bottom:6px;"><span style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:20px; color:#234139;">治法 C</span><span style="font-size:13px; color:#8A857B;">期刊條 · 編輯感</span></div>
-        <p style="font-size:13.5px; color:#8A857B; margin:0 0 24px; max-width:560px;">橫向條列，左端色塊標示級數（1–3），右側襯線標籤加一行英文副標。最具權威與編輯感，適合詳情頁或列表行首。</p>
-        <div style="display:flex; flex-direction:column; gap:10px; max-width:420px;">
-          <sc-for list="{{ levels }}" as="lv" hint-placeholder-count="3">
-            <div style="display:flex; align-items:stretch; border:1px solid {{ lv.border }}; border-radius:9px; overflow:hidden; background:#FBF9F2;">
-              <div style="width:52px; flex-shrink:0; background:{{ lv.tint }}; display:flex; align-items:center; justify-content:center; font-family:'Noto Serif TC',serif; font-weight:900; font-size:22px; color:{{ lv.color }}; border-right:1px solid {{ lv.border }};">{{ lv.lvl }}</div>
-              <div style="padding:11px 16px; display:flex; flex-direction:column; justify-content:center;">
-                <span style="font-family:'Noto Serif TC',serif; font-size:15px; font-weight:700; color:{{ lv.color }};">{{ lv.label }}</span>
-                <span style="font-size:11px; letter-spacing:0.08em; color:#9A9488; text-transform:uppercase;">{{ lv.en }}</span>
-              </div>
-            </div>
-          </sc-for>
-        </div>
-      </div>
-    </div>
   </main>
   </sc-if>
 
@@ -457,14 +395,12 @@
         <div style="display:flex; align-items:baseline; gap:10px; margin-bottom:12px;">
           <span style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:19px; color:#234139;">原鑑 Materia</span>
         </div>
-        <p style="font-size:13px; color:#8A857B; margin:0; line-height:1.7;">中立、教育性的保健原材料知識庫。本站內容為原料學理與研究證據的整理，非醫療建議；用藥與補充請諮詢醫師或藥師。本頁數據為示意（DEMO），非真實臨床引用。</p>
+        <p style="font-size:13px; color:#8A857B; margin:0; line-height:1.7;">中立、教育性的保健原材料知識庫。本站內容為原料學理與研究證據的整理，非醫療建議；用藥與補充請諮詢醫師或藥師。</p>
       </div>
       <div style="display:flex; gap:44px; font-size:13.5px;">
         <div style="display:flex; flex-direction:column; gap:9px;">
           <span style="font-size:11px; font-weight:600; letter-spacing:0.1em; color:#9A9488; margin-bottom:2px;">瀏覽</span>
           <a onClick="{{ goHome }}" style="cursor:pointer; color:#55514A; text-decoration:none;">原材料索引</a>
-          <a onClick="{{ goCombo }}" style="cursor:pointer; color:#55514A; text-decoration:none;">搭配範例</a>
-          <a onClick="{{ goBadges }}" style="cursor:pointer; color:#55514A; text-decoration:none;">徽章設計</a>
         </div>
       </div>
     </div>

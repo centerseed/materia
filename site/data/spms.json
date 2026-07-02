@@ -1,0 +1,107 @@
+{
+  "id": "spms",
+  "name": "SPM 促消炎介質",
+  "brand": "SPM",
+  "oneLine": "Omega-3代謝終端訊號分子，主動促進發炎消退，人體證據仍以小型試驗為主",
+  "desc": "SPM（Specialized Pro-Resolving Mediators，專門促消退介質）是 Omega-3 脂肪酸（EPA、DHA）在體內經脂氧酶／環氧酶代謝後生成的訊號分子家族，包含 Resolvins、Protectins、Maresins 與 Lipoxins。與傳統消炎藥物「阻斷發炎起始」的機制不同，SPM 被視為促使發炎主動「消退（resolution）」的內源性訊號路徑，近年成為 Omega-3 魚油保健品的新興延伸原料，常見以 LIPINOVA® 系列標準化原料（18-HEPE、17-HDHA、14-HDHA）商業化。目前研究涵蓋關節疼痛、心血管、神經退化、免疫防禦等多個領域，但多數為動物模型或 N=10~110 的小型人體先導試驗與世代研究，且部分關鍵人體試驗由原料供應商資助，仍待大型獨立 RCT 驗證。",
+  "domains": ["疼痛與關節健康", "心血管代謝", "神經健康", "免疫防禦"],
+  "groups": ["慢性/未消退發炎族群", "關節疼痛族群（OA/RA）", "銀髮神經保健族群", "運動後恢復族群"],
+  "chips": ["促炎症消退", "Omega-3代謝終端物", "LIPINOVA®標準化原料"],
+  "lvl": 2,
+  "mech": {
+    "image": "assets/spms/mechanism-spm-metabolism.jpg",
+    "caption": "EPA、DHA 經 LOX/COX 代謝為各家族 SPM（Lipoxins、E系/D系 Resolvins、Protectins、Maresins），LIPINOVA-11TG™ 以 18-HEPE、17-HDHA、14-HDHA 三種穩定前驅物標準化定量（Metagenics Institute 簡報，引自 Dyall SC et al. 2022, Prog Lipid Res, 86:101165）",
+    "summary": "發炎其實分兩個階段：第一階段是身體釋放促炎介質對抗傷害或病原體（Initiation），第二階段則是身體釋放 SPM 等促消退介質，主動清除發炎殘留、修復組織、恢復正常狀態（Resolution）。當 SPM 合成能力受老化、吸菸、長期使用 NSAID、手術、Omega-3 攝取不足等因素影響而降低時，發炎消退可能延遲，形成慢性低度發炎。SPM 並非單純的「抗發炎」分子，而是透過與特定受體（如 ChemR23、GPR32、GPR18 等）結合，主動指揮免疫細胞（嗜中性球、巨噬細胞等）完成清除與修復工作，且不會抑制身體對病原體的防禦能力。",
+    "points": [
+      "EPA、DHA 經 LOX/COX/CYP450 代謝為 18-HEPE、17-HDHA、14-HDHA 等前驅物，再轉化為 Resolvins、Protectins、Maresins、Lipoxins",
+      "SPM 透過特定受體（RvE1→ChemR23、RvD1/2→GPR32/FPR2、MaR1→GPR18、PD1→GPR37）作用於嗜中性球、單核球、巨噬細胞等免疫細胞",
+      "促進巨噬細胞由促炎 M1 表型轉為促消退 M2 表型，加速吞噬清除凋亡細胞（efferocytosis），機制上非單純抑制免疫反應"
+    ],
+    "detail": "傳統消炎策略聚焦於「阻斷（block）」發炎起始階段的促炎介質（PIMs），而 SPM 代表的是另一個獨立的治療標的：「促進消退（resolve）」。當身體受到發炎觸發因子刺激後，會先釋出促炎脂質介質（如 LTB4、PGE2）啟動嗜中性球浸潤與清除病原體的 Initiation 階段；隨後理論上會啟動由 SPM 主導的 Resolution 階段，透過與 ChemR23、GPR32/FPR2、GPR18、GPR37 等受體結合，抑制嗜中性球持續浸潤並促使其凋亡、提高單核球募集與巨噬細胞的吞噬清除能力（efferocytosis）、促進淋巴管清除吞噬細胞，使發炎組織逐漸恢復正常狀態，而非單純壓制免疫反應。若 Resolution 階段功能不足（受老化、吸菸、長期 NSAID 使用、手術、Omega-3 攝取不足等因素影響），發炎便可能延遲消退、逐漸累積成慢性低度發炎，文獻觀察此現象與骨關節炎、類風濕性關節炎、糖尿病、發炎性腸道疾病、慢性疼痛等多種病症相關。目前市售 SPM 保健品多以 LIPINOVA® 系列原料為代表，因活性 Resolvin/Protectin/Maresin 分子本身在體外極不穩定，故以相對穩定的單羥基前驅物（18-HEPE、17-HDHA、14-HDHA）作標準化定量與品質控制。"
+  },
+  "specs": [
+    {"k": "專利/商標", "v": "LIPINOVA®／LIPINOVA-11TG™（西班牙 Solutex 專利技術，與哈佛醫學院 Serhan 教授合作開發，Serhan 擔任科學顧問）"},
+    {"k": "形式", "v": "rTG（re-esterified triglyceride）魚油包覆型態；以 18-HEPE、17-HDHA、14-HDHA 三種穩定單羥基前驅物標準化定量，非直接添加不穩定的活性 Resolvin/Protectin/Maresin 分子"},
+    {"k": "常見規格", "v": "供應商建議 500mg～2g／天（Loading dose 2g/天可視改善狀況降為 Maintenance dose 1g/天）；臨床研究劑量範圍涵蓋 250mg×2/日 至 6g/日，依適應症調整"},
+    {"k": "主要依據", "v": "人體先導試驗與世代研究（N=10～110）+ 大量動物/細胞機轉研究；目前尚無大型獨立第三方 RCT，部分關鍵人體數據由原料供應商（Solutex）資助或作者具商業利益關係"}
+  ],
+  "evidence": [
+    {
+      "id": "joint-pain",
+      "domain": "疼痛與關節健康",
+      "lvl": 2,
+      "oneLine": "小型RCT與世代研究顯示SPM與關節疼痛感受、RA疾病嚴重度可能相關，但樣本量小且部分具供應商利益關係",
+      "subjects": "確診骨關節炎/類風濕性關節炎/慢性疼痛成人（N=44～110）",
+      "papers": "約 3 篇",
+      "compliance": "可陳述『SPM 與關節不適感受、疾病嚴重度指標之相關性研究』，不得宣稱『治療關節炎』『降低發炎指數』",
+      "studies": [
+        {"title": "SPM 補充劑對確診骨關節炎成人疼痛與生活品質之隨機雙盲安慰劑對照試驗", "stars": "★★★", "year": "2023", "journal": "J Transl Med · 21:423", "type": "RCT，雙盲安慰劑對照", "n": "51", "subjects": "18-67歲西班牙成人，確診骨關節炎", "key": "VAS疼痛指數12週後下降45%（基線約6.4→3.5）", "caveat": "⚠️供應商（Solutex）資助之原廠臨床試驗，需獨立驗證", "coi": "廠商資助研究", "link": "NCT05633849"},
+        {"title": "SPM 補充劑對慢性疼痛成人生活品質與情緒改善之研究", "stars": "★★★", "year": "2020", "journal": "J Transl Med · 18:401", "type": "人體介入試驗", "n": "44", "subjects": "美國成人，中度以上慢性疼痛≥3個月", "key": "疼痛強度與干擾顯著降低(p<0.0001)；焦慮改善(p<0.0001)、睡眠改善(p<0.001)；79%受試者感受不同程度改善", "caveat": "⚠️安慰劑對照設計細節未於供應商摘要中完整揭露，建議查證原文設計", "coi": "未載明（供應商簡報引用）", "link": "doi:10.1186/s12967-020-02569-5"},
+        {"title": "早期RA患者血漿SPM濃度可預測DMARD治療反應", "stars": "★★★★", "year": "2020", "journal": "Nature Communications · Q1 IF16.6", "type": "前瞻性世代研究＋機器學習", "n": "110（訓練52＋驗證58）", "subjects": "早期類風濕性關節炎患者", "key": "基線4種SPM組合可預測DMARD反應，驗證隊列準確度83%（AUC 0.80）", "caveat": "⚠️觀察性研究，不代表因果關係或臨床診斷工具認證", "coi": "通訊作者 Dalli 為 Resolomics Limited 科學創辦人", "link": "PMID 33110080"}
+      ]
+    },
+    {
+      "id": "cardio-metabolic",
+      "domain": "心血管代謝",
+      "lvl": 1,
+      "oneLine": "動物與細胞模型一致支持SPM對血管保護有正面作用，人體資料僅限小型生物標記層級研究",
+      "subjects": "動脈粥狀硬化/周邊動脈疾病動物模型；健康人與周邊動脈疾病患者小型人體研究（N=20）",
+      "papers": "約 2 篇",
+      "compliance": "僅可陳述『機轉研究顯示SPM參與免疫細胞表型調節』，不得宣稱『預防心血管疾病』『改善血管健康』",
+      "studies": [
+        {"title": "SPM 在心血管疾病之診斷與治療應用", "stars": "★★★", "year": "2020", "journal": "Advanced Drug Delivery Reviews · Q1 IF≈17", "type": "綜合回顧", "n": "—", "subjects": "動脈粥狀硬化/腹主動脈瘤/缺血再灌流損傷動物模型為主", "key": "多種心血管疾病動物模型中SPM均展現保護效果，局部遞送技術前景可期", "caveat": "⚠️幾乎全為動物數據，無大型人體RCT", "coi": "Conte 持有SPM遞送專利並共同創辦 VasaRx", "link": "PMID 32697951"},
+        {"title": "SPM 循環補充調節周邊動脈疾病患者免疫細胞表型", "stars": "★★★", "year": "2020", "journal": "J Am Heart Assoc · 9(15):e016113", "type": "人體介入試驗（原廠相關臨床）", "n": "20（10健康+10周邊動脈疾病）", "subjects": "健康者與周邊動脈疾病患者", "key": "誘導循環白血球與巨噬細胞由M1轉向M2表型，重塑下游脂質介質途徑", "caveat": "⚠️僅生物標記層級數據，無心血管事件等臨床終點", "coi": "供應商簡報引用之相關臨床研究", "link": "—"}
+      ]
+    },
+    {
+      "id": "neuro-health",
+      "domain": "神經健康",
+      "lvl": 1,
+      "oneLine": "SPM在神經退化疾病動物模型中一致展現保護效果，但人體腦組織/腦脊髓液濃度數據仍缺失",
+      "subjects": "阿茲海默症/帕金森症動物模型與病理組織觀察",
+      "papers": "約 1 篇",
+      "compliance": "僅可陳述『臨床前研究顯示SPM與神經炎症調節之相關性』，不得宣稱『預防失智』『改善神經退化』",
+      "studies": [
+        {"title": "SPM 減少神經退化性疾病之神經炎症", "stars": "★★★", "year": "2022", "journal": "Frontiers in Aging Neuroscience · Q1 IF4.8", "type": "敘述性回顧", "n": "—", "subjects": "阿茲海默症(AD)、帕金森症(PD)病理組織與動物模型", "key": "AD/PD患者腦組織SPM濃度顯著低於健康對照（受體代償性上調）；RvD1於動物模型中恢復海馬記憶、促進Aβ清除", "caveat": "⚠️幾乎全為臨床前數據，無人體RCT；血腦屏障穿透之人體量化數據缺失", "coi": "無（全體作者聲明無利益衝突）", "link": "PMID 35250536"}
+      ]
+    },
+    {
+      "id": "immune-defense",
+      "domain": "免疫防禦",
+      "lvl": 1,
+      "oneLine": "單一小型人體試驗顯示SPM可能劑量依賴性提升免疫細胞吞噬能力，尚待更多獨立研究驗證",
+      "subjects": "健康志願者（N=22）",
+      "papers": "約 1 篇",
+      "compliance": "僅可陳述『初步人體研究觀察到吞噬能力提升趨勢』，不得宣稱『增強免疫力』『預防感染』",
+      "studies": [
+        {"title": "SPM 於24小時內強化健康受試者抗微生物免疫力", "stars": "★★★", "year": "2020", "journal": "Circulation Research · 126(1):75-90", "type": "人體介入試驗（劑量依賴）", "n": "22", "subjects": "健康志願者", "key": "補充SPM後S. aureus吞噬包覆能力最高提升約125%、E.coli最高提升約20%（1.5g vs 4.5g劑量依賴）", "caveat": "⚠️單次/短期試驗，樣本量小，未涵蓋實際臨床感染終點", "coi": "未載明（供應商簡報引用之已發表論文）", "link": "doi:10.1161/CIRCRESAHA.119.315506"}
+      ]
+    },
+    {
+      "id": "bioavailability-precision-nutrition",
+      "domain": "口服吸收與精準營養",
+      "lvl": 1,
+      "oneLine": "口服SPM後前驅物濃度確實上升，但活性Resolvin多數研究中未檢出；個體生成能力受基因、性別、飲食比例影響",
+      "subjects": "健康志願者（N=10～23）",
+      "papers": "約 3 篇",
+      "compliance": "可陳述『口服後血中SPM前驅物濃度變化之藥代動力學研究』，不得宣稱『提升體內SPM濃度即等同臨床療效』",
+      "studies": [
+        {"title": "口服SPM富集魚油後的人體藥代動力學", "stars": "★★★", "year": "2023", "journal": "International Journal of Molecular Sciences · Q1 IF5.6", "type": "先導人體試驗（交叉設計）", "n": "10", "subjects": "健康志願者，單次6g SPM富集魚油 vs 水", "key": "18-HEPE於3小時升高134.1倍、14-HDHA於6小時升高45.9倍、17-HDHA升高38.0倍；活性RvE1仍未檢出", "caveat": "⚠️N=10極小樣本；前體升高≠活性SPM升高", "coi": "9位作者中4位為Solutex全職員工", "link": "PMID 38003333"},
+        {"title": "口服LIPINOVA補充28-30天後血漿SPM濃度變化", "stars": "★★★", "year": "2022", "journal": "Journal of Nutrition · 152(7):1783-1791", "type": "人體介入試驗（開放性）", "n": "23", "subjects": "平均56歲成人，BMI 33.1", "key": "補充後Resolvin E1濃度增加3.5倍(p=0.0025)、Maresin1-n3-DPA增加4.7倍(p=0.02)", "caveat": "⚠️安慰劑對照組資訊未於供應商摘要明確揭露，建議查證原文設計", "coi": "未載明（供應商簡報引用）", "link": "—"},
+        {"title": "PUFA、SPM與精準營養時代的炎症消退靶向策略", "stars": "★★★", "year": "2021", "journal": "BBA Molecular and Cell Biology of Lipids · Q1-Q2 IF4.8", "type": "綜合回顧", "n": "—", "subjects": "—", "key": "SPM生成受FADS基因型、性別（雌激素調節15-LOX）、飲食n-6/n-3比例三重影響，個體差異可達數倍", "caveat": "無原始試驗數據，為二次文獻整合；三因素交互作用缺乏整合模型", "coi": "無（NIH政府資助）", "link": "PMID 33794384"}
+      ]
+    }
+  ],
+  "claims": [
+    {"claim": "廠商常說 SPM 是『Omega-3 的最終形態』，能主動促進發炎消退而非單純抑制", "evidence": "機轉研究確實支持 SPM 生物合成路徑清晰，且作用受體與抑制性消炎藥物不同；但『促進消退』的臨床意義目前仍以動物模型與 N=10～110 的小型人體先導試驗為主", "who": "動物模型為主；人體證據限於小型試驗與觀察性世代研究，非大型獨立RCT"},
+    {"claim": "口服 SPM 補充可提升血中 SPM 濃度、緩解疼痛", "evidence": "健康受試者口服後 SPM 前驅物（18-HEPE、17-HDHA、14-HDHA）確實顯著上升，但活性 RvE1 在藥代動力學研究中仍未檢出；疼痛緩解證據多來自廠商資助或小樣本試驗", "who": "N=10 健康受試者（前驅物藥代動力學）；N=44～51 慢性疼痛/骨關節炎患者（疼痛緩解，其中一項為廠商資助RCT）"},
+    {"claim": "SPM 對心血管、神經退化性疾病、免疫防禦均有保護效果", "evidence": "心血管與神經退化證據幾乎全部來自動物與細胞模型；免疫防禦（吞噬能力提升）僅有N=22健康人小型試驗支持；均缺乏大型人體臨床終點試驗", "who": "動物/細胞模型為主；人體證據限於N=20～22之小型生物標記研究"}
+  ],
+  "safety": [
+    {"tag": "劑量", "title": "建議劑量範圍", "items": ["Metagenics建議：Loading dose 2g/天，2~4週有改善後降為Maintenance dose 1g/天", "Solutex LIPINOVA®原廠建議：500mg~2g/天", "臨床試驗劑量範圍涵蓋250mg×2/日至6g/日，依適應症與病程調整"]},
+    {"tag": "禁忌/過敏", "title": "過敏與特殊族群", "items": ["對魚類過敏者應避免使用（魚油來源原料）", "懷孕：供應商標示『無已知疑慮』，惟人體安全性尚未完全確立", "哺乳期：供應商標示適合使用，惟仍建議諮詢專業人員"]},
+    {"tag": "藥物交互作用", "title": "用藥注意事項", "items": ["服用抗凝血劑/抗血小板藥物（如warfarin、aspirin）者須監測，因SPM可能影響凝血相關路徑", "出血性疾病急性發作期間（含中風）應停用", "手術前建議停用4-7天"]},
+    {"tag": "證據限制", "title": "目前研究缺口", "items": ["心血管、神經退化證據多為動物/細胞模型，尚無大型獨立人體RCT", "口服後活性RvE1濃度在人體研究中多數未檢出，前驅物升高不等同活性SPM升高", "部分關鍵人體試驗由原料供應商資助或作者具利益衝突（Resolomics、Solutex、VasaRx等），需獨立機構驗證"]}
+  ],
+  "videos": []
+}

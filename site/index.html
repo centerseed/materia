@@ -96,18 +96,18 @@
   </sc-if>
 
   <!-- ============================ 原材料頁 ============================ -->
-  <sc-if value="{{ isLutein }}" hint-placeholder-val="{{ true }}">
-  <main data-screen-label="Ingredient · 葉黃素" style="animation:matFade .5s ease both; max-width:1180px; margin:0 auto; padding:0 clamp(20px,4vw,48px);">
+  <sc-if value="{{ isIngredient }}" hint-placeholder-val="{{ true }}">
+  <main data-screen-label="Ingredient" style="animation:matFade .5s ease both; max-width:1180px; margin:0 auto; padding:0 clamp(20px,4vw,48px);">
 
     <!-- L0 Hero -->
     <section style="padding:clamp(34px,5vw,58px) 0 clamp(28px,4vw,44px); border-bottom:1px solid #E1DBCC;">
-      <div style="font-size:13px; color:#9A9488; margin-bottom:22px;"><a onClick="{{ goHome }}" style="cursor:pointer; color:#9A9488; text-decoration:none;">原材料索引</a> <span style="margin:0 8px;">/</span> <span style="color:#55514A;">葉黃素</span></div>
+      <div style="font-size:13px; color:#9A9488; margin-bottom:22px;"><a onClick="{{ goHome }}" style="cursor:pointer; color:#9A9488; text-decoration:none;">原材料索引</a> <span style="margin:0 8px;">/</span> <span style="color:#55514A;">{{ curName }}</span></div>
       <div style="display:grid; grid-template-columns:1fr; gap:8px; max-width:860px;">
         <div style="display:flex; flex-wrap:wrap; align-items:baseline; gap:14px;">
-          <h1 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(36px,6vw,60px); margin:0; color:#1C1A16; line-height:1.1;">葉黃素</h1>
-          <span style="font-size:clamp(15px,2vw,19px); font-weight:600; color:#234139; letter-spacing:0.02em;">Lutein · FloraGLO®</span>
+          <h1 style="font-family:'Noto Serif TC',serif; font-weight:700; font-size:clamp(36px,6vw,60px); margin:0; color:#1C1A16; line-height:1.1;">{{ curName }}</h1>
+          <span style="font-size:clamp(15px,2vw,19px); font-weight:600; color:#234139; letter-spacing:0.02em;">{{ curBrand }}</span>
         </div>
-        <p style="font-size:clamp(16px,1.8vw,19px); color:#44403A; margin:18px 0 0; max-width:720px;">存在於視網膜黃斑部的類胡蘿蔔素，能吸收高能藍光、清除自由基。研究主要探討它對<strong style="color:#234139;">長時間用眼族群與年齡相關黃斑部退化</strong>的支持。</p>
+        <p style="font-size:clamp(16px,1.8vw,19px); color:#44403A; margin:18px 0 0; max-width:720px;">{{ curDesc }}</p>
       </div>
       <div style="margin-top:28px; display:flex; flex-direction:column; gap:14px;">
         <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center;">
@@ -129,20 +129,19 @@
       </div>
       <div style="display:grid; grid-template-columns:minmax(0,0.9fr) minmax(0,1.1fr); gap:clamp(24px,4vw,52px); align-items:start;">
         <div>
-          <div style="position:relative; aspect-ratio:4/3.4; border-radius:12px; background:repeating-linear-gradient(135deg,#ECE6D7,#ECE6D7 10px,#E7E1D0 10px,#E7E1D0 20px); border:1px solid #DDD6C4; display:flex; align-items:flex-end; padding:16px;">
-            <span style="font-family:ui-monospace,monospace; font-size:11px; color:#8A857B; background:rgba(252,250,243,0.9); padding:5px 9px; border-radius:5px;">原廠機轉示意圖：黃斑部葉黃素堆積 / 藍光濾除</span>
+          <div style="position:relative; aspect-ratio:4/3.4; border-radius:12px; overflow:hidden; border:1px solid #DDD6C4; background:#ECE6D7;">
+            <img src="{{ mechImage }}" alt="{{ mechCaption }}" style="width:100%; height:100%; object-fit:cover; display:block;">
+            <span style="position:absolute; left:12px; bottom:12px; font-family:ui-monospace,monospace; font-size:11px; color:#8A857B; background:rgba(252,250,243,0.92); padding:5px 9px; border-radius:5px;">{{ mechCaption }}</span>
           </div>
         </div>
         <div>
-          <p style="font-size:16.5px; color:#33302B; margin:0 0 16px; line-height:1.8;">葉黃素與玉米黃素是<strong style="color:#234139;">黃斑部色素（MPOD）</strong>的主要組成，會選擇性堆積在視網膜中央。</p>
+          <p style="font-size:16.5px; color:#33302B; margin:0 0 16px; line-height:1.8;">{{ mechSummary }}</p>
           <ul style="list-style:none; padding:0; margin:0 0 22px; display:flex; flex-direction:column; gap:12px;">
-            <li style="display:flex; gap:12px; font-size:15.5px; color:#44403A;"><span style="color:#234139; font-weight:700;">01</span><span>作為<strong>濾光層</strong>吸收高能藍光，降低光氧化壓力。</span></li>
-            <li style="display:flex; gap:12px; font-size:15.5px; color:#44403A;"><span style="color:#234139; font-weight:700;">02</span><span>作為<strong>脂溶性抗氧化劑</strong>，清除光受器代謝產生的自由基。</span></li>
-            <li style="display:flex; gap:12px; font-size:15.5px; color:#44403A;"><span style="color:#234139; font-weight:700;">03</span><span>人體<strong>無法自行合成</strong>，需由飲食或補充攝取。</span></li>
+            <sc-for list="{{ mechPoints }}" as="mp" hint-placeholder-count="3"><li style="display:flex; gap:12px; font-size:15.5px; color:#44403A;"><span style="color:#234139; font-weight:700;">{{ mp.n }}</span><span>{{ mp.t }}</span></li></sc-for>
           </ul>
           <button onClick="{{ toggleMech }}" style="cursor:pointer; font-family:inherit; font-size:14px; font-weight:600; color:#234139; background:transparent; border:none; padding:0; display:inline-flex; align-items:center; gap:7px;">{{ mechBtnLabel }} <span style="font-size:12px;">{{ mechArrow }}</span></button>
           <sc-if value="{{ mechOpen }}" hint-placeholder-val="{{ false }}">
-            <div style="margin-top:16px; padding:18px 20px; background:#FCFAF3; border:1px solid #E7E1D2; border-radius:10px; font-size:14.5px; color:#44403A; line-height:1.85; animation:matFade .35s ease both;">FloraGLO® 為萬壽菊（marigold）萃取的<strong>游離型葉黃素（free lutein）</strong>，相較酯化型不需經腸道酯解即可吸收，原廠以此主張較穩定的生體可用率。補充後血清葉黃素通常於數週內上升，而黃斑部色素密度（MPOD）的變化則需 3–6 個月方能觀察。MPOD 提升被視為一項<strong>可測量的生物標記</strong>，但它與「主觀視覺改善」之間並非線性對應——這也是解讀相關研究時的關鍵。</div>
+            <div style="margin-top:16px; padding:18px 20px; background:#FCFAF3; border:1px solid #E7E1D2; border-radius:10px; font-size:14.5px; color:#44403A; line-height:1.85; animation:matFade .35s ease both;">{{ mechDetail }}</div>
           </sc-if>
         </div>
       </div>

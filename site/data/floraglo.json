@@ -1,0 +1,336 @@
+{
+  "id": "floraglo",
+  "name": "葉黃素",
+  "brand": "FloraGLO®",
+  "oneLine": "AREDS2指定原料，眼睛/認知/皮膚三大領域研究最豐富的葉黃素品牌",
+  "desc": "FloraGLO® 是全球研究數量數一數二豐富的葉黃素原料品牌，為美國國家衛生研究院大型臨床試驗 AREDS2（n=4,203，中位追蹤5年）指定使用的游離型葉黃素來源。研究主要探討中老年人與 AMD（老年性黃斑部病變）患者的黃斑部健康、健康成人與老年人的認知功能維護，以及皮膚抗氧化與光保護，累積 20 篇人體研究與系統性回顧、7 支專業 YouTube 影片解讀。",
+  "domains": ["眼睛健康", "認知健康", "皮膚健康"],
+  "groups": ["中老年族群", "AMD高風險/家族史者", "長時間用眼/3C重度使用者", "有輕度認知抱怨的成人", "注重皮膚抗氧化保養族群"],
+  "chips": ["葉黃素", "玉米黃質", "AREDS2指定原料", "黃斑色素密度(MPOD)", "游離型(Free Lutein)"],
+  "lvl": 3,
+  "mech": {
+    "image": "assets/floraglo/floraglo_p01.jpg",
+    "caption": "全齡葉黃素演講摘要投影片（陳俊榮教授，供應商簡報，純文字條列，無獨立座標圖表）",
+    "summary": "葉黃素與玉米黃質是人體無法自行合成、必須仰賴飲食或補充攝取的類胡蘿蔔素，會選擇性沉積在視網膜黃斑部、水晶體、大腦皮質與皮膚等組織。在眼睛中，它們形成天然的藍光濾光層並直接清除自由基，保護感光細胞免受光氧化損傷；在大腦中，類似的抗氧化與細胞膜穩定特性被認為與神經傳導效率、白質完整性有關；在皮膚中，則被認為有助於降低紫外線引起的氧化壓力。",
+    "points": [
+      "藍光濾光：於黃斑部與水晶體形成天然濾光層，吸收415–490nm高能藍光，減少光氧化損傷",
+      "抗氧化保護：直接清除單線態氧與活性氧自由基，保護細胞膜磷脂與感光細胞外節結構",
+      "跨組織分布：除眼睛外，亦廣泛分布於大腦皮質、皮膚、乳腺組織及母乳，被視為「全生命週期」營養素"
+    ],
+    "detail": "供應商簡報（陳俊榮教授「全齡葉黃素」演講摘要）描述葉黃素作用機轉涵蓋眼睛、大腦與皮膚三大面向：在眼睛中，葉黃素與玉米黃質集中沉積於視網膜黃斑部與水晶體，吸收藍光並降低光氧化傷害，同時提高對比敏感度、減少炫光；在大腦中，葉黃素存在於神經細胞膜，被認為可防止多元不飽和脂肪酸氧化、穩定細胞膜結構、促進神經訊息傳遞；在皮膚中，則被認為可降低紫外線引起的氧化壓力，減緩皮膚光老化，並減少自由基造成的膠原蛋白流失。需特別注意：此份供應商簡報僅為學術演講摘要，內容提及的部分數字（如飲食攝取從1毫克提升至6毫克可能降低50%以上黃斑部病變風險、471對母子配對研究）並未附上可查證的期刊出處（作者/期刊/卷期頁碼），僅供機制敘述參考，不可視為有PMID可查的獨立研究；實際療效聲稱應以本頁「證據」章節中具PMID可查的人體研究為準。"
+  },
+  "specs": [
+    {"k": "專利/商標", "v": "FloraGLO®（Kemin Industries；原料萃取自萬壽菊 Tagetes erecta）"},
+    {"k": "形式", "v": "游離型葉黃素（Free Lutein），非酯化型，生物利用率較酯化型佳；常與玉米黃質（如OptiSharp®）複合搭配"},
+    {"k": "常見規格", "v": "人體研究常用劑量為每日10–20mg葉黃素，多數搭配2mg玉米黃質（AREDS2標準配方：10mg L + 2mg Z）"},
+    {"k": "主要依據", "v": "AREDS2（Age-Related Eye Disease Study 2, JAMA, 2013, n=4,203）美國國家衛生研究院大型臨床試驗"}
+  ],
+  "evidence": [
+    {
+      "id": "amd-mpod",
+      "domain": "眼睛健康",
+      "lvl": 3,
+      "oneLine": "累積10篇以上人體RCT與2篇統合分析，多數顯示葉黃素/玉米黃質可提升黃斑色素密度（MPOD），部分分析並顯示與AMD進展風險降低相關，惟需誠實揭露主要分析未達顯著及研究對象限制",
+      "subjects": "健康成人、早期至中重度AMD患者、青光眼患者（各研究對象不同，詳見備註）",
+      "papers": "約12篇（含2篇統合分析）",
+      "compliance": "可陳述「臨床研究顯示葉黃素/玉米黃質補充可提升黃斑色素光密度（MPOD），部分分析顯示與AMD進展風險降低相關」，不得稱「治療AMD」「預防視力惡化」「降低黃斑部病變數值」",
+      "studies": [
+        {
+          "title": "Lutein + Zeaxanthin and Omega-3 Fatty Acids for Age-Related Macular Degeneration: The AREDS2 Randomized Clinical Trial",
+          "stars": "★★★★★",
+          "year": "2013",
+          "journal": "JAMA · IF≈63",
+          "type": "人體RCT",
+          "n": "4203",
+          "subjects": "50–85歲中重度AMD患者（雙眼大型玻璃膜疣或單眼晚期AMD）",
+          "key": "主要分析HR0.90（p=0.12，未達顯著）；探索性分析HR0.91（p=0.04）；二次分析L/Z vs β-胡蘿蔔素 HR0.82（p=0.02）；血清葉黃素提升190–210%",
+          "caveat": "⚠️主要預設分析（98.7%CI校正）未達統計顯著，具臨床意義的顯著結果來自探索性與事後分析；受試者為中重度AMD患者，不適用於一般健康人的初級預防聲稱",
+          "coi": "美國NIH/NEI全額資助；FloraGLO®葉黃素由Kemin Industries捐贈，但分析由NEI獨立執行，無商業利益衝突",
+          "link": "PMID 23644932"
+        },
+        {
+          "title": "AREDS2十年長期追蹤（Report 28）：Long-term Outcomes of Adding Lutein/Zeaxanthin and ω-3 Fatty Acids to the AREDS Supplements",
+          "stars": "★★★★★",
+          "year": "2022",
+          "journal": "JAMA Ophthalmology · IF≈8",
+          "type": "人體RCT長期追蹤",
+          "n": "3882",
+          "subjects": "原AREDS2隊列10年追蹤（雙側或單側中等AMD）",
+          "key": "L/Z vs 無L/Z 晚期AMD進展HR0.91（p=0.02）；L/Z vs β-胡蘿蔔素HR0.85（p=0.02）；L/Z組肺癌OR1.15（p=0.46，無顯著風險）；β-胡蘿蔔素組肺癌OR1.82（p=0.02）",
+          "caveat": "10年後才確認達到預設統計顯著；HR絕對差異有限（47.9% vs 49.0%），屬「減緩進展」而非「阻止進展」，不宜聲稱「預防AMD」",
+          "coi": "NIH主導資助；Bausch and Lomb於延伸追蹤最後5年提供補充劑（已揭露）",
+          "link": "PMID 35653117"
+        },
+        {
+          "title": "The Effect of Lutein/Zeaxanthin Intake on Human Macular Pigment Optical Density: A Systematic Review and Meta-Analysis",
+          "stars": "★★★★★",
+          "year": "2021",
+          "journal": "Advances in Nutrition · IF=8.86",
+          "type": "系統性回顧/Meta-analysis",
+          "n": "3189（46項研究）",
+          "subjects": "健康眼睛成人（排除AMD、糖尿病視網膜病變、兒童、孕婦）",
+          "key": "5–<20mg/d組MPOD +0.04 ODU（顯著）；≥20mg/d組 +0.11 ODU（顯著）；每增加1mg/d劑量，MPOD增加0.003 ODU（p=0.004）",
+          "caveat": "⚠️5–10mg/d劑量區間無任何研究數據；34項RCT中14項（41%）為高偏差風險；MPOD增加是否直接轉化為AMD風險降低，在健康眼睛成人中尚無直接證據",
+          "coi": "由IAFNS（前ILSI North America，業界資助之非營利組織）提供研究經費，聲明未參與文獻搜索、分析與解讀",
+          "link": "PMID 34157098"
+        },
+        {
+          "title": "Lutein, Zeaxanthin and Meso-zeaxanthin Supplementation Associated with Macular Pigment Optical Density",
+          "stars": "★★★★",
+          "year": "2016",
+          "journal": "Nutrients · IF=5.08",
+          "type": "系統性回顧/Meta-analysis",
+          "n": "1764（20項RCT）",
+          "subjects": "AMD患者（9項，938人）+ 健康受試者（11項，826人）",
+          "key": "AMD患者WMD +0.07 ODU；健康受試者WMD +0.09 ODU（均p<0.05）；含meso-zeaxanthin配方WMD +0.13 ODU，顯著優於不含MZ配方的+0.06–0.07 ODU（組間p=0.02）",
+          "caveat": "⚠️FloraGLO®為純葉黃素+玉米黃質配方，不含meso-zeaxanthin，含MZ配方的較佳數字不可直接套用於FloraGLO®；AMD組異質性極高（I²=99.2%）",
+          "coi": "中國國家自然科學基金資助，無商業利益衝突",
+          "link": "PMID 27420092"
+        },
+        {
+          "title": "Effect of supplemental lutein and zeaxanthin on serum, macular pigmentation, and visual performance in patients with early age-related macular degeneration（2年追蹤）",
+          "stars": "★★★★",
+          "year": "2015",
+          "journal": "BioMed Research International · IF≈3",
+          "type": "人體RCT",
+          "n": "112",
+          "subjects": "50歲以上早期AMD患者",
+          "key": "10mg與20mg葉黃素組2年後MPOD達相近飽和水準（0.442 vs 0.441 ODU）；對比敏感度（3cpd）改善16.1%（p<0.05）；L+Z複合組視覺相關生活品質（VFQ-25）提升7.9%（p<0.01）",
+          "caveat": "最佳矯正視力（BCVA）全程未達統計顯著改善，不可聲稱「改善視力」；研究對象為早期AMD患者，非健康人群",
+          "coi": "中國國家自然科學基金資助，無商業贊助，作者聲明無利益衝突",
+          "link": "PMID 25815324"
+        },
+        {
+          "title": "LIMPIA：Effect of Dietary Supplementation With Lutein, Zeaxanthin, and ω-3 on Macular Pigment: A Randomized Clinical Trial",
+          "stars": "★★★★★",
+          "year": "2017",
+          "journal": "JAMA Ophthalmology · IF≈8",
+          "type": "人體RCT",
+          "n": "120",
+          "subjects": "AMD患者之第一代健康後代（有家族史但視網膜正常，非葉黃素缺乏族群）",
+          "key": "血漿葉黃素/玉米黃質顯著升高（p<0.001，確認吸收有效），但6個月後MPOD組間差異不顯著（p=0.33）",
+          "caveat": "⚠️陰性主要結果：MPOD未達顯著改善，可能因基線MPOD已偏高（頂板效應）及追蹤時間僅6個月（短於LUTEGA的12個月）；不應以此研究以外的陽性數字暗示所有族群皆能快速見效",
+          "coi": "研究者部分接受眼科業界（Alcon、Bayer、Novartis等）諮詢費，已揭露",
+          "link": "PMID 28973076"
+        }
+      ]
+    },
+    {
+      "id": "cognitive",
+      "domain": "認知健康",
+      "lvl": 2,
+      "oneLine": "個別人體RCT在特定認知面向（複雜注意力、認知彈性、視覺記憶）觀察到統計顯著改善，但最新統合分析（7篇RCT）顯示複雜注意力、執行功能、記憶三大認知域整體未達顯著，聲稱應限於「維護認知健康」",
+      "subjects": "健康年輕成人、社區老年人、有輕度認知抱怨成人（各研究對象不同）",
+      "papers": "約5篇（含1篇統合分析）",
+      "compliance": "可陳述「研究顯示葉黃素/玉米黃質補充可能有助於維護特定認知面向（如注意力、認知彈性）」，不得稱「改善認知功能」「預防失智症」「治療認知障礙」",
+      "studies": [
+        {
+          "title": "The Effects of Lutein and Zeaxanthin Supplementation on Cognitive Function in Adults With Self-Reported Mild Cognitive Complaints",
+          "stars": "★★★★",
+          "year": "2022",
+          "journal": "Frontiers in Nutrition · IF≈6.6",
+          "type": "人體RCT",
+          "n": "90",
+          "subjects": "40–75歲有自述輕度認知抱怨成人",
+          "key": "視覺情節記憶MANOVA p=0.005；圖像識別交叉效應p=0.001；位置學習p=0.006",
+          "caveat": "⚠️效益具高度選擇性，僅視覺相關記憶顯著，工作記憶、加工速度等多數認知域無組間差異；自評認知問卷亦無組間差異，顯示主觀感知與客觀測試改善不一致",
+          "coi": "第一作者為Clinical Research Australia管理董事，曾接受保健品公司演講費；研究由Bio-gen Extracts Pvt Ltd資助",
+          "link": "PMID 35252311"
+        },
+        {
+          "title": "Lutein and Zeaxanthin Influence Brain Function in Older Adults: A Randomized Controlled Trial（fMRI）",
+          "stars": "★★★★",
+          "year": "2018",
+          "journal": "Journal of the International Neuropsychological Society · IF≈3.0",
+          "type": "人體RCT（含fMRI）",
+          "n": "44",
+          "subjects": "社區老年人（平均72歲）",
+          "key": "左背外側前額葉皮質、前扣帶皮質BOLD訊號顯著增加（FWE校正 p=0.034、p=0.028）；語言學習認知行為效果量Cohen's d=0.84",
+          "caveat": "⚠️行為認知結果本身未達統計顯著（p=0.119），僅fMRI腦功能訊號達顯著；樣本量小（n=44，安慰劑組僅14人）",
+          "coi": "非美國政府資助，喬治亞大學獨立研究，未見特定製造商資助聲明",
+          "link": "PMID 28695791"
+        },
+        {
+          "title": "Effects of Lutein/Zeaxanthin Supplementation on the Cognitive Function of Community Dwelling Older Adults",
+          "stars": "★★★★",
+          "year": "2017",
+          "journal": "Frontiers in Aging Neuroscience · IF≈5.1",
+          "type": "人體RCT",
+          "n": "62（51人完成）",
+          "subjects": "社區居住老年人（平均72歲）",
+          "key": "複雜注意力可靠變化指數（RCI）改善p<0.02；認知彈性p<0.04；MPOD顯著增加（0.51→0.58，p<0.03）確認生物吸收",
+          "caveat": "執行功能僅呈趨勢（p=0.073）；語言記憶、視覺記憶、推理能力、心理動作速度均未達顯著；安慰劑組僅15人",
+          "coi": "⚠️Abbott Nutrition資助研究，DSM Nutritional Products提供補充劑；共同作者於數據蒐集期間任職Abbott Nutrition",
+          "link": "PMID 28824416"
+        },
+        {
+          "title": "Effects of a Lutein and Zeaxanthin Intervention on Cognitive Function: A RCT of Younger Healthy Adults",
+          "stars": "★★★★",
+          "year": "2017",
+          "journal": "Nutrients · IF=5.08",
+          "type": "人體RCT",
+          "n": "51",
+          "subjects": "18–30歲年輕健康成人（高基線MPOD族群）",
+          "key": "視覺記憶顯著優於安慰劑（p<0.04）；以MPOD增量≥0.10分組時，複雜注意力（p<0.04）與推理能力（p<0.05）亦顯著",
+          "caveat": "樣本量小且組別比例不均（介入37人 vs 安慰劑14人）；語言記憶、執行功能未見改善",
+          "coi": "⚠️Abbott Nutrition提供補充劑，部分作者為Abbott員工或曾任職Abbott",
+          "link": "PMID 29135938"
+        },
+        {
+          "title": "Dietary Lutein and Cognitive Function in Adults: A Meta-Analysis of Randomized Controlled Trials",
+          "stars": "★★★★",
+          "year": "2021",
+          "journal": "Molecules · IF≈4.9",
+          "type": "系統性回顧/Meta-analysis",
+          "n": "7項RCT",
+          "subjects": "18–86歲成人（健康成人至有認知抱怨者，跨年齡層混合）",
+          "key": "複雜注意力Hedges' g=0.02（95%CI −0.27~0.31）；執行功能g=0.13（95%CI −0.26~0.51）；記憶g=0.03（95%CI −0.26~0.32），三認知域整體均未達統計顯著",
+          "caveat": "⚠️陰性結果：三大認知域整體效應量小且不顯著；作者結論建議聲稱應限於「可能有助維護認知功能，尤其執行功能」，不可稱「改善認知功能」",
+          "coi": "無外部資金，作者聲明無利益衝突",
+          "link": "PMID 34641336"
+        }
+      ]
+    },
+    {
+      "id": "skin",
+      "domain": "皮膚健康",
+      "lvl": 2,
+      "oneLine": "FloraGLO®口服人體RCT顯示可提升皮膚含水量、彈性與抗UV光保護能力；另一篇顯示膚色亮度改善的研究使用競品Lutemax® 2020，非FloraGLO®本身數據",
+      "subjects": "25–50歲健康女性（輕度皮膚老化跡象/輕中度乾燥膚質）",
+      "papers": "約2篇",
+      "compliance": "可陳述「口服葉黃素人體研究顯示皮膚含水量、彈性、UV光保護能力提升」，不得稱「治療皮膚疾病」「美白」「達到防曬效果」（台灣/歐盟保健食品不得宣稱改變膚色）",
+      "studies": [
+        {
+          "title": "Beneficial long-term effects of combined oral/topical antioxidant treatment with the carotenoids lutein and zeaxanthin on human skin",
+          "stars": "★★★★",
+          "year": "2007",
+          "journal": "Skin Pharmacology and Physiology · IF≈3.5",
+          "type": "人體RCT",
+          "n": "40",
+          "subjects": "25–50歲健康女性，具早期皮膚老化跡象",
+          "key": "口服FloraGLO®（10mg葉黃素+0.6mg玉米黃質）12週後：皮膚含水量+38%、彈性+8%、UV光保護活性4倍、脂質過氧化降低55%；口服+外用複合組效果更佳（光保護達6倍）",
+          "caveat": "全文為付費牆，部分數字（皮膚表面脂質33% vs 46%）在不同引用來源間略有出入，需原文核實；樣本量偏小（n=40），僅限女性受試者",
+          "coi": "使用FloraGLO®原料（Kemin Health），確切資助關係待全文確認",
+          "link": "PMID 17446716"
+        },
+        {
+          "title": "Overall skin tone and skin-lightening-improving effects with oral supplementation of lutein and zeaxanthin isomers",
+          "stars": "★★★★",
+          "year": "2016",
+          "journal": "Clinical, Cosmetic and Investigational Dermatology · Q2",
+          "type": "人體RCT",
+          "n": "50（46人完成）",
+          "subjects": "18–45歲健康成人，Fitzpatrick II–IV型皮膚",
+          "key": "ITA°（膚色亮度指標）12週後+3.67°（p=0.0009）；L*明度+1.23（p=0.0094）；b*黃色調−1.05（p=0.0013）",
+          "caveat": "⚠️本研究使用OmniActive的Lutemax® 2020，並非FloraGLO®；第一及第三作者均為OmniActive員工，屬企業資助研究；UV光保護（MED）組間比較未達顯著差異",
+          "coi": "⚠️第一、第三作者為OmniActive Health Technologies員工，研究產品由OmniActive供應",
+          "link": "PMID 27785083"
+        }
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "claim": "廠商常說「補充葉黃素能有效預防或降低黃斑部病變（AMD）風險」",
+      "evidence": "AREDS2大型RCT（n=4,203）主要預設分析未達統計顯著（HR0.90，p=0.12）；具臨床意義的結果來自探索性分析（HR0.91，p=0.04）、事後比較L/Z vs β-胡蘿蔔素（HR0.82，p=0.02）及10年長期追蹤（HR0.91，p=0.02）。",
+      "who": "AREDS2受試者均為中重度AMD患者（雙眼大型玻璃膜疣或單眼晚期AMD），不適用於一般健康人的初級預防聲稱"
+    },
+    {
+      "claim": "廠商常說「補充葉黃素能改善認知功能、提升記憶力」",
+      "evidence": "目前規模最大的統合分析（Li 2021，7篇RCT）顯示複雜注意力、執行功能、記憶三大認知域整體效應量小且統計均不顯著；個別RCT（如Hammond 2017複雜注意力p<0.02）雖有顯著訊號，但僅限特定認知面向且部分具原廠/資助關聯，尚未被整合證據一致支持。",
+      "who": "健康成人至有輕度認知抱怨的中老年人；不適用於臨床失智症/MCI患者的治療聲稱，措辭應限於「維護」而非「改善」"
+    },
+    {
+      "claim": "廠商常引用「黃斑色素密度提升可達0.13 ODU」等統合分析數字作為FloraGLO®效果佐證",
+      "evidence": "Ma 2016統合分析顯示含meso-zeaxanthin（MZ）配方的MPOD增益（+0.13 ODU）顯著優於不含MZ配方（+0.06–0.07 ODU，組間p=0.02）。FloraGLO®為純葉黃素+玉米黃質配方，不含meso-zeaxanthin，較佳的統合數字不可直接套用於FloraGLO®本身。",
+      "who": "所有引用含MZ配方研究數字（如Ma 2016、ENIGMA試驗）時，須註明FloraGLO®不含meso-zeaxanthin，效益可能不同"
+    },
+    {
+      "claim": "廠商常引用「口服葉黃素可改善膚色、達到美白效果」",
+      "evidence": "唯一顯示膚色亮度顯著改善的人體研究（Juturu 2016，ITA°+3.67°）使用的是OmniActive的Lutemax® 2020，並非FloraGLO®；FloraGLO®本身的人體皮膚研究（Palombo 2007）聚焦於保濕、彈性與UV光保護，並未測量膚色/美白指標。",
+      "who": "皮膚美白相關聲稱不應歸因於FloraGLO®本身的直接人體證據；且台灣衛福部與歐盟EFSA均不允許保健食品宣稱改變膚色/美白"
+    }
+  ],
+  "safety": [
+    {
+      "tag": "配方禁忌",
+      "title": "不宜與β-胡蘿蔔素同時高劑量補充",
+      "items": [
+        "人體藥動學研究（Kostic 1995, PMID 7661123）顯示，同時服用β-胡蘿蔔素會使葉黃素血清AUC降低39–46%（P<0.025），推測為腸道乳糜微粒與轉運蛋白（SR-B1）的競爭性吸收",
+        "AREDS2試驗中，同時服用β-胡蘿蔔素者的血清葉黃素濃度亦顯著低於未服用者（p=0.02/0.05），為AREDS配方後續改以葉黃素/玉米黃質取代β-胡蘿蔔素的科學依據之一",
+        "建議選擇不含β-胡蘿蔔素的葉黃素配方；若已在服用含β-胡蘿蔔素的綜合維生素，建議與葉黃素補充劑錯開4–6小時服用"
+      ]
+    },
+    {
+      "tag": "劑量",
+      "title": "建議攝取量參考範圍",
+      "items": [
+        "多數人體研究採用每日10–20mg葉黃素，部分搭配2mg玉米黃質（AREDS2標準配方：10mg葉黃素+2mg玉米黃質）",
+        "MPOD統合分析（Wilson 2021）顯示≥20mg/日效果最顯著（+0.11 ODU），但5–10mg/日劑量區間目前缺乏研究數據",
+        "多篇長期研究（Huang 2015、LUTEGA）顯示10mg與20mg長期（1–2年）效果可能趨於相近，並非劑量越高效果必然等比例提升"
+      ]
+    },
+    {
+      "tag": "族群提醒",
+      "title": "吸菸者／前吸菸者宜留意配方成分差異",
+      "items": [
+        "AREDS2十年追蹤顯示β-胡蘿蔔素組肺癌風險OR1.82（p=0.02），前吸菸者風險更高（OR1.84，95%CI 1.07–3.16）",
+        "同一研究中，葉黃素/玉米黃質組10年肺癌OR1.15（p=0.46），與安慰劑無統計差異，未顯示增加肺癌風險",
+        "此為β-胡蘿蔔素本身的風險，非葉黃素/玉米黃質，但消費者常將兩者混淆，說明時應清楚區分成分差異"
+      ]
+    },
+    {
+      "tag": "孕婦/嬰幼兒",
+      "title": "孕期與嬰幼兒族群補充需謹慎",
+      "items": [
+        "供應商簡報提及471對母子配對研究與母乳葉黃素濃度相關的內容，惟該文件為學術演講摘要，未附上可查證的期刊出處（PMID），僅供機制參考，不可作為臨床證據直接引用",
+        "廠商（Kemin）官方宣傳稱FloraGLO®為可用於美國嬰兒配方奶粉之葉黃素原料，此為原廠聲稱，建議產品文案引用前自行查證相關法規文件",
+        "孕婦、哺乳期婦女及嬰幼兒族群使用葉黃素補充劑前，建議諮詢醫療專業人員，不宜逕自依供應商簡報數字加大劑量"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "name": "Dr. Eric Berg DC",
+      "title": "第一大視力下降元凶：眼部類胡蘿蔔素缺乏",
+      "summary": "說明對比敏感度喪失與年齡相關眼部類胡蘿蔔素下降的關聯，建議每日至少10mg葉黃素+2mg玉米黃質、隨餐或搭配油脂服用以提升吸收；未提及FloraGLO®品牌。",
+      "link": "https://www.youtube.com/watch?v=oXhOK2880i8"
+    },
+    {
+      "name": "Antonio the Optometrist",
+      "title": "驗光師解析：眼睛保健品怎麼選",
+      "summary": "整理魚油/葉黃素/藍莓三類眼睛補充品，強調依AREDS2研究，葉黃素僅對已有中重度黃斑部病變者有減緩病程效果，無法預防健康者發病；10mg為研究劑量，20mg是否更優尚無大型研究佐證。",
+      "link": "https://www.youtube.com/watch?v=S0h2ierlwLQ"
+    },
+    {
+      "name": "Doctor Eye Health（Dr. Joseph Allen）",
+      "title": "護眼維生素與補充品完整解析（直播講座）",
+      "summary": "系統介紹葉黃素/玉米黃質為「最重要的眼睛保健品」，引用血漿濃度較高者與晚期AMD風險降低37%的關聯性數據，建議劑量每日10–20mg，並說明AREDS2配方之適應症與劑量限制。",
+      "link": "https://www.youtube.com/watch?v=tHKeu4XaDbI"
+    },
+    {
+      "name": "Doctor Eye Health",
+      "title": "你的葉黃素攝取夠嗎？MPOD檢測解析",
+      "summary": "介紹MPOD（黃斑色素光密度）作為葉黃素狀態的臨床檢測指標，指出單靠飲食調整改善幅度有限，補充劑每日10–20mg、持續3–6個月可使MPOD分數提升約30%（本片由OmniActive贊助）。",
+      "link": "https://www.youtube.com/watch?v=8RS4DnBKxpQ"
+    },
+    {
+      "name": "Doctor Eye Health",
+      "title": "眼科醫師親身實測：5款護眼保健品",
+      "summary": "眼科醫師分享個人服用清單，將葉黃素/玉米黃質列為證據等級「中等至強」的第一名補充品，個人劑量為每日10–20mg葉黃素+2–4mg玉米黃質，未明確提及所用品牌是否為FloraGLO®。",
+      "link": "https://www.youtube.com/watch?v=dnxmq9aq2yg"
+    },
+    {
+      "name": "Doctor Eye Health（OmniActive贊助）",
+      "title": "葉黃素的5大驚人健康效益",
+      "summary": "介紹葉黃素在視網膜保護、視覺表現、認知功能、皮質醇/壓力、睡眠品質等5面向的效益，建議劑量每日10–20mg；本片由OmniActive（Lutemax 2020，FloraGLO®競品）贊助製作。",
+      "link": "https://www.youtube.com/watch?v=FDnUuK8GxXk"
+    },
+    {
+      "name": "Kemin Human Nutrition and Health",
+      "title": "大腦健康營養學：葉黃素與玉米黃質最新研究（主講：Dr. Lisa Renzi-Hammond）",
+      "summary": "FloraGLO®原廠Kemin官方研討會，喬治亞大學學者說明年輕人與老年人補充10mg FloraGLO®葉黃素+2mg OptiSharp®玉米黃質一年的認知效益與機轉（白質完整性、神經網路切換效率），並列出「逾90篇人體研究、9篇腦健康研究」等原廠聲稱，屬廠商自製內容需交叉確認。",
+      "link": "https://www.youtube.com/watch?v=QxLhik1Gq0w"
+    }
+  ]
+}

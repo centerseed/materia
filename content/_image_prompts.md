@@ -57,7 +57,7 @@ Subject & scene:
 
 ## 免疫呼吸
 - `article_elder-immune-care`：環境情境 — a cozy autumn scene by a window: a warm cup of tea with steam, a knitted scarf, a few citrus fruits and a book on the sill, soft seasonal light.
-- `article_kids-immune`：人物生活 — a happy East Asian child playing outdoors in a sunny park, running or laughing, bright healthy energy, candid.
+- `article_kids-immune`：人物生活 — a smiling East Asian child happily biting into a fresh orange (or holding a plate of colorful fruits and vegetables) at a sunny kitchen table, healthy and vibrant, conveying good nutrition for everyday immunity（改：孩子＋繽紛蔬果，扣住免疫營養，跟公園跑跳無關）.
 - `article_allergy-respiratory`：環境 — an open window with sheer curtains gently billowing, a green potted plant and a tissue box on the sill, fresh clean morning air, calm.
 - `article_what-is-spm`：生活情境 — a calm recovery scene: a person (back view or hands only) resting after a walk/exercise with a towel and a glass of water by a bright window, soft light, conveying the body settling and recovering (no salmon, no dark seeds — differentiate from other articles).
 

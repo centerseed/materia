@@ -68,7 +68,7 @@ Subject & scene:
 
 ## 基礎營養
 - `article_what-is-vitc`：明亮清新·食材 — a vibrant cluster of citrus (orange halves, kiwi slices, red bell pepper) with a small dish of vitamin C capsules and water droplets on a bright surface, juicy and abundant.
-- `article_vitc-comparison`：亞麻明亮·食材 — oranges, kiwi, red bell pepper and berries with a small dish of vitamin C capsules on cream linen, colorful comparison spread.
+- `article_vitc-comparison`：亞麻明亮·比較 — different forms of vitamin C shown side by side: a small dish of capsules, a wooden scoop of vitamin C powder, and an effervescent tablet fizzing in a glass of water, with a few orange slices on cream linen（改：呈現「型態比較」，跟 what-is-vitc 的純水果堆區隔）.
 - `article_what-is-bcomplex`：生活情境 — a busy office desk in the afternoon: a coffee cup, an open planner, a laptop edge and a bottle of B-complex, conveying energy and focus during a long day.
 - `article_compare-bcomplex`：木質平擺·食材 — buckwheat sprouts, small bowls of whole grains, wheat ears and a dish of B-complex capsules on warm wood, layered comparison spread.
 

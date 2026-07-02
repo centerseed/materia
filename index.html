@@ -7,7 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@600;700;900&display=swap" rel="stylesheet">
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="/content-preview/marked.min.js"></script>
 <style>
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
@@ -117,7 +117,7 @@ function renderCats(){
   });
 }
 function card(a){
-  return `<div class="card" onclick="openA('${a.slug}')"><div class="thumb"><span>${EMOJI[a.topic]||'📄'}</span><img src="/content-preview/img/${a.slug}.png" alt="" loading="lazy" onerror="this.remove()"></div>
+  return `<div class="card" onclick="openA('${a.slug}')"><div class="thumb"><span>${EMOJI[a.topic]||'📄'}</span><img src="/content-preview/img/${a.slug}.webp" alt="" loading="lazy" onerror="this.remove()"></div>
     <div class="body"><div class="chips"><span class="chip type">${a.type.replace('主題文','').replace('原材料','')}</span><span class="chip">${a.audience}</span><span class="chip">${a.topic}</span></div>
     <h3>${a.title}</h3><p class="ex">${a.excerpt}…</p></div></div>`;
 }
@@ -154,7 +154,7 @@ async function openA(slug){ go({view:'article',articleSlug:slug}); }
 async function renderArticle(slug){
   const a=INDEX.find(x=>x.slug===slug); if(!a)return;
   const app=document.getElementById('app');
-  app.innerHTML=`<div class="crumb"><a onclick="go({view:'home'})">首頁</a> / <a onclick="go({view:'cat',cat:'${catOf(a)}'})">${catName(catOf(a))}</a> / ${a.topic}</div><div class="wrap" style="padding:0;"><img class="arthero" src="/content-preview/img/${slug}.png" alt="" onerror="this.remove()"><div class="md" id="md">載入中…</div></div>`;
+  app.innerHTML=`<div class="crumb"><a onclick="go({view:'home'})">首頁</a> / <a onclick="go({view:'cat',cat:'${catOf(a)}'})">${catName(catOf(a))}</a> / ${a.topic}</div><div class="wrap" style="padding:0;"><img class="arthero" src="/content-preview/img/${slug}.webp" alt="" onerror="this.remove()"><div class="md" id="md">載入中…</div></div>`;
   const txt=await fetch('/'+a.file).then(r=>r.text());
   let body=txt; if(txt.startsWith('---')){body=txt.slice(txt.indexOf('\n---',3)+4).replace(/^\s*/,'');}
   const rel=INDEX.filter(x=>catOf(x)===catOf(a)&&x.slug!==slug).slice(0,3);

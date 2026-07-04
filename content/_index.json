@@ -1,317 +1,317 @@
 [
- {
-  "slug": "article_elder-bone-collagen",
-  "file": "content/article_elder-bone-collagen.md",
-  "type": "衛教主題文",
-  "audience": "中老年",
-  "topic": "骨骼膠原",
-  "title": "膠原流失、身體架構變弱？中老年的結構保養",
-  "excerpt": "蹲下站起來膝蓋卡卡的、爬樓梯要扶著扶手、皮膚一捏就是一道摺痕不容易回彈——這些看似各自獨立的小狀況，背後可能指向同一件事：身體的「結構材料」"
- },
- {
-  "slug": "article_elder-brain-care",
-  "file": "content/article_elder-brain-care.md",
-  "type": "衛教主題文",
-  "audience": "中老年",
-  "topic": "腦力記憶",
-  "title": "記性變差、思緒鈍鈍？中老年腦力保養營養",
-  "excerpt": "明明話到嘴邊卻想不起名字、走進房間忘了要拿什麼、開會時思緒跟不上大家——這些小狀況，很多中老年朋友都遇過。腦力和身體一樣，也需要日常保養。這"
- },
- {
-  "slug": "article_elder-eye-care",
-  "file": "content/article_elder-eye-care.md",
-  "type": "衛教主題文",
-  "audience": "中老年",
-  "topic": "護眼保養",
-  "title": "50 歲後看東西越來越吃力？銀髮護眼營養這樣補",
-  "excerpt": "看近要拿遠一點才清楚、晚上開車覺得對向車燈特別刺眼、在昏暗餐廳看菜單很吃力——這些不是「老花」兩個字就能帶過。隨著年紀，眼睛最精華的「黃斑部"
- },
- {
-  "slug": "article_elder-heart-care",
-  "file": "content/article_elder-heart-care.md",
-  "type": "衛教主題文",
-  "audience": "中老年",
-  "topic": "心血管保養",
-  "title": "中老年心血管日常保養：Omega-3 與 B 群怎麼補",
-  "excerpt": "爬兩層樓就喘、天氣一變手腳容易發麻、最近老是覺得思緒卡卡不太靈光——這些看似小事的變化，往往是心血管系統在提醒你「該多照顧一下了」。心血管保"
- },
- {
-  "slug": "article_elder-immune-care",
-  "file": "content/article_elder-immune-care.md",
-  "type": "衛教主題文",
-  "audience": "中老年",
-  "topic": "免疫保養",
-  "title": "換季就中鏢？中老年免疫日常保養",
-  "excerpt": "早晚溫差一大，喉嚨先癢、鼻水跟著來，好轉的速度也比年輕時慢了一大截——這是很多中老年朋友換季時的共同心聲。這篇帶你了解背後的原因，以及維生素"
- },
- {
-  "slug": "article_elder-joint-care",
-  "file": "content/article_elder-joint-care.md",
-  "type": "衛教主題文",
-  "audience": "中老年",
-  "topic": "關節保養",
-  "title": "上下樓梯膝蓋卡卡？中老年關節保養這樣顧",
-  "excerpt": "走樓梯時膝蓋隱隱作痛、蹲下去要扶著東西才站得起來、久坐後第一步特別僵硬——這些狀況很多中老年朋友都不陌生。關節不適不是一夜之間發生的，而是日"
- },
- {
-  "slug": "article_elder-metabolic-care",
-  "file": "content/article_elder-metabolic-care.md",
-  "type": "衛教主題文",
-  "audience": "中老年",
-  "topic": "代謝保養",
-  "title": "代謝變慢了？中老年血糖與體重的日常飲食保養",
-  "excerpt": "年輕時吃完飯馬上就消化掉，現在同樣一碗飯，卻覺得餐後昏昏沉沉、腰圍也一年比一年寬。很多人到了中年才發現，代謝好像悄悄「變慢」了——不是吃得比"
- },
- {
-  "slug": "article_kids-eye-care",
-  "file": "content/article_kids-eye-care.md",
-  "type": "衛教主題文",
-  "audience": "兒童",
-  "topic": "兒童護眼",
-  "title": "孩子一看平板就是一小時？兒童視力保養怎麼做",
-  "excerpt": "叫孩子放下平板，十分鐘後又黏回去；寫功課沒多久就喊眼睛痠、頻頻揉眼睛；假日待在家的時間比在外面跑跳還多——這些畫面，現代爸媽應該都不陌生。孩"
- },
- {
-  "slug": "article_kids-gut-fiber",
-  "file": "content/article_kids-gut-fiber.md",
-  "type": "衛教主題文",
-  "audience": "兒童",
-  "topic": "兒童腸胃",
-  "title": "孩子便便不順？兒童腸胃與膳食纖維怎麼補",
-  "excerpt": "「媽媽我肚子脹脹的」「已經三天沒上大號了」「上廁所要蹲好久還一直哭」——孩子腸胃不順，常常是家長最頭痛卻又說不出所以然的日常小事。多半不是什"
- },
- {
-  "slug": "article_kids-immune",
-  "file": "content/article_kids-immune.md",
-  "type": "衛教主題文",
-  "audience": "兒童",
-  "topic": "兒童免疫",
-  "title": "孩子挑食、容易生病？兒童免疫與營養補給",
-  "excerpt": "青菜挑掉、魚肉不碰、只吃白飯配肉鬆——這樣的餐桌場景，很多家長天天上演。換季一到，孩子又開始咳嗽流鼻水，忍不住懷疑「是不是營養沒補夠？」這篇"
- },
- {
-  "slug": "article_kids-omega3",
-  "file": "content/article_kids-omega3.md",
-  "type": "衛教主題文",
-  "audience": "兒童",
-  "topic": "成長專注",
-  "title": "Omega-3 與孩子的專注、學習與成長",
-  "excerpt": "功課寫到一半就分心、聯絡簿抄一半忘記抄什麼、上課常常放空——很多家長都遇過這種「明明很聰明，就是坐不住」的階段。除了作息與習慣，孩子每天吃進"
- },
- {
-  "slug": "article_menopause-care",
-  "file": "content/article_menopause-care.md",
-  "type": "衛教主題文",
-  "audience": "女性",
-  "topic": "更年期保養",
-  "title": "更年期的日常保養：膠原、Omega-3 與營養支持",
-  "excerpt": "最近是不是常覺得皮膚變得比較乾、彈性不如從前，晚上翻來覆去睡不安穩，白天又特別容易累、心情也跟著上上下下？這些變化很多輕熟齡、更年期階段的女"
- },
- {
-  "slug": "article_women-beauty",
-  "file": "content/article_women-beauty.md",
-  "type": "衛教主題文",
-  "audience": "女性",
-  "topic": "美容保養",
-  "title": "由內而外的美容保養：膠原蛋白 × 維生素C 怎麼搭",
-  "excerpt": "保養品一罐接一罐擦，臉頰卻還是覺得摸起來鬆鬆的、素顏時皮膚容易乾到緊繃——很多女生都有這種「外面顧了，裡面沒跟上」的無力感。其實美容保養不是"
- },
- {
-  "slug": "article_prenatal-nutrition",
-  "file": "content/article_prenatal-nutrition.md",
-  "type": "衛教主題文",
-  "audience": "孕產",
-  "topic": "孕期營養",
-  "title": "孕期營養重點：葉酸、DHA 該怎麼補、吸收要注意什麼",
-  "excerpt": "產檢時醫師交代要補葉酸、要吃 DHA，回家一查發現保健品架上光是葉酸就有「天然」「合成」「甲基化」好幾種說法，魚油也分三酸甘油酯、乙酯、藻油"
- },
- {
-  "slug": "article_men-vitality",
-  "file": "content/article_men-vitality.md",
-  "type": "衛教主題文",
-  "audience": "男性",
-  "topic": "男性保養",
-  "title": "中年男性的精力與代謝保養：從飲食到營養補給",
-  "excerpt": "明明沒熬夜，白天卻整天提不起勁；以前應酬喝到半夜隔天照樣上班，現在喝兩杯隔天就沒精神；褲頭也悄悄從合身變成得吸一口氣才扣得上——這些變化，很"
- },
- {
-  "slug": "article_sports-recovery",
-  "file": "content/article_sports-recovery.md",
-  "type": "衛教主題文",
-  "audience": "運動族",
-  "topic": "運動保養",
-  "title": "運動族的關節、肌肉與恢復營養這樣補",
-  "excerpt": "重訓隔天下樓梯腿軟、跑完長距離膝蓋悶悶的、高強度訓練後肌肉痠痛好幾天才退——這些都是規律運動的人常遇到的狀況。訓練會讓身體變強，但過程中肌肉"
- },
- {
-  "slug": "article_office-eye-fatigue",
-  "file": "content/article_office-eye-fatigue.md",
-  "type": "衛教主題文",
-  "audience": "上班族",
-  "topic": "3C護眼抗疲勞",
-  "title": "整天盯螢幕好累？上班族的護眼與抗疲勞日常",
-  "excerpt": "早上開電腦、開會看簡報、午休滑手機、下班還要盯螢幕追劇——一整天下來，眼睛乾澀痠脹、肩頸僵硬、到下午還會不自覺恍神、思緒變得不太集中。這不是"
- },
- {
-  "slug": "article_allergy-respiratory",
-  "file": "content/article_allergy-respiratory.md",
-  "type": "衛教主題文",
-  "audience": "全齡",
-  "topic": "呼吸道保養",
-  "title": "換季呼吸道不適？黑種草籽油與 Omega-3 的日常保養",
-  "excerpt": "早晚溫差一拉大、空氣品質一變差，鼻子就先知道——鼻塞、打噴嚏、喉嚨癢，一家老小輪流中鏢。這種換季呼吸道不適，很多人第一反應是「先撐著」，其實"
- },
- {
-  "slug": "article_omega3-intake-gap",
-  "file": "content/article_omega3-intake-gap.md",
-  "type": "衛教主題文",
-  "audience": "全齡",
-  "topic": "Omega-3攝取",
-  "title": "現代人 Omega-3 普遍不足？從飲食攝取到吸收率的真相",
-  "excerpt": "「深海魚很營養，我知道」——但你上一次吃鮭魚、鯖魚或秋刀魚是什麼時候？外食族三餐多半是雞腿飯、便利商店三明治，深海魚出現的頻率其實很低。就算"
- },
- {
-  "slug": "article_sleep-relax",
-  "file": "content/article_sleep-relax.md",
-  "type": "衛教主題文",
-  "audience": "全齡",
-  "topic": "睡眠舒壓",
-  "title": "壓力大、睡不好？B 群與日常放鬆保養",
-  "excerpt": "白天被工作、家庭、報告追著跑，晚上躺上床腦子卻停不下來，翻來覆去看著天花板，隔天頂著沒睡飽的狀態繼續硬撐——這是很多現代人的日常寫照。睡不好"
- },
- {
-  "slug": "article_what-is-bcomplex",
-  "file": "content/article_what-is-bcomplex.md",
-  "type": "原料科普",
-  "audience": "全齡",
-  "topic": "維生素B群",
-  "title": "維生素 B 群是什麼？8 種 B 群各自的功能一次看懂",
-  "excerpt": "「多補充 B 群」幾乎是外食族、上班族、運動愛好者都聽過的建議，但很少人說得清楚：B 群到底是「一種」營養素，還是好幾種？為什麼保健品都做成"
- },
- {
-  "slug": "article_what-is-collagen",
-  "file": "content/article_what-is-collagen.md",
-  "type": "原料科普",
-  "audience": "全齡",
-  "topic": "膠原蛋白",
-  "title": "膠原蛋白是什麼？功效、吸收、怎麼補一次看懂",
-  "excerpt": "洗臉時捏一下臉頰，回彈速度好像沒有以前快；蹲下綁鞋帶,膝蓋偶爾會卡一下——這些變化,很多人第一個聯想到的都是「膠原蛋白流失了」。但膠原蛋白到"
- },
- {
-  "slug": "article_what-is-cuberup",
-  "file": "content/article_what-is-cuberup.md",
-  "type": "原料科普",
-  "audience": "全齡",
-  "topic": "專利黃瓜萃取",
-  "title": "專利黃瓜萃取（CuberUp®）是什麼？關節與運動保養新選擇",
-  "excerpt": "走樓梯膝蓋卡卡、假日運動完隔天特別痠、年紀增長後總覺得活動力大不如前——這些困擾，近年在保健品成分表上多了一個新面孔：CuberUp® 黃瓜"
- },
- {
-  "slug": "article_what-is-fibryxa",
-  "file": "content/article_what-is-fibryxa.md",
-  "type": "原料科普",
-  "audience": "全齡",
-  "topic": "異麥芽糖糊精",
-  "title": "異麥芽糖糊精是什麼？認識這種水溶性膳食纖維",
-  "excerpt": "白飯吃完沒多久又覺得餓、正餐吃得不少但排便還是卡卡的、健檢報告上的三酸甘油脂總是壓在高標邊緣——這些看似不相關的小狀況，很多都跟一件事有關："
- },
- {
-  "slug": "article_what-is-fishoil",
-  "file": "content/article_what-is-fishoil.md",
-  "type": "原料科普",
-  "audience": "全齡",
-  "topic": "魚油",
-  "title": "魚油是什麼？EPA、DHA、Omega-3 一次搞懂",
-  "excerpt": "保健品架上「魚油」兩個字幾乎人人都認得，但一翻到成分標示，EPA、DHA、Omega-3、TG、rTG 這些英文縮寫馬上讓人眼花——到底哪個"
- },
- {
-  "slug": "article_what-is-lutein",
-  "file": "content/article_what-is-lutein.md",
-  "type": "原料科普",
-  "audience": "全齡",
-  "topic": "葉黃素",
-  "title": "葉黃素是什麼？功效、怎麼吃、怎麼選一次看懂",
-  "excerpt": "滑手機滑到眼睛乾澀痠脹、盯電腦一整天回家覺得眼皮特別重，或是看著家裡長輩年紀漸長，開始擔心他們用眼的日常保養——這些情境，讓「葉黃素」幾乎成"
- },
- {
-  "slug": "article_what-is-ovoderm",
-  "file": "content/article_what-is-ovoderm.md",
-  "type": "原料科普",
-  "audience": "全齡",
-  "topic": "蛋殼膜",
-  "title": "蛋殼膜是什麼？關節與美容的新興原料一次看懂",
-  "excerpt": "上下樓梯膝蓋偶爾卡卡、鏡子裡的肌膚彈性感覺一年不如一年，你可能也在保健食品架上翻過各種「膠原蛋白」，卻發現大多來自魚或豬牛——如果剛好對海鮮"
- },
- {
-  "slug": "article_what-is-spm",
-  "file": "content/article_what-is-spm.md",
-  "type": "原料科普",
-  "audience": "全齡",
-  "topic": "SPM促消炎介質",
-  "title": "SPM 是什麼？認識發炎「消退」的新觀念",
-  "excerpt": "運動完隔天肌肉痠痛遲遲退不了、換季時關節卡卡好幾天才緩解、健檢報告上發炎指數偏高卻說不出原因——這些狀況,其實都跟身體「讓不舒服自然落幕」的"
- },
- {
-  "slug": "article_what-is-thymoquin",
-  "file": "content/article_what-is-thymoquin.md",
-  "type": "原料科普",
-  "audience": "全齡",
-  "topic": "黑種草籽油",
-  "title": "黑種草籽油是什麼？功效、吃法、注意一次看懂",
-  "excerpt": "血壓紅字剛好卡在邊緣、換季一到鼻子就開始不舒服、想維持體重卻總覺得力不從心——這幾年常被拿出來討論的「黑種草油」，據說同時跟這幾件事有關。但"
- },
- {
-  "slug": "article_what-is-vitc",
-  "file": "content/article_what-is-vitc.md",
-  "type": "原料科普",
-  "audience": "全齡",
-  "topic": "維生素C",
-  "title": "維生素C 是什麼？功效、怎麼吃、注意一次看懂",
-  "excerpt": "感冒快來、皮膚沒光澤、傷口好得比較慢——很多人第一個念頭都是「要不要補點維生素C」。但維生素C到底是什麼、身體怎麼用它、為什麼三餐吃得正常還"
- },
- {
-  "slug": "article_compare-bcomplex",
-  "file": "content/article_compare-bcomplex.md",
-  "type": "原材料比較文",
-  "audience": "全齡",
-  "topic": "B群比較",
-  "title": "B 群怎麼選？天然發酵 vs 合成、活性型一次看懂",
-  "excerpt": "藥局架上一整排維生素 B 群，價格從幾十元到上千元都有：一般合成的、標榜「天然發酵」的、還有寫著「活性型」「甲基化」的。到底差在哪、貴的有沒"
- },
- {
-  "slug": "article_compare-collagen",
-  "file": "content/article_compare-collagen.md",
-  "type": "原材料比較文",
-  "audience": "全齡",
-  "topic": "膠原比較",
-  "title": "膠原蛋白怎麼選？魚膠原、蛋殼膜、分子量與吸收一次看懂",
-  "excerpt": "保養品櫃位上「膠原蛋白」百百種：魚膠原、豬牛膠原、蛋殼膜、小分子胜肽……到底差在哪、哪一種比較好吸收？如果你正在膝關節活動度或肌膚彈性上多花"
- },
- {
-  "slug": "article_compare-fishoil",
-  "file": "content/article_compare-fishoil.md",
-  "type": "原材料比較文",
-  "audience": "全齡",
-  "topic": "魚油比較",
-  "title": "魚油怎麼挑？濃度、型態（TG／EE／rTG）、純度一次看懂",
-  "excerpt": "走進藥局或打開購物網站，魚油產品少說幾十種：有的標榜「高濃度」、有的寫「TG 天然型」、有的強調「無重金屬」，價格從幾百到上千元都有。到底差"
- },
- {
-  "slug": "article_compare-lutein",
-  "file": "content/article_compare-lutein.md",
-  "type": "原材料比較文",
-  "audience": "全齡",
-  "topic": "葉黃素比較",
-  "title": "葉黃素怎麼選？游離型 vs 酯化型、劑量與複方一次看懂",
-  "excerpt": "長時間盯螢幕、看 3C，眼睛容易乾澀疲勞；家裡長輩年紀漸長，也開始關心黃斑部的日常保養。走進藥局或搜尋葉黃素產品，會看到「游離型」「酯化型」"
- },
- {
-  "slug": "article_vitc-comparison",
-  "file": "content/article_vitc-comparison.md",
-  "type": "原材料比較文",
-  "audience": "全齡",
-  "topic": "維生素C／營養素比較",
-  "title": "維生素 C 怎麼選？一般左旋C、緩釋型、微脂體一次比較",
-  "excerpt": "大家都知道要補維生素 C，但走進藥妝店會發現：一般 C、緩釋 C、微脂體 C、酯化 C……價差好幾倍。它們差在哪？該怎麼挑？這篇用一張表幫你"
- }
+  {
+    "slug": "article_elder-bone-collagen",
+    "file": "content/article_elder-bone-collagen.md",
+    "type": "衛教主題文",
+    "audience": "中老年",
+    "topic": "骨骼膠原",
+    "title": "關鍵營養：中老年人的日常結構保養",
+    "excerpt": "均衡飲食是日常保養的基礎。蛋白質、維生素與礦物質等營養素，是身體每天運作所需要的常見營養來源，可以透過多元的原型食物來攝"
+  },
+  {
+    "slug": "article_elder-brain-care",
+    "file": "content/article_elder-brain-care.md",
+    "type": "衛教主題文",
+    "audience": "中老年",
+    "topic": "腦力記憶",
+    "title": "記性變差、思緒鈍鈍？中老年腦力保養營養",
+    "excerpt": "明明話到嘴邊卻想不起名字、走進房間忘了要拿什麼、開會時思緒跟不上大家——這些小狀況，很多中老年朋友都遇過。腦力和身體一樣，也需要日常保養。這"
+  },
+  {
+    "slug": "article_elder-eye-care",
+    "file": "content/article_elder-eye-care.md",
+    "type": "衛教主題文",
+    "audience": "中老年",
+    "topic": "護眼保養",
+    "title": "50 歲後看東西越來越吃力？銀髮護眼營養這樣補",
+    "excerpt": "看近要拿遠一點才清楚、晚上開車覺得對向車燈特別刺眼、在昏暗餐廳看菜單很吃力——這些不是「老花」兩個字就能帶過。隨著年紀，眼睛最精華的「黃斑部"
+  },
+  {
+    "slug": "article_elder-heart-care",
+    "file": "content/article_elder-heart-care.md",
+    "type": "衛教主題文",
+    "audience": "中老年",
+    "topic": "心血管保養",
+    "title": "中老年心血管日常保養：Omega-3 與 B 群怎麼補",
+    "excerpt": "爬兩層樓就喘、天氣一變手腳容易發麻、最近老是覺得思緒卡卡不太靈光——這些看似小事的變化，往往是心血管系統在提醒你「該多照顧一下了」。心血管保"
+  },
+  {
+    "slug": "article_elder-immune-care",
+    "file": "content/article_elder-immune-care.md",
+    "type": "衛教主題文",
+    "audience": "中老年",
+    "topic": "免疫保養",
+    "title": "換季就中鏢？中老年免疫日常保養",
+    "excerpt": "早晚溫差一大，喉嚨先癢、鼻水跟著來，好轉的速度也比年輕時慢了一大截——這是很多中老年朋友換季時的共同心聲。這篇帶你了解背後的原因，以及維生素"
+  },
+  {
+    "slug": "article_elder-joint-care",
+    "file": "content/article_elder-joint-care.md",
+    "type": "衛教主題文",
+    "audience": "中老年",
+    "topic": "關節保養",
+    "title": "上下樓梯膝蓋卡卡？中老年關節保養這樣顧",
+    "excerpt": "走樓梯時膝蓋隱隱作痛、蹲下去要扶著東西才站得起來、久坐後第一步特別僵硬——這些狀況很多中老年朋友都不陌生。關節不適不是一夜之間發生的，而是日"
+  },
+  {
+    "slug": "article_elder-metabolic-care",
+    "file": "content/article_elder-metabolic-care.md",
+    "type": "衛教主題文",
+    "audience": "中老年",
+    "topic": "代謝保養",
+    "title": "代謝變慢了？中老年血糖與體重的日常飲食保養",
+    "excerpt": "年輕時吃完飯馬上就消化掉，現在同樣一碗飯，卻覺得餐後昏昏沉沉、腰圍也一年比一年寬。很多人到了中年才發現，代謝好像悄悄「變慢」了——不是吃得比"
+  },
+  {
+    "slug": "article_kids-eye-care",
+    "file": "content/article_kids-eye-care.md",
+    "type": "衛教主題文",
+    "audience": "兒童",
+    "topic": "兒童護眼",
+    "title": "孩子一看平板就是一小時？兒童視力保養怎麼做",
+    "excerpt": "叫孩子放下平板，十分鐘後又黏回去；寫功課沒多久就喊眼睛痠、頻頻揉眼睛；假日待在家的時間比在外面跑跳還多——這些畫面，現代爸媽應該都不陌生。孩"
+  },
+  {
+    "slug": "article_kids-gut-fiber",
+    "file": "content/article_kids-gut-fiber.md",
+    "type": "衛教主題文",
+    "audience": "兒童",
+    "topic": "兒童腸胃",
+    "title": "孩子便便不順？兒童腸胃與膳食纖維怎麼補",
+    "excerpt": "「媽媽我肚子脹脹的」「已經三天沒上大號了」「上廁所要蹲好久還一直哭」——孩子腸胃不順，常常是家長最頭痛卻又說不出所以然的日常小事。多半不是什"
+  },
+  {
+    "slug": "article_kids-immune",
+    "file": "content/article_kids-immune.md",
+    "type": "衛教主題文",
+    "audience": "兒童",
+    "topic": "兒童免疫",
+    "title": "孩子挑食、容易生病？兒童免疫與營養補給",
+    "excerpt": "青菜挑掉、魚肉不碰、只吃白飯配肉鬆——這樣的餐桌場景，很多家長天天上演。換季一到，孩子又開始咳嗽流鼻水，忍不住懷疑「是不是營養沒補夠？」這篇"
+  },
+  {
+    "slug": "article_kids-omega3",
+    "file": "content/article_kids-omega3.md",
+    "type": "衛教主題文",
+    "audience": "兒童",
+    "topic": "成長專注",
+    "title": "Omega-3 與孩子的專注、學習與成長",
+    "excerpt": "功課寫到一半就分心、聯絡簿抄一半忘記抄什麼、上課常常放空——很多家長都遇過這種「明明很聰明，就是坐不住」的階段。除了作息與習慣，孩子每天吃進"
+  },
+  {
+    "slug": "article_menopause-care",
+    "file": "content/article_menopause-care.md",
+    "type": "衛教主題文",
+    "audience": "女性",
+    "topic": "更年期保養",
+    "title": "更年期的日常保養：膠原、Omega-3 與營養支持",
+    "excerpt": "最近是不是常覺得皮膚變得比較乾、彈性不如從前，晚上翻來覆去睡不安穩，白天又特別容易累、心情也跟著上上下下？這些變化很多輕熟齡、更年期階段的女"
+  },
+  {
+    "slug": "article_women-beauty",
+    "file": "content/article_women-beauty.md",
+    "type": "衛教主題文",
+    "audience": "女性",
+    "topic": "美容保養",
+    "title": "由內而外的美容保養：膠原蛋白 × 維生素C 怎麼搭",
+    "excerpt": "保養品一罐接一罐擦，臉頰卻還是覺得摸起來鬆鬆的、素顏時皮膚容易乾到緊繃——很多女生都有這種「外面顧了，裡面沒跟上」的無力感。其實美容保養不是"
+  },
+  {
+    "slug": "article_prenatal-nutrition",
+    "file": "content/article_prenatal-nutrition.md",
+    "type": "衛教主題文",
+    "audience": "孕產",
+    "topic": "孕期營養",
+    "title": "孕期營養重點：葉酸、DHA 該怎麼補、吸收要注意什麼",
+    "excerpt": "產檢時醫師交代要補葉酸、要吃 DHA，回家一查發現保健品架上光是葉酸就有「天然」「合成」「甲基化」好幾種說法，魚油也分三酸甘油酯、乙酯、藻油"
+  },
+  {
+    "slug": "article_men-vitality",
+    "file": "content/article_men-vitality.md",
+    "type": "衛教主題文",
+    "audience": "男性",
+    "topic": "男性保養",
+    "title": "中年男性的精力與代謝保養：從飲食到營養補給",
+    "excerpt": "明明沒熬夜，白天卻整天提不起勁；以前應酬喝到半夜隔天照樣上班，現在喝兩杯隔天就沒精神；褲頭也悄悄從合身變成得吸一口氣才扣得上——這些變化，很"
+  },
+  {
+    "slug": "article_sports-recovery",
+    "file": "content/article_sports-recovery.md",
+    "type": "衛教主題文",
+    "audience": "運動族",
+    "topic": "運動保養",
+    "title": "運動族的關節、肌肉與恢復營養這樣補",
+    "excerpt": "重訓隔天下樓梯腿軟、跑完長距離膝蓋悶悶的、高強度訓練後肌肉痠痛好幾天才退——這些都是規律運動的人常遇到的狀況。訓練會讓身體變強，但過程中肌肉"
+  },
+  {
+    "slug": "article_office-eye-fatigue",
+    "file": "content/article_office-eye-fatigue.md",
+    "type": "衛教主題文",
+    "audience": "上班族",
+    "topic": "3C護眼抗疲勞",
+    "title": "整天盯螢幕好累？上班族的護眼與抗疲勞日常",
+    "excerpt": "早上開電腦、開會看簡報、午休滑手機、下班還要盯螢幕追劇——一整天下來，眼睛乾澀痠脹、肩頸僵硬、到下午還會不自覺恍神、思緒變得不太集中。這不是"
+  },
+  {
+    "slug": "article_allergy-respiratory",
+    "file": "content/article_allergy-respiratory.md",
+    "type": "衛教主題文",
+    "audience": "全齡",
+    "topic": "呼吸道保養",
+    "title": "換季呼吸道不適？黑種草籽油與 Omega-3 的日常保養",
+    "excerpt": "早晚溫差一拉大、空氣品質一變差，鼻子就先知道——鼻塞、打噴嚏、喉嚨癢，一家老小輪流中鏢。這種換季呼吸道不適，很多人第一反應是「先撐著」，其實"
+  },
+  {
+    "slug": "article_omega3-intake-gap",
+    "file": "content/article_omega3-intake-gap.md",
+    "type": "衛教主題文",
+    "audience": "全齡",
+    "topic": "Omega-3攝取",
+    "title": "現代人 Omega-3 普遍不足？從飲食攝取到吸收率的真相",
+    "excerpt": "「深海魚很營養，我知道」——但你上一次吃鮭魚、鯖魚或秋刀魚是什麼時候？外食族三餐多半是雞腿飯、便利商店三明治，深海魚出現的頻率其實很低。就算"
+  },
+  {
+    "slug": "article_sleep-relax",
+    "file": "content/article_sleep-relax.md",
+    "type": "衛教主題文",
+    "audience": "全齡",
+    "topic": "睡眠舒壓",
+    "title": "壓力大、睡不好？B 群與日常放鬆保養",
+    "excerpt": "白天被工作、家庭、報告追著跑，晚上躺上床腦子卻停不下來，翻來覆去看著天花板，隔天頂著沒睡飽的狀態繼續硬撐——這是很多現代人的日常寫照。睡不好"
+  },
+  {
+    "slug": "article_what-is-bcomplex",
+    "file": "content/article_what-is-bcomplex.md",
+    "type": "原料科普",
+    "audience": "全齡",
+    "topic": "維生素B群",
+    "title": "維生素 B 群是什麼？8 種 B 群各自的功能一次看懂",
+    "excerpt": "「多補充 B 群」幾乎是外食族、上班族、運動愛好者都聽過的建議，但很少人說得清楚：B 群到底是「一種」營養素，還是好幾種？為什麼保健品都做成"
+  },
+  {
+    "slug": "article_what-is-collagen",
+    "file": "content/article_what-is-collagen.md",
+    "type": "原料科普",
+    "audience": "全齡",
+    "topic": "膠原蛋白",
+    "title": "膠原蛋白是什麼？功效、吸收、怎麼補一次看懂",
+    "excerpt": "洗臉時捏一下臉頰，回彈速度好像沒有以前快；蹲下綁鞋帶,膝蓋偶爾會卡一下——這些變化,很多人第一個聯想到的都是「膠原蛋白流失了」。但膠原蛋白到"
+  },
+  {
+    "slug": "article_what-is-cuberup",
+    "file": "content/article_what-is-cuberup.md",
+    "type": "原料科普",
+    "audience": "全齡",
+    "topic": "專利黃瓜萃取",
+    "title": "專利黃瓜萃取（CuberUp®）是什麼？關節與運動保養新選擇",
+    "excerpt": "走樓梯膝蓋卡卡、假日運動完隔天特別痠、年紀增長後總覺得活動力大不如前——這些困擾，近年在保健品成分表上多了一個新面孔：CuberUp® 黃瓜"
+  },
+  {
+    "slug": "article_what-is-fibryxa",
+    "file": "content/article_what-is-fibryxa.md",
+    "type": "原料科普",
+    "audience": "全齡",
+    "topic": "異麥芽糖糊精",
+    "title": "異麥芽糖糊精是什麼？認識這種水溶性膳食纖維",
+    "excerpt": "白飯吃完沒多久又覺得餓、正餐吃得不少但排便還是卡卡的、健檢報告上的三酸甘油脂總是壓在高標邊緣——這些看似不相關的小狀況，很多都跟一件事有關："
+  },
+  {
+    "slug": "article_what-is-fishoil",
+    "file": "content/article_what-is-fishoil.md",
+    "type": "原料科普",
+    "audience": "全齡",
+    "topic": "魚油",
+    "title": "魚油是什麼？EPA、DHA、Omega-3 一次搞懂",
+    "excerpt": "保健品架上「魚油」兩個字幾乎人人都認得，但一翻到成分標示，EPA、DHA、Omega-3、TG、rTG 這些英文縮寫馬上讓人眼花——到底哪個"
+  },
+  {
+    "slug": "article_what-is-lutein",
+    "file": "content/article_what-is-lutein.md",
+    "type": "原料科普",
+    "audience": "全齡",
+    "topic": "葉黃素",
+    "title": "葉黃素是什麼？功效、怎麼吃、怎麼選一次看懂",
+    "excerpt": "滑手機滑到眼睛乾澀痠脹、盯電腦一整天回家覺得眼皮特別重，或是看著家裡長輩年紀漸長，開始擔心他們用眼的日常保養——這些情境，讓「葉黃素」幾乎成"
+  },
+  {
+    "slug": "article_what-is-ovoderm",
+    "file": "content/article_what-is-ovoderm.md",
+    "type": "原料科普",
+    "audience": "全齡",
+    "topic": "蛋殼膜",
+    "title": "蛋殼膜是什麼？關節與美容的新興原料一次看懂",
+    "excerpt": "上下樓梯膝蓋偶爾卡卡、鏡子裡的肌膚彈性感覺一年不如一年，你可能也在保健食品架上翻過各種「膠原蛋白」，卻發現大多來自魚或豬牛——如果剛好對海鮮"
+  },
+  {
+    "slug": "article_what-is-spm",
+    "file": "content/article_what-is-spm.md",
+    "type": "原料科普",
+    "audience": "全齡",
+    "topic": "SPM促消炎介質",
+    "title": "SPM 是什麼？認識發炎「消退」的新觀念",
+    "excerpt": "運動完隔天肌肉痠痛遲遲退不了、換季時關節卡卡好幾天才緩解、健檢報告上發炎指數偏高卻說不出原因——這些狀況,其實都跟身體「讓不舒服自然落幕」的"
+  },
+  {
+    "slug": "article_what-is-thymoquin",
+    "file": "content/article_what-is-thymoquin.md",
+    "type": "原料科普",
+    "audience": "全齡",
+    "topic": "黑種草籽油",
+    "title": "黑種草籽油是什麼？功效、吃法、注意一次看懂",
+    "excerpt": "血壓紅字剛好卡在邊緣、換季一到鼻子就開始不舒服、想維持體重卻總覺得力不從心——這幾年常被拿出來討論的「黑種草油」，據說同時跟這幾件事有關。但"
+  },
+  {
+    "slug": "article_what-is-vitc",
+    "file": "content/article_what-is-vitc.md",
+    "type": "原料科普",
+    "audience": "全齡",
+    "topic": "維生素C",
+    "title": "維生素C 是什麼？功效、怎麼吃、注意一次看懂",
+    "excerpt": "感冒快來、皮膚沒光澤、傷口好得比較慢——很多人第一個念頭都是「要不要補點維生素C」。但維生素C到底是什麼、身體怎麼用它、為什麼三餐吃得正常還"
+  },
+  {
+    "slug": "article_compare-bcomplex",
+    "file": "content/article_compare-bcomplex.md",
+    "type": "原材料比較文",
+    "audience": "全齡",
+    "topic": "B群比較",
+    "title": "B 群怎麼選？天然發酵 vs 合成、活性型一次看懂",
+    "excerpt": "藥局架上一整排維生素 B 群，價格從幾十元到上千元都有：一般合成的、標榜「天然發酵」的、還有寫著「活性型」「甲基化」的。到底差在哪、貴的有沒"
+  },
+  {
+    "slug": "article_compare-collagen",
+    "file": "content/article_compare-collagen.md",
+    "type": "原材料比較文",
+    "audience": "全齡",
+    "topic": "膠原比較",
+    "title": "膠原蛋白怎麼選？魚膠原、蛋殼膜、分子量與吸收一次看懂",
+    "excerpt": "保養品櫃位上「膠原蛋白」百百種：魚膠原、豬牛膠原、蛋殼膜、小分子胜肽……到底差在哪、哪一種比較好吸收？如果你正在膝關節活動度或肌膚彈性上多花"
+  },
+  {
+    "slug": "article_compare-fishoil",
+    "file": "content/article_compare-fishoil.md",
+    "type": "原材料比較文",
+    "audience": "全齡",
+    "topic": "魚油比較",
+    "title": "魚油怎麼挑？濃度、型態（TG／EE／rTG）、純度一次看懂",
+    "excerpt": "走進藥局或打開購物網站，魚油產品少說幾十種：有的標榜「高濃度」、有的寫「TG 天然型」、有的強調「無重金屬」，價格從幾百到上千元都有。到底差"
+  },
+  {
+    "slug": "article_compare-lutein",
+    "file": "content/article_compare-lutein.md",
+    "type": "原材料比較文",
+    "audience": "全齡",
+    "topic": "葉黃素比較",
+    "title": "葉黃素怎麼選？游離型 vs 酯化型、劑量與複方一次看懂",
+    "excerpt": "長時間盯螢幕、看 3C，眼睛容易乾澀疲勞；家裡長輩年紀漸長，也開始關心黃斑部的日常保養。走進藥局或搜尋葉黃素產品，會看到「游離型」「酯化型」"
+  },
+  {
+    "slug": "article_vitc-comparison",
+    "file": "content/article_vitc-comparison.md",
+    "type": "原材料比較文",
+    "audience": "全齡",
+    "topic": "維生素C／營養素比較",
+    "title": "維生素 C 怎麼選？一般左旋C、緩釋型、微脂體一次比較",
+    "excerpt": "大家都知道要補維生素 C，但走進藥妝店會發現：一般 C、緩釋 C、微脂體 C、酯化 C……價差好幾倍。它們差在哪？該怎麼挑？這篇用一張表幫你"
+  }
 ]
